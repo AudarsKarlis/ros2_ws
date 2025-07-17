@@ -1,0 +1,56 @@
+[2.362s] Invoking command in '/home/vboxuser/ros2_ws/build/examples_rclpy_executors': PYTHONPATH=/home/vboxuser/ros2_ws/build/examples_rclpy_executors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/vboxuser/ros2_ws/build/examples_rclpy_executors/build
+[3.034s] running develop
+[3.397s] Removing /home/vboxuser/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples-rclpy-executors.egg-link (link to .)
+[3.743s] Invoked command in '/home/vboxuser/ros2_ws/build/examples_rclpy_executors' returned '0': PYTHONPATH=/home/vboxuser/ros2_ws/build/examples_rclpy_executors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/vboxuser/ros2_ws/build/examples_rclpy_executors/build
+[3.744s] Invoking command in '/home/vboxuser/ros2_ws/src/examples/rclpy/executors': PYTHONPATH=/home/vboxuser/ros2_ws/build/examples_rclpy_executors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/examples_rclpy_executors build --build-base /home/vboxuser/ros2_ws/build/examples_rclpy_executors/build install --record /home/vboxuser/ros2_ws/build/examples_rclpy_executors/install.log --single-version-externally-managed install_data --force
+[4.433s] running egg_info
+[4.436s] writing ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/PKG-INFO
+[4.436s] writing dependency_links to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/dependency_links.txt
+[4.436s] writing entry points to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/entry_points.txt
+[4.437s] writing requirements to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/requires.txt
+[4.437s] writing top-level names to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/top_level.txt
+[4.449s] reading manifest file '../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'
+[4.449s] writing manifest file '../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'
+[4.449s] running build
+[4.450s] running build_py
+[4.450s] creating /home/vboxuser/ros2_ws/build/examples_rclpy_executors/build
+[4.450s] creating /home/vboxuser/ros2_ws/build/examples_rclpy_executors/build/lib
+[4.450s] creating /home/vboxuser/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[4.451s] copying examples_rclpy_executors/talker.py -> /home/vboxuser/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[4.451s] copying examples_rclpy_executors/listener.py -> /home/vboxuser/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[4.451s] copying examples_rclpy_executors/composed.py -> /home/vboxuser/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[4.470s] copying examples_rclpy_executors/custom_executor.py -> /home/vboxuser/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[4.470s] copying examples_rclpy_executors/custom_callback_group.py -> /home/vboxuser/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[4.470s] copying examples_rclpy_executors/__init__.py -> /home/vboxuser/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[4.470s] copying examples_rclpy_executors/callback_group.py -> /home/vboxuser/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[4.470s] running install
+[4.470s] running install_lib
+[4.471s] creating /home/vboxuser/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors
+[4.471s] copying /home/vboxuser/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/talker.py -> /home/vboxuser/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors
+[4.471s] copying /home/vboxuser/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/listener.py -> /home/vboxuser/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors
+[4.471s] copying /home/vboxuser/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/composed.py -> /home/vboxuser/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors
+[4.471s] copying /home/vboxuser/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/custom_executor.py -> /home/vboxuser/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors
+[4.471s] copying /home/vboxuser/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/custom_callback_group.py -> /home/vboxuser/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors
+[4.472s] copying /home/vboxuser/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/__init__.py -> /home/vboxuser/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors
+[4.472s] copying /home/vboxuser/ros2_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/callback_group.py -> /home/vboxuser/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors
+[4.477s] byte-compiling /home/vboxuser/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors/talker.py to talker.cpython-310.pyc
+[4.477s] byte-compiling /home/vboxuser/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors/listener.py to listener.cpython-310.pyc
+[4.477s] byte-compiling /home/vboxuser/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors/composed.py to composed.cpython-310.pyc
+[4.477s] byte-compiling /home/vboxuser/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors/custom_executor.py to custom_executor.cpython-310.pyc
+[4.477s] byte-compiling /home/vboxuser/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors/custom_callback_group.py to custom_callback_group.cpython-310.pyc
+[4.477s] byte-compiling /home/vboxuser/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors/__init__.py to __init__.cpython-310.pyc
+[4.477s] byte-compiling /home/vboxuser/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors/callback_group.py to callback_group.cpython-310.pyc
+[4.478s] running install_data
+[4.478s] copying resource/examples_rclpy_executors -> /home/vboxuser/ros2_ws/install/examples_rclpy_executors/share/ament_index/resource_index/packages
+[4.478s] copying package.xml -> /home/vboxuser/ros2_ws/install/examples_rclpy_executors/share/examples_rclpy_executors
+[4.478s] running install_egg_info
+[4.478s] Copying ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info to /home/vboxuser/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors-0.18.2-py3.10.egg-info
+[4.478s] running install_scripts
+[4.536s] Installing callback_group script to /home/vboxuser/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[4.536s] Installing composed script to /home/vboxuser/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[4.537s] Installing custom_callback_group script to /home/vboxuser/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[4.538s] Installing custom_executor script to /home/vboxuser/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[4.538s] Installing listener script to /home/vboxuser/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[4.538s] Installing talker script to /home/vboxuser/ros2_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[4.540s] writing list of installed files to '/home/vboxuser/ros2_ws/build/examples_rclpy_executors/install.log'
+[4.595s] Invoked command in '/home/vboxuser/ros2_ws/src/examples/rclpy/executors' returned '0': PYTHONPATH=/home/vboxuser/ros2_ws/build/examples_rclpy_executors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/examples_rclpy_executors build --build-base /home/vboxuser/ros2_ws/build/examples_rclpy_executors/build install --record /home/vboxuser/ros2_ws/build/examples_rclpy_executors/install.log --single-version-externally-managed install_data --force

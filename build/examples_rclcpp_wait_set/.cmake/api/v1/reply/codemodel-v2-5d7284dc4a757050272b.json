@@ -1,0 +1,178 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-14495cd3b8ced41324f9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "examples_rclcpp_wait_set",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "examples_rclcpp_wait_set_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-examples_rclcpp_wait_set_uninstall-cb41af21d27fd9acb670.json",
+					"name" : "examples_rclcpp_wait_set_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "executor_random_order::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-executor_random_order-59ba863fa8ffe7c6a79e.json",
+					"name" : "executor_random_order",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "listener::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-listener-ace3e5eeed6bb430346e.json",
+					"name" : "listener",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "static_wait_set::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-static_wait_set-9e18c18b04801e25b4b3.json",
+					"name" : "static_wait_set",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "talker::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-talker-4879576ccff45d7fa809.json",
+					"name" : "talker",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "thread_safe_wait_set::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-thread_safe_wait_set-cd0594adcbdb62ed07ca.json",
+					"name" : "thread_safe_wait_set",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-eaf29f9212e493b8b5b0.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wait_set::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wait_set-d16e30061ec93d308e4e.json",
+					"name" : "wait_set",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wait_set_composed::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wait_set_composed-49a56b724da75ddeb064.json",
+					"name" : "wait_set_composed",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wait_set_listener::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wait_set_listener-e8ee7b0fc277b67b4eb6.json",
+					"name" : "wait_set_listener",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wait_set_random_order::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wait_set_random_order-ebb6bbd8c82b450da959.json",
+					"name" : "wait_set_random_order",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wait_set_talker::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wait_set_talker-d434969596eb9338a01a.json",
+					"name" : "wait_set_talker",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wait_set_topics_and_timer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wait_set_topics_and_timer-cedbd2970997554217bb.json",
+					"name" : "wait_set_topics_and_timer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wait_set_topics_with_different_rates::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wait_set_topics_with_different_rates-c5de73bc74e7dd74b748.json",
+					"name" : "wait_set_topics_with_different_rates",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/vboxuser/ros2_ws/build/examples_rclcpp_wait_set",
+		"source" : "/home/vboxuser/ros2_ws/src/examples/rclcpp/wait_set"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

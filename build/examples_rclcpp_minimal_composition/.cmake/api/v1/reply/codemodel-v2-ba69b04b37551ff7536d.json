@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-b8c62d09d07a045d2bde.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "examples_rclcpp_minimal_composition",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "composition_composed::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-composition_composed-296b47bddca5bd796967.json",
+					"name" : "composition_composed",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "composition_nodes::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-composition_nodes-3a0c97a4ed211ec429b4.json",
+					"name" : "composition_nodes",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "composition_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-composition_publisher-a78e1db9a7d1459d063b.json",
+					"name" : "composition_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "composition_subscriber::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-composition_subscriber-13b88cb8dd66d87d4d8c.json",
+					"name" : "composition_subscriber",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "examples_rclcpp_minimal_composition_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-examples_rclcpp_minimal_composition_uninstall-66a1546675e609aff306.json",
+					"name" : "examples_rclcpp_minimal_composition_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-f8824b3fcbdff760f458.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_composition",
+		"source" : "/home/vboxuser/ros2_ws/src/examples/rclcpp/composition/minimal_composition"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

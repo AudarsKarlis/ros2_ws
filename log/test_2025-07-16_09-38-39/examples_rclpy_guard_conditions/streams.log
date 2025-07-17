@@ -1,0 +1,23 @@
+[1.243s] Invoking command in '/home/vboxuser/ros2_ws/src/examples/rclpy/guard_conditions': AMENT_PREFIX_PATH=/home/vboxuser/ros2_ws/install/examples_rclpy_guard_conditions:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/vboxuser/ros2_ws/build/examples_rclpy_guard_conditions/pytest.xml --junit-prefix=examples_rclpy_guard_conditions -o cache_dir=/home/vboxuser/ros2_ws/build/examples_rclpy_guard_conditions/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/vboxuser/ros2_ws/build/examples_rclpy_guard_conditions:/home/vboxuser/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[3.982s] [1m============================= test session starts ==============================[0m
+[3.982s] platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+[3.993s] cachedir: /home/vboxuser/ros2_ws/build/examples_rclpy_guard_conditions/.pytest_cache
+[3.994s] rootdir: /home/vboxuser/ros2_ws/src/examples/rclpy, configfile: pytest.ini
+[3.994s] plugins: ament-lint-0.14.4, ament-copyright-0.14.4, launch-testing-ros-0.24.2, launch-pytest-2.0.4, launch-testing-2.0.4, ament-xmllint-0.14.4, ament-pep257-0.14.4, ament-mypy-0.14.4, ament-flake8-0.14.4, repeat-0.9.1, cov-3.0.0, rerunfailures-10.2, timeout-2.1.0, mock-3.6.1, colcon-core-0.19.0
+[4.519s] [1mcollecting ... [0m[1m
+[4.523s] collecting 0 items                                                             [0m[1m
+[4.524s] collected 3 items                                                              [0m
+[4.527s] 
+[5.324s] test/test_copyright.py [32m.[0m[32m                                                 [ 33%][0m
+[6.656s] test/test_flake8.py [32m.[0m[33m                                                    [ 66%][0m
+[6.785s] test/test_pep257.py [32m.[0m[33m                                                    [100%][0m
+[6.809s] 
+[6.809s] [33m=============================== warnings summary ===============================[0m
+[6.809s] guard_conditions/test/test_flake8.py::test_flake8
+[6.809s] guard_conditions/test/test_flake8.py::test_flake8
+[6.809s]   Warning: SelectableGroups dict interface is deprecated. Use select.
+[6.809s] 
+[6.820s] -- Docs: https://docs.pytest.org/en/stable/warnings.html
+[6.820s] - generated xml file: /home/vboxuser/ros2_ws/build/examples_rclpy_guard_conditions/pytest.xml -
+[6.820s] [33m======================== [32m3 passed[0m, [33m[1m2 warnings[0m[33m in 2.83s[0m[33m =========================[0m
+[7.346s] Invoked command in '/home/vboxuser/ros2_ws/src/examples/rclpy/guard_conditions' returned '0': AMENT_PREFIX_PATH=/home/vboxuser/ros2_ws/install/examples_rclpy_guard_conditions:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/vboxuser/ros2_ws/build/examples_rclpy_guard_conditions/pytest.xml --junit-prefix=examples_rclpy_guard_conditions -o cache_dir=/home/vboxuser/ros2_ws/build/examples_rclpy_guard_conditions/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/vboxuser/ros2_ws/build/examples_rclpy_guard_conditions:/home/vboxuser/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest

@@ -1,0 +1,22 @@
+[2.709s] Invoking command in '/home/vboxuser/ros2_ws/src/examples/rclpy/services/minimal_service': AMENT_PREFIX_PATH=/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_service:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/vboxuser/ros2_ws/build/examples_rclpy_minimal_service/pytest.xml --junit-prefix=examples_rclpy_minimal_service -o cache_dir=/home/vboxuser/ros2_ws/build/examples_rclpy_minimal_service/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/vboxuser/ros2_ws/build/examples_rclpy_minimal_service:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[4.637s] [1m============================= test session starts ==============================[0m
+[4.640s] platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+[4.675s] cachedir: /home/vboxuser/ros2_ws/build/examples_rclpy_minimal_service/.pytest_cache
+[4.676s] rootdir: /home/vboxuser/ros2_ws/src/examples/rclpy, configfile: pytest.ini
+[4.676s] plugins: ament-lint-0.14.4, ament-copyright-0.14.4, launch-testing-ros-0.24.2, launch-pytest-2.0.4, launch-testing-2.0.4, ament-xmllint-0.14.4, ament-pep257-0.14.4, ament-mypy-0.14.4, ament-flake8-0.14.4, repeat-0.9.1, cov-3.0.0, rerunfailures-10.2, timeout-2.1.0, mock-3.6.1, colcon-core-0.19.0
+[4.878s] [1mcollecting ... [0m[1m
+[4.878s] collected 3 items                                                              [0m
+[4.899s] 
+[6.031s] test/test_copyright.py [32m.[0m[32m                                                 [ 33%][0m
+[6.712s] test/test_flake8.py [32m.[0m[33m                                                    [ 66%][0m
+[6.779s] test/test_pep257.py [32m.[0m[33m                                                    [100%][0m
+[6.780s] - generated xml file: /home/vboxuser/ros2_ws/build/examples_rclpy_minimal_service/pytest.xml -
+[6.781s] [33m======================== [32m3 passed[0m, [33m[1m2 warnings[0m[33m in 2.15s[0m[33m =========================[0m
+[6.824s] 
+[6.825s] [33m=============================== warnings summary ===============================[0m
+[6.825s] services/minimal_service/test/test_flake8.py::test_flake8
+[6.825s] services/minimal_service/test/test_flake8.py::test_flake8
+[6.825s]   Warning: SelectableGroups dict interface is deprecated. Use select.
+[6.825s] 
+[6.825s] -- Docs: https://docs.pytest.org/en/stable/warnings.html
+[7.668s] Invoked command in '/home/vboxuser/ros2_ws/src/examples/rclpy/services/minimal_service' returned '0': AMENT_PREFIX_PATH=/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_service:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/vboxuser/ros2_ws/build/examples_rclpy_minimal_service/pytest.xml --junit-prefix=examples_rclpy_minimal_service -o cache_dir=/home/vboxuser/ros2_ws/build/examples_rclpy_minimal_service/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/vboxuser/ros2_ws/build/examples_rclpy_minimal_service:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest

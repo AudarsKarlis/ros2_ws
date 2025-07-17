@@ -1,0 +1,27 @@
+
+[33m=============================== warnings summary ===============================[0m
+launch_testing_examples/check_msgs_launch_test.py::launch_testing_examples.check_msgs_launch_test
+  Warning: Exception in thread Thread-1 (spin)
+  
+  Traceback (most recent call last):
+    File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+      self.run()
+    File "/usr/lib/python3.10/threading.py", line 953, in run
+      self._target(*self._args, **self._kwargs)
+    File "/opt/ros/iron/lib/python3.10/site-packages/rclpy/executors.py", line 295, in spin
+      self.spin_once()
+    File "/opt/ros/iron/lib/python3.10/site-packages/rclpy/executors.py", line 787, in spin_once
+      self._spin_once_impl(timeout_sec)
+    File "/opt/ros/iron/lib/python3.10/site-packages/rclpy/executors.py", line 776, in _spin_once_impl
+      handler, entity, node = self.wait_for_ready_callbacks(timeout_sec=timeout_sec)
+    File "/opt/ros/iron/lib/python3.10/site-packages/rclpy/executors.py", line 762, in wait_for_ready_callbacks
+      return next(self._cb_iter)
+    File "/opt/ros/iron/lib/python3.10/site-packages/rclpy/executors.py", line 670, in _wait_for_ready_callbacks
+      raise ExternalShutdownException()
+  rclpy.executors.ExternalShutdownException
+
+test/test_flake8.py::test_flake8
+test/test_flake8.py::test_flake8
+  Warning: SelectableGroups dict interface is deprecated. Use select.
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html

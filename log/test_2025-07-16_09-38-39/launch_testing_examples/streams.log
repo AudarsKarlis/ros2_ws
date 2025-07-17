@@ -1,0 +1,49 @@
+[1.244s] Invoking command in '/home/vboxuser/ros2_ws/src/examples/launch_testing/launch_testing_examples': AMENT_PREFIX_PATH=/home/vboxuser/ros2_ws/install/launch_testing_examples:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/vboxuser/ros2_ws/build/launch_testing_examples/pytest.xml --junit-prefix=launch_testing_examples -o cache_dir=/home/vboxuser/ros2_ws/build/launch_testing_examples/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/vboxuser/ros2_ws/build/launch_testing_examples:/home/vboxuser/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[3.828s] [1m============================= test session starts ==============================[0m
+[3.830s] platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+[3.867s] cachedir: /home/vboxuser/ros2_ws/build/launch_testing_examples/.pytest_cache
+[3.867s] rootdir: /home/vboxuser/ros2_ws/src/examples/launch_testing/launch_testing_examples
+[3.868s] plugins: ament-lint-0.14.4, ament-copyright-0.14.4, launch-testing-ros-0.24.2, launch-pytest-2.0.4, launch-testing-2.0.4, ament-xmllint-0.14.4, ament-pep257-0.14.4, ament-mypy-0.14.4, ament-flake8-0.14.4, repeat-0.9.1, cov-3.0.0, rerunfailures-10.2, timeout-2.1.0, mock-3.6.1, colcon-core-0.19.0
+[5.796s] [1mcollecting ... [0m[1m
+[5.831s] collecting 1 item                                                              [0m[1m
+[5.831s] collected 9 items                                                              [0m
+[5.831s] 
+[10.587s] launch_testing_examples/check_msgs_launch_test.py [32m.[0m[33m                      [ 11%][0m
+[33.038s] launch_testing_examples/check_multiple_nodes_launch_test.py [32m.[0m[33m            [ 22%][0m
+[39.961s] launch_testing_examples/check_node_launch_test.py [32m.[0m[33m                      [ 33%][0m
+[39.987s] launch_testing_examples/hello_world_launch_test.py [32m.[0m[33m                     [ 44%][0m
+[43.444s] launch_testing_examples/record_rosbag_launch_test.py [32m.[0m[33m                   [ 55%][0m
+[43.973s] launch_testing_examples/set_param_launch_test.py [32m.[0m[33m                       [ 66%][0m
+[44.911s] test/test_copyright.py [32m.[0m[33m                                                 [ 77%][0m
+[45.280s] test/test_flake8.py [32m.[0m[33m                                                    [ 88%][0m
+[45.346s] test/test_pep257.py [32m.[0m[33m                                                    [100%][0m
+[45.347s] 
+[45.347s] [33m=============================== warnings summary ===============================[0m
+[45.347s] launch_testing_examples/check_msgs_launch_test.py::launch_testing_examples.check_msgs_launch_test
+[45.347s]   Warning: Exception in thread Thread-1 (spin)
+[45.347s]   
+[45.347s]   Traceback (most recent call last):
+[45.348s]     File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+[45.348s]       self.run()
+[45.349s]     File "/usr/lib/python3.10/threading.py", line 953, in run
+[45.349s]       self._target(*self._args, **self._kwargs)
+[45.349s]     File "/opt/ros/iron/lib/python3.10/site-packages/rclpy/executors.py", line 295, in spin
+[45.349s]       self.spin_once()
+[45.349s]     File "/opt/ros/iron/lib/python3.10/site-packages/rclpy/executors.py", line 787, in spin_once
+[45.349s]       self._spin_once_impl(timeout_sec)
+[45.350s]     File "/opt/ros/iron/lib/python3.10/site-packages/rclpy/executors.py", line 776, in _spin_once_impl
+[45.350s]       handler, entity, node = self.wait_for_ready_callbacks(timeout_sec=timeout_sec)
+[45.350s]     File "/opt/ros/iron/lib/python3.10/site-packages/rclpy/executors.py", line 762, in wait_for_ready_callbacks
+[45.350s]       return next(self._cb_iter)
+[45.350s]     File "/opt/ros/iron/lib/python3.10/site-packages/rclpy/executors.py", line 670, in _wait_for_ready_callbacks
+[45.350s]       raise ExternalShutdownException()
+[45.350s]   rclpy.executors.ExternalShutdownException
+[45.350s] 
+[45.350s] test/test_flake8.py::test_flake8
+[45.350s] test/test_flake8.py::test_flake8
+[45.350s]   Warning: SelectableGroups dict interface is deprecated. Use select.
+[45.350s] 
+[45.350s] -- Docs: https://docs.pytest.org/en/stable/warnings.html
+[45.350s] - generated xml file: /home/vboxuser/ros2_ws/build/launch_testing_examples/pytest.xml -
+[45.350s] [33m======================== [32m9 passed[0m, [33m[1m3 warnings[0m[33m in 41.52s[0m[33m ========================[0m
+[45.758s] Invoked command in '/home/vboxuser/ros2_ws/src/examples/launch_testing/launch_testing_examples' returned '0': AMENT_PREFIX_PATH=/home/vboxuser/ros2_ws/install/launch_testing_examples:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/vboxuser/ros2_ws/build/launch_testing_examples/pytest.xml --junit-prefix=launch_testing_examples -o cache_dir=/home/vboxuser/ros2_ws/build/launch_testing_examples/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/vboxuser/ros2_ws/build/launch_testing_examples:/home/vboxuser/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
