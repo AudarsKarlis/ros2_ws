@@ -1,4 +1,3 @@
-# audarsklints G007
 from setuptools import find_packages, setup
 
 package_name = 'py_pubsub'
