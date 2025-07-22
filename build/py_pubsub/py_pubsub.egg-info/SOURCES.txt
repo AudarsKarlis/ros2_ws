@@ -14,6 +14,8 @@ py_pubsub/publisher_member_function.py
 py_pubsub/publisher_member_function_FLOAT.py
 py_pubsub/publisher_member_function_FLOAT32_array.py
 py_pubsub/publisher_member_function_UINT8.py
+py_pubsub/serial_data_receiver_COM5.py
+py_pubsub/serial_data_sender_COM3.py
 py_pubsub/subscriber_member_function.py
 py_pubsub/subscriber_member_function_FLOAT.py
 py_pubsub/subscriber_member_function_FLOAT32_array.py

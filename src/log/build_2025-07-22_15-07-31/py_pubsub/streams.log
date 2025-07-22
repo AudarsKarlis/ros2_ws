@@ -1,0 +1,72 @@
+[4.435s] Invoking command in '/home/vboxuser/ros2_ws/src/py_pubsub': PYTHONPATH=/home/vboxuser/ros2_ws/src/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/ros2_ws/src/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/py_pubsub build --build-base /home/vboxuser/ros2_ws/src/build/py_pubsub/build install --record /home/vboxuser/ros2_ws/src/build/py_pubsub/install.log --single-version-externally-managed install_data
+[5.816s] running egg_info
+[5.837s] creating ../build/py_pubsub/py_pubsub.egg-info
+[5.837s] writing ../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[5.837s] writing dependency_links to ../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[5.837s] writing entry points to ../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[5.837s] writing requirements to ../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[5.838s] writing top-level names to ../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[5.838s] writing manifest file '../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[5.838s] reading manifest file '../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[5.838s] adding license file 'LICENSE'
+[5.838s] writing manifest file '../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[5.838s] running build
+[5.838s] running build_py
+[5.838s] creating /home/vboxuser/ros2_ws/src/build/py_pubsub/build
+[5.838s] creating /home/vboxuser/ros2_ws/src/build/py_pubsub/build/lib
+[5.839s] creating /home/vboxuser/ros2_ws/src/build/py_pubsub/build/lib/py_pubsub
+[5.839s] copying py_pubsub/serial_data_receiver_COM5.py -> /home/vboxuser/ros2_ws/src/build/py_pubsub/build/lib/py_pubsub
+[5.839s] copying py_pubsub/publisher_member_function_FLOAT.py -> /home/vboxuser/ros2_ws/src/build/py_pubsub/build/lib/py_pubsub
+[5.839s] copying py_pubsub/publisher_member_function.py -> /home/vboxuser/ros2_ws/src/build/py_pubsub/build/lib/py_pubsub
+[5.839s] copying py_pubsub/subscriber_member_function.py -> /home/vboxuser/ros2_ws/src/build/py_pubsub/build/lib/py_pubsub
+[5.839s] copying py_pubsub/subscriber_member_function_UINT8.py -> /home/vboxuser/ros2_ws/src/build/py_pubsub/build/lib/py_pubsub
+[5.839s] copying py_pubsub/serial_data_sender_COM3.py -> /home/vboxuser/ros2_ws/src/build/py_pubsub/build/lib/py_pubsub
+[5.839s] copying py_pubsub/subscriber_member_function_FLOAT32_array.py -> /home/vboxuser/ros2_ws/src/build/py_pubsub/build/lib/py_pubsub
+[5.839s] copying py_pubsub/subscriber_member_function_FLOAT.py -> /home/vboxuser/ros2_ws/src/build/py_pubsub/build/lib/py_pubsub
+[5.840s] copying py_pubsub/__init__.py -> /home/vboxuser/ros2_ws/src/build/py_pubsub/build/lib/py_pubsub
+[5.840s] copying py_pubsub/publisher_member_function_FLOAT32_array.py -> /home/vboxuser/ros2_ws/src/build/py_pubsub/build/lib/py_pubsub
+[5.840s] copying py_pubsub/publisher_member_function_UINT8.py -> /home/vboxuser/ros2_ws/src/build/py_pubsub/build/lib/py_pubsub
+[5.840s] running install
+[5.840s] running install_lib
+[5.840s] creating /home/vboxuser/ros2_ws/src/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[5.840s] copying /home/vboxuser/ros2_ws/src/build/py_pubsub/build/lib/py_pubsub/serial_data_receiver_COM5.py -> /home/vboxuser/ros2_ws/src/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[5.840s] copying /home/vboxuser/ros2_ws/src/build/py_pubsub/build/lib/py_pubsub/publisher_member_function_FLOAT.py -> /home/vboxuser/ros2_ws/src/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[5.840s] copying /home/vboxuser/ros2_ws/src/build/py_pubsub/build/lib/py_pubsub/publisher_member_function.py -> /home/vboxuser/ros2_ws/src/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[5.840s] copying /home/vboxuser/ros2_ws/src/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function.py -> /home/vboxuser/ros2_ws/src/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[5.840s] copying /home/vboxuser/ros2_ws/src/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function_UINT8.py -> /home/vboxuser/ros2_ws/src/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[5.840s] copying /home/vboxuser/ros2_ws/src/build/py_pubsub/build/lib/py_pubsub/serial_data_sender_COM3.py -> /home/vboxuser/ros2_ws/src/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[5.841s] copying /home/vboxuser/ros2_ws/src/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function_FLOAT32_array.py -> /home/vboxuser/ros2_ws/src/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[5.841s] copying /home/vboxuser/ros2_ws/src/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function_FLOAT.py -> /home/vboxuser/ros2_ws/src/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[5.841s] copying /home/vboxuser/ros2_ws/src/build/py_pubsub/build/lib/py_pubsub/__init__.py -> /home/vboxuser/ros2_ws/src/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[5.841s] copying /home/vboxuser/ros2_ws/src/build/py_pubsub/build/lib/py_pubsub/publisher_member_function_FLOAT32_array.py -> /home/vboxuser/ros2_ws/src/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[5.841s] copying /home/vboxuser/ros2_ws/src/build/py_pubsub/build/lib/py_pubsub/publisher_member_function_UINT8.py -> /home/vboxuser/ros2_ws/src/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[5.841s] byte-compiling /home/vboxuser/ros2_ws/src/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/serial_data_receiver_COM5.py to serial_data_receiver_COM5.cpython-310.pyc
+[5.841s] byte-compiling /home/vboxuser/ros2_ws/src/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/publisher_member_function_FLOAT.py to publisher_member_function_FLOAT.cpython-310.pyc
+[5.841s] byte-compiling /home/vboxuser/ros2_ws/src/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+[5.841s] byte-compiling /home/vboxuser/ros2_ws/src/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/subscriber_member_function.py to subscriber_member_function.cpython-310.pyc
+[5.841s] byte-compiling /home/vboxuser/ros2_ws/src/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/subscriber_member_function_UINT8.py to subscriber_member_function_UINT8.cpython-310.pyc
+[5.841s] byte-compiling /home/vboxuser/ros2_ws/src/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/serial_data_sender_COM3.py to serial_data_sender_COM3.cpython-310.pyc
+[5.841s] byte-compiling /home/vboxuser/ros2_ws/src/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/subscriber_member_function_FLOAT32_array.py to subscriber_member_function_FLOAT32_array.cpython-310.pyc
+[5.842s] byte-compiling /home/vboxuser/ros2_ws/src/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/subscriber_member_function_FLOAT.py to subscriber_member_function_FLOAT.cpython-310.pyc
+[5.842s] byte-compiling /home/vboxuser/ros2_ws/src/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/__init__.py to __init__.cpython-310.pyc
+[5.842s] byte-compiling /home/vboxuser/ros2_ws/src/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/publisher_member_function_FLOAT32_array.py to publisher_member_function_FLOAT32_array.cpython-310.pyc
+[5.842s] byte-compiling /home/vboxuser/ros2_ws/src/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/publisher_member_function_UINT8.py to publisher_member_function_UINT8.cpython-310.pyc
+[5.842s] running install_data
+[5.842s] creating /home/vboxuser/ros2_ws/src/install/py_pubsub/share/ament_index
+[5.842s] creating /home/vboxuser/ros2_ws/src/install/py_pubsub/share/ament_index/resource_index
+[5.842s] creating /home/vboxuser/ros2_ws/src/install/py_pubsub/share/ament_index/resource_index/packages
+[5.842s] copying resource/py_pubsub -> /home/vboxuser/ros2_ws/src/install/py_pubsub/share/ament_index/resource_index/packages
+[5.942s] copying package.xml -> /home/vboxuser/ros2_ws/src/install/py_pubsub/share/py_pubsub
+[5.942s] running install_egg_info
+[5.942s] Copying ../build/py_pubsub/py_pubsub.egg-info to /home/vboxuser/ros2_ws/src/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info
+[5.942s] running install_scripts
+[5.943s] Installing listener script to /home/vboxuser/ros2_ws/src/install/py_pubsub/lib/py_pubsub
+[5.943s] Installing listener_float script to /home/vboxuser/ros2_ws/src/install/py_pubsub/lib/py_pubsub
+[5.943s] Installing listener_float_array script to /home/vboxuser/ros2_ws/src/install/py_pubsub/lib/py_pubsub
+[5.943s] Installing listener_uint8 script to /home/vboxuser/ros2_ws/src/install/py_pubsub/lib/py_pubsub
+[5.943s] Installing talker script to /home/vboxuser/ros2_ws/src/install/py_pubsub/lib/py_pubsub
+[5.943s] Installing talker_float script to /home/vboxuser/ros2_ws/src/install/py_pubsub/lib/py_pubsub
+[5.943s] Installing talker_float_array script to /home/vboxuser/ros2_ws/src/install/py_pubsub/lib/py_pubsub
+[5.944s] Installing talker_uint8 script to /home/vboxuser/ros2_ws/src/install/py_pubsub/lib/py_pubsub
+[5.944s] writing list of installed files to '/home/vboxuser/ros2_ws/src/build/py_pubsub/install.log'
+[6.061s] Invoked command in '/home/vboxuser/ros2_ws/src/py_pubsub' returned '0': PYTHONPATH=/home/vboxuser/ros2_ws/src/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/ros2_ws/src/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/py_pubsub build --build-base /home/vboxuser/ros2_ws/src/build/py_pubsub/build install --record /home/vboxuser/ros2_ws/src/build/py_pubsub/install.log --single-version-externally-managed install_data

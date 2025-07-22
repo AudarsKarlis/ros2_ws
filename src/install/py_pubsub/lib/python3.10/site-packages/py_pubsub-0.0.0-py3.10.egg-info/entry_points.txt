@@ -1,0 +1,10 @@
+[console_scripts]
+listener = py_pubsub.subscriber_member_function:main
+listener_float = py_pubsub.subscriber_member_function_FLOAT:main
+listener_float_array = py_pubsub.subscriber_member_function_FLOAT32_array:main
+listener_uint8 = py_pubsub.subscriber_member_function_UINT8:main
+talker = py_pubsub.publisher_member_function:main
+talker_float = py_pubsub.publisher_member_function_FLOAT:main
+talker_float_array = py_pubsub.publisher_member_function_FLOAT32_array:main
+talker_uint8 = py_pubsub.publisher_member_function_UINT8:main
+

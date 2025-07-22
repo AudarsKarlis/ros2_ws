@@ -1,0 +1,35 @@
+[3.654s] Invoking command in '/home/vboxuser/ros2_ws/src/py_pubsub': PYTHONPATH=/home/vboxuser/ros2_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/vboxuser/ros2_ws/build/py_pubsub/build install --record /home/vboxuser/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed install_data
+[5.125s] running egg_info
+[5.127s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[5.129s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[5.131s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[5.131s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[5.131s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[5.139s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[5.151s] adding license file 'LICENSE'
+[5.167s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[5.167s] running build
+[5.168s] running build_py
+[5.168s] copying py_pubsub/serial_data_receiver_COM5.py -> /home/vboxuser/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[5.168s] copying py_pubsub/serial_data_sender_COM3.py -> /home/vboxuser/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[5.168s] running install
+[5.168s] running install_lib
+[5.168s] copying /home/vboxuser/ros2_ws/build/py_pubsub/build/lib/py_pubsub/serial_data_receiver_COM5.py -> /home/vboxuser/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[5.171s] copying /home/vboxuser/ros2_ws/build/py_pubsub/build/lib/py_pubsub/serial_data_sender_COM3.py -> /home/vboxuser/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[5.183s] byte-compiling /home/vboxuser/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/serial_data_receiver_COM5.py to serial_data_receiver_COM5.cpython-310.pyc
+[5.187s] byte-compiling /home/vboxuser/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/serial_data_sender_COM3.py to serial_data_sender_COM3.cpython-310.pyc
+[5.194s] running install_data
+[5.194s] running install_egg_info
+[5.219s] removing '/home/vboxuser/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info' (and everything under it)
+[5.223s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/vboxuser/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info
+[5.281s] running install_scripts
+[5.569s] Installing listener script to /home/vboxuser/ros2_ws/install/py_pubsub/lib/py_pubsub
+[5.572s] Installing listener_float script to /home/vboxuser/ros2_ws/install/py_pubsub/lib/py_pubsub
+[5.578s] Installing listener_float_array script to /home/vboxuser/ros2_ws/install/py_pubsub/lib/py_pubsub
+[5.587s] Installing listener_uint8 script to /home/vboxuser/ros2_ws/install/py_pubsub/lib/py_pubsub
+[5.603s] Installing talker script to /home/vboxuser/ros2_ws/install/py_pubsub/lib/py_pubsub
+[5.607s] Installing talker_float script to /home/vboxuser/ros2_ws/install/py_pubsub/lib/py_pubsub
+[5.624s] Installing talker_float_array script to /home/vboxuser/ros2_ws/install/py_pubsub/lib/py_pubsub
+[5.627s] Installing talker_uint8 script to /home/vboxuser/ros2_ws/install/py_pubsub/lib/py_pubsub
+[5.633s] writing list of installed files to '/home/vboxuser/ros2_ws/build/py_pubsub/install.log'
+[5.705s] Invoked command in '/home/vboxuser/ros2_ws/src/py_pubsub' returned '0': PYTHONPATH=/home/vboxuser/ros2_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/vboxuser/ros2_ws/build/py_pubsub/build install --record /home/vboxuser/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed install_data
