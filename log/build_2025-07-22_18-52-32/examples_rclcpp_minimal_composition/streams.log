@@ -1,0 +1,31 @@
+[0.272s] Invoking command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_composition': /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_composition -- -j4 -l4
+[1.326s] [ 33%] Built target composition_nodes
+[1.565s] [ 55%] Built target composition_publisher
+[1.774s] [ 77%] Built target composition_composed
+[1.961s] [100%] Built target composition_subscriber
+[2.031s] Invoked command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_composition' returned '0': /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_composition -- -j4 -l4
+[2.066s] Invoking command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_composition': /usr/bin/cmake --install /home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_composition
+[2.133s] -- Install configuration: ""
+[2.151s] -- Execute custom install script
+[2.151s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/library_path.sh
+[2.161s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/library_path.dsv
+[2.182s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_composition/lib/libcomposition_nodes.so
+[2.206s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_publisher
+[2.206s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_subscriber
+[2.206s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_composed
+[2.207s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_composition
+[2.207s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_composition
+[2.207s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/ament_prefix_path.sh
+[2.207s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/ament_prefix_path.dsv
+[2.207s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/path.sh
+[2.207s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/path.dsv
+[2.208s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.bash
+[2.208s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.sh
+[2.208s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.zsh
+[2.208s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.dsv
+[2.208s] -- Symlinking: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.dsv
+[2.270s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/packages/examples_rclcpp_minimal_composition
+[2.271s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/cmake/examples_rclcpp_minimal_compositionConfig.cmake
+[2.271s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/cmake/examples_rclcpp_minimal_compositionConfig-version.cmake
+[2.285s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.xml
+[2.292s] Invoked command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_composition' returned '0': /usr/bin/cmake --install /home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_composition
