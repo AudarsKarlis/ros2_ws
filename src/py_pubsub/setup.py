@@ -28,6 +28,7 @@ setup(
                 'listener_uint8 = py_pubsub.subscriber_member_function_UINT8:main',
                 'talker_float_array = py_pubsub.publisher_member_function_FLOAT32_array:main',
                 'listener_float_array = py_pubsub.subscriber_member_function_FLOAT32_array:main',
+                'battery_resistance_estimator = py_pubsub.battery_resistance_estimator:main',
         ],
     },
 )

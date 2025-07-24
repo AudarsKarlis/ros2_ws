@@ -1,4 +1,5 @@
 [console_scripts]
+battery_resistance_estimator = py_pubsub.battery_resistance_estimator:main
 listener = py_pubsub.subscriber_member_function:main
 listener_float = py_pubsub.subscriber_member_function_FLOAT:main
 listener_float_array = py_pubsub.subscriber_member_function_FLOAT32_array:main
