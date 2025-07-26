@@ -30,6 +30,7 @@ setup(
                 'listener_float_array = py_pubsub.subscriber_member_function_FLOAT32_array:main',
                 'battery_resistance_estimator = py_pubsub.battery_resistance_estimator:main',
                 'battery_resistance_estimator1 = py_pubsub.battery_resistance_estimator1:main',
+                'battery_resistance_estimator2 = py_pubsub.battery_resistance_estimator2:main',
         ],
     },
 )
