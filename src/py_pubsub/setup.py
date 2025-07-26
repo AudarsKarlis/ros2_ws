@@ -31,6 +31,7 @@ setup(
                 'battery_resistance_estimator = py_pubsub.battery_resistance_estimator:main',
                 'battery_resistance_estimator1 = py_pubsub.battery_resistance_estimator1:main',
                 'battery_resistance_estimator2 = py_pubsub.battery_resistance_estimator2:main',
+                'battery_resistance_estimator3 = py_pubsub.battery_resistance_estimator3:main',
         ],
     },
 )
