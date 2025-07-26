@@ -1,0 +1,10 @@
+/home/vboxuser/ros2_ws/src/build/bq769x2_i2c_ros/CMakeFiles/uninstall.dir
+/home/vboxuser/ros2_ws/src/build/bq769x2_i2c_ros/CMakeFiles/bq769x2_i2c_ros_uninstall.dir
+/home/vboxuser/ros2_ws/src/build/bq769x2_i2c_ros/CMakeFiles/bq769x2_node.dir
+/home/vboxuser/ros2_ws/src/build/bq769x2_i2c_ros/CMakeFiles/test.dir
+/home/vboxuser/ros2_ws/src/build/bq769x2_i2c_ros/CMakeFiles/edit_cache.dir
+/home/vboxuser/ros2_ws/src/build/bq769x2_i2c_ros/CMakeFiles/rebuild_cache.dir
+/home/vboxuser/ros2_ws/src/build/bq769x2_i2c_ros/CMakeFiles/list_install_components.dir
+/home/vboxuser/ros2_ws/src/build/bq769x2_i2c_ros/CMakeFiles/install.dir
+/home/vboxuser/ros2_ws/src/build/bq769x2_i2c_ros/CMakeFiles/install/local.dir
+/home/vboxuser/ros2_ws/src/build/bq769x2_i2c_ros/CMakeFiles/install/strip.dir

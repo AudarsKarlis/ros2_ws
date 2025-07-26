@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+c2b02e06a602ff4926236bf5b8bccbe9 CMakeFiles/bq769x2_i2c_ros_uninstall

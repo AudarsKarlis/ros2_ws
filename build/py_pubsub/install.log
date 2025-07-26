@@ -2,6 +2,7 @@
 /home/vboxuser/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/battery_resistance_estimator3.py
 /home/vboxuser/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/battery_resistance_estimator.py
 /home/vboxuser/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/publisher_member_function_FLOAT.py
+/home/vboxuser/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/battery_resistance_estimator4.py
 /home/vboxuser/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/publisher_member_function.py
 /home/vboxuser/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/subscriber_member_function.py
 /home/vboxuser/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/subscriber_member_function_UINT8.py
@@ -18,6 +19,7 @@
 /home/vboxuser/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/__pycache__/battery_resistance_estimator3.cpython-310.pyc
 /home/vboxuser/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/__pycache__/battery_resistance_estimator.cpython-310.pyc
 /home/vboxuser/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/__pycache__/publisher_member_function_FLOAT.cpython-310.pyc
+/home/vboxuser/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/__pycache__/battery_resistance_estimator4.cpython-310.pyc
 /home/vboxuser/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/__pycache__/publisher_member_function.cpython-310.pyc
 /home/vboxuser/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/__pycache__/subscriber_member_function.cpython-310.pyc
 /home/vboxuser/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/__pycache__/subscriber_member_function_UINT8.cpython-310.pyc
@@ -43,6 +45,7 @@
 /home/vboxuser/ros2_ws/install/py_pubsub/lib/py_pubsub/battery_resistance_estimator1
 /home/vboxuser/ros2_ws/install/py_pubsub/lib/py_pubsub/battery_resistance_estimator2
 /home/vboxuser/ros2_ws/install/py_pubsub/lib/py_pubsub/battery_resistance_estimator3
+/home/vboxuser/ros2_ws/install/py_pubsub/lib/py_pubsub/battery_resistance_estimator4
 /home/vboxuser/ros2_ws/install/py_pubsub/lib/py_pubsub/battery_resistance_logger
 /home/vboxuser/ros2_ws/install/py_pubsub/lib/py_pubsub/listener
 /home/vboxuser/ros2_ws/install/py_pubsub/lib/py_pubsub/listener_float
