@@ -54,7 +54,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/bq769x2_i2c_ros/bq769x2_node")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/bq769x2_i2c_ros/bq769x2_node"
-         OLD_RPATH "/home/vboxuser/ros2_iron/install/rclcpp/lib:/home/vboxuser/ros2_iron/install/sensor_msgs/lib:/home/vboxuser/ros2_iron/install/libstatistics_collector/lib:/home/vboxuser/ros2_iron/install/rcl/lib:/home/vboxuser/ros2_iron/install/rcl_logging_interface/lib:/home/vboxuser/ros2_iron/install/rmw_implementation/lib:/home/vboxuser/ros2_iron/install/ament_index_cpp/lib:/home/vboxuser/ros2_iron/install/type_description_interfaces/lib:/home/vboxuser/ros2_iron/install/rcl_interfaces/lib:/home/vboxuser/ros2_iron/install/rcl_yaml_param_parser/lib:/home/vboxuser/ros2_iron/install/rosgraph_msgs/lib:/home/vboxuser/ros2_iron/install/statistics_msgs/lib:/home/vboxuser/ros2_iron/install/tracetools/lib:/home/vboxuser/ros2_iron/install/geometry_msgs/lib:/home/vboxuser/ros2_iron/install/std_msgs/lib:/home/vboxuser/ros2_iron/install/service_msgs/lib:/home/vboxuser/ros2_iron/install/builtin_interfaces/lib:/home/vboxuser/ros2_iron/install/rosidl_typesupport_fastrtps_c/lib:/home/vboxuser/ros2_iron/install/rosidl_typesupport_fastrtps_cpp/lib:/home/vboxuser/ros2_iron/install/fastcdr/lib:/home/vboxuser/ros2_iron/install/rmw/lib:/home/vboxuser/ros2_iron/install/rosidl_dynamic_typesupport/lib:/home/vboxuser/ros2_iron/install/rosidl_typesupport_introspection_cpp/lib:/home/vboxuser/ros2_iron/install/rosidl_typesupport_introspection_c/lib:/home/vboxuser/ros2_iron/install/rosidl_typesupport_cpp/lib:/home/vboxuser/ros2_iron/install/rosidl_typesupport_c/lib:/home/vboxuser/ros2_iron/install/rcpputils/lib:/home/vboxuser/ros2_iron/install/rosidl_runtime_c/lib:/home/vboxuser/ros2_iron/install/rcutils/lib:"
+         OLD_RPATH "/opt/ros/iron/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/bq769x2_i2c_ros/bq769x2_node")
@@ -71,7 +71,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bq769x2_i2c_ros/environment" TYPE FILE FILES "/home/vboxuser/ros2_iron/install/ament_cmake_core/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bq769x2_i2c_ros/environment" TYPE FILE FILES "/opt/ros/iron/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -79,7 +79,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bq769x2_i2c_ros/environment" TYPE FILE FILES "/home/vboxuser/ros2_iron/install/ament_cmake_core/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bq769x2_i2c_ros/environment" TYPE FILE FILES "/opt/ros/iron/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

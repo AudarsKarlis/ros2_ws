@@ -1,0 +1,535 @@
+[0.000000] (-) TimerEvent: {}
+[0.000649] (bms_visualizer) JobQueued: {'identifier': 'bms_visualizer', 'dependencies': OrderedDict()}
+[0.000678] (bq769x2_i2c_ros) JobQueued: {'identifier': 'bq769x2_i2c_ros', 'dependencies': OrderedDict()}
+[0.000688] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.000695] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict()}
+[0.000702] (bms_visualizer) JobStarted: {'identifier': 'bms_visualizer'}
+[0.068858] (bq769x2_i2c_ros) JobStarted: {'identifier': 'bq769x2_i2c_ros'}
+[0.104983] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.108511] (-) TimerEvent: {}
+[0.143179] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[0.215016] (-) TimerEvent: {}
+[0.316610] (-) TimerEvent: {}
+[0.419903] (-) TimerEvent: {}
+[0.520900] (-) TimerEvent: {}
+[0.569312] (bq769x2_i2c_ros) JobProgress: {'identifier': 'bq769x2_i2c_ros', 'progress': 'cmake'}
+[0.592977] (bq769x2_i2c_ros) JobProgress: {'identifier': 'bq769x2_i2c_ros', 'progress': 'build'}
+[0.596304] (bq769x2_i2c_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vboxuser/ros2_ws/build/bq769x2_i2c_ros', '--', '-j16', '-l16'], 'cwd': '/home/vboxuser/ros2_ws/build/bq769x2_i2c_ros', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'vboxuser'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/vboxuser'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.101.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'de_DE.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '2665'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '2834'), ('BUNDLED_DEBUGPY_PATH', '/home/vboxuser/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4103'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'vboxuser'), ('JOURNAL_STREAM', '8:20733'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vboxuser'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/home/vboxuser/.local/bin:/opt/ros/iron/bin:/home/vboxuser/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/vboxuser/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/ubuntu22:@/tmp/.ICE-unix/2797,unix/ubuntu22:/tmp/.ICE-unix/2797'), ('INVOCATION_ID', '007c68d76d3041978dde5aeb6324509f'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/vboxuser/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-64f1aa4e8256c262.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.SEQNA3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-3be5fd323a.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vboxuser/ros2_ws/build/bq769x2_i2c_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.628085] (-) TimerEvent: {}
+[0.628752] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'cmake'}
+[0.630310] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'build'}
+[0.631098] (my_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vboxuser/ros2_ws/build/my_package', '--', '-j16', '-l16'], 'cwd': '/home/vboxuser/ros2_ws/build/my_package', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'vboxuser'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/vboxuser'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.101.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'de_DE.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '2665'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '2834'), ('BUNDLED_DEBUGPY_PATH', '/home/vboxuser/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4103'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'vboxuser'), ('JOURNAL_STREAM', '8:20733'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vboxuser'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/home/vboxuser/.local/bin:/opt/ros/iron/bin:/home/vboxuser/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/vboxuser/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/ubuntu22:@/tmp/.ICE-unix/2797,unix/ubuntu22:/tmp/.ICE-unix/2797'), ('INVOCATION_ID', '007c68d76d3041978dde5aeb6324509f'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/vboxuser/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-64f1aa4e8256c262.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.SEQNA3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-3be5fd323a.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vboxuser/ros2_ws/build/my_package'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.730469] (-) TimerEvent: {}
+[0.834476] (-) TimerEvent: {}
+[0.936157] (-) TimerEvent: {}
+[1.039704] (-) TimerEvent: {}
+[1.142506] (-) TimerEvent: {}
+[1.249715] (-) TimerEvent: {}
+[1.352065] (-) TimerEvent: {}
+[1.409544] (my_package) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[1.414180] (bq769x2_i2c_ros) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[1.453318] (-) TimerEvent: {}
+[1.559380] (-) TimerEvent: {}
+[1.663843] (-) TimerEvent: {}
+[1.765044] (-) TimerEvent: {}
+[1.870036] (-) TimerEvent: {}
+[1.980165] (-) TimerEvent: {}
+[2.083572] (-) TimerEvent: {}
+[2.190304] (-) TimerEvent: {}
+[2.298414] (-) TimerEvent: {}
+[2.402197] (-) TimerEvent: {}
+[2.468102] (py_pubsub) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/py_pubsub', 'build', '--build-base', '/home/vboxuser/ros2_ws/build/py_pubsub/build', 'install', '--record', '/home/vboxuser/ros2_ws/build/py_pubsub/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/vboxuser/ros2_ws/src/py_pubsub', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:', 'USER': 'vboxuser', 'LC_TIME': 'de_DE.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib', 'HOME': '/home/vboxuser', 'CHROME_DESKTOP': 'code.desktop', 'TERM_PROGRAM_VERSION': '1.101.0', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'de_DE.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '2665', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '2834', 'BUNDLED_DEBUGPY_PATH': '/home/vboxuser/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4103', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'iron', 'LOGNAME': 'vboxuser', 'JOURNAL_STREAM': '8:20733', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vboxuser', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/vboxuser/.local/bin:/opt/ros/iron/bin:/home/vboxuser/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/vboxuser/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/ubuntu22:@/tmp/.ICE-unix/2797,unix/ubuntu22:/tmp/.ICE-unix/2797', 'INVOCATION_ID': '007c68d76d3041978dde5aeb6324509f', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'de_DE.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/vboxuser/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-64f1aa4e8256c262.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'de_DE.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.SEQNA3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-3be5fd323a.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/opt/ros/iron', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vboxuser/ros2_ws/build/py_pubsub', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/vboxuser/ros2_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1'}, 'shell': False}
+[2.531103] (my_package) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.14.4 (/opt/ros/iron/share/ament_lint_auto/cmake)\n'}
+[2.534935] (-) TimerEvent: {}
+[2.535017] (bq769x2_i2c_ros) StdoutLine: {'line': b'-- Found rclcpp: 21.0.8 (/opt/ros/iron/share/rclcpp/cmake)\n'}
+[2.621671] (bms_visualizer) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../../build/bms_visualizer', 'build', '--build-base', '/home/vboxuser/ros2_ws/build/bms_visualizer/build', 'install', '--record', '/home/vboxuser/ros2_ws/build/bms_visualizer/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bms_visualizer', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:', 'USER': 'vboxuser', 'LC_TIME': 'de_DE.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib', 'HOME': '/home/vboxuser', 'CHROME_DESKTOP': 'code.desktop', 'TERM_PROGRAM_VERSION': '1.101.0', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'de_DE.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '2665', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '2834', 'BUNDLED_DEBUGPY_PATH': '/home/vboxuser/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4103', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'iron', 'LOGNAME': 'vboxuser', 'JOURNAL_STREAM': '8:20733', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vboxuser', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/vboxuser/.local/bin:/opt/ros/iron/bin:/home/vboxuser/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/vboxuser/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/ubuntu22:@/tmp/.ICE-unix/2797,unix/ubuntu22:/tmp/.ICE-unix/2797', 'INVOCATION_ID': '007c68d76d3041978dde5aeb6324509f', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'de_DE.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/vboxuser/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-64f1aa4e8256c262.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'de_DE.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.SEQNA3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-3be5fd323a.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/opt/ros/iron', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vboxuser/ros2_ws/build/bms_visualizer', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/vboxuser/ros2_ws/build/bms_visualizer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/ros2_ws/install/bms_visualizer/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1'}, 'shell': False}
+[2.634992] (-) TimerEvent: {}
+[2.751781] (-) TimerEvent: {}
+[2.847769] (py_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[2.852966] (-) TimerEvent: {}
+[2.857628] (py_pubsub) StdoutLine: {'line': b'writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO\n'}
+[2.857721] (py_pubsub) StdoutLine: {'line': b'writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt\n'}
+[2.869668] (py_pubsub) StdoutLine: {'line': b'writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt\n'}
+[2.869757] (py_pubsub) StdoutLine: {'line': b'writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt\n'}
+[2.874073] (py_pubsub) StdoutLine: {'line': b'writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt\n'}
+[2.886083] (py_pubsub) StdoutLine: {'line': b"reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[2.892918] (py_pubsub) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[2.892996] (py_pubsub) StdoutLine: {'line': b"writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[2.901332] (py_pubsub) StdoutLine: {'line': b'running build\n'}
+[2.901404] (py_pubsub) StdoutLine: {'line': b'running build_py\n'}
+[2.901432] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/battery_resistance_estimator2.py -> /home/vboxuser/ros2_ws/build/py_pubsub/build/lib/py_pubsub\n'}
+[2.906557] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/battery_resistance_estimator3.py -> /home/vboxuser/ros2_ws/build/py_pubsub/build/lib/py_pubsub\n'}
+[2.906624] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/battery_resistance_logger.py -> /home/vboxuser/ros2_ws/build/py_pubsub/build/lib/py_pubsub\n'}
+[2.906652] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/battery_resistance_estimator4.py -> /home/vboxuser/ros2_ws/build/py_pubsub/build/lib/py_pubsub\n'}
+[2.906675] (py_pubsub) StdoutLine: {'line': b'running install\n'}
+[2.906698] (py_pubsub) StdoutLine: {'line': b'running install_lib\n'}
+[2.906722] (py_pubsub) StdoutLine: {'line': b'copying /home/vboxuser/ros2_ws/build/py_pubsub/build/lib/py_pubsub/battery_resistance_estimator2.py -> /home/vboxuser/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub\n'}
+[2.906746] (py_pubsub) StdoutLine: {'line': b'copying /home/vboxuser/ros2_ws/build/py_pubsub/build/lib/py_pubsub/battery_resistance_estimator3.py -> /home/vboxuser/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub\n'}
+[2.906768] (py_pubsub) StdoutLine: {'line': b'copying /home/vboxuser/ros2_ws/build/py_pubsub/build/lib/py_pubsub/battery_resistance_logger.py -> /home/vboxuser/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub\n'}
+[2.906789] (py_pubsub) StdoutLine: {'line': b'copying /home/vboxuser/ros2_ws/build/py_pubsub/build/lib/py_pubsub/battery_resistance_estimator4.py -> /home/vboxuser/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub\n'}
+[2.906810] (py_pubsub) StdoutLine: {'line': b'byte-compiling /home/vboxuser/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/battery_resistance_estimator2.py to battery_resistance_estimator2.cpython-310.pyc\n'}
+[2.921821] (py_pubsub) StdoutLine: {'line': b'byte-compiling /home/vboxuser/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/battery_resistance_estimator3.py to battery_resistance_estimator3.cpython-310.pyc\n'}
+[2.936513] (py_pubsub) StdoutLine: {'line': b'byte-compiling /home/vboxuser/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/battery_resistance_logger.py to battery_resistance_logger.cpython-310.pyc\n'}
+[2.948221] (py_pubsub) StdoutLine: {'line': b'byte-compiling /home/vboxuser/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/battery_resistance_estimator4.py to battery_resistance_estimator4.cpython-310.pyc\n'}
+[2.954952] (py_pubsub) StdoutLine: {'line': b'running install_data\n'}
+[2.955042] (-) TimerEvent: {}
+[2.956608] (py_pubsub) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.964583] (py_pubsub) StdoutLine: {'line': b"removing '/home/vboxuser/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[2.964626] (py_pubsub) StdoutLine: {'line': b'Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/vboxuser/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info\n'}
+[2.964653] (my_package) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.964683] (my_package) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/vboxuser/ros2_ws/src/my_package/include>\n'}
+[2.964705] (my_package) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.983121] (py_pubsub) StdoutLine: {'line': b'running install_scripts\n'}
+[2.985081] (my_package) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.002243] (my_package) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.002374] (my_package) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.002864] (my_package) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.005863] (my_package) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.008528] (py_pubsub) StdoutLine: {'line': b'Installing battery_resistance_estimator script to /home/vboxuser/ros2_ws/install/py_pubsub/lib/py_pubsub\n'}
+[3.012147] (py_pubsub) StdoutLine: {'line': b'Installing battery_resistance_estimator1 script to /home/vboxuser/ros2_ws/install/py_pubsub/lib/py_pubsub\n'}
+[3.023130] (py_pubsub) StdoutLine: {'line': b'Installing battery_resistance_estimator2 script to /home/vboxuser/ros2_ws/install/py_pubsub/lib/py_pubsub\n'}
+[3.027493] (bms_visualizer) StdoutLine: {'line': b'running egg_info\n'}
+[3.027583] (bms_visualizer) StdoutLine: {'line': b'writing ../../../../build/bms_visualizer/bms_visualizer.egg-info/PKG-INFO\n'}
+[3.033929] (bms_visualizer) StdoutLine: {'line': b'writing dependency_links to ../../../../build/bms_visualizer/bms_visualizer.egg-info/dependency_links.txt\n'}
+[3.037528] (bms_visualizer) StdoutLine: {'line': b'writing entry points to ../../../../build/bms_visualizer/bms_visualizer.egg-info/entry_points.txt\n'}
+[3.037569] (bms_visualizer) StdoutLine: {'line': b'writing requirements to ../../../../build/bms_visualizer/bms_visualizer.egg-info/requires.txt\n'}
+[3.037595] (py_pubsub) StdoutLine: {'line': b'Installing battery_resistance_estimator3 script to /home/vboxuser/ros2_ws/install/py_pubsub/lib/py_pubsub\n'}
+[3.037623] (py_pubsub) StdoutLine: {'line': b'Installing battery_resistance_estimator4 script to /home/vboxuser/ros2_ws/install/py_pubsub/lib/py_pubsub\n'}
+[3.037646] (bms_visualizer) StdoutLine: {'line': b'writing top-level names to ../../../../build/bms_visualizer/bms_visualizer.egg-info/top_level.txt\n'}
+[3.038898] (py_pubsub) StdoutLine: {'line': b'Installing battery_resistance_logger script to /home/vboxuser/ros2_ws/install/py_pubsub/lib/py_pubsub\n'}
+[3.038973] (py_pubsub) StdoutLine: {'line': b'Installing listener script to /home/vboxuser/ros2_ws/install/py_pubsub/lib/py_pubsub\n'}
+[3.039001] (py_pubsub) StdoutLine: {'line': b'Installing listener_float script to /home/vboxuser/ros2_ws/install/py_pubsub/lib/py_pubsub\n'}
+[3.039027] (py_pubsub) StdoutLine: {'line': b'Installing listener_float_array script to /home/vboxuser/ros2_ws/install/py_pubsub/lib/py_pubsub\n'}
+[3.039050] (bms_visualizer) StdoutLine: {'line': b"reading manifest file '../../../../build/bms_visualizer/bms_visualizer.egg-info/SOURCES.txt'\n"}
+[3.039488] (py_pubsub) StdoutLine: {'line': b'Installing listener_uint8 script to /home/vboxuser/ros2_ws/install/py_pubsub/lib/py_pubsub\n'}
+[3.039546] (py_pubsub) StdoutLine: {'line': b'Installing talker script to /home/vboxuser/ros2_ws/install/py_pubsub/lib/py_pubsub\n'}
+[3.039799] (py_pubsub) StdoutLine: {'line': b'Installing talker_float script to /home/vboxuser/ros2_ws/install/py_pubsub/lib/py_pubsub\n'}
+[3.040851] (py_pubsub) StdoutLine: {'line': b'Installing talker_float_array script to /home/vboxuser/ros2_ws/install/py_pubsub/lib/py_pubsub\n'}
+[3.040911] (bms_visualizer) StdoutLine: {'line': b"writing manifest file '../../../../build/bms_visualizer/bms_visualizer.egg-info/SOURCES.txt'\n"}
+[3.057658] (bms_visualizer) StdoutLine: {'line': b'running build\n'}
+[3.057757] (-) TimerEvent: {}
+[3.057827] (bms_visualizer) StdoutLine: {'line': b'running build_py\n'}
+[3.057861] (bms_visualizer) StdoutLine: {'line': b'running install\n'}
+[3.057888] (py_pubsub) StdoutLine: {'line': b'Installing talker_uint8 script to /home/vboxuser/ros2_ws/install/py_pubsub/lib/py_pubsub\n'}
+[3.057918] (bms_visualizer) StdoutLine: {'line': b'running install_lib\n'}
+[3.057941] (bms_visualizer) StdoutLine: {'line': b'running install_data\n'}
+[3.057963] (bms_visualizer) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.057984] (py_pubsub) StdoutLine: {'line': b"writing list of installed files to '/home/vboxuser/ros2_ws/build/py_pubsub/install.log'\n"}
+[3.058005] (bms_visualizer) StdoutLine: {'line': b"removing '/home/vboxuser/ros2_ws/install/bms_visualizer/lib/python3.10/site-packages/bms_visualizer-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.058028] (bms_visualizer) StdoutLine: {'line': b'Copying ../../../../build/bms_visualizer/bms_visualizer.egg-info to /home/vboxuser/ros2_ws/install/bms_visualizer/lib/python3.10/site-packages/bms_visualizer-0.0.0-py3.10.egg-info\n'}
+[3.062106] (bq769x2_i2c_ros) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[3.071390] (bms_visualizer) StdoutLine: {'line': b'running install_scripts\n'}
+[3.098693] (py_pubsub) CommandEnded: {'returncode': 0}
+[3.102886] (bms_visualizer) StdoutLine: {'line': b'Installing bms_visualizer_node script to /home/vboxuser/ros2_ws/install/bms_visualizer/lib/bms_visualizer\n'}
+[3.103569] (bms_visualizer) StdoutLine: {'line': b"writing list of installed files to '/home/vboxuser/ros2_ws/build/bms_visualizer/install.log'\n"}
+[3.104465] (my_package) StdoutLine: {'line': b'-- Generating done\n'}
+[3.107886] (my_package) StdoutLine: {'line': b'-- Build files have been written to: /home/vboxuser/ros2_ws/build/my_package\n'}
+[3.110251] (bq769x2_i2c_ros) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[3.116377] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 0}
+[3.123449] (bms_visualizer) CommandEnded: {'returncode': 0}
+[3.148707] (my_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_node\x1b[0m\n'}
+[3.160721] (-) TimerEvent: {}
+[3.202285] (bms_visualizer) JobEnded: {'identifier': 'bms_visualizer', 'rc': 0}
+[3.209007] (my_package) StdoutLine: {'line': b'[100%] Built target my_node\n'}
+[3.217253] (bq769x2_i2c_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.223363] (my_package) CommandEnded: {'returncode': 0}
+[3.224651] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'install'}
+[3.238294] (my_package) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/vboxuser/ros2_ws/build/my_package'], 'cwd': '/home/vboxuser/ros2_ws/build/my_package', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'vboxuser'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/vboxuser'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.101.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'de_DE.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '2665'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '2834'), ('BUNDLED_DEBUGPY_PATH', '/home/vboxuser/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4103'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'vboxuser'), ('JOURNAL_STREAM', '8:20733'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vboxuser'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/home/vboxuser/.local/bin:/opt/ros/iron/bin:/home/vboxuser/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/vboxuser/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/ubuntu22:@/tmp/.ICE-unix/2797,unix/ubuntu22:/tmp/.ICE-unix/2797'), ('INVOCATION_ID', '007c68d76d3041978dde5aeb6324509f'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/vboxuser/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-64f1aa4e8256c262.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.SEQNA3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-3be5fd323a.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vboxuser/ros2_ws/build/my_package'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[3.264606] (my_package) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.266603] (-) TimerEvent: {}
+[3.268272] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/ros2_ws/install/my_package/lib/my_package/my_node\n'}
+[3.268362] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/ros2_ws/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package\n'}
+[3.268392] (my_package) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros2_ws/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package\n'}
+[3.268416] (my_package) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.sh\n'}
+[3.268438] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.dsv\n'}
+[3.268458] (my_package) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros2_ws/install/my_package/share/my_package/environment/path.sh\n'}
+[3.268481] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/ros2_ws/install/my_package/share/my_package/environment/path.dsv\n'}
+[3.268504] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/ros2_ws/install/my_package/share/my_package/local_setup.bash\n'}
+[3.268526] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/ros2_ws/install/my_package/share/my_package/local_setup.sh\n'}
+[3.268547] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/ros2_ws/install/my_package/share/my_package/local_setup.zsh\n'}
+[3.268568] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/ros2_ws/install/my_package/share/my_package/local_setup.dsv\n'}
+[3.268587] (my_package) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros2_ws/install/my_package/share/my_package/package.dsv\n'}
+[3.268608] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/ros2_ws/install/my_package/share/ament_index/resource_index/packages/my_package\n'}
+[3.268628] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig.cmake\n'}
+[3.268648] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake\n'}
+[3.268669] (my_package) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros2_ws/install/my_package/share/my_package/package.xml\n'}
+[3.306188] (my_package) CommandEnded: {'returncode': 0}
+[3.325192] (bq769x2_i2c_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.368197] (-) TimerEvent: {}
+[3.426970] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 0}
+[3.469566] (-) TimerEvent: {}
+[3.571883] (-) TimerEvent: {}
+[3.672360] (-) TimerEvent: {}
+[3.774030] (-) TimerEvent: {}
+[3.859715] (bq769x2_i2c_ros) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)\n'}
+[3.875943] (-) TimerEvent: {}
+[3.891277] (bq769x2_i2c_ros) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.977667] (-) TimerEvent: {}
+[4.083017] (-) TimerEvent: {}
+[4.195363] (-) TimerEvent: {}
+[4.272532] (bq769x2_i2c_ros) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.295996] (-) TimerEvent: {}
+[4.397450] (-) TimerEvent: {}
+[4.499875] (-) TimerEvent: {}
+[4.602700] (-) TimerEvent: {}
+[4.691004] (bq769x2_i2c_ros) StdoutLine: {'line': b'-- Found sensor_msgs: 5.0.1 (/opt/ros/iron/share/sensor_msgs/cmake)\n'}
+[4.703416] (-) TimerEvent: {}
+[4.805774] (-) TimerEvent: {}
+[4.912163] (-) TimerEvent: {}
+[5.022031] (-) TimerEvent: {}
+[5.129023] (-) TimerEvent: {}
+[5.241980] (-) TimerEvent: {}
+[5.346627] (-) TimerEvent: {}
+[5.457740] (-) TimerEvent: {}
+[5.508484] (bq769x2_i2c_ros) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.14.4 (/opt/ros/iron/share/ament_lint_auto/cmake)\n'}
+[5.558847] (-) TimerEvent: {}
+[5.664903] (-) TimerEvent: {}
+[5.698209] (bq769x2_i2c_ros) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[5.701765] (bq769x2_i2c_ros) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include>\n'}
+[5.701809] (bq769x2_i2c_ros) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[5.701836] (bq769x2_i2c_ros) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.709094] (bq769x2_i2c_ros) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[5.710123] (bq769x2_i2c_ros) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[5.710200] (bq769x2_i2c_ros) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.736107] (bq769x2_i2c_ros) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.768586] (-) TimerEvent: {}
+[5.877473] (-) TimerEvent: {}
+[5.924321] (bq769x2_i2c_ros) StdoutLine: {'line': b'-- Generating done\n'}
+[5.947138] (bq769x2_i2c_ros) StdoutLine: {'line': b'-- Build files have been written to: /home/vboxuser/ros2_ws/build/bq769x2_i2c_ros\n'}
+[5.977747] (-) TimerEvent: {}
+[6.060782] (bq769x2_i2c_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target bq769x2_node\x1b[0m\n'}
+[6.079365] (-) TimerEvent: {}
+[6.111957] (bq769x2_i2c_ros) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/bq769x2_node.dir/src/bq769x2_main.cpp.o\x1b[0m\n'}
+[6.112091] (bq769x2_i2c_ros) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/bq769x2_node.dir/src/bq769x2_node.cpp.o\x1b[0m\n'}
+[6.124989] (bq769x2_i2c_ros) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding C object CMakeFiles/bq769x2_node.dir/src/i2c.c.o\x1b[0m\n'}
+[6.128531] (bq769x2_i2c_ros) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/bq769x2_node.dir/src/bq769x2.cpp.o\x1b[0m\n'}
+[6.181005] (-) TimerEvent: {}
+[6.288085] (-) TimerEvent: {}
+[6.392439] (-) TimerEvent: {}
+[6.494257] (-) TimerEvent: {}
+[6.600935] (-) TimerEvent: {}
+[6.704873] (-) TimerEvent: {}
+[6.810985] (-) TimerEvent: {}
+[6.915851] (-) TimerEvent: {}
+[7.018845] (-) TimerEvent: {}
+[7.124612] (-) TimerEvent: {}
+[7.230838] (-) TimerEvent: {}
+[7.335802] (-) TimerEvent: {}
+[7.439762] (-) TimerEvent: {}
+[7.541711] (-) TimerEvent: {}
+[7.649473] (-) TimerEvent: {}
+[7.754632] (-) TimerEvent: {}
+[7.858058] (-) TimerEvent: {}
+[7.961082] (-) TimerEvent: {}
+[8.063730] (-) TimerEvent: {}
+[8.170750] (-) TimerEvent: {}
+[8.273718] (-) TimerEvent: {}
+[8.376801] (-) TimerEvent: {}
+[8.480157] (-) TimerEvent: {}
+[8.580747] (-) TimerEvent: {}
+[8.683595] (-) TimerEvent: {}
+[8.792864] (-) TimerEvent: {}
+[8.896827] (-) TimerEvent: {}
+[9.000113] (-) TimerEvent: {}
+[9.103153] (-) TimerEvent: {}
+[9.212411] (-) TimerEvent: {}
+[9.329265] (-) TimerEvent: {}
+[9.432301] (-) TimerEvent: {}
+[9.548815] (-) TimerEvent: {}
+[9.655925] (-) TimerEvent: {}
+[9.757918] (-) TimerEvent: {}
+[9.859228] (-) TimerEvent: {}
+[9.964402] (-) TimerEvent: {}
+[10.067822] (-) TimerEvent: {}
+[10.173532] (-) TimerEvent: {}
+[10.275548] (-) TimerEvent: {}
+[10.380925] (-) TimerEvent: {}
+[10.487231] (-) TimerEvent: {}
+[10.588096] (-) TimerEvent: {}
+[10.690594] (-) TimerEvent: {}
+[10.794963] (-) TimerEvent: {}
+[10.897759] (-) TimerEvent: {}
+[11.004031] (-) TimerEvent: {}
+[11.104479] (-) TimerEvent: {}
+[11.206806] (-) TimerEvent: {}
+[11.311099] (-) TimerEvent: {}
+[11.415205] (-) TimerEvent: {}
+[11.517976] (-) TimerEvent: {}
+[11.621656] (-) TimerEvent: {}
+[11.722942] (-) TimerEvent: {}
+[11.826522] (-) TimerEvent: {}
+[11.932139] (-) TimerEvent: {}
+[12.036294] (-) TimerEvent: {}
+[12.143329] (-) TimerEvent: {}
+[12.247900] (-) TimerEvent: {}
+[12.352811] (-) TimerEvent: {}
+[12.459509] (-) TimerEvent: {}
+[12.562694] (-) TimerEvent: {}
+[12.673355] (-) TimerEvent: {}
+[12.783413] (-) TimerEvent: {}
+[12.889007] (-) TimerEvent: {}
+[12.993147] (-) TimerEvent: {}
+[13.096874] (-) TimerEvent: {}
+[13.201308] (-) TimerEvent: {}
+[13.307616] (-) TimerEvent: {}
+[13.420198] (-) TimerEvent: {}
+[13.522020] (-) TimerEvent: {}
+[13.629684] (-) TimerEvent: {}
+[13.688998] (bq769x2_i2c_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2_node.hpp:11\x1b[m\x1b[K,\n'}
+[13.689405] (bq769x2_i2c_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/src/bq769x2_main.cpp:2\x1b[m\x1b[K:\n'}
+[13.689472] (bq769x2_i2c_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:96:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.689536] (bq769x2_i2c_ros) StderrLine: {'line': b'   96 |             struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[13.689592] (bq769x2_i2c_ros) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[13.689647] (bq769x2_i2c_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:119:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.689706] (bq769x2_i2c_ros) StderrLine: {'line': b'  119 |                     struct\x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[13.689761] (bq769x2_i2c_ros) StderrLine: {'line': b'      |                           \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[13.689813] (bq769x2_i2c_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:132:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.689867] (bq769x2_i2c_ros) StderrLine: {'line': b'  132 |                     struct\x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[13.689919] (bq769x2_i2c_ros) StderrLine: {'line': b'      |                           \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[13.691473] (bq769x2_i2c_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:144:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.691631] (bq769x2_i2c_ros) StderrLine: {'line': b'  144 |                     struct\x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[13.691697] (bq769x2_i2c_ros) StderrLine: {'line': b'      |                           \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[13.691755] (bq769x2_i2c_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:157:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.691814] (bq769x2_i2c_ros) StderrLine: {'line': b'  157 |                     struct\x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[13.691868] (bq769x2_i2c_ros) StderrLine: {'line': b'      |                           \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[13.691930] (bq769x2_i2c_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:116:19:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.691988] (bq769x2_i2c_ros) StderrLine: {'line': b'  116 |             struct\x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[13.692040] (bq769x2_i2c_ros) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[13.692220] (bq769x2_i2c_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:185:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.692260] (bq769x2_i2c_ros) StderrLine: {'line': b'  185 |                 struct\x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[13.692285] (bq769x2_i2c_ros) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[13.692373] (bq769x2_i2c_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:198:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.692405] (bq769x2_i2c_ros) StderrLine: {'line': b'  198 |                 struct\x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[13.692429] (bq769x2_i2c_ros) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[13.692454] (bq769x2_i2c_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:211:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.692477] (bq769x2_i2c_ros) StderrLine: {'line': b'  211 |                 struct\x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[13.692499] (bq769x2_i2c_ros) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[13.692520] (bq769x2_i2c_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:224:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.692542] (bq769x2_i2c_ros) StderrLine: {'line': b'  224 |                 struct\x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[13.692568] (bq769x2_i2c_ros) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[13.692589] (bq769x2_i2c_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:237:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.692611] (bq769x2_i2c_ros) StderrLine: {'line': b'  237 |                 struct\x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[13.692631] (bq769x2_i2c_ros) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[13.692651] (bq769x2_i2c_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:256:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.692675] (bq769x2_i2c_ros) StderrLine: {'line': b'  256 |                 struct\x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[13.692694] (bq769x2_i2c_ros) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[13.692714] (bq769x2_i2c_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:269:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.692735] (bq769x2_i2c_ros) StderrLine: {'line': b'  269 |                 struct\x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[13.692754] (bq769x2_i2c_ros) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[13.692774] (bq769x2_i2c_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:289:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.692797] (bq769x2_i2c_ros) StderrLine: {'line': b'  289 |             struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[13.692819] (bq769x2_i2c_ros) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[13.692838] (bq769x2_i2c_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:319:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.692860] (bq769x2_i2c_ros) StderrLine: {'line': b'  319 |                 struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[13.692881] (bq769x2_i2c_ros) StderrLine: {'line': b'      |                        \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[13.692902] (bq769x2_i2c_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:332:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.692924] (bq769x2_i2c_ros) StderrLine: {'line': b'  332 |                 struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[13.692944] (bq769x2_i2c_ros) StderrLine: {'line': b'      |                        \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[13.701820] (bq769x2_i2c_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/src/bq769x2.cpp:3\x1b[m\x1b[K:\n'}
+[13.702307] (bq769x2_i2c_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:96:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.702346] (bq769x2_i2c_ros) StderrLine: {'line': b'   96 |             struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[13.702373] (bq769x2_i2c_ros) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[13.702398] (bq769x2_i2c_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:119:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.702424] (bq769x2_i2c_ros) StderrLine: {'line': b'  119 |                     struct\x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[13.702454] (bq769x2_i2c_ros) StderrLine: {'line': b'      |                           \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[13.702477] (bq769x2_i2c_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:132:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.702500] (bq769x2_i2c_ros) StderrLine: {'line': b'  132 |                     struct\x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[13.702523] (bq769x2_i2c_ros) StderrLine: {'line': b'      |                           \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[13.703779] (bq769x2_i2c_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:144:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.703867] (bq769x2_i2c_ros) StderrLine: {'line': b'  144 |                     struct\x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[13.703896] (bq769x2_i2c_ros) StderrLine: {'line': b'      |                           \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[13.703924] (bq769x2_i2c_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:157:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.703949] (bq769x2_i2c_ros) StderrLine: {'line': b'  157 |                     struct\x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[13.703971] (bq769x2_i2c_ros) StderrLine: {'line': b'      |                           \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[13.707802] (bq769x2_i2c_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:116:19:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.707969] (bq769x2_i2c_ros) StderrLine: {'line': b'  116 |             struct\x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[13.708314] (bq769x2_i2c_ros) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[13.708356] (bq769x2_i2c_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:185:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.708386] (bq769x2_i2c_ros) StderrLine: {'line': b'  185 |                 struct\x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[13.708417] (bq769x2_i2c_ros) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[13.708439] (bq769x2_i2c_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:198:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.708524] (bq769x2_i2c_ros) StderrLine: {'line': b'  198 |                 struct\x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[13.708554] (bq769x2_i2c_ros) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[13.708578] (bq769x2_i2c_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:211:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.708605] (bq769x2_i2c_ros) StderrLine: {'line': b'  211 |                 struct\x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[13.708628] (bq769x2_i2c_ros) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[13.708650] (bq769x2_i2c_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:224:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.708675] (bq769x2_i2c_ros) StderrLine: {'line': b'  224 |                 struct\x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[13.708696] (bq769x2_i2c_ros) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[13.708716] (bq769x2_i2c_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:237:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.708738] (bq769x2_i2c_ros) StderrLine: {'line': b'  237 |                 struct\x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[13.708758] (bq769x2_i2c_ros) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[13.708779] (bq769x2_i2c_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:256:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.708801] (bq769x2_i2c_ros) StderrLine: {'line': b'  256 |                 struct\x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[13.708822] (bq769x2_i2c_ros) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[13.708842] (bq769x2_i2c_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:269:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.708862] (bq769x2_i2c_ros) StderrLine: {'line': b'  269 |                 struct\x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[13.708883] (bq769x2_i2c_ros) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[13.708902] (bq769x2_i2c_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:289:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.708923] (bq769x2_i2c_ros) StderrLine: {'line': b'  289 |             struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[13.708944] (bq769x2_i2c_ros) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[13.708964] (bq769x2_i2c_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:319:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.708988] (bq769x2_i2c_ros) StderrLine: {'line': b'  319 |                 struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[13.709009] (bq769x2_i2c_ros) StderrLine: {'line': b'      |                        \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[13.709029] (bq769x2_i2c_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:332:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.709117] (bq769x2_i2c_ros) StderrLine: {'line': b'  332 |                 struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[13.709153] (bq769x2_i2c_ros) StderrLine: {'line': b'      |                        \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[13.730243] (-) TimerEvent: {}
+[13.833500] (-) TimerEvent: {}
+[13.936235] (-) TimerEvent: {}
+[14.039790] (-) TimerEvent: {}
+[14.154114] (-) TimerEvent: {}
+[14.268579] (-) TimerEvent: {}
+[14.373067] (-) TimerEvent: {}
+[14.476334] (-) TimerEvent: {}
+[14.584782] (-) TimerEvent: {}
+[14.694108] (-) TimerEvent: {}
+[14.802654] (-) TimerEvent: {}
+[14.910331] (-) TimerEvent: {}
+[15.014177] (-) TimerEvent: {}
+[15.114307] (bq769x2_i2c_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/src/bq769x2_node.cpp:12\x1b[m\x1b[K:\n'}
+[15.116887] (-) TimerEvent: {}
+[15.116975] (bq769x2_i2c_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:96:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[15.117039] (bq769x2_i2c_ros) StderrLine: {'line': b'   96 |             struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[15.117066] (bq769x2_i2c_ros) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[15.117089] (bq769x2_i2c_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:119:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[15.117112] (bq769x2_i2c_ros) StderrLine: {'line': b'  119 |                     struct\x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[15.117134] (bq769x2_i2c_ros) StderrLine: {'line': b'      |                           \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[15.117154] (bq769x2_i2c_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:132:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[15.117176] (bq769x2_i2c_ros) StderrLine: {'line': b'  132 |                     struct\x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[15.117196] (bq769x2_i2c_ros) StderrLine: {'line': b'      |                           \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[15.117216] (bq769x2_i2c_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:144:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[15.117237] (bq769x2_i2c_ros) StderrLine: {'line': b'  144 |                     struct\x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[15.117259] (bq769x2_i2c_ros) StderrLine: {'line': b'      |                           \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[15.117278] (bq769x2_i2c_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:157:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[15.117301] (bq769x2_i2c_ros) StderrLine: {'line': b'  157 |                     struct\x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[15.118541] (bq769x2_i2c_ros) StderrLine: {'line': b'      |                           \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[15.118582] (bq769x2_i2c_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:116:19:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[15.118609] (bq769x2_i2c_ros) StderrLine: {'line': b'  116 |             struct\x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[15.118632] (bq769x2_i2c_ros) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[15.118653] (bq769x2_i2c_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:185:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[15.118675] (bq769x2_i2c_ros) StderrLine: {'line': b'  185 |                 struct\x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[15.118696] (bq769x2_i2c_ros) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[15.118717] (bq769x2_i2c_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:198:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[15.118738] (bq769x2_i2c_ros) StderrLine: {'line': b'  198 |                 struct\x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[15.118758] (bq769x2_i2c_ros) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[15.118778] (bq769x2_i2c_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:211:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[15.118803] (bq769x2_i2c_ros) StderrLine: {'line': b'  211 |                 struct\x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[15.118823] (bq769x2_i2c_ros) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[15.118842] (bq769x2_i2c_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:224:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[15.118863] (bq769x2_i2c_ros) StderrLine: {'line': b'  224 |                 struct\x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[15.118885] (bq769x2_i2c_ros) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[15.118907] (bq769x2_i2c_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:237:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[15.118928] (bq769x2_i2c_ros) StderrLine: {'line': b'  237 |                 struct\x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[15.118947] (bq769x2_i2c_ros) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[15.118967] (bq769x2_i2c_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:256:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[15.118987] (bq769x2_i2c_ros) StderrLine: {'line': b'  256 |                 struct\x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[15.119007] (bq769x2_i2c_ros) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[15.119026] (bq769x2_i2c_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:269:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[15.119047] (bq769x2_i2c_ros) StderrLine: {'line': b'  269 |                 struct\x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[15.119066] (bq769x2_i2c_ros) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[15.119085] (bq769x2_i2c_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:289:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[15.119105] (bq769x2_i2c_ros) StderrLine: {'line': b'  289 |             struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[15.119125] (bq769x2_i2c_ros) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[15.119146] (bq769x2_i2c_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:319:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[15.119168] (bq769x2_i2c_ros) StderrLine: {'line': b'  319 |                 struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[15.119188] (bq769x2_i2c_ros) StderrLine: {'line': b'      |                        \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[15.119207] (bq769x2_i2c_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:332:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[15.120577] (bq769x2_i2c_ros) StderrLine: {'line': b'  332 |                 struct \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[15.120617] (bq769x2_i2c_ros) StderrLine: {'line': b'      |                        \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[15.242569] (-) TimerEvent: {}
+[15.345465] (-) TimerEvent: {}
+[15.446671] (-) TimerEvent: {}
+[15.552176] (-) TimerEvent: {}
+[15.662566] (-) TimerEvent: {}
+[15.767198] (-) TimerEvent: {}
+[15.881190] (-) TimerEvent: {}
+[15.984007] (-) TimerEvent: {}
+[16.085453] (-) TimerEvent: {}
+[16.189111] (-) TimerEvent: {}
+[16.294558] (-) TimerEvent: {}
+[16.403137] (-) TimerEvent: {}
+[16.507739] (-) TimerEvent: {}
+[16.616279] (-) TimerEvent: {}
+[16.718257] (-) TimerEvent: {}
+[16.825042] (-) TimerEvent: {}
+[16.933656] (-) TimerEvent: {}
+[17.040253] (-) TimerEvent: {}
+[17.150596] (-) TimerEvent: {}
+[17.257826] (-) TimerEvent: {}
+[17.358520] (-) TimerEvent: {}
+[17.461744] (-) TimerEvent: {}
+[17.570390] (-) TimerEvent: {}
+[17.681141] (-) TimerEvent: {}
+[17.785138] (-) TimerEvent: {}
+[17.892473] (-) TimerEvent: {}
+[18.001678] (-) TimerEvent: {}
+[18.104317] (-) TimerEvent: {}
+[18.208118] (-) TimerEvent: {}
+[18.316540] (-) TimerEvent: {}
+[18.422690] (-) TimerEvent: {}
+[18.526093] (-) TimerEvent: {}
+[18.640618] (-) TimerEvent: {}
+[18.743731] (-) TimerEvent: {}
+[18.848404] (-) TimerEvent: {}
+[18.952642] (-) TimerEvent: {}
+[19.056793] (-) TimerEvent: {}
+[19.166150] (-) TimerEvent: {}
+[19.269900] (-) TimerEvent: {}
+[19.373297] (-) TimerEvent: {}
+[19.486688] (-) TimerEvent: {}
+[19.587473] (-) TimerEvent: {}
+[19.700047] (-) TimerEvent: {}
+[19.808332] (-) TimerEvent: {}
+[19.924298] (-) TimerEvent: {}
+[20.033458] (-) TimerEvent: {}
+[20.152601] (-) TimerEvent: {}
+[20.255320] (-) TimerEvent: {}
+[20.355863] (-) TimerEvent: {}
+[20.457935] (-) TimerEvent: {}
+[20.562257] (-) TimerEvent: {}
+[20.663333] (-) TimerEvent: {}
+[20.765442] (-) TimerEvent: {}
+[20.872693] (-) TimerEvent: {}
+[20.974415] (-) TimerEvent: {}
+[21.078325] (-) TimerEvent: {}
+[21.116001] (bq769x2_i2c_ros) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable bq769x2_node\x1b[0m\n'}
+[21.181008] (-) TimerEvent: {}
+[21.283584] (-) TimerEvent: {}
+[21.389117] (-) TimerEvent: {}
+[21.492645] (-) TimerEvent: {}
+[21.595606] (-) TimerEvent: {}
+[21.698661] (-) TimerEvent: {}
+[21.803270] (-) TimerEvent: {}
+[21.903707] (-) TimerEvent: {}
+[22.008600] (-) TimerEvent: {}
+[22.112206] (-) TimerEvent: {}
+[22.213634] (-) TimerEvent: {}
+[22.315076] (-) TimerEvent: {}
+[22.376381] (bq769x2_i2c_ros) StdoutLine: {'line': b'[100%] Built target bq769x2_node\n'}
+[22.419095] (bq769x2_i2c_ros) CommandEnded: {'returncode': 0}
+[22.421085] (-) TimerEvent: {}
+[22.453262] (bq769x2_i2c_ros) JobProgress: {'identifier': 'bq769x2_i2c_ros', 'progress': 'install'}
+[22.465878] (bq769x2_i2c_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/vboxuser/ros2_ws/build/bq769x2_i2c_ros'], 'cwd': '/home/vboxuser/ros2_ws/build/bq769x2_i2c_ros', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'vboxuser'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/vboxuser'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.101.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'de_DE.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '2665'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '2834'), ('BUNDLED_DEBUGPY_PATH', '/home/vboxuser/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4103'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'vboxuser'), ('JOURNAL_STREAM', '8:20733'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vboxuser'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/home/vboxuser/.local/bin:/opt/ros/iron/bin:/home/vboxuser/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/vboxuser/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/ubuntu22:@/tmp/.ICE-unix/2797,unix/ubuntu22:/tmp/.ICE-unix/2797'), ('INVOCATION_ID', '007c68d76d3041978dde5aeb6324509f'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/vboxuser/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-64f1aa4e8256c262.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.SEQNA3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-3be5fd323a.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vboxuser/ros2_ws/build/bq769x2_i2c_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[22.480065] (bq769x2_i2c_ros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[22.493948] (bq769x2_i2c_ros) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros2_ws/install/bq769x2_i2c_ros/lib/bq769x2_i2c_ros/bq769x2_node\n'}
+[22.502032] (bq769x2_i2c_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/ros2_ws/install/bq769x2_i2c_ros/lib/bq769x2_i2c_ros/bq769x2_node" to ""\n'}
+[22.502126] (bq769x2_i2c_ros) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/ros2_ws/install/bq769x2_i2c_ros/share/ament_index/resource_index/package_run_dependencies/bq769x2_i2c_ros\n'}
+[22.502157] (bq769x2_i2c_ros) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros2_ws/install/bq769x2_i2c_ros/share/ament_index/resource_index/parent_prefix_path/bq769x2_i2c_ros\n'}
+[22.502183] (bq769x2_i2c_ros) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros2_ws/install/bq769x2_i2c_ros/share/bq769x2_i2c_ros/environment/ament_prefix_path.sh\n'}
+[22.502210] (bq769x2_i2c_ros) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/ros2_ws/install/bq769x2_i2c_ros/share/bq769x2_i2c_ros/environment/ament_prefix_path.dsv\n'}
+[22.502233] (bq769x2_i2c_ros) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros2_ws/install/bq769x2_i2c_ros/share/bq769x2_i2c_ros/environment/path.sh\n'}
+[22.502256] (bq769x2_i2c_ros) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/ros2_ws/install/bq769x2_i2c_ros/share/bq769x2_i2c_ros/environment/path.dsv\n'}
+[22.502279] (bq769x2_i2c_ros) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/ros2_ws/install/bq769x2_i2c_ros/share/bq769x2_i2c_ros/local_setup.bash\n'}
+[22.502303] (bq769x2_i2c_ros) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/ros2_ws/install/bq769x2_i2c_ros/share/bq769x2_i2c_ros/local_setup.sh\n'}
+[22.502324] (bq769x2_i2c_ros) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/ros2_ws/install/bq769x2_i2c_ros/share/bq769x2_i2c_ros/local_setup.zsh\n'}
+[22.502345] (bq769x2_i2c_ros) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/ros2_ws/install/bq769x2_i2c_ros/share/bq769x2_i2c_ros/local_setup.dsv\n'}
+[22.502367] (bq769x2_i2c_ros) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/ros2_ws/install/bq769x2_i2c_ros/share/bq769x2_i2c_ros/package.dsv\n'}
+[22.502388] (bq769x2_i2c_ros) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/ros2_ws/install/bq769x2_i2c_ros/share/ament_index/resource_index/packages/bq769x2_i2c_ros\n'}
+[22.502409] (bq769x2_i2c_ros) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/ros2_ws/install/bq769x2_i2c_ros/share/bq769x2_i2c_ros/cmake/bq769x2_i2c_rosConfig.cmake\n'}
+[22.502431] (bq769x2_i2c_ros) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/ros2_ws/install/bq769x2_i2c_ros/share/bq769x2_i2c_ros/cmake/bq769x2_i2c_rosConfig-version.cmake\n'}
+[22.506010] (bq769x2_i2c_ros) StdoutLine: {'line': b'-- Installing: /home/vboxuser/ros2_ws/install/bq769x2_i2c_ros/share/bq769x2_i2c_ros/package.xml\n'}
+[22.522511] (-) TimerEvent: {}
+[22.530565] (bq769x2_i2c_ros) CommandEnded: {'returncode': 0}
+[22.589197] (bq769x2_i2c_ros) JobEnded: {'identifier': 'bq769x2_i2c_ros', 'rc': 0}
+[22.602666] (-) EventReactorShutdown: {}

@@ -1,0 +1,198 @@
+[0.527s] Invoking command in '/home/vboxuser/ros2_ws/build/bq769x2_i2c_ros': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/bq769x2_i2c_ros -- -j16 -l16
+[1.345s] -- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+[2.463s] -- Found rclcpp: 21.0.8 (/opt/ros/iron/share/rclcpp/cmake)
+[2.991s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[3.040s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[3.146s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.256s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.790s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[3.821s] -- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[4.209s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.620s] -- Found sensor_msgs: 5.0.1 (/opt/ros/iron/share/sensor_msgs/cmake)
+[5.437s] -- Found ament_lint_auto: 0.14.4 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[5.630s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.630s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include>
+[5.630s] -- Configured cppcheck exclude dirs and/or files: 
+[5.630s] -- Added test 'lint_cmake' to check CMake code style
+[5.638s] -- Added test 'uncrustify' to check C / C++ code style
+[5.639s] -- Configured uncrustify additional arguments: 
+[5.639s] -- Added test 'xmllint' to check XML markup files
+[5.666s] -- Configuring done
+[5.853s] -- Generating done
+[5.885s] -- Build files have been written to: /home/vboxuser/ros2_ws/build/bq769x2_i2c_ros
+[5.989s] [35m[1mConsolidate compiler generated dependencies of target bq769x2_node[0m
+[6.040s] [ 20%] [32mBuilding CXX object CMakeFiles/bq769x2_node.dir/src/bq769x2_main.cpp.o[0m
+[6.043s] [ 40%] [32mBuilding CXX object CMakeFiles/bq769x2_node.dir/src/bq769x2_node.cpp.o[0m
+[6.057s] [ 60%] [32mBuilding C object CMakeFiles/bq769x2_node.dir/src/i2c.c.o[0m
+[6.057s] [ 80%] [32mBuilding CXX object CMakeFiles/bq769x2_node.dir/src/bq769x2.cpp.o[0m
+[13.618s] In file included from [01m[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2_node.hpp:11[m[K,
+[13.618s]                  from [01m[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/src/bq769x2_main.cpp:2[m[K:
+[13.618s] [01m[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:96:20:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[13.618s]    96 |             struct [01;35m[K{[m[K
+[13.618s]       |                    [01;35m[K^[m[K
+[13.618s] [01m[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:119:27:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[13.618s]   119 |                     struct[01;35m[K{[m[K
+[13.618s]       |                           [01;35m[K^[m[K
+[13.618s] [01m[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:132:27:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[13.618s]   132 |                     struct[01;35m[K{[m[K
+[13.618s]       |                           [01;35m[K^[m[K
+[13.620s] [01m[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:144:27:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[13.620s]   144 |                     struct[01;35m[K{[m[K
+[13.620s]       |                           [01;35m[K^[m[K
+[13.620s] [01m[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:157:27:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[13.620s]   157 |                     struct[01;35m[K{[m[K
+[13.620s]       |                           [01;35m[K^[m[K
+[13.620s] [01m[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:116:19:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[13.620s]   116 |             struct[01;35m[K{[m[K
+[13.621s]       |                   [01;35m[K^[m[K
+[13.621s] [01m[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:185:23:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[13.621s]   185 |                 struct[01;35m[K{[m[K
+[13.621s]       |                       [01;35m[K^[m[K
+[13.621s] [01m[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:198:23:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[13.621s]   198 |                 struct[01;35m[K{[m[K
+[13.621s]       |                       [01;35m[K^[m[K
+[13.621s] [01m[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:211:23:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[13.621s]   211 |                 struct[01;35m[K{[m[K
+[13.621s]       |                       [01;35m[K^[m[K
+[13.621s] [01m[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:224:23:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[13.621s]   224 |                 struct[01;35m[K{[m[K
+[13.621s]       |                       [01;35m[K^[m[K
+[13.621s] [01m[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:237:23:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[13.621s]   237 |                 struct[01;35m[K{[m[K
+[13.621s]       |                       [01;35m[K^[m[K
+[13.621s] [01m[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:256:23:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[13.621s]   256 |                 struct[01;35m[K{[m[K
+[13.621s]       |                       [01;35m[K^[m[K
+[13.621s] [01m[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:269:23:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[13.621s]   269 |                 struct[01;35m[K{[m[K
+[13.621s]       |                       [01;35m[K^[m[K
+[13.621s] [01m[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:289:20:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[13.621s]   289 |             struct [01;35m[K{[m[K
+[13.621s]       |                    [01;35m[K^[m[K
+[13.621s] [01m[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:319:24:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[13.621s]   319 |                 struct [01;35m[K{[m[K
+[13.621s]       |                        [01;35m[K^[m[K
+[13.621s] [01m[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:332:24:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[13.621s]   332 |                 struct [01;35m[K{[m[K
+[13.621s]       |                        [01;35m[K^[m[K
+[13.631s] In file included from [01m[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/src/bq769x2.cpp:3[m[K:
+[13.631s] [01m[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:96:20:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[13.631s]    96 |             struct [01;35m[K{[m[K
+[13.631s]       |                    [01;35m[K^[m[K
+[13.631s] [01m[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:119:27:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[13.631s]   119 |                     struct[01;35m[K{[m[K
+[13.631s]       |                           [01;35m[K^[m[K
+[13.631s] [01m[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:132:27:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[13.631s]   132 |                     struct[01;35m[K{[m[K
+[13.631s]       |                           [01;35m[K^[m[K
+[13.632s] [01m[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:144:27:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[13.632s]   144 |                     struct[01;35m[K{[m[K
+[13.632s]       |                           [01;35m[K^[m[K
+[13.632s] [01m[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:157:27:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[13.632s]   157 |                     struct[01;35m[K{[m[K
+[13.636s]       |                           [01;35m[K^[m[K
+[13.636s] [01m[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:116:19:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[13.637s]   116 |             struct[01;35m[K{[m[K
+[13.637s]       |                   [01;35m[K^[m[K
+[13.637s] [01m[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:185:23:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[13.637s]   185 |                 struct[01;35m[K{[m[K
+[13.637s]       |                       [01;35m[K^[m[K
+[13.637s] [01m[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:198:23:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[13.637s]   198 |                 struct[01;35m[K{[m[K
+[13.637s]       |                       [01;35m[K^[m[K
+[13.637s] [01m[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:211:23:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[13.637s]   211 |                 struct[01;35m[K{[m[K
+[13.637s]       |                       [01;35m[K^[m[K
+[13.637s] [01m[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:224:23:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[13.637s]   224 |                 struct[01;35m[K{[m[K
+[13.637s]       |                       [01;35m[K^[m[K
+[13.637s] [01m[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:237:23:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[13.637s]   237 |                 struct[01;35m[K{[m[K
+[13.637s]       |                       [01;35m[K^[m[K
+[13.637s] [01m[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:256:23:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[13.637s]   256 |                 struct[01;35m[K{[m[K
+[13.637s]       |                       [01;35m[K^[m[K
+[13.637s] [01m[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:269:23:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[13.637s]   269 |                 struct[01;35m[K{[m[K
+[13.637s]       |                       [01;35m[K^[m[K
+[13.637s] [01m[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:289:20:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[13.637s]   289 |             struct [01;35m[K{[m[K
+[13.637s]       |                    [01;35m[K^[m[K
+[13.637s] [01m[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:319:24:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[13.637s]   319 |                 struct [01;35m[K{[m[K
+[13.637s]       |                        [01;35m[K^[m[K
+[13.637s] [01m[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:332:24:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[13.638s]   332 |                 struct [01;35m[K{[m[K
+[13.638s]       |                        [01;35m[K^[m[K
+[15.045s] In file included from [01m[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/src/bq769x2_node.cpp:12[m[K:
+[15.045s] [01m[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:96:20:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[15.045s]    96 |             struct [01;35m[K{[m[K
+[15.046s]       |                    [01;35m[K^[m[K
+[15.046s] [01m[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:119:27:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[15.046s]   119 |                     struct[01;35m[K{[m[K
+[15.046s]       |                           [01;35m[K^[m[K
+[15.046s] [01m[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:132:27:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[15.046s]   132 |                     struct[01;35m[K{[m[K
+[15.046s]       |                           [01;35m[K^[m[K
+[15.046s] [01m[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:144:27:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[15.046s]   144 |                     struct[01;35m[K{[m[K
+[15.046s]       |                           [01;35m[K^[m[K
+[15.046s] [01m[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:157:27:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[15.047s]   157 |                     struct[01;35m[K{[m[K
+[15.047s]       |                           [01;35m[K^[m[K
+[15.047s] [01m[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:116:19:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[15.047s]   116 |             struct[01;35m[K{[m[K
+[15.047s]       |                   [01;35m[K^[m[K
+[15.047s] [01m[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:185:23:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[15.047s]   185 |                 struct[01;35m[K{[m[K
+[15.047s]       |                       [01;35m[K^[m[K
+[15.047s] [01m[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:198:23:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[15.047s]   198 |                 struct[01;35m[K{[m[K
+[15.047s]       |                       [01;35m[K^[m[K
+[15.047s] [01m[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:211:23:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[15.047s]   211 |                 struct[01;35m[K{[m[K
+[15.047s]       |                       [01;35m[K^[m[K
+[15.047s] [01m[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:224:23:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[15.047s]   224 |                 struct[01;35m[K{[m[K
+[15.047s]       |                       [01;35m[K^[m[K
+[15.047s] [01m[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:237:23:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[15.047s]   237 |                 struct[01;35m[K{[m[K
+[15.047s]       |                       [01;35m[K^[m[K
+[15.047s] [01m[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:256:23:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[15.047s]   256 |                 struct[01;35m[K{[m[K
+[15.047s]       |                       [01;35m[K^[m[K
+[15.047s] [01m[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:269:23:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[15.047s]   269 |                 struct[01;35m[K{[m[K
+[15.048s]       |                       [01;35m[K^[m[K
+[15.048s] [01m[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:289:20:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[15.048s]   289 |             struct [01;35m[K{[m[K
+[15.048s]       |                    [01;35m[K^[m[K
+[15.048s] [01m[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:319:24:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[15.048s]   319 |                 struct [01;35m[K{[m[K
+[15.048s]       |                        [01;35m[K^[m[K
+[15.049s] [01m[K/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros/include/bq769x2_i2c_ros/bq769x2.hpp:332:24:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[15.049s]   332 |                 struct [01;35m[K{[m[K
+[15.049s]       |                        [01;35m[K^[m[K
+[21.045s] [100%] [32m[1mLinking CXX executable bq769x2_node[0m
+[22.305s] [100%] Built target bq769x2_node
+[22.349s] Invoked command in '/home/vboxuser/ros2_ws/build/bq769x2_i2c_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/bq769x2_i2c_ros -- -j16 -l16
+[22.394s] Invoking command in '/home/vboxuser/ros2_ws/build/bq769x2_i2c_ros': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/vboxuser/ros2_ws/build/bq769x2_i2c_ros
+[22.411s] -- Install configuration: ""
+[22.422s] -- Installing: /home/vboxuser/ros2_ws/install/bq769x2_i2c_ros/lib/bq769x2_i2c_ros/bq769x2_node
+[22.431s] -- Set runtime path of "/home/vboxuser/ros2_ws/install/bq769x2_i2c_ros/lib/bq769x2_i2c_ros/bq769x2_node" to ""
+[22.431s] -- Up-to-date: /home/vboxuser/ros2_ws/install/bq769x2_i2c_ros/share/ament_index/resource_index/package_run_dependencies/bq769x2_i2c_ros
+[22.431s] -- Installing: /home/vboxuser/ros2_ws/install/bq769x2_i2c_ros/share/ament_index/resource_index/parent_prefix_path/bq769x2_i2c_ros
+[22.431s] -- Installing: /home/vboxuser/ros2_ws/install/bq769x2_i2c_ros/share/bq769x2_i2c_ros/environment/ament_prefix_path.sh
+[22.431s] -- Up-to-date: /home/vboxuser/ros2_ws/install/bq769x2_i2c_ros/share/bq769x2_i2c_ros/environment/ament_prefix_path.dsv
+[22.431s] -- Installing: /home/vboxuser/ros2_ws/install/bq769x2_i2c_ros/share/bq769x2_i2c_ros/environment/path.sh
+[22.431s] -- Up-to-date: /home/vboxuser/ros2_ws/install/bq769x2_i2c_ros/share/bq769x2_i2c_ros/environment/path.dsv
+[22.431s] -- Up-to-date: /home/vboxuser/ros2_ws/install/bq769x2_i2c_ros/share/bq769x2_i2c_ros/local_setup.bash
+[22.431s] -- Up-to-date: /home/vboxuser/ros2_ws/install/bq769x2_i2c_ros/share/bq769x2_i2c_ros/local_setup.sh
+[22.431s] -- Up-to-date: /home/vboxuser/ros2_ws/install/bq769x2_i2c_ros/share/bq769x2_i2c_ros/local_setup.zsh
+[22.431s] -- Up-to-date: /home/vboxuser/ros2_ws/install/bq769x2_i2c_ros/share/bq769x2_i2c_ros/local_setup.dsv
+[22.431s] -- Up-to-date: /home/vboxuser/ros2_ws/install/bq769x2_i2c_ros/share/bq769x2_i2c_ros/package.dsv
+[22.431s] -- Up-to-date: /home/vboxuser/ros2_ws/install/bq769x2_i2c_ros/share/ament_index/resource_index/packages/bq769x2_i2c_ros
+[22.431s] -- Up-to-date: /home/vboxuser/ros2_ws/install/bq769x2_i2c_ros/share/bq769x2_i2c_ros/cmake/bq769x2_i2c_rosConfig.cmake
+[22.434s] -- Up-to-date: /home/vboxuser/ros2_ws/install/bq769x2_i2c_ros/share/bq769x2_i2c_ros/cmake/bq769x2_i2c_rosConfig-version.cmake
+[22.434s] -- Installing: /home/vboxuser/ros2_ws/install/bq769x2_i2c_ros/share/bq769x2_i2c_ros/package.xml
+[22.459s] Invoked command in '/home/vboxuser/ros2_ws/build/bq769x2_i2c_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/vboxuser/ros2_ws/build/bq769x2_i2c_ros
