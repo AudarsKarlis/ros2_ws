@@ -45,7 +45,7 @@ class BatteryResistanceEstimator(Node):
 
         # === Plotting Setup ===
         self.app = pg.mkQApp("Real-time Battery Resistance")
-        self.win = pg.GraphicsLayoutWidget(show=True, title="Battery Internal Resistance Estimation")
+        self.win = pg.GraphicsLayoutWidget(title="Battery Internal Resistance Estimation")
         self.plot = self.win.addPlot(title="Internal Resistance per Cell [Ohm]")
         self.plot.setLabel('left', 'Resistance', units='Ohm')
         self.plot.setLabel('bottom', 'Time', units='s')
@@ -77,6 +77,7 @@ class BatteryResistanceEstimator(Node):
 
             self.plots.append(plot)
             self.curves.append(curve)
+        self.win.show()
 
         # Timer for plot updates
         self.timer = QtCore.QTimer()
