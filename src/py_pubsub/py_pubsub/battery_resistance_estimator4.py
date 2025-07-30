@@ -55,8 +55,14 @@ class BatteryResistanceEstimator(Node):
 
         self.colors = ['r', 'g', 'b', 'c', 'm', 'y']
         self.curves = [
-            self.plot.plot(pen=pg.mkPen(self.colors[i], width=2), name=f"Cell {i+1}")
-            for i in range(self.num_cells)
+            self.plot.plot(
+            pen=pg.mkPen(self.colors[i], width=2),
+            symbol='o',                            # 'o' = circle marker
+            symbolBrush=self.colors[i],            # fill color of marker
+            symbolPen='k',                         # border color of marker (e.g., black)
+            name=f"Cell {i+1}"
+        )
+        for i in range(self.num_cells)
         ]
 
         # Timer for plot updates

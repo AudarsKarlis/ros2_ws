@@ -55,8 +55,14 @@ class BatteryResistanceEstimator(Node):
 
         self.colors = ['r', 'g', 'b', 'c', 'm', 'y']
         self.curves = [
-            self.plot.plot(pen=pg.mkPen(self.colors[i], width=2), name=f"Cell {i+1}")
-            for i in range(self.num_cells)
+            self.plot.plot(
+            pen=pg.mkPen(self.colors[i], width=2),
+            symbol='o',                            # 'o' = circle marker
+            symbolBrush=self.colors[i],            # fill color of marker
+            symbolPen='k',                         # border color of marker (e.g., black)
+            name=f"Cell {i+1}"
+        )
+        for i in range(self.num_cells)
         ]
 
         # Timer for plot updates
@@ -108,7 +114,17 @@ class BatteryResistanceEstimator(Node):
             return
         for i in range(self.num_cells):
             if len(self.resistance_values[i]) > 0:
-                self.curves[i].setData(self.resistance_times, self.resistance_values[i])
+                times = np.array(self.resistance_times)
+                values = np.array(self.resistance_values[i])
+                valid = ~np.isnan(values)
+                self.curves[i].setData(
+                    times[valid],
+                    values[valid],
+                    symbol='o',
+                    symbolSize=8,
+                    symbolBrush=self.colors[i],
+                    pen=None
+                )
 
     def start_ros_spin(self):
         spin_thread = threading.Thread(target=rclpy.spin, args=(self,), daemon=True)
