@@ -1,0 +1,4 @@
+Invoking command in '/home/vboxuser/ros2_ws/build/my_package': /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/my_package -- -j4 -l4
+Invoked command in '/home/vboxuser/ros2_ws/build/my_package' returned '0': /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/my_package -- -j4 -l4
+Invoking command in '/home/vboxuser/ros2_ws/build/my_package': /usr/bin/cmake --install /home/vboxuser/ros2_ws/build/my_package
+Invoked command in '/home/vboxuser/ros2_ws/build/my_package' returned '0': /usr/bin/cmake --install /home/vboxuser/ros2_ws/build/my_package

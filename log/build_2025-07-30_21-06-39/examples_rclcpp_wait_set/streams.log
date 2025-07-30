@@ -1,0 +1,46 @@
+[0.275s] Invoking command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_wait_set': /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/examples_rclcpp_wait_set -- -j4 -l4
+[0.946s] [  8%] Built target talker
+[1.247s] [ 16%] Built target wait_set_listener
+[1.410s] [ 25%] Built target wait_set
+[1.570s] [ 33%] Built target static_wait_set
+[1.675s] [ 41%] Built target thread_safe_wait_set
+[1.753s] [ 50%] Built target wait_set_topics_and_timer
+[1.887s] [ 58%] Built target wait_set_random_order
+[2.128s] [ 66%] Built target executor_random_order
+[2.260s] [ 75%] Built target wait_set_topics_with_different_rates
+[2.583s] [ 83%] Built target listener
+[2.773s] [ 91%] Built target wait_set_talker
+[3.069s] [100%] Built target wait_set_composed
+[3.894s] Invoked command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_wait_set' returned '0': /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/examples_rclcpp_wait_set -- -j4 -l4
+[3.912s] Invoking command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_wait_set': /usr/bin/cmake --install /home/vboxuser/ros2_ws/build/examples_rclcpp_wait_set
+[3.984s] -- Install configuration: ""
+[3.987s] -- Execute custom install script
+[4.001s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_talker
+[4.012s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_listener
+[4.050s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_wait_set/lib/libtalker.so
+[4.050s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_wait_set/lib/liblistener.so
+[4.051s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set
+[4.051s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/static_wait_set
+[4.051s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/thread_safe_wait_set
+[4.051s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_and_timer
+[4.051s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_random_order
+[4.051s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/executor_random_order
+[4.052s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_with_different_rates
+[4.052s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_composed
+[4.052s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_wait_set
+[4.052s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_wait_set
+[4.052s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/ament_prefix_path.sh
+[4.052s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/ament_prefix_path.dsv
+[4.053s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/path.sh
+[4.053s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/path.dsv
+[4.053s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.bash
+[4.053s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.sh
+[4.053s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.zsh
+[4.053s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.dsv
+[4.054s] -- Symlinking: /home/vboxuser/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/package.dsv
+[4.094s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/packages/examples_rclcpp_wait_set
+[4.094s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/rclcpp_components/examples_rclcpp_wait_set
+[4.096s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/cmake/examples_rclcpp_wait_setConfig.cmake
+[4.097s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/cmake/examples_rclcpp_wait_setConfig-version.cmake
+[4.098s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/package.xml
+[4.110s] Invoked command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_wait_set' returned '0': /usr/bin/cmake --install /home/vboxuser/ros2_ws/build/examples_rclcpp_wait_set

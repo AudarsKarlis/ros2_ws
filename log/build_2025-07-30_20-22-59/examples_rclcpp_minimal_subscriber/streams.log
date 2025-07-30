@@ -1,0 +1,44 @@
+[0.146s] Invoking command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_subscriber': /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_subscriber -- -j4 -l4
+[0.376s] [  8%] Built target subscriber_lambda
+[0.542s] [ 16%] Built target subscriber_member_function_with_type_adapter
+[0.658s] [ 25%] Built target subscriber_member_function_with_unique_network_flow_endpoints
+[0.875s] [ 33%] Built target subscriber_not_composable
+[1.005s] [ 41%] Built target subscriber_content_filtering
+[1.149s] [ 58%] Built target wait_set_subscriber_library
+[1.245s] [ 66%] Built target wait_set_subscriber
+[1.387s] [ 75%] Built target static_wait_set_subscriber
+[1.494s] [ 83%] Built target time_triggered_wait_set_subscriber
+[1.609s] [ 91%] Built target subscriber_member_function_with_topic_statistics
+[1.699s] [100%] Built target subscriber_member_function
+[2.595s] Invoked command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_subscriber' returned '0': /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_subscriber -- -j4 -l4
+[2.603s] Invoking command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_subscriber': /usr/bin/cmake --install /home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_subscriber
+[2.633s] -- Install configuration: ""
+[2.648s] -- Execute custom install script
+[2.654s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/wait_set_subscriber
+[2.656s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/static_wait_set_subscriber
+[2.656s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/time_triggered_wait_set_subscriber
+[2.656s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/libwait_set_subscriber_library.so
+[2.656s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_lambda
+[2.656s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function
+[2.656s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_topic_statistics
+[2.656s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_type_adapter
+[2.656s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_unique_network_flow_endpoints
+[2.675s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_not_composable
+[2.675s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_content_filtering
+[2.675s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_subscriber
+[2.675s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_subscriber
+[2.675s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/ament_prefix_path.sh
+[2.675s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/ament_prefix_path.dsv
+[2.676s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/path.sh
+[2.676s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/path.dsv
+[2.676s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.bash
+[2.676s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.sh
+[2.676s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.zsh
+[2.676s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.dsv
+[2.676s] -- Symlinking: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/package.dsv
+[2.730s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/packages/examples_rclcpp_minimal_subscriber
+[2.730s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/rclcpp_components/examples_rclcpp_minimal_subscriber
+[2.730s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/cmake/examples_rclcpp_minimal_subscriberConfig.cmake
+[2.730s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/cmake/examples_rclcpp_minimal_subscriberConfig-version.cmake
+[2.730s] -- Up-to-date symlink: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/package.xml
+[2.749s] Invoked command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_subscriber' returned '0': /usr/bin/cmake --install /home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_subscriber
