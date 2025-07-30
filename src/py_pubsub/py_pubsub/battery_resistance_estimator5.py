@@ -28,7 +28,7 @@ class BatteryResistanceEstimator(Node):
         self.last_current = None
 
         # Resistance plotting data
-        self.resistance_times = []
+        self.resistance_times = [[] for _ in range(self.num_cells)]
         self.resistance_values = [[] for _ in range(self.num_cells)]
 
         # === CSV Logging Setup ===
@@ -54,16 +54,29 @@ class BatteryResistanceEstimator(Node):
         self.plot.enableAutoRange(x=True, y=True)
 
         self.colors = ['r', 'g', 'b', 'c', 'm', 'y']
-        self.curves = [
-            self.plot.plot(
-            pen=pg.mkPen(self.colors[i], width=2),
-            symbol='o',                            # 'o' = circle marker
-            symbolBrush=self.colors[i],            # fill color of marker
-            symbolPen='k',                         # border color of marker (e.g., black)
-            name=f"Cell {i+1}"
-        )
-        for i in range(self.num_cells)
-        ]
+        self.plots = []
+        self.curves = []
+
+        for i in range(self.num_cells):
+            if i > 0:
+                self.win.nextRow()  # stack vertically
+            plot = self.win.addPlot(title=f"Cell {i+1} Resistance [Ohm]")
+            plot.setLabel('left', 'Resistance', units='Ohm')
+            plot.setLabel('bottom', 'Time', units='s')
+            plot.showGrid(x=True, y=True)
+            plot.enableAutoRange(x=True, y=True)
+
+            curve = plot.plot(
+                pen=None,
+                symbol='o',
+                symbolSize=8,
+                symbolBrush=self.colors[i],
+                symbolPen='k',
+                name=f"Cell {i+1}"
+            )
+
+            self.plots.append(plot)
+            self.curves.append(curve)
 
         # Timer for plot updates
         self.timer = QtCore.QTimer()
@@ -95,8 +108,9 @@ class BatteryResistanceEstimator(Node):
                             self.resistance_values[i].append(resistance)
                             resistances[i] = resistance
                             resistance_added = True
-                if resistance_added:
-                    self.resistance_times.append(rel_time)
+                for i in range(self.num_cells):
+                    if not np.isnan(resistances[i]):
+                        self.resistance_times[i].append(rel_time)
 
                 res_str = ", ".join([f"R{i+1}: {resistances[i]:.4f} Ω" for i in range(self.num_cells)])
                 self.get_logger().info(f"t={rel_time:.2f}s: {res_str}")
@@ -114,12 +128,11 @@ class BatteryResistanceEstimator(Node):
             return
         for i in range(self.num_cells):
             if len(self.resistance_values[i]) > 0:
-                times = np.array(self.resistance_times)
+                times = np.array(self.resistance_times[i])
                 values = np.array(self.resistance_values[i])
-                valid = ~np.isnan(values)
                 self.curves[i].setData(
-                    times[valid],
-                    values[valid],
+                    times,
+                    values,
                     symbol='o',
                     symbolSize=8,
                     symbolBrush=self.colors[i],

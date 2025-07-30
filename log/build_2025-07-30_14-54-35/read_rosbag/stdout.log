@@ -1,0 +1,20 @@
+running egg_info
+writing ../../build/read_rosbag/read_rosbag.egg-info/PKG-INFO
+writing dependency_links to ../../build/read_rosbag/read_rosbag.egg-info/dependency_links.txt
+writing entry points to ../../build/read_rosbag/read_rosbag.egg-info/entry_points.txt
+writing requirements to ../../build/read_rosbag/read_rosbag.egg-info/requires.txt
+writing top-level names to ../../build/read_rosbag/read_rosbag.egg-info/top_level.txt
+reading manifest file '../../build/read_rosbag/read_rosbag.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/read_rosbag/read_rosbag.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/vboxuser/ros2_ws/install/read_rosbag/lib/python3.10/site-packages/read_rosbag-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/read_rosbag/read_rosbag.egg-info to /home/vboxuser/ros2_ws/install/read_rosbag/lib/python3.10/site-packages/read_rosbag-0.0.0-py3.10.egg-info
+running install_scripts
+Installing load_rosbag script to /home/vboxuser/ros2_ws/install/read_rosbag/lib/read_rosbag
+writing list of installed files to '/home/vboxuser/ros2_ws/build/read_rosbag/install.log'

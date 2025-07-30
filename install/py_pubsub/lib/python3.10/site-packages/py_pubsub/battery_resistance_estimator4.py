@@ -54,16 +54,29 @@ class BatteryResistanceEstimator(Node):
         self.plot.enableAutoRange(x=True, y=True)
 
         self.colors = ['r', 'g', 'b', 'c', 'm', 'y']
-        self.curves = [
-            self.plot.plot(
-            pen=pg.mkPen(self.colors[i], width=2),
-            symbol='o',                            # 'o' = circle marker
-            symbolBrush=self.colors[i],            # fill color of marker
-            symbolPen='k',                         # border color of marker (e.g., black)
-            name=f"Cell {i+1}"
-        )
-        for i in range(self.num_cells)
-        ]
+        self.plots = []
+        self.curves = []
+
+        for i in range(self.num_cells):
+            if i > 0:
+                self.win.nextRow()  # stack vertically
+            plot = self.win.addPlot(title=f"Cell {i+1} Resistance [Ohm]")
+            plot.setLabel('left', 'Resistance', units='Ohm')
+            plot.setLabel('bottom', 'Time', units='s')
+            plot.showGrid(x=True, y=True)
+            plot.enableAutoRange(x=True, y=True)
+
+            curve = plot.plot(
+                pen=None,
+                symbol='o',
+                symbolSize=8,
+                symbolBrush=self.colors[i],
+                symbolPen='k',
+                name=f"Cell {i+1}"
+            )
+
+            self.plots.append(plot)
+            self.curves.append(curve)
 
         # Timer for plot updates
         self.timer = QtCore.QTimer()
