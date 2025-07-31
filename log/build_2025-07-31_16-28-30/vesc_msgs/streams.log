@@ -1,0 +1,29 @@
+[0.226s] Invoking command in '/home/vboxuser/ros2_ws/build/vesc_msgs': /usr/bin/cmake /home/vboxuser/ros2_ws/src/vesc/vesc_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/vboxuser/ros2_ws/install/vesc_msgs
+[1.302s] -- Configuring incomplete, errors occurred!
+[1.303s] See also "/home/vboxuser/ros2_ws/build/vesc_msgs/CMakeFiles/CMakeOutput.log".
+[1.308s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[1.310s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[1.311s]   CMake.
+[1.312s] 
+[1.321s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[1.321s]   CMake that the project does not need compatibility with older versions.
+[1.322s] 
+[1.322s] [0m
+[1.322s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[1.323s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[1.323s]   asked CMake to find a package configuration file provided by "catkin", but
+[1.323s]   CMake did not find one.
+[1.323s] 
+[1.323s]   Could not find a package configuration file provided by "catkin" with any
+[1.324s]   of the following names:
+[1.324s] 
+[1.324s]     catkinConfig.cmake
+[1.325s]     catkin-config.cmake
+[1.325s] 
+[1.325s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[1.325s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[1.325s]   provides a separate development package or SDK, be sure it has been
+[1.325s]   installed.
+[1.326s] 
+[1.326s] [0m
+[1.332s] Invoked command in '/home/vboxuser/ros2_ws/build/vesc_msgs' returned '1': /usr/bin/cmake /home/vboxuser/ros2_ws/src/vesc/vesc_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/vboxuser/ros2_ws/install/vesc_msgs
