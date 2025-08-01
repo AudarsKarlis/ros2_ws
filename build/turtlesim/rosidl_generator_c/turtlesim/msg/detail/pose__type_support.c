@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "rosidl_typesupport_interface/macros.h"
-#include "turtlesim/msg/detail/pose__type_support.h"
-#include "turtlesim/msg/detail/pose__functions.h"
 #include "turtlesim/msg/detail/pose__struct.h"
+#include "turtlesim/msg/detail/pose__type_support.h"
+#include "rosidl_typesupport_interface/macros.h"
+#include "turtlesim/msg/detail/pose__functions.h"
 
 #ifdef __cplusplus
 extern "C"

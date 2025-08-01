@@ -6,8 +6,8 @@
 
 #include "rosidl_typesupport_interface/macros.h"
 #include "vesc_msgs/msg/detail/vesc_state__functions.h"
-#include "vesc_msgs/msg/detail/vesc_state__struct.h"
 #include "vesc_msgs/msg/detail/vesc_state__type_support.h"
+#include "vesc_msgs/msg/detail/vesc_state__struct.h"
 
 #ifdef __cplusplus
 extern "C"

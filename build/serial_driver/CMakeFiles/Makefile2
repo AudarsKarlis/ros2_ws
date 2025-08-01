@@ -236,9 +236,9 @@ CMakeFiles/serial_bridge.dir/clean:
 # Target rules for target CMakeFiles/test_serial_driver.dir
 
 # All Build rule for target.
+CMakeFiles/test_serial_driver.dir/all: CMakeFiles/serial_driver.dir/all
 CMakeFiles/test_serial_driver.dir/all: gtest/CMakeFiles/gtest.dir/all
 CMakeFiles/test_serial_driver.dir/all: gtest/CMakeFiles/gtest_main.dir/all
-CMakeFiles/test_serial_driver.dir/all: CMakeFiles/serial_driver.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_serial_driver.dir/build.make CMakeFiles/test_serial_driver.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_serial_driver.dir/build.make CMakeFiles/test_serial_driver.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/ros2_ws/build/serial_driver/CMakeFiles --progress-num=12,13 "Built target test_serial_driver"
@@ -264,9 +264,9 @@ CMakeFiles/test_serial_driver.dir/clean:
 # Target rules for target CMakeFiles/test_serial_port.dir
 
 # All Build rule for target.
+CMakeFiles/test_serial_port.dir/all: CMakeFiles/serial_driver.dir/all
 CMakeFiles/test_serial_port.dir/all: gtest/CMakeFiles/gtest.dir/all
 CMakeFiles/test_serial_port.dir/all: gtest/CMakeFiles/gtest_main.dir/all
-CMakeFiles/test_serial_port.dir/all: CMakeFiles/serial_driver.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_serial_port.dir/build.make CMakeFiles/test_serial_port.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_serial_port.dir/build.make CMakeFiles/test_serial_port.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/vboxuser/ros2_ws/build/serial_driver/CMakeFiles --progress-num=14,15 "Built target test_serial_port"

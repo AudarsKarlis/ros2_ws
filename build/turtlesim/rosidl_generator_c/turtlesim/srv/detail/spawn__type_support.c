@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "rosidl_typesupport_interface/macros.h"
-#include "turtlesim/srv/detail/spawn__functions.h"
 #include "turtlesim/srv/detail/spawn__struct.h"
 #include "turtlesim/srv/detail/spawn__type_support.h"
+#include "rosidl_typesupport_interface/macros.h"
+#include "turtlesim/srv/detail/spawn__functions.h"
 
 #ifdef __cplusplus
 extern "C"

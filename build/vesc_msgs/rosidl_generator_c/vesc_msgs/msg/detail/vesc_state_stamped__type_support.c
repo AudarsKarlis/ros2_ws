@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "vesc_msgs/msg/detail/vesc_state_stamped__struct.h"
-#include "vesc_msgs/msg/detail/vesc_state_stamped__type_support.h"
 #include "rosidl_typesupport_interface/macros.h"
+#include "vesc_msgs/msg/detail/vesc_state_stamped__type_support.h"
 #include "vesc_msgs/msg/detail/vesc_state_stamped__functions.h"
+#include "vesc_msgs/msg/detail/vesc_state_stamped__struct.h"
 
 #ifdef __cplusplus
 extern "C"

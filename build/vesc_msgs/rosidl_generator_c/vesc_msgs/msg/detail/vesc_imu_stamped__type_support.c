@@ -4,8 +4,8 @@
 
 #include <string.h>
 
-#include "vesc_msgs/msg/detail/vesc_imu_stamped__functions.h"
 #include "rosidl_typesupport_interface/macros.h"
+#include "vesc_msgs/msg/detail/vesc_imu_stamped__functions.h"
 #include "vesc_msgs/msg/detail/vesc_imu_stamped__type_support.h"
 #include "vesc_msgs/msg/detail/vesc_imu_stamped__struct.h"
 
