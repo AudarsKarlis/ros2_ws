@@ -1,0 +1,6 @@
+[35m[1mConsolidate compiler generated dependencies of target action_server_member_functions[0m
+[35m[1mConsolidate compiler generated dependencies of target action_server_not_composable[0m
+[ 50%] Built target action_server_member_functions
+[100%] Built target action_server_not_composable
+-- Install configuration: ""
+-- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/package.dsv

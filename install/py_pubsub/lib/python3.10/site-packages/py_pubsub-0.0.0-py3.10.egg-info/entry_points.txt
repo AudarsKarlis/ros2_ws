@@ -6,6 +6,7 @@ battery_resistance_estimator3 = py_pubsub.battery_resistance_estimator3:main
 battery_resistance_estimator4 = py_pubsub.battery_resistance_estimator4:main
 battery_resistance_estimator5 = py_pubsub.battery_resistance_estimator5:main
 battery_resistance_estimator6 = py_pubsub.battery_resistance_estimator6:main
+battery_resistance_estimator7 = py_pubsub.battery_resistance_estimator7:main
 battery_resistance_logger = py_pubsub.battery_resistance_logger:main
 listener = py_pubsub.subscriber_member_function:main
 listener_float = py_pubsub.subscriber_member_function_FLOAT:main
