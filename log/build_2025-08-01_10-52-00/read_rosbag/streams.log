@@ -1,0 +1,31 @@
+[7.820s] Invoking command in '/home/vboxuser/ros2_ws/src/read_rosbag': PYTHONPATH=/home/vboxuser/ros2_ws/build/read_rosbag/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/ros2_ws/install/read_rosbag/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/read_rosbag build --build-base /home/vboxuser/ros2_ws/build/read_rosbag/build install --record /home/vboxuser/ros2_ws/build/read_rosbag/install.log --single-version-externally-managed install_data
+[10.640s] running egg_info
+[10.655s] creating ../../build/read_rosbag/read_rosbag.egg-info
+[10.655s] writing ../../build/read_rosbag/read_rosbag.egg-info/PKG-INFO
+[10.658s] writing dependency_links to ../../build/read_rosbag/read_rosbag.egg-info/dependency_links.txt
+[10.658s] writing entry points to ../../build/read_rosbag/read_rosbag.egg-info/entry_points.txt
+[10.658s] writing requirements to ../../build/read_rosbag/read_rosbag.egg-info/requires.txt
+[10.658s] writing top-level names to ../../build/read_rosbag/read_rosbag.egg-info/top_level.txt
+[10.658s] writing manifest file '../../build/read_rosbag/read_rosbag.egg-info/SOURCES.txt'
+[10.730s] reading manifest file '../../build/read_rosbag/read_rosbag.egg-info/SOURCES.txt'
+[10.730s] adding license file 'LICENSE'
+[10.730s] writing manifest file '../../build/read_rosbag/read_rosbag.egg-info/SOURCES.txt'
+[10.730s] running build
+[10.731s] running build_py
+[10.731s] creating /home/vboxuser/ros2_ws/build/read_rosbag/build
+[10.731s] creating /home/vboxuser/ros2_ws/build/read_rosbag/build/lib
+[10.731s] creating /home/vboxuser/ros2_ws/build/read_rosbag/build/lib/read_rosbag
+[10.731s] copying read_rosbag/loading_anim.py -> /home/vboxuser/ros2_ws/build/read_rosbag/build/lib/read_rosbag
+[10.732s] copying read_rosbag/register_msgs_from_bag.py -> /home/vboxuser/ros2_ws/build/read_rosbag/build/lib/read_rosbag
+[10.732s] copying read_rosbag/__init__.py -> /home/vboxuser/ros2_ws/build/read_rosbag/build/lib/read_rosbag
+[10.732s] copying read_rosbag/load_rosbag.py -> /home/vboxuser/ros2_ws/build/read_rosbag/build/lib/read_rosbag
+[10.732s] running install
+[10.732s] running install_lib
+[10.733s] running install_data
+[10.735s] running install_egg_info
+[10.736s] removing '/home/vboxuser/ros2_ws/install/read_rosbag/lib/python3.10/site-packages/read_rosbag-0.0.0-py3.10.egg-info' (and everything under it)
+[10.736s] Copying ../../build/read_rosbag/read_rosbag.egg-info to /home/vboxuser/ros2_ws/install/read_rosbag/lib/python3.10/site-packages/read_rosbag-0.0.0-py3.10.egg-info
+[10.761s] running install_scripts
+[10.924s] Installing load_rosbag script to /home/vboxuser/ros2_ws/install/read_rosbag/lib/read_rosbag
+[10.924s] writing list of installed files to '/home/vboxuser/ros2_ws/build/read_rosbag/install.log'
+[11.012s] Invoked command in '/home/vboxuser/ros2_ws/src/read_rosbag' returned '0': PYTHONPATH=/home/vboxuser/ros2_ws/build/read_rosbag/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/ros2_ws/install/read_rosbag/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/read_rosbag build --build-base /home/vboxuser/ros2_ws/build/read_rosbag/build install --record /home/vboxuser/ros2_ws/build/read_rosbag/install.log --single-version-externally-managed install_data

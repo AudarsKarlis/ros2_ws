@@ -1,0 +1,202 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-470b40dc4231c7a29dd5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				},
+				{
+					"build" : "gtest",
+					"jsonFile" : "directory-gtest-fb6b6c7cad16276879b4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "/home/vboxuser/ros2_iron/install/gtest_vendor/src/gtest_vendor",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "udp_driver",
+					"targetIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "gtest",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "gtest::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest-cde4c7bc89ca7c08dfb0.json",
+					"name" : "gtest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gtest_main::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest_main-8d0449e6c340e60096d4.json",
+					"name" : "gtest_main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_udp_data::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_udp_data-a39dadf4222bbf87e21f.json",
+					"name" : "test_udp_data",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_udp_driver::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_udp_driver-2bc90236bcd9a76dafde.json",
+					"name" : "test_udp_driver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_udp_driver_nodes::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_udp_driver_nodes-391badae1b01f506c94d.json",
+					"name" : "test_udp_driver_nodes",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_udp_socket::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_udp_socket-cfaa5055740a836ca9e6.json",
+					"name" : "test_udp_socket",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "udp_bridge_node_exe::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-udp_bridge_node_exe-ff0d297af91f052c7c0e.json",
+					"name" : "udp_bridge_node_exe",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "udp_driver::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-udp_driver-c88c850b7acfa1736763.json",
+					"name" : "udp_driver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "udp_driver_nodes::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-udp_driver_nodes-359ae8d1ac9a9688520f.json",
+					"name" : "udp_driver_nodes",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "udp_driver_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-udp_driver_uninstall-7046c357833980310c83.json",
+					"name" : "udp_driver_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "udp_receiver_node_exe::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-udp_receiver_node_exe-a8dc039218dbc18bd336.json",
+					"name" : "udp_receiver_node_exe",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "udp_sender_node_exe::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-udp_sender_node_exe-daa9413959e22a006f2d.json",
+					"name" : "udp_sender_node_exe",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-b9f5a4f0031410713cdd.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/vboxuser/ros2_ws/build/udp_driver",
+		"source" : "/home/vboxuser/ros2_ws/src/transport_drivers/udp_driver"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,13 @@
+[ 11%] [32mBuilding CXX object CMakeFiles/io_context.dir/src/io_context.cpp.o[0m
+[ 22%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 33%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/io_context.dir/src/msg_converters/std_msgs.cpp.o[0m
+[ 55%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 66%] [32m[1mLinking CXX shared library libio_context.so[0m
+[ 66%] Built target gtest_main
+[ 66%] Built target io_context
+[ 77%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 77%] Built target gtest
+[ 88%] [32mBuilding CXX object CMakeFiles/test_io_context.dir/test/test_io_context.cpp.o[0m
+[100%] [32m[1mLinking CXX executable test_io_context[0m
+[100%] Built target test_io_context

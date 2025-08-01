@@ -1,9 +1,7 @@
 /home/vboxuser/ros2_ws/install/bq769x2_i2c_ros/lib/bq769x2_i2c_ros/bq769x2_node
 /home/vboxuser/ros2_ws/install/bq769x2_i2c_ros/share/ament_index/resource_index/package_run_dependencies/bq769x2_i2c_ros
 /home/vboxuser/ros2_ws/install/bq769x2_i2c_ros/share/ament_index/resource_index/parent_prefix_path/bq769x2_i2c_ros
-/home/vboxuser/ros2_ws/install/bq769x2_i2c_ros/share/bq769x2_i2c_ros/environment/ament_prefix_path.sh
 /home/vboxuser/ros2_ws/install/bq769x2_i2c_ros/share/bq769x2_i2c_ros/environment/ament_prefix_path.dsv
-/home/vboxuser/ros2_ws/install/bq769x2_i2c_ros/share/bq769x2_i2c_ros/environment/path.sh
 /home/vboxuser/ros2_ws/install/bq769x2_i2c_ros/share/bq769x2_i2c_ros/environment/path.dsv
 /home/vboxuser/ros2_ws/install/bq769x2_i2c_ros/share/bq769x2_i2c_ros/local_setup.bash
 /home/vboxuser/ros2_ws/install/bq769x2_i2c_ros/share/bq769x2_i2c_ros/local_setup.sh

@@ -55,6 +55,3 @@ endforeach()
 message(STATUS "Execute custom uninstall script")
 
 # begin of custom uninstall code
-
-# uninstall files installed using the symlink install functions
-include("/home/vboxuser/ros2_ws/build/examples_rclcpp_multithreaded_executor/ament_cmake_symlink_install/ament_cmake_symlink_install_uninstall_script.cmake")

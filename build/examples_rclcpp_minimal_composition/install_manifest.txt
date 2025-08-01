@@ -1,0 +1,1 @@
+/home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.dsv

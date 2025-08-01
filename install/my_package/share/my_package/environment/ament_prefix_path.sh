@@ -1,4 +1,1 @@
-# copied from
-# ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh
-
-ament_prepend_unique_value AMENT_PREFIX_PATH "$AMENT_CURRENT_PREFIX"
+/home/vboxuser/ros2_iron/src/ament/ament_cmake/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh
