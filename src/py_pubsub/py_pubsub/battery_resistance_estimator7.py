@@ -41,15 +41,21 @@ class BatteryResistanceEstimator(Node):
         header = ['Time (s)', 'Current (A)']
         header += [f'Voltage_Cell{i+1} (V)' for i in range(self.num_cells)]
         header += [f'Resistance_Cell{i+1} (Ohm)' for i in range(self.num_cells)]
+        header += [f'MovingAvg_Cell{i+1} (Ohm)' for i in range(self.num_cells)]
         self.csv_writer.writerow(header)
 
         # === Plotting Setup ===
         self.app = pg.mkQApp("Real-time Battery Resistance")
         self.win = pg.GraphicsLayoutWidget(show=True, title="Battery Internal Resistance Estimation")
+        self.moving_avg_window = 2  # Use last 2 resistance values
+        self.avg_markers = []       # One per cell
 
         self.colors = ['r', 'g', 'b', 'c', 'm', 'y']
         self.plots = []
         self.curves = []
+
+        self.upper_curves = []
+        self.lower_curves = []
 
         # Arrange 2 rows × 3 columns
         for i in range(self.num_cells):
@@ -70,8 +76,24 @@ class BatteryResistanceEstimator(Node):
                 name=f"Cell {i+1}"
             )
 
+            avg_marker = plot.plot(
+                pen=None,
+                symbol='s',  # square marker
+                symbolSize=12,
+                symbolBrush='w',
+                symbolPen=pg.mkPen('k', width=2),
+                name=f"Avg {i+1}"
+            )
+
+            # Create curves for confidence interval boundaries
+            upper = plot.plot(pen=pg.mkPen(self.colors[i], style=QtCore.Qt.DashLine, width=1))
+            lower = plot.plot(pen=pg.mkPen(self.colors[i], style=QtCore.Qt.DashLine, width=1))
+            self.upper_curves.append(upper)
+            self.lower_curves.append(lower)
+
             self.plots.append(plot)
             self.curves.append(curve)
+            self.avg_markers.append(avg_marker)
 
         self.win.show()
 
@@ -112,8 +134,17 @@ class BatteryResistanceEstimator(Node):
                 res_str = ", ".join([f"R{i+1}: {resistances[i]:.4f} Ω" for i in range(self.num_cells)])
                 self.get_logger().info(f"t={rel_time:.2f}s: {res_str}")
 
+        moving_averages = []
+        for i in range(self.num_cells):
+            recent = self.resistance_values[i][-self.moving_avg_window:]
+            if recent and not all(np.isnan(recent)):
+                avg = np.nanmean(recent)
+            else:
+                avg = float('nan')
+            moving_averages.append(avg)
+
         # Save data to CSV (including nan if resistance not computed)
-        row = [rel_time, current] + cell_voltages + resistances
+        row = [rel_time, current] + cell_voltages + resistances + moving_averages
         self.csv_writer.writerow(row)
 
         # Update memory
@@ -127,6 +158,10 @@ class BatteryResistanceEstimator(Node):
             if len(self.resistance_values[i]) > 0:
                 times = np.array(self.resistance_times[i])
                 values = np.array(self.resistance_values[i])
+                
+                if len(times) == 0 or len(values) == 0:
+                    continue
+
                 self.curves[i].setData(
                     times,
                     values,
@@ -135,6 +170,40 @@ class BatteryResistanceEstimator(Node):
                     symbolBrush=self.colors[i],
                     pen=None
                 )
+
+                # === Compute and plot moving average point ===
+                recent_values = values[-self.moving_avg_window:]
+                if len(recent_values) == 0 or np.all(np.isnan(recent_values)):
+                    continue
+                
+                avg_resistance = np.nanmean(recent_values)
+                avg_time = times[-1]  # Use latest time for marker position
+
+                self.avg_markers[i].setData(
+                    [avg_time],
+                    [avg_resistance]
+                )
+
+                # === Confidence interval calculation ===
+                delta_V = 0.004  # 4 mV uncertainty (recheck later again)
+                delta_I = 0.05   # 50 mA uncertainty (recheck later again)
+
+                upper = []
+                lower = []
+                for j, R in enumerate(values):
+                    if j == 0:
+                        upper.append(np.nan)
+                        lower.append(np.nan)
+                        continue
+                    ΔV = self.last_cell_voltages[i] - self.last_cell_voltages[i-1] if i > 0 else delta_V
+                    ΔI = self.last_current - self.last_current if self.last_current else delta_I
+                    ΔI = ΔI if abs(ΔI) > 1e-3 else delta_I  # avoid div by 0
+                    err = abs(R) * np.sqrt((delta_V / ΔV)**2 + (delta_I / ΔI)**2)
+                    upper.append(R + err)
+                    lower.append(R - err)
+
+                self.upper_curves[i].setData(times, upper)
+                self.lower_curves[i].setData(times, lower)
 
     def start_ros_spin(self):
         spin_thread = threading.Thread(target=rclpy.spin, args=(self,), daemon=True)
