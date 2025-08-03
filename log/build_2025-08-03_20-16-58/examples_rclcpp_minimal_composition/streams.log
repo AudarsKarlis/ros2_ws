@@ -1,0 +1,10 @@
+[0.179s] Invoking command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_composition': /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_composition -- -j4 -l4
+[0.674s] [ 33%] Built target composition_nodes
+[0.783s] [ 55%] Built target composition_publisher
+[0.912s] [ 77%] Built target composition_composed
+[0.994s] [100%] Built target composition_subscriber
+[1.023s] Invoked command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_composition' returned '0': /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_composition -- -j4 -l4
+[1.029s] Invoking command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_composition': /usr/bin/cmake --install /home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_composition
+[1.055s] -- Install configuration: ""
+[1.056s] -- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.dsv
+[1.079s] Invoked command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_composition' returned '0': /usr/bin/cmake --install /home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_composition

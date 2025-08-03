@@ -1,0 +1,4 @@
+Invoking command in '/home/vboxuser/ros2_ws/build/vesc_msgs': /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/vesc_msgs -- -j4 -l4
+Invoked command in '/home/vboxuser/ros2_ws/build/vesc_msgs' returned '0': /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/vesc_msgs -- -j4 -l4
+Invoking command in '/home/vboxuser/ros2_ws/build/vesc_msgs': /usr/bin/cmake --install /home/vboxuser/ros2_ws/build/vesc_msgs
+Invoked command in '/home/vboxuser/ros2_ws/build/vesc_msgs' returned '0': /usr/bin/cmake --install /home/vboxuser/ros2_ws/build/vesc_msgs
