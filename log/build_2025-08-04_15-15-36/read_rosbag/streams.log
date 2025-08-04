@@ -1,0 +1,30 @@
+[3.199s] Invoking command in '/home/vboxuser/ros2_ws/src/read_rosbag': PYTHONPATH=/home/vboxuser/ros2_ws/build/read_rosbag/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/ros2_ws/install/read_rosbag/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/read_rosbag build --build-base /home/vboxuser/ros2_ws/build/read_rosbag/build install --record /home/vboxuser/ros2_ws/build/read_rosbag/install.log --single-version-externally-managed install_data
+[3.631s] running egg_info
+[3.659s] writing ../../build/read_rosbag/read_rosbag.egg-info/PKG-INFO
+[3.659s] writing dependency_links to ../../build/read_rosbag/read_rosbag.egg-info/dependency_links.txt
+[3.677s] writing entry points to ../../build/read_rosbag/read_rosbag.egg-info/entry_points.txt
+[3.677s] writing requirements to ../../build/read_rosbag/read_rosbag.egg-info/requires.txt
+[3.677s] writing top-level names to ../../build/read_rosbag/read_rosbag.egg-info/top_level.txt
+[3.677s] reading manifest file '../../build/read_rosbag/read_rosbag.egg-info/SOURCES.txt'
+[3.680s] adding license file 'LICENSE'
+[3.680s] writing manifest file '../../build/read_rosbag/read_rosbag.egg-info/SOURCES.txt'
+[3.693s] running build
+[3.693s] running build_py
+[3.693s] running install
+[3.693s] running install_lib
+[3.693s] copying /home/vboxuser/ros2_ws/build/read_rosbag/build/lib/read_rosbag/__init__.py -> /home/vboxuser/ros2_ws/install/read_rosbag/lib/python3.10/site-packages/read_rosbag
+[3.693s] copying /home/vboxuser/ros2_ws/build/read_rosbag/build/lib/read_rosbag/register_msgs_from_bag.py -> /home/vboxuser/ros2_ws/install/read_rosbag/lib/python3.10/site-packages/read_rosbag
+[3.693s] copying /home/vboxuser/ros2_ws/build/read_rosbag/build/lib/read_rosbag/loading_anim.py -> /home/vboxuser/ros2_ws/install/read_rosbag/lib/python3.10/site-packages/read_rosbag
+[3.693s] copying /home/vboxuser/ros2_ws/build/read_rosbag/build/lib/read_rosbag/load_rosbag.py -> /home/vboxuser/ros2_ws/install/read_rosbag/lib/python3.10/site-packages/read_rosbag
+[3.693s] byte-compiling /home/vboxuser/ros2_ws/install/read_rosbag/lib/python3.10/site-packages/read_rosbag/__init__.py to __init__.cpython-310.pyc
+[3.693s] byte-compiling /home/vboxuser/ros2_ws/install/read_rosbag/lib/python3.10/site-packages/read_rosbag/register_msgs_from_bag.py to register_msgs_from_bag.cpython-310.pyc
+[3.693s] byte-compiling /home/vboxuser/ros2_ws/install/read_rosbag/lib/python3.10/site-packages/read_rosbag/loading_anim.py to loading_anim.cpython-310.pyc
+[3.713s] byte-compiling /home/vboxuser/ros2_ws/install/read_rosbag/lib/python3.10/site-packages/read_rosbag/load_rosbag.py to load_rosbag.cpython-310.pyc
+[3.726s] running install_data
+[3.726s] running install_egg_info
+[3.740s] removing '/home/vboxuser/ros2_ws/install/read_rosbag/lib/python3.10/site-packages/read_rosbag-0.0.0-py3.10.egg-info' (and everything under it)
+[3.743s] Copying ../../build/read_rosbag/read_rosbag.egg-info to /home/vboxuser/ros2_ws/install/read_rosbag/lib/python3.10/site-packages/read_rosbag-0.0.0-py3.10.egg-info
+[3.746s] running install_scripts
+[3.781s] Installing load_rosbag script to /home/vboxuser/ros2_ws/install/read_rosbag/lib/read_rosbag
+[3.787s] writing list of installed files to '/home/vboxuser/ros2_ws/build/read_rosbag/install.log'
+[4.030s] Invoked command in '/home/vboxuser/ros2_ws/src/read_rosbag' returned '0': PYTHONPATH=/home/vboxuser/ros2_ws/build/read_rosbag/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/ros2_ws/install/read_rosbag/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/read_rosbag build --build-base /home/vboxuser/ros2_ws/build/read_rosbag/build install --record /home/vboxuser/ros2_ws/build/read_rosbag/install.log --single-version-externally-managed install_data

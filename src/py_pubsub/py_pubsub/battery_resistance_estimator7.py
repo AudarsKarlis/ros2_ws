@@ -198,9 +198,9 @@ class BatteryResistanceEstimator(Node):
                     ΔV = self.last_cell_voltages[i] - self.last_cell_voltages[i-1] if i > 0 else delta_V
                     ΔI = self.last_current - self.last_current if self.last_current else delta_I
                     ΔI = ΔI if abs(ΔI) > 1e-3 else delta_I  # avoid div by 0
-                    err = abs(R) * np.sqrt((delta_V / ΔV)**2 + (delta_I / ΔI)**2)
-                    upper.append(R + err)
-                    lower.append(R - err)
+                    standard_deviation = abs(R) * np.sqrt((delta_V / ΔV)**2 + (delta_I / ΔI)**2)
+                    upper.append(R + standard_deviation)
+                    lower.append(R - standard_deviation)
 
                 self.upper_curves[i].setData(times, upper)
                 self.lower_curves[i].setData(times, lower)

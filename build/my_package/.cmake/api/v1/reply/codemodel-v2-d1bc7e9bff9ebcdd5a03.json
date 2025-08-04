@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-2ddb130237db49693d3f.json",
+					"jsonFile" : "directory-.-81d8a650bf9f3b6521a0.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.12"
@@ -30,7 +30,7 @@
 					[
 						0
 					],
-					"name" : "bq769x2_i2c_ros",
+					"name" : "my_package",
 					"targetIndexes" : 
 					[
 						0,
@@ -43,22 +43,22 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "bq769x2_i2c_ros_uninstall::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-bq769x2_i2c_ros_uninstall-76f1f240e897b313f67f.json",
-					"name" : "bq769x2_i2c_ros_uninstall",
+					"id" : "my_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_node-b071e93307196007661b.json",
+					"name" : "my_node",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "bq769x2_node::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-bq769x2_node-4b15ec2a3f9a3bec7c85.json",
-					"name" : "bq769x2_node",
+					"id" : "my_package_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_package_uninstall-1a8113c8e351230e8df3.json",
+					"name" : "my_package_uninstall",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "uninstall::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-uninstall-2f961d86e284adffd45a.json",
+					"jsonFile" : "target-uninstall-7031377d4b2aa338ff50.json",
 					"name" : "uninstall",
 					"projectIndex" : 0
 				}
@@ -68,8 +68,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/vboxuser/ros2_ws/build/bq769x2_i2c_ros",
-		"source" : "/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros"
+		"build" : "/home/vboxuser/ros2_ws/build/my_package",
+		"source" : "/home/vboxuser/ros2_ws/src/my_package"
 	},
 	"version" : 
 	{
