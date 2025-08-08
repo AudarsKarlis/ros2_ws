@@ -1,0 +1,18 @@
+[0.108s] Invoking command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_wait_set': /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/examples_rclcpp_wait_set -- -j4 -l4
+[0.699s] [  8%] Built target talker
+[0.935s] [ 16%] Built target wait_set_listener
+[1.239s] [ 25%] Built target wait_set
+[1.572s] [ 33%] Built target static_wait_set
+[1.795s] [ 41%] Built target thread_safe_wait_set
+[2.012s] [ 50%] Built target wait_set_topics_and_timer
+[2.222s] [ 58%] Built target wait_set_random_order
+[2.460s] [ 66%] Built target executor_random_order
+[2.747s] [ 75%] Built target wait_set_topics_with_different_rates
+[2.918s] [ 83%] Built target listener
+[3.108s] [ 91%] Built target wait_set_talker
+[3.258s] [100%] Built target wait_set_composed
+[4.097s] Invoked command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_wait_set' returned '0': /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/examples_rclcpp_wait_set -- -j4 -l4
+[4.146s] Invoking command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_wait_set': /usr/bin/cmake --install /home/vboxuser/ros2_ws/build/examples_rclcpp_wait_set
+[4.207s] -- Install configuration: ""
+[4.370s] -- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/package.dsv
+[4.550s] Invoked command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_wait_set' returned '0': /usr/bin/cmake --install /home/vboxuser/ros2_ws/build/examples_rclcpp_wait_set

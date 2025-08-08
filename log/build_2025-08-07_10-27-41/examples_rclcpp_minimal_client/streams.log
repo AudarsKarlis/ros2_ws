@@ -1,0 +1,7 @@
+[0.102s] Invoking command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_client': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_client -- -j4 -l4
+[0.475s] [100%] Built target client_main
+[0.705s] Invoked command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_client -- -j4 -l4
+[0.711s] Invoking command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_client': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_client
+[0.739s] -- Install configuration: ""
+[0.739s] -- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/package.dsv
+[0.866s] Invoked command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_client

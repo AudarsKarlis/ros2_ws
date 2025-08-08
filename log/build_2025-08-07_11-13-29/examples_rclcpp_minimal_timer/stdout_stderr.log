@@ -1,0 +1,4 @@
+[ 50%] Built target timer_member_function
+[100%] Built target timer_lambda
+-- Install configuration: ""
+-- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/package.dsv

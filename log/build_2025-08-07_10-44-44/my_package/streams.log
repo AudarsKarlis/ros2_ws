@@ -1,0 +1,22 @@
+[0.136s] Invoking command in '/home/vboxuser/ros2_ws/build/my_package': /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/my_package -- -j4 -l4
+[0.484s] [100%] Built target my_node
+[1.261s] Invoked command in '/home/vboxuser/ros2_ws/build/my_package' returned '0': /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/my_package -- -j4 -l4
+[1.282s] Invoking command in '/home/vboxuser/ros2_ws/build/my_package': /usr/bin/cmake --install /home/vboxuser/ros2_ws/build/my_package
+[1.382s] -- Install configuration: ""
+[1.382s] -- Up-to-date: /home/vboxuser/ros2_ws/install/my_package/lib/my_package/my_node
+[1.383s] -- Up-to-date: /home/vboxuser/ros2_ws/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+[1.383s] -- Up-to-date: /home/vboxuser/ros2_ws/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+[1.384s] -- Up-to-date: /home/vboxuser/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.sh
+[1.385s] -- Up-to-date: /home/vboxuser/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+[1.385s] -- Up-to-date: /home/vboxuser/ros2_ws/install/my_package/share/my_package/environment/path.sh
+[1.386s] -- Up-to-date: /home/vboxuser/ros2_ws/install/my_package/share/my_package/environment/path.dsv
+[1.386s] -- Up-to-date: /home/vboxuser/ros2_ws/install/my_package/share/my_package/local_setup.bash
+[1.386s] -- Up-to-date: /home/vboxuser/ros2_ws/install/my_package/share/my_package/local_setup.sh
+[1.386s] -- Up-to-date: /home/vboxuser/ros2_ws/install/my_package/share/my_package/local_setup.zsh
+[1.386s] -- Up-to-date: /home/vboxuser/ros2_ws/install/my_package/share/my_package/local_setup.dsv
+[1.386s] -- Installing: /home/vboxuser/ros2_ws/install/my_package/share/my_package/package.dsv
+[1.387s] -- Up-to-date: /home/vboxuser/ros2_ws/install/my_package/share/ament_index/resource_index/packages/my_package
+[1.387s] -- Up-to-date: /home/vboxuser/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+[1.387s] -- Up-to-date: /home/vboxuser/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+[1.388s] -- Up-to-date: /home/vboxuser/ros2_ws/install/my_package/share/my_package/package.xml
+[1.415s] Invoked command in '/home/vboxuser/ros2_ws/build/my_package' returned '0': /usr/bin/cmake --install /home/vboxuser/ros2_ws/build/my_package

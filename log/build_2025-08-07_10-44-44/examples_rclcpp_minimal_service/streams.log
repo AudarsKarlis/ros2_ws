@@ -1,0 +1,7 @@
+[0.110s] Invoking command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_service': /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_service -- -j4 -l4
+[0.848s] [100%] Built target service_main
+[0.913s] Invoked command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_service' returned '0': /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_service -- -j4 -l4
+[0.996s] Invoking command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_service': /usr/bin/cmake --install /home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_service
+[1.055s] -- Install configuration: ""
+[1.259s] -- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/package.dsv
+[1.398s] Invoked command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_service' returned '0': /usr/bin/cmake --install /home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_service

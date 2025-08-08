@@ -1,0 +1,23 @@
+[1.047s] Invoking command in '/home/vboxuser/ros2_ws/build/bq769x2_i2c_ros': /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/bq769x2_i2c_ros -- -j4 -l4
+[4.225s] [35m[1mConsolidate compiler generated dependencies of target bq769x2_node[0m
+[5.827s] [100%] Built target bq769x2_node
+[5.922s] Invoked command in '/home/vboxuser/ros2_ws/build/bq769x2_i2c_ros' returned '0': /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/bq769x2_i2c_ros -- -j4 -l4
+[5.935s] Invoking command in '/home/vboxuser/ros2_ws/build/bq769x2_i2c_ros': /usr/bin/cmake --install /home/vboxuser/ros2_ws/build/bq769x2_i2c_ros
+[5.958s] -- Install configuration: ""
+[5.984s] -- Up-to-date: /home/vboxuser/ros2_ws/install/bq769x2_i2c_ros/lib/bq769x2_i2c_ros/bq769x2_node
+[5.985s] -- Up-to-date: /home/vboxuser/ros2_ws/install/bq769x2_i2c_ros/share/ament_index/resource_index/package_run_dependencies/bq769x2_i2c_ros
+[5.985s] -- Up-to-date: /home/vboxuser/ros2_ws/install/bq769x2_i2c_ros/share/ament_index/resource_index/parent_prefix_path/bq769x2_i2c_ros
+[5.985s] -- Up-to-date: /home/vboxuser/ros2_ws/install/bq769x2_i2c_ros/share/bq769x2_i2c_ros/environment/ament_prefix_path.sh
+[5.985s] -- Up-to-date: /home/vboxuser/ros2_ws/install/bq769x2_i2c_ros/share/bq769x2_i2c_ros/environment/ament_prefix_path.dsv
+[5.985s] -- Up-to-date: /home/vboxuser/ros2_ws/install/bq769x2_i2c_ros/share/bq769x2_i2c_ros/environment/path.sh
+[5.985s] -- Up-to-date: /home/vboxuser/ros2_ws/install/bq769x2_i2c_ros/share/bq769x2_i2c_ros/environment/path.dsv
+[5.985s] -- Up-to-date: /home/vboxuser/ros2_ws/install/bq769x2_i2c_ros/share/bq769x2_i2c_ros/local_setup.bash
+[5.985s] -- Up-to-date: /home/vboxuser/ros2_ws/install/bq769x2_i2c_ros/share/bq769x2_i2c_ros/local_setup.sh
+[5.985s] -- Up-to-date: /home/vboxuser/ros2_ws/install/bq769x2_i2c_ros/share/bq769x2_i2c_ros/local_setup.zsh
+[5.986s] -- Up-to-date: /home/vboxuser/ros2_ws/install/bq769x2_i2c_ros/share/bq769x2_i2c_ros/local_setup.dsv
+[5.986s] -- Installing: /home/vboxuser/ros2_ws/install/bq769x2_i2c_ros/share/bq769x2_i2c_ros/package.dsv
+[6.018s] -- Up-to-date: /home/vboxuser/ros2_ws/install/bq769x2_i2c_ros/share/ament_index/resource_index/packages/bq769x2_i2c_ros
+[6.019s] -- Up-to-date: /home/vboxuser/ros2_ws/install/bq769x2_i2c_ros/share/bq769x2_i2c_ros/cmake/bq769x2_i2c_rosConfig.cmake
+[6.019s] -- Up-to-date: /home/vboxuser/ros2_ws/install/bq769x2_i2c_ros/share/bq769x2_i2c_ros/cmake/bq769x2_i2c_rosConfig-version.cmake
+[6.019s] -- Up-to-date: /home/vboxuser/ros2_ws/install/bq769x2_i2c_ros/share/bq769x2_i2c_ros/package.xml
+[6.052s] Invoked command in '/home/vboxuser/ros2_ws/build/bq769x2_i2c_ros' returned '0': /usr/bin/cmake --install /home/vboxuser/ros2_ws/build/bq769x2_i2c_ros

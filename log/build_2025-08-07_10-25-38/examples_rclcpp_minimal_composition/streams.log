@@ -1,0 +1,10 @@
+[0.101s] Invoking command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_composition -- -j4 -l4
+[0.754s] [ 33%] Built target composition_nodes
+[1.156s] [ 55%] Built target composition_subscriber
+[1.169s] [ 77%] Built target composition_composed
+[1.210s] [100%] Built target composition_publisher
+[1.280s] Invoked command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_composition' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_composition -- -j4 -l4
+[1.290s] Invoking command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_composition
+[1.330s] -- Install configuration: ""
+[1.393s] -- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.dsv
+[1.471s] Invoked command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_composition' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_composition

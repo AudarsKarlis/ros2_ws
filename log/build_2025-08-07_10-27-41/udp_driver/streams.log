@@ -1,0 +1,48 @@
+[0.280s] Invoking command in '/home/vboxuser/ros2_ws/build/udp_driver': AMENT_PREFIX_PATH=/home/vboxuser/ros2_ws/install/io_context:/home/vboxuser/ros2_ws/install/asio_cmake_module:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vboxuser/ros2_ws/install/io_context:/home/vboxuser/ros2_ws/install/asio_cmake_module:/opt/ros/iron LD_LIBRARY_PATH=/home/vboxuser/ros2_ws/install/io_context/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/udp_driver -- -j4 -l4
+[0.870s] [  8%] Built target udp_receiver_node_exe
+[0.916s] [ 20%] Built target udp_driver
+[1.220s] [ 29%] Built target gtest_main
+[1.249s] [ 37%] Built target gtest
+[1.299s] [ 45%] Built target udp_sender_node_exe
+[1.560s] [ 58%] Built target udp_driver_nodes
+[1.876s] [ 66%] Built target udp_bridge_node_exe
+[2.163s] [ 75%] Built target test_udp_driver
+[2.171s] [ 83%] Built target test_udp_data
+[2.436s] [ 91%] Built target test_udp_socket
+[2.455s] [100%] Built target test_udp_driver_nodes
+[2.503s] Invoked command in '/home/vboxuser/ros2_ws/build/udp_driver' returned '0': AMENT_PREFIX_PATH=/home/vboxuser/ros2_ws/install/io_context:/home/vboxuser/ros2_ws/install/asio_cmake_module:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vboxuser/ros2_ws/install/io_context:/home/vboxuser/ros2_ws/install/asio_cmake_module:/opt/ros/iron LD_LIBRARY_PATH=/home/vboxuser/ros2_ws/install/io_context/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/udp_driver -- -j4 -l4
+[2.528s] Invoking command in '/home/vboxuser/ros2_ws/build/udp_driver': AMENT_PREFIX_PATH=/home/vboxuser/ros2_ws/install/io_context:/home/vboxuser/ros2_ws/install/asio_cmake_module:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vboxuser/ros2_ws/install/io_context:/home/vboxuser/ros2_ws/install/asio_cmake_module:/opt/ros/iron LD_LIBRARY_PATH=/home/vboxuser/ros2_ws/install/io_context/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/vboxuser/ros2_ws/build/udp_driver
+[2.554s] -- Install configuration: ""
+[2.618s] -- Up-to-date: /home/vboxuser/ros2_ws/install/udp_driver/lib/udp_driver/udp_receiver_node_exe
+[2.669s] -- Up-to-date: /home/vboxuser/ros2_ws/install/udp_driver/lib/udp_driver/udp_sender_node_exe
+[2.673s] -- Up-to-date: /home/vboxuser/ros2_ws/install/udp_driver/include
+[2.674s] -- Up-to-date: /home/vboxuser/ros2_ws/install/udp_driver/include/udp_driver
+[2.674s] -- Up-to-date: /home/vboxuser/ros2_ws/install/udp_driver/include/udp_driver/udp_socket.hpp
+[2.674s] -- Up-to-date: /home/vboxuser/ros2_ws/install/udp_driver/include/udp_driver/udp_driver.hpp
+[2.674s] -- Up-to-date: /home/vboxuser/ros2_ws/install/udp_driver/include/udp_driver/udp_receiver_node.hpp
+[2.674s] -- Up-to-date: /home/vboxuser/ros2_ws/install/udp_driver/include/udp_driver/visibility_control.hpp
+[2.675s] -- Up-to-date: /home/vboxuser/ros2_ws/install/udp_driver/include/udp_driver/udp_sender_node.hpp
+[2.675s] -- Up-to-date: /home/vboxuser/ros2_ws/install/udp_driver/share/udp_driver/environment/library_path.sh
+[2.675s] -- Up-to-date: /home/vboxuser/ros2_ws/install/udp_driver/share/udp_driver/environment/library_path.dsv
+[2.762s] -- Up-to-date: /home/vboxuser/ros2_ws/install/udp_driver/lib/libudp_driver.so
+[2.848s] -- Up-to-date: /home/vboxuser/ros2_ws/install/udp_driver/lib/libudp_driver_nodes.so
+[2.919s] -- Up-to-date: /home/vboxuser/ros2_ws/install/udp_driver/lib/udp_driver/udp_bridge_node_exe
+[2.919s] -- Up-to-date: /home/vboxuser/ros2_ws/install/udp_driver/share/ament_index/resource_index/package_run_dependencies/udp_driver
+[2.919s] -- Up-to-date: /home/vboxuser/ros2_ws/install/udp_driver/share/ament_index/resource_index/parent_prefix_path/udp_driver
+[2.935s] -- Up-to-date: /home/vboxuser/ros2_ws/install/udp_driver/share/udp_driver/environment/ament_prefix_path.dsv
+[2.935s] -- Up-to-date: /home/vboxuser/ros2_ws/install/udp_driver/share/udp_driver/environment/path.dsv
+[2.935s] -- Up-to-date: /home/vboxuser/ros2_ws/install/udp_driver/share/udp_driver/local_setup.bash
+[2.935s] -- Up-to-date: /home/vboxuser/ros2_ws/install/udp_driver/share/udp_driver/local_setup.sh
+[2.935s] -- Up-to-date: /home/vboxuser/ros2_ws/install/udp_driver/share/udp_driver/local_setup.zsh
+[2.936s] -- Up-to-date: /home/vboxuser/ros2_ws/install/udp_driver/share/udp_driver/local_setup.dsv
+[2.936s] -- Installing: /home/vboxuser/ros2_ws/install/udp_driver/share/udp_driver/package.dsv
+[2.951s] -- Up-to-date: /home/vboxuser/ros2_ws/install/udp_driver/share/ament_index/resource_index/packages/udp_driver
+[2.952s] -- Up-to-date: /home/vboxuser/ros2_ws/install/udp_driver/share/ament_index/resource_index/rclcpp_components/udp_driver
+[2.953s] -- Up-to-date: /home/vboxuser/ros2_ws/install/udp_driver/share/udp_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.954s] -- Up-to-date: /home/vboxuser/ros2_ws/install/udp_driver/share/udp_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.954s] -- Up-to-date: /home/vboxuser/ros2_ws/install/udp_driver/share/udp_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[2.954s] -- Up-to-date: /home/vboxuser/ros2_ws/install/udp_driver/share/udp_driver/cmake/udp_driver-extras.cmake
+[2.957s] -- Up-to-date: /home/vboxuser/ros2_ws/install/udp_driver/share/udp_driver/cmake/udp_driverConfig.cmake
+[2.957s] -- Up-to-date: /home/vboxuser/ros2_ws/install/udp_driver/share/udp_driver/cmake/udp_driverConfig-version.cmake
+[2.957s] -- Up-to-date: /home/vboxuser/ros2_ws/install/udp_driver/share/udp_driver/package.xml
+[2.968s] Invoked command in '/home/vboxuser/ros2_ws/build/udp_driver' returned '0': AMENT_PREFIX_PATH=/home/vboxuser/ros2_ws/install/io_context:/home/vboxuser/ros2_ws/install/asio_cmake_module:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vboxuser/ros2_ws/install/io_context:/home/vboxuser/ros2_ws/install/asio_cmake_module:/opt/ros/iron LD_LIBRARY_PATH=/home/vboxuser/ros2_ws/install/io_context/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/vboxuser/ros2_ws/build/udp_driver

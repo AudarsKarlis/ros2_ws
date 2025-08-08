@@ -1,0 +1,5 @@
+[0.138s] Invoking command in '/home/vboxuser/ros2_ws/build/io_context': AMENT_PREFIX_PATH=/home/vboxuser/ros2_ws/install/asio_cmake_module CMAKE_PREFIX_PATH=/home/vboxuser/ros2_ws/install/asio_cmake_module /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/io_context -- -j4 -l4
+[2.070s] [ 33%] Built target io_context
+[2.203s] [ 55%] Built target gtest
+[2.347s] [ 77%] Built target gtest_main
+[2.488s] [100%] Built target test_io_context

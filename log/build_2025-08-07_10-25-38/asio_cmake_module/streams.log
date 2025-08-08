@@ -1,0 +1,22 @@
+[0.135s] Invoking command in '/home/vboxuser/ros2_ws/build/asio_cmake_module': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/asio_cmake_module -- -j4 -l4
+[1.269s] Invoked command in '/home/vboxuser/ros2_ws/build/asio_cmake_module' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/asio_cmake_module -- -j4 -l4
+[1.360s] Invoking command in '/home/vboxuser/ros2_ws/build/asio_cmake_module': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/vboxuser/ros2_ws/build/asio_cmake_module
+[1.392s] -- Install configuration: ""
+[1.393s] -- Up-to-date: /home/vboxuser/ros2_ws/install/asio_cmake_module/share/ament_index/resource_index/package_run_dependencies/asio_cmake_module
+[1.395s] -- Up-to-date: /home/vboxuser/ros2_ws/install/asio_cmake_module/share/ament_index/resource_index/parent_prefix_path/asio_cmake_module
+[1.400s] -- Up-to-date: /home/vboxuser/ros2_ws/install/asio_cmake_module/share/asio_cmake_module/environment/ament_prefix_path.dsv
+[1.400s] -- Up-to-date: /home/vboxuser/ros2_ws/install/asio_cmake_module/share/asio_cmake_module/environment/path.dsv
+[1.400s] -- Up-to-date: /home/vboxuser/ros2_ws/install/asio_cmake_module/share/asio_cmake_module/local_setup.bash
+[1.400s] -- Up-to-date: /home/vboxuser/ros2_ws/install/asio_cmake_module/share/asio_cmake_module/local_setup.sh
+[1.400s] -- Up-to-date: /home/vboxuser/ros2_ws/install/asio_cmake_module/share/asio_cmake_module/local_setup.zsh
+[1.400s] -- Up-to-date: /home/vboxuser/ros2_ws/install/asio_cmake_module/share/asio_cmake_module/local_setup.dsv
+[1.400s] -- Installing: /home/vboxuser/ros2_ws/install/asio_cmake_module/share/asio_cmake_module/package.dsv
+[1.400s] -- Up-to-date: /home/vboxuser/ros2_ws/install/asio_cmake_module/share/ament_index/resource_index/packages/asio_cmake_module
+[1.401s] -- Up-to-date: /home/vboxuser/ros2_ws/install/asio_cmake_module/share/asio_cmake_module/cmake/asio_cmake_module-extras.cmake
+[1.401s] -- Up-to-date: /home/vboxuser/ros2_ws/install/asio_cmake_module/share/asio_cmake_module/cmake/asio_cmake_moduleConfig.cmake
+[1.401s] -- Up-to-date: /home/vboxuser/ros2_ws/install/asio_cmake_module/share/asio_cmake_module/cmake/asio_cmake_moduleConfig-version.cmake
+[1.401s] -- Up-to-date: /home/vboxuser/ros2_ws/install/asio_cmake_module/share/asio_cmake_module/package.xml
+[1.401s] -- Up-to-date: /home/vboxuser/ros2_ws/install/asio_cmake_module/share/asio_cmake_module/cmake
+[1.401s] -- Up-to-date: /home/vboxuser/ros2_ws/install/asio_cmake_module/share/asio_cmake_module/cmake/Modules
+[1.401s] -- Up-to-date: /home/vboxuser/ros2_ws/install/asio_cmake_module/share/asio_cmake_module/cmake/Modules/FindASIO.cmake
+[1.429s] Invoked command in '/home/vboxuser/ros2_ws/build/asio_cmake_module' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/vboxuser/ros2_ws/build/asio_cmake_module

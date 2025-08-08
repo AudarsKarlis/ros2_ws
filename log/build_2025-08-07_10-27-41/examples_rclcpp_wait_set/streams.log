@@ -1,0 +1,18 @@
+[0.052s] Invoking command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/examples_rclcpp_wait_set -- -j4 -l4
+[0.367s] [  8%] Built target listener
+[0.373s] [ 16%] Built target wait_set_listener
+[0.382s] [ 25%] Built target talker
+[0.406s] [ 33%] Built target wait_set_talker
+[0.521s] [ 41%] Built target static_wait_set
+[0.549s] [ 50%] Built target wait_set
+[0.577s] [ 58%] Built target thread_safe_wait_set
+[0.590s] [ 66%] Built target wait_set_topics_and_timer
+[0.722s] [ 75%] Built target wait_set_random_order
+[0.751s] [ 83%] Built target wait_set_composed
+[0.751s] [ 91%] Built target wait_set_topics_with_different_rates
+[0.764s] [100%] Built target executor_random_order
+[1.322s] Invoked command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/examples_rclcpp_wait_set -- -j4 -l4
+[1.393s] Invoking command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/vboxuser/ros2_ws/build/examples_rclcpp_wait_set
+[1.500s] -- Install configuration: ""
+[1.717s] -- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/package.dsv
+[2.532s] Invoked command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/vboxuser/ros2_ws/build/examples_rclcpp_wait_set

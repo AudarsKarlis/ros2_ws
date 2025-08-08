@@ -1,0 +1,17 @@
+[0.118s] Invoking command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_subscriber': /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_subscriber -- -j4 -l4
+[0.734s] [  8%] Built target subscriber_lambda
+[1.107s] [ 16%] Built target subscriber_member_function_with_type_adapter
+[1.442s] [ 25%] Built target subscriber_member_function_with_unique_network_flow_endpoints
+[1.656s] [ 33%] Built target subscriber_not_composable
+[2.004s] [ 41%] Built target subscriber_content_filtering
+[2.317s] [ 58%] Built target wait_set_subscriber_library
+[2.548s] [ 66%] Built target wait_set_subscriber
+[3.259s] [ 75%] Built target static_wait_set_subscriber
+[3.533s] [ 83%] Built target time_triggered_wait_set_subscriber
+[3.738s] [ 91%] Built target subscriber_member_function_with_topic_statistics
+[4.048s] [100%] Built target subscriber_member_function
+[4.183s] Invoked command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_subscriber' returned '0': /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_subscriber -- -j4 -l4
+[4.217s] Invoking command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_subscriber': /usr/bin/cmake --install /home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_subscriber
+[4.299s] -- Install configuration: ""
+[4.540s] -- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/package.dsv
+[4.634s] Invoked command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_subscriber' returned '0': /usr/bin/cmake --install /home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_subscriber

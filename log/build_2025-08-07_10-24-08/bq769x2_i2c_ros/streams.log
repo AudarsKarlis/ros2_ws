@@ -1,0 +1,22 @@
+[0.833s] Invoking command in '/home/vboxuser/ros2_ws/build/bq769x2_i2c_ros': /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/bq769x2_i2c_ros -- -j4 -l4
+[0.923s] -- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.534s] Traceback (most recent call last):
+[1.534s]   File "/opt/ros/iron/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[1.534s]     from ament_package.templates import get_environment_hook_template_path
+[1.534s] ModuleNotFoundError: No module named 'ament_package'
+[1.570s] [31mCMake Error at /opt/ros/iron/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[1.570s]   execute_process(/usr/bin/python3.10
+[1.570s]   /opt/ros/iron/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[1.570s]   /home/vboxuser/ros2_ws/build/bq769x2_i2c_ros/ament_cmake_package_templates/templates.cmake)
+[1.570s]   returned error code 1
+[1.573s] Call Stack (most recent call first):
+[1.573s]   /opt/ros/iron/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[1.573s]   /opt/ros/iron/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[1.573s]   /opt/ros/iron/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[1.573s]   CMakeLists.txt:9 (find_package)
+[1.573s] 
+[1.573s] [0m
+[1.580s] -- Configuring incomplete, errors occurred!
+[1.580s] See also "/home/vboxuser/ros2_ws/build/bq769x2_i2c_ros/CMakeFiles/CMakeOutput.log".
+[1.580s] gmake: *** [Makefile:348: cmake_check_build_system] Error 1
+[1.588s] Invoked command in '/home/vboxuser/ros2_ws/build/bq769x2_i2c_ros' returned '2': /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/bq769x2_i2c_ros -- -j4 -l4

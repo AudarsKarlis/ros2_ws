@@ -1,0 +1,10 @@
+[0.159s] Invoking command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_action_client': /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_action_client -- -j4 -l4
+[1.727s] [ 25%] Built target action_client_member_functions
+[2.044s] [ 50%] Built target action_client_not_composable_with_feedback
+[2.405s] [ 75%] Built target action_client_not_composable_with_cancel
+[2.746s] [100%] Built target action_client_not_composable
+[2.826s] Invoked command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_action_client' returned '0': /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_action_client -- -j4 -l4
+[2.878s] Invoking command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_action_client': /usr/bin/cmake --install /home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_action_client
+[2.913s] -- Install configuration: ""
+[3.041s] -- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/package.dsv
+[3.106s] Invoked command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_action_client' returned '0': /usr/bin/cmake --install /home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_action_client

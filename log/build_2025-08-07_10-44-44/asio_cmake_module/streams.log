@@ -1,0 +1,22 @@
+[0.394s] Invoking command in '/home/vboxuser/ros2_ws/build/asio_cmake_module': /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/asio_cmake_module -- -j4 -l4
+[5.486s] Invoked command in '/home/vboxuser/ros2_ws/build/asio_cmake_module' returned '0': /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/asio_cmake_module -- -j4 -l4
+[5.588s] Invoking command in '/home/vboxuser/ros2_ws/build/asio_cmake_module': /usr/bin/cmake --install /home/vboxuser/ros2_ws/build/asio_cmake_module
+[5.680s] -- Install configuration: ""
+[5.719s] -- Up-to-date: /home/vboxuser/ros2_ws/install/asio_cmake_module/share/ament_index/resource_index/package_run_dependencies/asio_cmake_module
+[5.719s] -- Up-to-date: /home/vboxuser/ros2_ws/install/asio_cmake_module/share/ament_index/resource_index/parent_prefix_path/asio_cmake_module
+[5.763s] -- Up-to-date: /home/vboxuser/ros2_ws/install/asio_cmake_module/share/asio_cmake_module/environment/ament_prefix_path.dsv
+[5.778s] -- Up-to-date: /home/vboxuser/ros2_ws/install/asio_cmake_module/share/asio_cmake_module/environment/path.dsv
+[5.778s] -- Up-to-date: /home/vboxuser/ros2_ws/install/asio_cmake_module/share/asio_cmake_module/local_setup.bash
+[5.778s] -- Up-to-date: /home/vboxuser/ros2_ws/install/asio_cmake_module/share/asio_cmake_module/local_setup.sh
+[5.779s] -- Up-to-date: /home/vboxuser/ros2_ws/install/asio_cmake_module/share/asio_cmake_module/local_setup.zsh
+[5.779s] -- Up-to-date: /home/vboxuser/ros2_ws/install/asio_cmake_module/share/asio_cmake_module/local_setup.dsv
+[5.779s] -- Installing: /home/vboxuser/ros2_ws/install/asio_cmake_module/share/asio_cmake_module/package.dsv
+[5.808s] -- Up-to-date: /home/vboxuser/ros2_ws/install/asio_cmake_module/share/ament_index/resource_index/packages/asio_cmake_module
+[5.810s] -- Up-to-date: /home/vboxuser/ros2_ws/install/asio_cmake_module/share/asio_cmake_module/cmake/asio_cmake_module-extras.cmake
+[5.810s] -- Up-to-date: /home/vboxuser/ros2_ws/install/asio_cmake_module/share/asio_cmake_module/cmake/asio_cmake_moduleConfig.cmake
+[5.810s] -- Up-to-date: /home/vboxuser/ros2_ws/install/asio_cmake_module/share/asio_cmake_module/cmake/asio_cmake_moduleConfig-version.cmake
+[5.810s] -- Up-to-date: /home/vboxuser/ros2_ws/install/asio_cmake_module/share/asio_cmake_module/package.xml
+[5.810s] -- Up-to-date: /home/vboxuser/ros2_ws/install/asio_cmake_module/share/asio_cmake_module/cmake
+[5.813s] -- Up-to-date: /home/vboxuser/ros2_ws/install/asio_cmake_module/share/asio_cmake_module/cmake/Modules
+[5.813s] -- Up-to-date: /home/vboxuser/ros2_ws/install/asio_cmake_module/share/asio_cmake_module/cmake/Modules/FindASIO.cmake
+[6.262s] Invoked command in '/home/vboxuser/ros2_ws/build/asio_cmake_module' returned '0': /usr/bin/cmake --install /home/vboxuser/ros2_ws/build/asio_cmake_module

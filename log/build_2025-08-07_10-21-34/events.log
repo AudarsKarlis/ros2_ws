@@ -1,0 +1,369 @@
+[0.000000] (-) TimerEvent: {}
+[0.000405] (asio_cmake_module) JobQueued: {'identifier': 'asio_cmake_module', 'dependencies': OrderedDict()}
+[0.000539] (bms_visualizer) JobQueued: {'identifier': 'bms_visualizer', 'dependencies': OrderedDict()}
+[0.000769] (bq769x2_i2c_ros) JobQueued: {'identifier': 'bq769x2_i2c_ros', 'dependencies': OrderedDict()}
+[0.000821] (examples_rclcpp_async_client) JobQueued: {'identifier': 'examples_rclcpp_async_client', 'dependencies': OrderedDict()}
+[0.000845] (examples_rclcpp_cbg_executor) JobQueued: {'identifier': 'examples_rclcpp_cbg_executor', 'dependencies': OrderedDict()}
+[0.000867] (examples_rclcpp_minimal_action_client) JobQueued: {'identifier': 'examples_rclcpp_minimal_action_client', 'dependencies': OrderedDict()}
+[0.000888] (examples_rclcpp_minimal_action_server) JobQueued: {'identifier': 'examples_rclcpp_minimal_action_server', 'dependencies': OrderedDict()}
+[0.000908] (examples_rclcpp_minimal_client) JobQueued: {'identifier': 'examples_rclcpp_minimal_client', 'dependencies': OrderedDict()}
+[0.000928] (examples_rclcpp_minimal_composition) JobQueued: {'identifier': 'examples_rclcpp_minimal_composition', 'dependencies': OrderedDict()}
+[0.000949] (examples_rclcpp_minimal_publisher) JobQueued: {'identifier': 'examples_rclcpp_minimal_publisher', 'dependencies': OrderedDict()}
+[0.000969] (examples_rclcpp_minimal_service) JobQueued: {'identifier': 'examples_rclcpp_minimal_service', 'dependencies': OrderedDict()}
+[0.000988] (examples_rclcpp_minimal_subscriber) JobQueued: {'identifier': 'examples_rclcpp_minimal_subscriber', 'dependencies': OrderedDict()}
+[0.001083] (examples_rclcpp_minimal_timer) JobQueued: {'identifier': 'examples_rclcpp_minimal_timer', 'dependencies': OrderedDict()}
+[0.001125] (examples_rclcpp_multithreaded_executor) JobQueued: {'identifier': 'examples_rclcpp_multithreaded_executor', 'dependencies': OrderedDict()}
+[0.001152] (examples_rclcpp_wait_set) JobQueued: {'identifier': 'examples_rclcpp_wait_set', 'dependencies': OrderedDict()}
+[0.001175] (examples_rclpy_executors) JobQueued: {'identifier': 'examples_rclpy_executors', 'dependencies': OrderedDict()}
+[0.001195] (examples_rclpy_guard_conditions) JobQueued: {'identifier': 'examples_rclpy_guard_conditions', 'dependencies': OrderedDict()}
+[0.001216] (examples_rclpy_minimal_action_client) JobQueued: {'identifier': 'examples_rclpy_minimal_action_client', 'dependencies': OrderedDict()}
+[0.001236] (examples_rclpy_minimal_action_server) JobQueued: {'identifier': 'examples_rclpy_minimal_action_server', 'dependencies': OrderedDict()}
+[0.001270] (examples_rclpy_minimal_client) JobQueued: {'identifier': 'examples_rclpy_minimal_client', 'dependencies': OrderedDict()}
+[0.001291] (examples_rclpy_minimal_publisher) JobQueued: {'identifier': 'examples_rclpy_minimal_publisher', 'dependencies': OrderedDict()}
+[0.001311] (examples_rclpy_minimal_service) JobQueued: {'identifier': 'examples_rclpy_minimal_service', 'dependencies': OrderedDict()}
+[0.001330] (examples_rclpy_minimal_subscriber) JobQueued: {'identifier': 'examples_rclpy_minimal_subscriber', 'dependencies': OrderedDict()}
+[0.001349] (examples_rclpy_pointcloud_publisher) JobQueued: {'identifier': 'examples_rclpy_pointcloud_publisher', 'dependencies': OrderedDict()}
+[0.001369] (launch_testing_examples) JobQueued: {'identifier': 'launch_testing_examples', 'dependencies': OrderedDict()}
+[0.001388] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.001408] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict()}
+[0.001428] (read_rosbag) JobQueued: {'identifier': 'read_rosbag', 'dependencies': OrderedDict()}
+[0.001762] (turtlesim) JobQueued: {'identifier': 'turtlesim', 'dependencies': OrderedDict()}
+[0.001809] (vesc_msgs) JobQueued: {'identifier': 'vesc_msgs', 'dependencies': OrderedDict()}
+[0.001832] (io_context) JobQueued: {'identifier': 'io_context', 'dependencies': OrderedDict([('asio_cmake_module', '/home/vboxuser/ros2_ws/install/asio_cmake_module')])}
+[0.001860] (vesc_ackermann) JobQueued: {'identifier': 'vesc_ackermann', 'dependencies': OrderedDict([('vesc_msgs', '/home/vboxuser/ros2_ws/install/vesc_msgs')])}
+[0.001899] (serial_driver) JobQueued: {'identifier': 'serial_driver', 'dependencies': OrderedDict([('asio_cmake_module', '/home/vboxuser/ros2_ws/install/asio_cmake_module'), ('io_context', '/home/vboxuser/ros2_ws/install/io_context')])}
+[0.002254] (udp_driver) JobQueued: {'identifier': 'udp_driver', 'dependencies': OrderedDict([('asio_cmake_module', '/home/vboxuser/ros2_ws/install/asio_cmake_module'), ('io_context', '/home/vboxuser/ros2_ws/install/io_context')])}
+[0.002307] (vesc_driver) JobQueued: {'identifier': 'vesc_driver', 'dependencies': OrderedDict([('asio_cmake_module', '/home/vboxuser/ros2_ws/install/asio_cmake_module'), ('vesc_msgs', '/home/vboxuser/ros2_ws/install/vesc_msgs'), ('io_context', '/home/vboxuser/ros2_ws/install/io_context'), ('serial_driver', '/home/vboxuser/ros2_ws/install/serial_driver')])}
+[0.002343] (vesc) JobQueued: {'identifier': 'vesc', 'dependencies': OrderedDict([('asio_cmake_module', '/home/vboxuser/ros2_ws/install/asio_cmake_module'), ('vesc_msgs', '/home/vboxuser/ros2_ws/install/vesc_msgs'), ('io_context', '/home/vboxuser/ros2_ws/install/io_context'), ('vesc_ackermann', '/home/vboxuser/ros2_ws/install/vesc_ackermann'), ('serial_driver', '/home/vboxuser/ros2_ws/install/serial_driver'), ('vesc_driver', '/home/vboxuser/ros2_ws/install/vesc_driver')])}
+[0.002375] (asio_cmake_module) JobStarted: {'identifier': 'asio_cmake_module'}
+[0.096535] (-) TimerEvent: {}
+[0.197574] (-) TimerEvent: {}
+[0.298250] (-) TimerEvent: {}
+[0.400182] (-) TimerEvent: {}
+[0.481915] (vesc_msgs) JobStarted: {'identifier': 'vesc_msgs'}
+[0.502521] (-) TimerEvent: {}
+[0.525936] (bms_visualizer) JobStarted: {'identifier': 'bms_visualizer'}
+[0.607390] (-) TimerEvent: {}
+[0.641016] (bq769x2_i2c_ros) JobStarted: {'identifier': 'bq769x2_i2c_ros'}
+[0.700689] (asio_cmake_module) JobProgress: {'identifier': 'asio_cmake_module', 'progress': 'cmake'}
+[0.717214] (-) TimerEvent: {}
+[0.763909] (asio_cmake_module) JobProgress: {'identifier': 'asio_cmake_module', 'progress': 'build'}
+[0.766589] (asio_cmake_module) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vboxuser/ros2_ws/build/asio_cmake_module', '--', '-j4', '-l4'], 'cwd': '/home/vboxuser/ros2_ws/build/asio_cmake_module', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'vboxuser'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('HOME', '/home/vboxuser'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.102.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'de_DE.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1616'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1781'), ('BUNDLED_DEBUGPY_PATH', '/home/vboxuser/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2414'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/vboxuser/ros2_iron/install'), ('LOGNAME', 'vboxuser'), ('JOURNAL_STREAM', '8:13421'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vboxuser'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/home/vboxuser/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/vboxuser/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/ubuntu22:@/tmp/.ICE-unix/1758,unix/ubuntu22:/tmp/.ICE-unix/1758'), ('INVOCATION_ID', 'dbe4db17df4c42aa8372572aff387add'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/vboxuser/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-64f1aa4e8256c262.txt'), ('VSCODE_INJECTION', '1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.POQSA3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-cc91a6643e.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('VSCODE_STABLE', '1'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('VSCODE_NONCE', 'f1b838b7-70b2-46a1-835e-69d9e0b6edbd'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vboxuser/ros2_ws/build/asio_cmake_module'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1')]), 'shell': False}
+[0.817709] (-) TimerEvent: {}
+[0.931439] (-) TimerEvent: {}
+[0.934237] (vesc_msgs) JobProgress: {'identifier': 'vesc_msgs', 'progress': 'cmake'}
+[1.032791] (-) TimerEvent: {}
+[1.056588] (vesc_msgs) JobProgress: {'identifier': 'vesc_msgs', 'progress': 'build'}
+[1.057983] (vesc_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vboxuser/ros2_ws/build/vesc_msgs', '--', '-j4', '-l4'], 'cwd': '/home/vboxuser/ros2_ws/build/vesc_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'vboxuser'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('HOME', '/home/vboxuser'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.102.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'de_DE.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1616'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1781'), ('BUNDLED_DEBUGPY_PATH', '/home/vboxuser/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2414'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/vboxuser/ros2_iron/install'), ('LOGNAME', 'vboxuser'), ('JOURNAL_STREAM', '8:13421'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vboxuser'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/home/vboxuser/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/vboxuser/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/ubuntu22:@/tmp/.ICE-unix/1758,unix/ubuntu22:/tmp/.ICE-unix/1758'), ('INVOCATION_ID', 'dbe4db17df4c42aa8372572aff387add'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/vboxuser/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-64f1aa4e8256c262.txt'), ('VSCODE_INJECTION', '1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.POQSA3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-cc91a6643e.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('VSCODE_STABLE', '1'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('VSCODE_NONCE', 'f1b838b7-70b2-46a1-835e-69d9e0b6edbd'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vboxuser/ros2_ws/build/vesc_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1')]), 'shell': False}
+[1.133454] (-) TimerEvent: {}
+[1.238458] (-) TimerEvent: {}
+[1.340188] (-) TimerEvent: {}
+[1.441729] (-) TimerEvent: {}
+[1.542618] (-) TimerEvent: {}
+[1.646236] (-) TimerEvent: {}
+[1.752893] (-) TimerEvent: {}
+[1.851851] (bq769x2_i2c_ros) JobProgress: {'identifier': 'bq769x2_i2c_ros', 'progress': 'cmake'}
+[1.856347] (-) TimerEvent: {}
+[1.905672] (bq769x2_i2c_ros) JobProgress: {'identifier': 'bq769x2_i2c_ros', 'progress': 'build'}
+[1.905784] (bq769x2_i2c_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vboxuser/ros2_ws/build/bq769x2_i2c_ros', '--', '-j4', '-l4'], 'cwd': '/home/vboxuser/ros2_ws/build/bq769x2_i2c_ros', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'vboxuser'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('HOME', '/home/vboxuser'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.102.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'de_DE.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1616'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1781'), ('BUNDLED_DEBUGPY_PATH', '/home/vboxuser/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2414'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/vboxuser/ros2_iron/install'), ('LOGNAME', 'vboxuser'), ('JOURNAL_STREAM', '8:13421'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vboxuser'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/home/vboxuser/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/vboxuser/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/ubuntu22:@/tmp/.ICE-unix/1758,unix/ubuntu22:/tmp/.ICE-unix/1758'), ('INVOCATION_ID', 'dbe4db17df4c42aa8372572aff387add'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/vboxuser/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-64f1aa4e8256c262.txt'), ('VSCODE_INJECTION', '1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.POQSA3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-cc91a6643e.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('VSCODE_STABLE', '1'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('VSCODE_NONCE', 'f1b838b7-70b2-46a1-835e-69d9e0b6edbd'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vboxuser/ros2_ws/build/bq769x2_i2c_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1')]), 'shell': False}
+[1.957314] (-) TimerEvent: {}
+[2.064705] (-) TimerEvent: {}
+[2.171284] (-) TimerEvent: {}
+[2.275125] (-) TimerEvent: {}
+[2.376466] (-) TimerEvent: {}
+[2.482558] (-) TimerEvent: {}
+[2.584553] (-) TimerEvent: {}
+[2.687035] (-) TimerEvent: {}
+[2.788113] (-) TimerEvent: {}
+[2.888964] (-) TimerEvent: {}
+[2.992280] (-) TimerEvent: {}
+[3.094431] (-) TimerEvent: {}
+[3.196615] (-) TimerEvent: {}
+[3.298577] (-) TimerEvent: {}
+[3.399613] (-) TimerEvent: {}
+[3.503117] (-) TimerEvent: {}
+[3.604981] (-) TimerEvent: {}
+[3.707395] (-) TimerEvent: {}
+[3.810099] (-) TimerEvent: {}
+[3.915423] (-) TimerEvent: {}
+[4.016199] (-) TimerEvent: {}
+[4.117189] (-) TimerEvent: {}
+[4.223061] (-) TimerEvent: {}
+[4.328652] (-) TimerEvent: {}
+[4.431172] (-) TimerEvent: {}
+[4.537217] (-) TimerEvent: {}
+[4.639010] (-) TimerEvent: {}
+[4.741887] (-) TimerEvent: {}
+[4.843051] (-) TimerEvent: {}
+[4.944296] (-) TimerEvent: {}
+[5.046546] (-) TimerEvent: {}
+[5.149323] (-) TimerEvent: {}
+[5.250809] (-) TimerEvent: {}
+[5.336849] (bq769x2_i2c_ros) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[5.351004] (-) TimerEvent: {}
+[5.455451] (-) TimerEvent: {}
+[5.557707] (-) TimerEvent: {}
+[5.662599] (-) TimerEvent: {}
+[5.764119] (-) TimerEvent: {}
+[5.865444] (-) TimerEvent: {}
+[5.965866] (-) TimerEvent: {}
+[6.067456] (-) TimerEvent: {}
+[6.168078] (-) TimerEvent: {}
+[6.273795] (-) TimerEvent: {}
+[6.374282] (-) TimerEvent: {}
+[6.476493] (-) TimerEvent: {}
+[6.578222] (-) TimerEvent: {}
+[6.683742] (-) TimerEvent: {}
+[6.786818] (-) TimerEvent: {}
+[6.887639] (-) TimerEvent: {}
+[6.989499] (-) TimerEvent: {}
+[7.091064] (-) TimerEvent: {}
+[7.191889] (-) TimerEvent: {}
+[7.293313] (-) TimerEvent: {}
+[7.395046] (-) TimerEvent: {}
+[7.497468] (-) TimerEvent: {}
+[7.599455] (-) TimerEvent: {}
+[7.700481] (-) TimerEvent: {}
+[7.803287] (-) TimerEvent: {}
+[7.903931] (-) TimerEvent: {}
+[7.950772] (bq769x2_i2c_ros) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[7.951504] (bq769x2_i2c_ros) StderrLine: {'line': b'  File "/opt/ros/iron/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>\n'}
+[7.951639] (bq769x2_i2c_ros) StderrLine: {'line': b'    from ament_package.templates import get_environment_hook_template_path\n'}
+[7.952449] (bq769x2_i2c_ros) StderrLine: {'line': b"ModuleNotFoundError: No module named 'ament_package'\n"}
+[7.978439] (bq769x2_i2c_ros) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[7.978636] (bq769x2_i2c_ros) StdoutLine: {'line': b'See also "/home/vboxuser/ros2_ws/build/bq769x2_i2c_ros/CMakeFiles/CMakeOutput.log".\n'}
+[7.981501] (bq769x2_i2c_ros) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/iron/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):\n'}
+[7.981769] (bq769x2_i2c_ros) StderrLine: {'line': b'  execute_process(/usr/bin/python3.10\n'}
+[7.981857] (bq769x2_i2c_ros) StderrLine: {'line': b'  /opt/ros/iron/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py\n'}
+[7.981933] (bq769x2_i2c_ros) StderrLine: {'line': b'  /home/vboxuser/ros2_ws/build/bq769x2_i2c_ros/ament_cmake_package_templates/templates.cmake)\n'}
+[7.982006] (bq769x2_i2c_ros) StderrLine: {'line': b'  returned error code 1\n'}
+[7.982077] (bq769x2_i2c_ros) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[7.982161] (bq769x2_i2c_ros) StderrLine: {'line': b'  /opt/ros/iron/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[7.982235] (bq769x2_i2c_ros) StderrLine: {'line': b'  /opt/ros/iron/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[7.982313] (bq769x2_i2c_ros) StderrLine: {'line': b'  /opt/ros/iron/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[7.982665] (bq769x2_i2c_ros) StderrLine: {'line': b'  CMakeLists.txt:9 (find_package)\n'}
+[7.983442] (bq769x2_i2c_ros) StderrLine: {'line': b'\n'}
+[7.983560] (bq769x2_i2c_ros) StderrLine: {'line': b'\x1b[0m\n'}
+[8.009183] (-) TimerEvent: {}
+[8.110123] (-) TimerEvent: {}
+[8.117635] (bq769x2_i2c_ros) StderrLine: {'line': b'gmake: *** [Makefile:348: cmake_check_build_system] Error 1\n'}
+[8.125515] (bq769x2_i2c_ros) CommandEnded: {'returncode': 2}
+[8.210628] (-) TimerEvent: {}
+[8.313084] (-) TimerEvent: {}
+[8.424536] (-) TimerEvent: {}
+[8.526424] (-) TimerEvent: {}
+[8.632142] (-) TimerEvent: {}
+[8.734348] (-) TimerEvent: {}
+[8.835457] (-) TimerEvent: {}
+[8.941296] (-) TimerEvent: {}
+[8.979213] (bq769x2_i2c_ros) JobEnded: {'identifier': 'bq769x2_i2c_ros', 'rc': 2}
+[8.985297] (bms_visualizer) JobEnded: {'identifier': 'bms_visualizer', 'rc': 'SIGINT'}
+[9.044388] (-) TimerEvent: {}
+[9.148398] (-) TimerEvent: {}
+[9.254205] (-) TimerEvent: {}
+[9.359151] (-) TimerEvent: {}
+[9.460764] (-) TimerEvent: {}
+[9.561545] (-) TimerEvent: {}
+[9.662594] (-) TimerEvent: {}
+[9.764766] (-) TimerEvent: {}
+[9.866602] (-) TimerEvent: {}
+[9.967205] (-) TimerEvent: {}
+[10.070297] (-) TimerEvent: {}
+[10.171589] (-) TimerEvent: {}
+[10.274200] (-) TimerEvent: {}
+[10.376198] (-) TimerEvent: {}
+[10.477800] (-) TimerEvent: {}
+[10.579888] (-) TimerEvent: {}
+[10.666005] (asio_cmake_module) JobEnded: {'identifier': 'asio_cmake_module', 'rc': 'SIGINT'}
+[10.683141] (-) TimerEvent: {}
+[10.785682] (-) TimerEvent: {}
+[10.888571] (-) TimerEvent: {}
+[10.992878] (-) TimerEvent: {}
+[11.101169] (-) TimerEvent: {}
+[11.202564] (-) TimerEvent: {}
+[11.306417] (-) TimerEvent: {}
+[11.407896] (-) TimerEvent: {}
+[11.511606] (-) TimerEvent: {}
+[11.614202] (-) TimerEvent: {}
+[11.719294] (-) TimerEvent: {}
+[11.822189] (-) TimerEvent: {}
+[11.924302] (-) TimerEvent: {}
+[12.025311] (-) TimerEvent: {}
+[12.126331] (-) TimerEvent: {}
+[12.227753] (-) TimerEvent: {}
+[12.328551] (-) TimerEvent: {}
+[12.429644] (-) TimerEvent: {}
+[12.532903] (-) TimerEvent: {}
+[12.634211] (-) TimerEvent: {}
+[12.736210] (-) TimerEvent: {}
+[12.837832] (-) TimerEvent: {}
+[12.942590] (-) TimerEvent: {}
+[13.051526] (-) TimerEvent: {}
+[13.153672] (-) TimerEvent: {}
+[13.258150] (-) TimerEvent: {}
+[13.360266] (-) TimerEvent: {}
+[13.466232] (-) TimerEvent: {}
+[13.576680] (-) TimerEvent: {}
+[13.678186] (-) TimerEvent: {}
+[13.778664] (-) TimerEvent: {}
+[13.884812] (-) TimerEvent: {}
+[13.986262] (-) TimerEvent: {}
+[14.093234] (-) TimerEvent: {}
+[14.193875] (-) TimerEvent: {}
+[14.295610] (-) TimerEvent: {}
+[14.398758] (-) TimerEvent: {}
+[14.500730] (-) TimerEvent: {}
+[14.601542] (-) TimerEvent: {}
+[14.702073] (-) TimerEvent: {}
+[14.805263] (-) TimerEvent: {}
+[14.905781] (-) TimerEvent: {}
+[15.008282] (-) TimerEvent: {}
+[15.108972] (-) TimerEvent: {}
+[15.211579] (-) TimerEvent: {}
+[15.313253] (-) TimerEvent: {}
+[15.414409] (-) TimerEvent: {}
+[15.516927] (-) TimerEvent: {}
+[15.621156] (-) TimerEvent: {}
+[15.722198] (-) TimerEvent: {}
+[15.823006] (-) TimerEvent: {}
+[15.925751] (-) TimerEvent: {}
+[16.027642] (-) TimerEvent: {}
+[16.128668] (-) TimerEvent: {}
+[16.229903] (-) TimerEvent: {}
+[16.331412] (-) TimerEvent: {}
+[16.432470] (-) TimerEvent: {}
+[16.534312] (-) TimerEvent: {}
+[16.573271] (vesc_msgs) StdoutLine: {'line': b'[  1%] Built target vesc_msgs__rosidl_generator_type_description\n'}
+[16.634802] (-) TimerEvent: {}
+[16.735484] (-) TimerEvent: {}
+[16.836185] (-) TimerEvent: {}
+[16.939566] (-) TimerEvent: {}
+[17.040810] (-) TimerEvent: {}
+[17.144676] (-) TimerEvent: {}
+[17.195491] (vesc_msgs) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_vesc_msgs\n'}
+[17.245566] (-) TimerEvent: {}
+[17.347866] (-) TimerEvent: {}
+[17.451207] (-) TimerEvent: {}
+[17.553175] (-) TimerEvent: {}
+[17.657850] (-) TimerEvent: {}
+[17.759429] (-) TimerEvent: {}
+[17.865512] (-) TimerEvent: {}
+[17.966208] (-) TimerEvent: {}
+[18.069159] (-) TimerEvent: {}
+[18.169740] (-) TimerEvent: {}
+[18.270308] (-) TimerEvent: {}
+[18.299462] (vesc_msgs) StdoutLine: {'line': b'[  3%] Built target vesc_msgs__cpp\n'}
+[18.370953] (-) TimerEvent: {}
+[18.474482] (-) TimerEvent: {}
+[18.583335] (-) TimerEvent: {}
+[18.685031] (-) TimerEvent: {}
+[18.794434] (-) TimerEvent: {}
+[18.899523] (-) TimerEvent: {}
+[19.004472] (-) TimerEvent: {}
+[19.106339] (-) TimerEvent: {}
+[19.148755] (vesc_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[19.149540] (vesc_msgs) StdoutLine: {'line': b'writing vesc_msgs.egg-info/PKG-INFO\n'}
+[19.152059] (vesc_msgs) StdoutLine: {'line': b'writing dependency_links to vesc_msgs.egg-info/dependency_links.txt\n'}
+[19.153689] (vesc_msgs) StdoutLine: {'line': b'writing top-level names to vesc_msgs.egg-info/top_level.txt\n'}
+[19.159788] (vesc_msgs) StdoutLine: {'line': b"reading manifest file 'vesc_msgs.egg-info/SOURCES.txt'\n"}
+[19.165147] (vesc_msgs) StdoutLine: {'line': b"writing manifest file 'vesc_msgs.egg-info/SOURCES.txt'\n"}
+[19.208734] (-) TimerEvent: {}
+[19.243971] (vesc_msgs) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_build_vesc_msgs_egg\n'}
+[19.311129] (-) TimerEvent: {}
+[19.413728] (-) TimerEvent: {}
+[19.520444] (-) TimerEvent: {}
+[19.625779] (-) TimerEvent: {}
+[19.726195] (-) TimerEvent: {}
+[19.829206] (-) TimerEvent: {}
+[19.929997] (-) TimerEvent: {}
+[20.031385] (-) TimerEvent: {}
+[20.133166] (-) TimerEvent: {}
+[20.237794] (-) TimerEvent: {}
+[20.347378] (-) TimerEvent: {}
+[20.448181] (-) TimerEvent: {}
+[20.469511] (vesc_msgs) StdoutLine: {'line': b'[ 25%] Built target vesc_msgs__rosidl_generator_c\n'}
+[20.548571] (-) TimerEvent: {}
+[20.652337] (-) TimerEvent: {}
+[20.754137] (-) TimerEvent: {}
+[20.856326] (-) TimerEvent: {}
+[20.957442] (-) TimerEvent: {}
+[21.062485] (-) TimerEvent: {}
+[21.164627] (-) TimerEvent: {}
+[21.234942] (vesc_msgs) StdoutLine: {'line': b'[ 34%] Built target vesc_msgs__rosidl_typesupport_fastrtps_c\n'}
+[21.265128] (-) TimerEvent: {}
+[21.366334] (-) TimerEvent: {}
+[21.467436] (-) TimerEvent: {}
+[21.571505] (-) TimerEvent: {}
+[21.674621] (-) TimerEvent: {}
+[21.705548] (vesc_msgs) StdoutLine: {'line': b'[ 43%] Built target vesc_msgs__rosidl_typesupport_introspection_c\n'}
+[21.776845] (-) TimerEvent: {}
+[21.889297] (-) TimerEvent: {}
+[22.004102] (-) TimerEvent: {}
+[22.081881] (vesc_msgs) StdoutLine: {'line': b'[ 53%] Built target vesc_msgs__rosidl_typesupport_c\n'}
+[22.104512] (-) TimerEvent: {}
+[22.205565] (-) TimerEvent: {}
+[22.308168] (-) TimerEvent: {}
+[22.409358] (-) TimerEvent: {}
+[22.513327] (-) TimerEvent: {}
+[22.614239] (-) TimerEvent: {}
+[22.720642] (-) TimerEvent: {}
+[22.830045] (vesc_msgs) StdoutLine: {'line': b'[ 62%] Built target vesc_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[22.830897] (-) TimerEvent: {}
+[23.055898] (-) TimerEvent: {}
+[23.121901] (vesc_msgs) StdoutLine: {'line': b'[ 71%] Built target vesc_msgs__rosidl_typesupport_cpp\n'}
+[23.156423] (-) TimerEvent: {}
+[23.262278] (-) TimerEvent: {}
+[23.382488] (-) TimerEvent: {}
+[23.397500] (vesc_msgs) StdoutLine: {'line': b'[ 81%] Built target vesc_msgs__rosidl_typesupport_introspection_cpp\n'}
+[23.525646] (-) TimerEvent: {}
+[23.526336] (vesc_msgs) StdoutLine: {'line': b'[ 81%] Built target vesc_msgs\n'}
+[23.639858] (-) TimerEvent: {}
+[23.753269] (-) TimerEvent: {}
+[23.765109] (vesc_msgs) StdoutLine: {'line': b'[ 82%] Built target vesc_msgs__py\n'}
+[23.856495] (-) TimerEvent: {}
+[23.959168] (-) TimerEvent: {}
+[24.063609] (-) TimerEvent: {}
+[24.164450] (-) TimerEvent: {}
+[24.169551] (vesc_msgs) StdoutLine: {'line': b'[ 90%] Built target vesc_msgs__rosidl_generator_py\n'}
+[24.264695] (-) TimerEvent: {}
+[24.313109] (vesc_msgs) StdoutLine: {'line': b'[ 93%] Built target vesc_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[24.366434] (-) TimerEvent: {}
+[24.451320] (vesc_msgs) StdoutLine: {'line': b'[ 96%] Built target vesc_msgs__rosidl_typesupport_c__pyext\n'}
+[24.469869] (-) TimerEvent: {}
+[24.571309] (-) TimerEvent: {}
+[24.623021] (vesc_msgs) StdoutLine: {'line': b'[100%] Built target vesc_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[24.687627] (-) TimerEvent: {}
+[24.722233] (vesc_msgs) JobEnded: {'identifier': 'vesc_msgs', 'rc': 'SIGINT'}
+[24.777606] (examples_rclcpp_async_client) JobSkipped: {'identifier': 'examples_rclcpp_async_client'}
+[24.777938] (examples_rclcpp_cbg_executor) JobSkipped: {'identifier': 'examples_rclcpp_cbg_executor'}
+[24.777987] (examples_rclcpp_minimal_action_client) JobSkipped: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[24.778014] (examples_rclcpp_minimal_action_server) JobSkipped: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[24.778038] (examples_rclcpp_minimal_client) JobSkipped: {'identifier': 'examples_rclcpp_minimal_client'}
+[24.778061] (examples_rclcpp_minimal_composition) JobSkipped: {'identifier': 'examples_rclcpp_minimal_composition'}
+[24.778083] (examples_rclcpp_minimal_publisher) JobSkipped: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[24.778104] (examples_rclcpp_minimal_service) JobSkipped: {'identifier': 'examples_rclcpp_minimal_service'}
+[24.778149] (examples_rclcpp_minimal_subscriber) JobSkipped: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[24.778185] (examples_rclcpp_minimal_timer) JobSkipped: {'identifier': 'examples_rclcpp_minimal_timer'}
+[24.778211] (examples_rclcpp_multithreaded_executor) JobSkipped: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[24.778233] (examples_rclcpp_wait_set) JobSkipped: {'identifier': 'examples_rclcpp_wait_set'}
+[24.778267] (examples_rclpy_executors) JobSkipped: {'identifier': 'examples_rclpy_executors'}
+[24.778299] (examples_rclpy_guard_conditions) JobSkipped: {'identifier': 'examples_rclpy_guard_conditions'}
+[24.778329] (examples_rclpy_minimal_action_client) JobSkipped: {'identifier': 'examples_rclpy_minimal_action_client'}
+[24.778356] (examples_rclpy_minimal_action_server) JobSkipped: {'identifier': 'examples_rclpy_minimal_action_server'}
+[24.778379] (examples_rclpy_minimal_client) JobSkipped: {'identifier': 'examples_rclpy_minimal_client'}
+[24.778402] (examples_rclpy_minimal_publisher) JobSkipped: {'identifier': 'examples_rclpy_minimal_publisher'}
+[24.778424] (examples_rclpy_minimal_service) JobSkipped: {'identifier': 'examples_rclpy_minimal_service'}
+[24.778483] (examples_rclpy_minimal_subscriber) JobSkipped: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[24.778520] (examples_rclpy_pointcloud_publisher) JobSkipped: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[24.778547] (launch_testing_examples) JobSkipped: {'identifier': 'launch_testing_examples'}
+[24.778571] (my_package) JobSkipped: {'identifier': 'my_package'}
+[24.778595] (py_pubsub) JobSkipped: {'identifier': 'py_pubsub'}
+[24.778617] (read_rosbag) JobSkipped: {'identifier': 'read_rosbag'}
+[24.778649] (turtlesim) JobSkipped: {'identifier': 'turtlesim'}
+[24.778688] (io_context) JobSkipped: {'identifier': 'io_context'}
+[24.778743] (vesc_ackermann) JobSkipped: {'identifier': 'vesc_ackermann'}
+[24.778774] (serial_driver) JobSkipped: {'identifier': 'serial_driver'}
+[24.778796] (udp_driver) JobSkipped: {'identifier': 'udp_driver'}
+[24.778819] (vesc_driver) JobSkipped: {'identifier': 'vesc_driver'}
+[24.778854] (vesc) JobSkipped: {'identifier': 'vesc'}
+[24.778899] (-) EventReactorShutdown: {}

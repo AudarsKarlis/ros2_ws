@@ -1,0 +1,17 @@
+[0.164s] Invoking command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_subscriber -- -j4 -l4
+[0.455s] [  8%] Built target subscriber_member_function_with_type_adapter
+[0.554s] [ 16%] Built target subscriber_lambda
+[0.563s] [ 25%] Built target subscriber_member_function_with_topic_statistics
+[0.621s] [ 33%] Built target subscriber_member_function
+[0.721s] [ 41%] Built target subscriber_member_function_with_unique_network_flow_endpoints
+[0.739s] [ 50%] Built target subscriber_content_filtering
+[0.827s] [ 58%] Built target subscriber_not_composable
+[0.865s] [ 75%] Built target wait_set_subscriber_library
+[0.975s] [ 83%] Built target wait_set_subscriber
+[1.013s] [ 91%] Built target time_triggered_wait_set_subscriber
+[1.052s] [100%] Built target static_wait_set_subscriber
+[1.206s] Invoked command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_subscriber -- -j4 -l4
+[1.207s] Invoking command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_subscriber
+[1.268s] -- Install configuration: ""
+[1.277s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/package.dsv
+[2.243s] Invoked command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_subscriber

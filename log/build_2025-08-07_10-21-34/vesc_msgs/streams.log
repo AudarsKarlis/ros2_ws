@@ -1,0 +1,24 @@
+[0.581s] Invoking command in '/home/vboxuser/ros2_ws/build/vesc_msgs': /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/vesc_msgs -- -j4 -l4
+[16.091s] [  1%] Built target vesc_msgs__rosidl_generator_type_description
+[16.714s] [  1%] Built target ament_cmake_python_copy_vesc_msgs
+[17.818s] [  3%] Built target vesc_msgs__cpp
+[18.667s] running egg_info
+[18.668s] writing vesc_msgs.egg-info/PKG-INFO
+[18.670s] writing dependency_links to vesc_msgs.egg-info/dependency_links.txt
+[18.672s] writing top-level names to vesc_msgs.egg-info/top_level.txt
+[18.678s] reading manifest file 'vesc_msgs.egg-info/SOURCES.txt'
+[18.683s] writing manifest file 'vesc_msgs.egg-info/SOURCES.txt'
+[18.763s] [  3%] Built target ament_cmake_python_build_vesc_msgs_egg
+[19.988s] [ 25%] Built target vesc_msgs__rosidl_generator_c
+[20.753s] [ 34%] Built target vesc_msgs__rosidl_typesupport_fastrtps_c
+[21.224s] [ 43%] Built target vesc_msgs__rosidl_typesupport_introspection_c
+[21.601s] [ 53%] Built target vesc_msgs__rosidl_typesupport_c
+[22.349s] [ 62%] Built target vesc_msgs__rosidl_typesupport_fastrtps_cpp
+[22.640s] [ 71%] Built target vesc_msgs__rosidl_typesupport_cpp
+[22.916s] [ 81%] Built target vesc_msgs__rosidl_typesupport_introspection_cpp
+[23.045s] [ 81%] Built target vesc_msgs
+[23.283s] [ 82%] Built target vesc_msgs__py
+[23.688s] [ 90%] Built target vesc_msgs__rosidl_generator_py
+[23.831s] [ 93%] Built target vesc_msgs__rosidl_typesupport_fastrtps_c__pyext
+[23.970s] [ 96%] Built target vesc_msgs__rosidl_typesupport_c__pyext
+[24.142s] [100%] Built target vesc_msgs__rosidl_typesupport_introspection_c__pyext

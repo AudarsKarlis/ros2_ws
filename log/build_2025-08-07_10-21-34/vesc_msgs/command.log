@@ -1,0 +1,1 @@
+Invoking command in '/home/vboxuser/ros2_ws/build/vesc_msgs': /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/vesc_msgs -- -j4 -l4
