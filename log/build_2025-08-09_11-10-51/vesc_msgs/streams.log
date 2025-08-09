@@ -1,0 +1,32 @@
+[0.099s] Invoking command in '/home/vboxuser/ros2_ws/build/vesc_msgs': /usr/bin/cmake /home/vboxuser/ros2_ws/src/vesc/vesc_msgs -DCMAKE_INSTALL_PREFIX=/home/vboxuser/ros2_ws/install/vesc_msgs
+[0.718s] -- The C compiler identification is GNU 11.4.0
+[0.718s] -- The CXX compiler identification is GNU 11.4.0
+[0.718s] -- Detecting C compiler ABI info
+[0.812s] -- Detecting C compiler ABI info - done
+[0.824s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.828s] -- Detecting C compile features
+[0.828s] -- Detecting C compile features - done
+[0.830s] -- Detecting CXX compiler ABI info
+[1.191s] -- Detecting CXX compiler ABI info - done
+[1.252s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.253s] -- Detecting CXX compile features
+[1.253s] -- Detecting CXX compile features - done
+[1.273s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[1.273s]   By not providing "Findament_cmake_auto.cmake" in CMAKE_MODULE_PATH this
+[1.273s]   project has asked CMake to find a package configuration file provided by
+[1.273s]   "ament_cmake_auto", but CMake did not find one.
+[1.273s] 
+[1.273s]   Could not find a package configuration file provided by "ament_cmake_auto"
+[1.273s]   with any of the following names:
+[1.273s] 
+[1.274s]     ament_cmake_autoConfig.cmake
+[1.274s]     ament_cmake_auto-config.cmake
+[1.274s] 
+[1.274s]   Add the installation prefix of "ament_cmake_auto" to CMAKE_PREFIX_PATH or
+[1.274s]   set "ament_cmake_auto_DIR" to a directory containing one of the above
+[1.274s]   files.  If "ament_cmake_auto" provides a separate development package or
+[1.274s]   SDK, be sure it has been installed.
+[1.274s] 
+[1.274s] [0m
+[1.281s] -- Configuring incomplete, errors occurred!
+[1.281s] See also "/home/vboxuser/ros2_ws/build/vesc_msgs/CMakeFiles/CMakeOutput.log".

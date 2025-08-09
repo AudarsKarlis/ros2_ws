@@ -1,0 +1,3 @@
+[console_scripts]
+bms_visualizer_node = bms_visualizer.bms_visualizer_node:main
+

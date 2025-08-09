@@ -1,0 +1,1 @@
+Invoking command in '/home/vboxuser/ros2_ws/build/vesc_msgs': /usr/bin/cmake /home/vboxuser/ros2_ws/src/vesc/vesc_msgs -DCMAKE_INSTALL_PREFIX=/home/vboxuser/ros2_ws/install/vesc_msgs

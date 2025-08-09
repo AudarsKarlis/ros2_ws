@@ -1,0 +1,20 @@
+[35m[1mConsolidate compiler generated dependencies of target bq769x2_node[0m
+[100%] Built target bq769x2_node
+-- Install configuration: ""
+-- Installing: /home/vboxuser/ros2_ws/install/bq769x2_i2c_ros/lib/bq769x2_i2c_ros/bq769x2_node
+-- Set runtime path of "/home/vboxuser/ros2_ws/install/bq769x2_i2c_ros/lib/bq769x2_i2c_ros/bq769x2_node" to ""
+-- Installing: /home/vboxuser/ros2_ws/install/bq769x2_i2c_ros/share/ament_index/resource_index/package_run_dependencies/bq769x2_i2c_ros
+-- Installing: /home/vboxuser/ros2_ws/install/bq769x2_i2c_ros/share/ament_index/resource_index/parent_prefix_path/bq769x2_i2c_ros
+-- Installing: /home/vboxuser/ros2_ws/install/bq769x2_i2c_ros/share/bq769x2_i2c_ros/environment/ament_prefix_path.sh
+-- Installing: /home/vboxuser/ros2_ws/install/bq769x2_i2c_ros/share/bq769x2_i2c_ros/environment/ament_prefix_path.dsv
+-- Installing: /home/vboxuser/ros2_ws/install/bq769x2_i2c_ros/share/bq769x2_i2c_ros/environment/path.sh
+-- Installing: /home/vboxuser/ros2_ws/install/bq769x2_i2c_ros/share/bq769x2_i2c_ros/environment/path.dsv
+-- Installing: /home/vboxuser/ros2_ws/install/bq769x2_i2c_ros/share/bq769x2_i2c_ros/local_setup.bash
+-- Installing: /home/vboxuser/ros2_ws/install/bq769x2_i2c_ros/share/bq769x2_i2c_ros/local_setup.sh
+-- Installing: /home/vboxuser/ros2_ws/install/bq769x2_i2c_ros/share/bq769x2_i2c_ros/local_setup.zsh
+-- Installing: /home/vboxuser/ros2_ws/install/bq769x2_i2c_ros/share/bq769x2_i2c_ros/local_setup.dsv
+-- Installing: /home/vboxuser/ros2_ws/install/bq769x2_i2c_ros/share/bq769x2_i2c_ros/package.dsv
+-- Installing: /home/vboxuser/ros2_ws/install/bq769x2_i2c_ros/share/ament_index/resource_index/packages/bq769x2_i2c_ros
+-- Installing: /home/vboxuser/ros2_ws/install/bq769x2_i2c_ros/share/bq769x2_i2c_ros/cmake/bq769x2_i2c_rosConfig.cmake
+-- Installing: /home/vboxuser/ros2_ws/install/bq769x2_i2c_ros/share/bq769x2_i2c_ros/cmake/bq769x2_i2c_rosConfig-version.cmake
+-- Installing: /home/vboxuser/ros2_ws/install/bq769x2_i2c_ros/share/bq769x2_i2c_ros/package.xml

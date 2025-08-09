@@ -1,0 +1,2 @@
+Invoking command in '/home/vboxuser/ros2_ws/build/asio_cmake_module': /usr/bin/cmake /home/vboxuser/ros2_ws/src/transport_drivers/asio_cmake_module -DCMAKE_INSTALL_PREFIX=/home/vboxuser/ros2_ws/install/asio_cmake_module
+Invoked command in '/home/vboxuser/ros2_ws/build/asio_cmake_module' returned '1': /usr/bin/cmake /home/vboxuser/ros2_ws/src/transport_drivers/asio_cmake_module -DCMAKE_INSTALL_PREFIX=/home/vboxuser/ros2_ws/install/asio_cmake_module

@@ -1,0 +1,32 @@
+[0.694s] Invoking command in '/home/vboxuser/ros2_ws/build/bq769x2_i2c_ros': /usr/bin/cmake /home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bq769x2_i2c_ros -DCMAKE_INSTALL_PREFIX=/home/vboxuser/ros2_ws/install/bq769x2_i2c_ros
+[0.869s] -- The C compiler identification is GNU 11.4.0
+[0.985s] -- The CXX compiler identification is GNU 11.4.0
+[1.010s] -- Detecting C compiler ABI info
+[1.323s] -- Detecting C compiler ABI info - done
+[1.338s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.339s] -- Detecting C compile features
+[1.341s] -- Detecting C compile features - done
+[1.348s] -- Detecting CXX compiler ABI info
+[1.579s] -- Detecting CXX compiler ABI info - done
+[1.592s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.594s] -- Detecting CXX compile features
+[1.596s] -- Detecting CXX compile features - done
+[1.605s] [31mCMake Error at CMakeLists.txt:9 (find_package):
+[1.605s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[1.605s]   has asked CMake to find a package configuration file provided by
+[1.605s]   "ament_cmake", but CMake did not find one.
+[1.605s] 
+[1.605s]   Could not find a package configuration file provided by "ament_cmake" with
+[1.605s]   any of the following names:
+[1.605s] 
+[1.605s]     ament_cmakeConfig.cmake
+[1.605s]     ament_cmake-config.cmake
+[1.605s] 
+[1.605s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[1.605s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[1.606s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[1.606s]   has been installed.
+[1.606s] 
+[1.606s] [0m
+[1.606s] -- Configuring incomplete, errors occurred!
+[1.606s] See also "/home/vboxuser/ros2_ws/build/bq769x2_i2c_ros/CMakeFiles/CMakeOutput.log".
