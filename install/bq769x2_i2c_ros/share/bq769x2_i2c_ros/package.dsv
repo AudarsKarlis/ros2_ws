@@ -1,8 +1,0 @@
-source;share/bq769x2_i2c_ros/hook/cmake_prefix_path.ps1
-source;share/bq769x2_i2c_ros/hook/cmake_prefix_path.dsv
-source;share/bq769x2_i2c_ros/hook/cmake_prefix_path.sh
-source;share/bq769x2_i2c_ros/local_setup.bash
-source;share/bq769x2_i2c_ros/local_setup.dsv
-source;share/bq769x2_i2c_ros/local_setup.ps1
-source;share/bq769x2_i2c_ros/local_setup.sh
-source;share/bq769x2_i2c_ros/local_setup.zsh

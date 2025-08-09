@@ -1,6 +1,0 @@
-[ 33%] Built target composition_nodes
-[ 55%] Built target composition_subscriber
-[ 77%] Built target composition_publisher
-[100%] Built target composition_composed
--- Install configuration: ""
--- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.dsv

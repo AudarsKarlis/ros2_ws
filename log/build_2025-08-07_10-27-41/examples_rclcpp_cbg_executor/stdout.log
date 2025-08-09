@@ -1,7 +1,0 @@
-[ 40%] Built target ping
-[ 60%] Built target pong
-[100%] Built target ping_pong
--- Install configuration: ""
--- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_cbg_executor/include
--- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_cbg_executor/include/examples_rclcpp_cbg_executor
--- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/package.dsv

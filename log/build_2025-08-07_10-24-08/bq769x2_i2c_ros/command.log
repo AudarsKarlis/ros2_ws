@@ -1,2 +1,0 @@
-Invoking command in '/home/vboxuser/ros2_ws/build/bq769x2_i2c_ros': /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/bq769x2_i2c_ros -- -j4 -l4
-Invoked command in '/home/vboxuser/ros2_ws/build/bq769x2_i2c_ros' returned '2': /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/bq769x2_i2c_ros -- -j4 -l4

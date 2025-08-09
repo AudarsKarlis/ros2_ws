@@ -1,3 +1,0 @@
-[console_scripts]
-load_rosbag = read_rosbag.load_rosbag:main
-

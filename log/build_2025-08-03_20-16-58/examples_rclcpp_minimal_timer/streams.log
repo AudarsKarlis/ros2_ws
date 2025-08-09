@@ -1,8 +1,0 @@
-[0.152s] Invoking command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_timer': /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_timer -- -j4 -l4
-[1.518s] [ 50%] Built target timer_lambda
-[1.760s] [100%] Built target timer_member_function
-[1.802s] Invoked command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_timer' returned '0': /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_timer -- -j4 -l4
-[1.843s] Invoking command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_timer': /usr/bin/cmake --install /home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_timer
-[1.890s] -- Install configuration: ""
-[1.890s] -- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/package.dsv
-[2.054s] Invoked command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_timer' returned '0': /usr/bin/cmake --install /home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_timer

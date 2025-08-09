@@ -1,7 +1,0 @@
-[0.168s] Invoking command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_multithreaded_executor': /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/examples_rclcpp_multithreaded_executor -- -j4 -l4
-[0.542s] [100%] Built target multithreaded_executor
-[0.638s] Invoked command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_multithreaded_executor' returned '0': /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/examples_rclcpp_multithreaded_executor -- -j4 -l4
-[0.685s] Invoking command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_multithreaded_executor': /usr/bin/cmake --install /home/vboxuser/ros2_ws/build/examples_rclcpp_multithreaded_executor
-[0.704s] -- Install configuration: ""
-[0.704s] -- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/package.dsv
-[0.864s] Invoked command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_multithreaded_executor' returned '0': /usr/bin/cmake --install /home/vboxuser/ros2_ws/build/examples_rclcpp_multithreaded_executor

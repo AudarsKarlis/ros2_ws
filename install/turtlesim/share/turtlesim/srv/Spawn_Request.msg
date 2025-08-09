@@ -1,1 +1,0 @@
-/home/vboxuser/ros2_ws/build/turtlesim/rosidl_cmake/srv/Spawn_Request.msg

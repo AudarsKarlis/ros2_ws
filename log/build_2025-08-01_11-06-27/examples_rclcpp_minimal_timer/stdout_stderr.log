@@ -1,6 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target timer_lambda[0m
-[35m[1mConsolidate compiler generated dependencies of target timer_member_function[0m
-[ 50%] Built target timer_lambda
-[100%] Built target timer_member_function
--- Install configuration: ""
--- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/package.dsv

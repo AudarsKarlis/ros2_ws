@@ -1,6 +1,0 @@
-[0.086s] Invoking command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_multithreaded_executor': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/examples_rclcpp_multithreaded_executor -- -j4 -l4
-[0.750s] [100%] Built target multithreaded_executor
-[0.878s] Invoked command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_multithreaded_executor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/examples_rclcpp_multithreaded_executor -- -j4 -l4
-[0.910s] Invoking command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_multithreaded_executor': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/vboxuser/ros2_ws/build/examples_rclcpp_multithreaded_executor
-[0.928s] -- Install configuration: ""
-[0.985s] -- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/package.dsv
