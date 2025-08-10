@@ -1,0 +1,37 @@
+[0.184s] Invoking command in '/home/vboxuser/ros2_ws/build/io_context': AMENT_PREFIX_PATH=/home/vboxuser/ros2_ws/install/asio_cmake_module CMAKE_PREFIX_PATH=/home/vboxuser/ros2_ws/install/asio_cmake_module /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/io_context -- -j4 -l4
+[4.647s] [ 33%] Built target io_context
+[4.883s] [ 55%] Built target gtest_main
+[5.007s] [ 77%] Built target gtest
+[5.175s] [100%] Built target test_io_context
+[5.197s] Invoked command in '/home/vboxuser/ros2_ws/build/io_context' returned '0': AMENT_PREFIX_PATH=/home/vboxuser/ros2_ws/install/asio_cmake_module CMAKE_PREFIX_PATH=/home/vboxuser/ros2_ws/install/asio_cmake_module /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/io_context -- -j4 -l4
+[5.248s] Invoking command in '/home/vboxuser/ros2_ws/build/io_context': AMENT_PREFIX_PATH=/home/vboxuser/ros2_ws/install/asio_cmake_module CMAKE_PREFIX_PATH=/home/vboxuser/ros2_ws/install/asio_cmake_module /usr/bin/cmake --install /home/vboxuser/ros2_ws/build/io_context
+[5.284s] -- Install configuration: ""
+[5.318s] -- Up-to-date: /home/vboxuser/ros2_ws/install/io_context/include
+[5.318s] -- Up-to-date: /home/vboxuser/ros2_ws/install/io_context/include/io_context
+[5.318s] -- Up-to-date: /home/vboxuser/ros2_ws/install/io_context/include/io_context/common.hpp
+[5.318s] -- Up-to-date: /home/vboxuser/ros2_ws/install/io_context/include/io_context/io_context.hpp
+[5.318s] -- Up-to-date: /home/vboxuser/ros2_ws/install/io_context/include/msg_converters
+[5.320s] -- Up-to-date: /home/vboxuser/ros2_ws/install/io_context/include/msg_converters/converters.hpp
+[5.320s] -- Up-to-date: /home/vboxuser/ros2_ws/install/io_context/include/msg_converters/udp_msgs.hpp
+[5.320s] -- Up-to-date: /home/vboxuser/ros2_ws/install/io_context/include/msg_converters/std_msgs.hpp
+[5.320s] -- Up-to-date: /home/vboxuser/ros2_ws/install/io_context/share/io_context/environment/library_path.sh
+[5.320s] -- Up-to-date: /home/vboxuser/ros2_ws/install/io_context/share/io_context/environment/library_path.dsv
+[5.386s] -- Up-to-date: /home/vboxuser/ros2_ws/install/io_context/lib/libio_context.so
+[5.387s] -- Up-to-date: /home/vboxuser/ros2_ws/install/io_context/share/ament_index/resource_index/package_run_dependencies/io_context
+[5.387s] -- Up-to-date: /home/vboxuser/ros2_ws/install/io_context/share/ament_index/resource_index/parent_prefix_path/io_context
+[5.387s] -- Up-to-date: /home/vboxuser/ros2_ws/install/io_context/share/io_context/environment/ament_prefix_path.dsv
+[5.387s] -- Up-to-date: /home/vboxuser/ros2_ws/install/io_context/share/io_context/environment/path.dsv
+[5.388s] -- Up-to-date: /home/vboxuser/ros2_ws/install/io_context/share/io_context/local_setup.bash
+[5.388s] -- Up-to-date: /home/vboxuser/ros2_ws/install/io_context/share/io_context/local_setup.sh
+[5.388s] -- Up-to-date: /home/vboxuser/ros2_ws/install/io_context/share/io_context/local_setup.zsh
+[5.388s] -- Up-to-date: /home/vboxuser/ros2_ws/install/io_context/share/io_context/local_setup.dsv
+[5.388s] -- Installing: /home/vboxuser/ros2_ws/install/io_context/share/io_context/package.dsv
+[5.456s] -- Up-to-date: /home/vboxuser/ros2_ws/install/io_context/share/ament_index/resource_index/packages/io_context
+[5.456s] -- Up-to-date: /home/vboxuser/ros2_ws/install/io_context/share/io_context/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.456s] -- Up-to-date: /home/vboxuser/ros2_ws/install/io_context/share/io_context/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.456s] -- Up-to-date: /home/vboxuser/ros2_ws/install/io_context/share/io_context/cmake/ament_cmake_export_libraries-extras.cmake
+[5.457s] -- Up-to-date: /home/vboxuser/ros2_ws/install/io_context/share/io_context/cmake/io_context-extras.cmake
+[5.457s] -- Up-to-date: /home/vboxuser/ros2_ws/install/io_context/share/io_context/cmake/io_contextConfig.cmake
+[5.457s] -- Up-to-date: /home/vboxuser/ros2_ws/install/io_context/share/io_context/cmake/io_contextConfig-version.cmake
+[5.457s] -- Up-to-date: /home/vboxuser/ros2_ws/install/io_context/share/io_context/package.xml
+[5.465s] Invoked command in '/home/vboxuser/ros2_ws/build/io_context' returned '0': AMENT_PREFIX_PATH=/home/vboxuser/ros2_ws/install/asio_cmake_module CMAKE_PREFIX_PATH=/home/vboxuser/ros2_ws/install/asio_cmake_module /usr/bin/cmake --install /home/vboxuser/ros2_ws/build/io_context

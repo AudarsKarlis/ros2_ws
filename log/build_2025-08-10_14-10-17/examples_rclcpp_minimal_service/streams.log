@@ -1,0 +1,20 @@
+[0.301s] Invoking command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_service': /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_service -- -j4 -l4
+[1.668s] [100%] Built target service_main
+[2.162s] Invoked command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_service' returned '0': /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_service -- -j4 -l4
+[2.319s] Invoking command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_service': /usr/bin/cmake --install /home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_service
+[2.412s] -- Install configuration: ""
+[2.478s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_service/lib/examples_rclcpp_minimal_service/service_main
+[2.478s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_service/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_service
+[2.479s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_service/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_service
+[2.479s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/ament_prefix_path.dsv
+[2.479s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/path.dsv
+[2.480s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.bash
+[2.480s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.sh
+[2.481s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.zsh
+[2.481s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.dsv
+[2.481s] -- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/package.dsv
+[2.481s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_service/share/ament_index/resource_index/packages/examples_rclcpp_minimal_service
+[2.481s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/cmake/examples_rclcpp_minimal_serviceConfig.cmake
+[2.481s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/cmake/examples_rclcpp_minimal_serviceConfig-version.cmake
+[2.481s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/package.xml
+[2.599s] Invoked command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_service' returned '0': /usr/bin/cmake --install /home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_service

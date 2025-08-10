@@ -1,0 +1,29 @@
+[0.442s] Invoking command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_cbg_executor': /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/examples_rclcpp_cbg_executor -- -j4 -l4
+[1.046s] [ 30%] Built target ping
+[1.389s] [ 70%] Built target ping_pong
+[1.698s] [100%] Built target pong
+[1.739s] Invoked command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_cbg_executor' returned '0': /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/examples_rclcpp_cbg_executor -- -j4 -l4
+[1.761s] Invoking command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_cbg_executor': /usr/bin/cmake --install /home/vboxuser/ros2_ws/build/examples_rclcpp_cbg_executor
+[1.794s] -- Install configuration: ""
+[1.794s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/ping
+[1.794s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/pong
+[1.794s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/ping_pong
+[1.794s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_cbg_executor/include
+[1.794s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_cbg_executor/include/examples_rclcpp_cbg_executor
+[1.795s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_cbg_executor/include/examples_rclcpp_cbg_executor/pong_node.hpp
+[1.795s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_cbg_executor/include/examples_rclcpp_cbg_executor/ping_node.hpp
+[1.795s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_cbg_executor/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_cbg_executor
+[1.795s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_cbg_executor/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_cbg_executor
+[1.795s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/ament_prefix_path.dsv
+[1.795s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/path.dsv
+[1.795s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.bash
+[1.795s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.sh
+[1.797s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.zsh
+[1.797s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.dsv
+[1.797s] -- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/package.dsv
+[1.798s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_cbg_executor/share/ament_index/resource_index/packages/examples_rclcpp_cbg_executor
+[1.799s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.801s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/cmake/examples_rclcpp_cbg_executorConfig.cmake
+[1.805s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/cmake/examples_rclcpp_cbg_executorConfig-version.cmake
+[1.818s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/package.xml
+[1.818s] Invoked command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_cbg_executor' returned '0': /usr/bin/cmake --install /home/vboxuser/ros2_ws/build/examples_rclcpp_cbg_executor

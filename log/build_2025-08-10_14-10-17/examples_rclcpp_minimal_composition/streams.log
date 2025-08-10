@@ -1,0 +1,28 @@
+[0.151s] Invoking command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_composition': /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_composition -- -j4 -l4
+[0.940s] [ 33%] Built target composition_nodes
+[1.398s] [ 55%] Built target composition_publisher
+[2.195s] [ 77%] Built target composition_composed
+[2.705s] [100%] Built target composition_subscriber
+[3.757s] Invoked command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_composition' returned '0': /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_composition -- -j4 -l4
+[3.827s] Invoking command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_composition': /usr/bin/cmake --install /home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_composition
+[4.067s] -- Install configuration: ""
+[4.068s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/library_path.sh
+[4.069s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/library_path.dsv
+[4.069s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_composition/lib/libcomposition_nodes.so
+[4.086s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_publisher
+[4.113s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_subscriber
+[4.113s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_composed
+[4.117s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_composition
+[4.117s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_composition
+[4.117s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/ament_prefix_path.dsv
+[4.117s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/path.dsv
+[4.118s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.bash
+[4.118s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.sh
+[4.118s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.zsh
+[4.118s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.dsv
+[4.118s] -- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.dsv
+[4.118s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/packages/examples_rclcpp_minimal_composition
+[4.118s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/cmake/examples_rclcpp_minimal_compositionConfig.cmake
+[4.118s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/cmake/examples_rclcpp_minimal_compositionConfig-version.cmake
+[4.118s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.xml
+[4.260s] Invoked command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_composition' returned '0': /usr/bin/cmake --install /home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_composition

@@ -1,0 +1,20 @@
+[1.258s] Invoking command in '/home/vboxuser/ros2_ws/build/my_package': /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/my_package -- -j4 -l4
+[1.706s] [100%] Built target my_node
+[2.215s] Invoked command in '/home/vboxuser/ros2_ws/build/my_package' returned '0': /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/my_package -- -j4 -l4
+[2.257s] Invoking command in '/home/vboxuser/ros2_ws/build/my_package': /usr/bin/cmake --install /home/vboxuser/ros2_ws/build/my_package
+[2.350s] -- Install configuration: ""
+[2.350s] -- Up-to-date: /home/vboxuser/ros2_ws/install/my_package/lib/my_package/my_node
+[2.363s] -- Up-to-date: /home/vboxuser/ros2_ws/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+[2.371s] -- Up-to-date: /home/vboxuser/ros2_ws/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+[2.397s] -- Up-to-date: /home/vboxuser/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+[2.424s] -- Up-to-date: /home/vboxuser/ros2_ws/install/my_package/share/my_package/environment/path.dsv
+[2.425s] -- Up-to-date: /home/vboxuser/ros2_ws/install/my_package/share/my_package/local_setup.bash
+[2.431s] -- Up-to-date: /home/vboxuser/ros2_ws/install/my_package/share/my_package/local_setup.sh
+[2.431s] -- Up-to-date: /home/vboxuser/ros2_ws/install/my_package/share/my_package/local_setup.zsh
+[2.432s] -- Up-to-date: /home/vboxuser/ros2_ws/install/my_package/share/my_package/local_setup.dsv
+[2.432s] -- Installing: /home/vboxuser/ros2_ws/install/my_package/share/my_package/package.dsv
+[2.432s] -- Up-to-date: /home/vboxuser/ros2_ws/install/my_package/share/ament_index/resource_index/packages/my_package
+[2.433s] -- Up-to-date: /home/vboxuser/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+[2.433s] -- Up-to-date: /home/vboxuser/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+[2.433s] -- Up-to-date: /home/vboxuser/ros2_ws/install/my_package/share/my_package/package.xml
+[2.433s] Invoked command in '/home/vboxuser/ros2_ws/build/my_package' returned '0': /usr/bin/cmake --install /home/vboxuser/ros2_ws/build/my_package

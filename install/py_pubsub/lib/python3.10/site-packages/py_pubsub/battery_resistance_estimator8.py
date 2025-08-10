@@ -184,24 +184,36 @@ class BatteryResistanceEstimator(Node):
                     [avg_resistance]
                 )
 
-                # === Confidence interval calculation ===
-                delta_V = 0.004  # 4 mV uncertainty (recheck later again)
-                delta_I = 0.05   # 50 mA uncertainty (recheck later again)
+                # === Confidence interval calculation (Error Propagation Method) ===
+                u_U = 0.004   # 4 mV uncertainty (update from datasheet later!!!)
+                u_I = 0.05    # 50 mA uncertainty (update from datasheet later!!!)
 
                 upper = []
                 lower = []
+
                 for j, R in enumerate(values):
-                    if j == 0:
+                    if j == 0 or np.isnan(R):
                         upper.append(np.nan)
                         lower.append(np.nan)
                         continue
-                    ΔV = self.last_cell_voltages[i] - self.last_cell_voltages[i-1] if i > 0 else delta_V
-                    ΔI = self.last_current - self.last_current if self.last_current else delta_I
-                    ΔI = ΔI if abs(ΔI) > 1e-3 else delta_I  # avoid div by 0
-                    standard_deviation = abs(R) * np.sqrt((delta_V / ΔV)**2 + (delta_I / ΔI)**2)
-                    upper.append(R + standard_deviation)
-                    lower.append(R - standard_deviation)
 
+                    # Latest measured voltage and current
+                    U = self.last_cell_voltages[i]
+                    I = self.last_current
+
+                    if I == 0 or U is None or I is None:
+                        upper.append(np.nan)
+                        lower.append(np.nan)
+                        continue
+
+                    # Error propagation formula from datasheet method
+                    u_R = np.sqrt(((1.0 / I) * u_U) ** 2 + ((-U / (I ** 2)) * u_I) ** 2)
+
+                    # Store upper and lower CI bounds
+                    upper.append(R + u_R)
+                    lower.append(R - u_R)
+
+                # Update curves for this cell
                 self.upper_curves[i].setData(times, upper)
                 self.lower_curves[i].setData(times, lower)
 

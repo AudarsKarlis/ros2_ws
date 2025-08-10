@@ -1,0 +1,45 @@
+[0.323s] Invoking command in '/home/vboxuser/ros2_ws/build/serial_driver': AMENT_PREFIX_PATH=/home/vboxuser/ros2_ws/install/io_context:/home/vboxuser/ros2_ws/install/asio_cmake_module CMAKE_PREFIX_PATH=/home/vboxuser/ros2_ws/install/io_context:/home/vboxuser/ros2_ws/install/asio_cmake_module LD_LIBRARY_PATH=/home/vboxuser/ros2_ws/install/io_context/lib /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/serial_driver -- -j4 -l4
+[1.814s] [ 20%] Built target serial_driver
+[2.062s] [ 33%] Built target gtest
+[2.535s] [ 46%] Built target serial_driver_nodes
+[2.784s] [ 60%] Built target gtest_main
+[3.088s] [ 73%] Built target serial_bridge
+[3.350s] [ 86%] Built target test_serial_port
+[3.862s] [100%] Built target test_serial_driver
+[3.897s] Invoked command in '/home/vboxuser/ros2_ws/build/serial_driver' returned '0': AMENT_PREFIX_PATH=/home/vboxuser/ros2_ws/install/io_context:/home/vboxuser/ros2_ws/install/asio_cmake_module CMAKE_PREFIX_PATH=/home/vboxuser/ros2_ws/install/io_context:/home/vboxuser/ros2_ws/install/asio_cmake_module LD_LIBRARY_PATH=/home/vboxuser/ros2_ws/install/io_context/lib /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/serial_driver -- -j4 -l4
+[3.923s] Invoking command in '/home/vboxuser/ros2_ws/build/serial_driver': AMENT_PREFIX_PATH=/home/vboxuser/ros2_ws/install/io_context:/home/vboxuser/ros2_ws/install/asio_cmake_module CMAKE_PREFIX_PATH=/home/vboxuser/ros2_ws/install/io_context:/home/vboxuser/ros2_ws/install/asio_cmake_module LD_LIBRARY_PATH=/home/vboxuser/ros2_ws/install/io_context/lib /usr/bin/cmake --install /home/vboxuser/ros2_ws/build/serial_driver
+[3.984s] -- Install configuration: ""
+[4.006s] -- Up-to-date: /home/vboxuser/ros2_ws/install/serial_driver/lib/serial_driver/serial_bridge
+[4.007s] -- Up-to-date: /home/vboxuser/ros2_ws/install/serial_driver/include
+[4.007s] -- Up-to-date: /home/vboxuser/ros2_ws/install/serial_driver/include/serial_driver
+[4.008s] -- Up-to-date: /home/vboxuser/ros2_ws/install/serial_driver/include/serial_driver/serial_port.hpp
+[4.008s] -- Up-to-date: /home/vboxuser/ros2_ws/install/serial_driver/include/serial_driver/visibility_control.hpp
+[4.008s] -- Up-to-date: /home/vboxuser/ros2_ws/install/serial_driver/include/serial_driver/serial_driver.hpp
+[4.008s] -- Up-to-date: /home/vboxuser/ros2_ws/install/serial_driver/include/serial_driver/serial_bridge_node.hpp
+[4.008s] -- Up-to-date: /home/vboxuser/ros2_ws/install/serial_driver/share/serial_driver/environment/library_path.sh
+[4.008s] -- Up-to-date: /home/vboxuser/ros2_ws/install/serial_driver/share/serial_driver/environment/library_path.dsv
+[4.052s] -- Up-to-date: /home/vboxuser/ros2_ws/install/serial_driver/lib/libserial_driver.so
+[4.121s] -- Up-to-date: /home/vboxuser/ros2_ws/install/serial_driver/lib/libserial_driver_nodes.so
+[4.121s] -- Up-to-date: /home/vboxuser/ros2_ws/install/serial_driver/share/serial_driver/launch
+[4.122s] -- Up-to-date: /home/vboxuser/ros2_ws/install/serial_driver/share/serial_driver/launch/serial_driver_bridge_node.launch.py
+[4.122s] -- Up-to-date: /home/vboxuser/ros2_ws/install/serial_driver/share/serial_driver/params
+[4.122s] -- Up-to-date: /home/vboxuser/ros2_ws/install/serial_driver/share/serial_driver/params/example.params.yaml
+[4.122s] -- Up-to-date: /home/vboxuser/ros2_ws/install/serial_driver/share/ament_index/resource_index/package_run_dependencies/serial_driver
+[4.123s] -- Up-to-date: /home/vboxuser/ros2_ws/install/serial_driver/share/ament_index/resource_index/parent_prefix_path/serial_driver
+[4.123s] -- Up-to-date: /home/vboxuser/ros2_ws/install/serial_driver/share/serial_driver/environment/ament_prefix_path.dsv
+[4.123s] -- Up-to-date: /home/vboxuser/ros2_ws/install/serial_driver/share/serial_driver/environment/path.dsv
+[4.124s] -- Up-to-date: /home/vboxuser/ros2_ws/install/serial_driver/share/serial_driver/local_setup.bash
+[4.124s] -- Up-to-date: /home/vboxuser/ros2_ws/install/serial_driver/share/serial_driver/local_setup.sh
+[4.124s] -- Up-to-date: /home/vboxuser/ros2_ws/install/serial_driver/share/serial_driver/local_setup.zsh
+[4.124s] -- Up-to-date: /home/vboxuser/ros2_ws/install/serial_driver/share/serial_driver/local_setup.dsv
+[4.124s] -- Installing: /home/vboxuser/ros2_ws/install/serial_driver/share/serial_driver/package.dsv
+[4.148s] -- Up-to-date: /home/vboxuser/ros2_ws/install/serial_driver/share/ament_index/resource_index/packages/serial_driver
+[4.148s] -- Up-to-date: /home/vboxuser/ros2_ws/install/serial_driver/share/ament_index/resource_index/rclcpp_components/serial_driver
+[4.150s] -- Up-to-date: /home/vboxuser/ros2_ws/install/serial_driver/share/serial_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.150s] -- Up-to-date: /home/vboxuser/ros2_ws/install/serial_driver/share/serial_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.150s] -- Up-to-date: /home/vboxuser/ros2_ws/install/serial_driver/share/serial_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[4.150s] -- Up-to-date: /home/vboxuser/ros2_ws/install/serial_driver/share/serial_driver/cmake/serial_driver-extras.cmake
+[4.150s] -- Up-to-date: /home/vboxuser/ros2_ws/install/serial_driver/share/serial_driver/cmake/serial_driverConfig.cmake
+[4.151s] -- Up-to-date: /home/vboxuser/ros2_ws/install/serial_driver/share/serial_driver/cmake/serial_driverConfig-version.cmake
+[4.151s] -- Up-to-date: /home/vboxuser/ros2_ws/install/serial_driver/share/serial_driver/package.xml
+[4.158s] Invoked command in '/home/vboxuser/ros2_ws/build/serial_driver' returned '0': AMENT_PREFIX_PATH=/home/vboxuser/ros2_ws/install/io_context:/home/vboxuser/ros2_ws/install/asio_cmake_module CMAKE_PREFIX_PATH=/home/vboxuser/ros2_ws/install/io_context:/home/vboxuser/ros2_ws/install/asio_cmake_module LD_LIBRARY_PATH=/home/vboxuser/ros2_ws/install/io_context/lib /usr/bin/cmake --install /home/vboxuser/ros2_ws/build/serial_driver

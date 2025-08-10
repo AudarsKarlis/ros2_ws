@@ -1,0 +1,4 @@
+Invoking command in '/home/vboxuser/ros2_ws/build/asio_cmake_module': /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/asio_cmake_module -- -j4 -l4
+Invoked command in '/home/vboxuser/ros2_ws/build/asio_cmake_module' returned '0': /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/asio_cmake_module -- -j4 -l4
+Invoking command in '/home/vboxuser/ros2_ws/build/asio_cmake_module': /usr/bin/cmake --install /home/vboxuser/ros2_ws/build/asio_cmake_module
+Invoked command in '/home/vboxuser/ros2_ws/build/asio_cmake_module' returned '0': /usr/bin/cmake --install /home/vboxuser/ros2_ws/build/asio_cmake_module

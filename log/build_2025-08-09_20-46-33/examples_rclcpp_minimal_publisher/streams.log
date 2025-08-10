@@ -1,0 +1,30 @@
+[0.323s] Invoking command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_publisher': /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_publisher -- -j4 -l4
+[0.897s] [ 16%] Built target publisher_lambda
+[1.272s] [ 33%] Built target publisher_member_function_with_unique_network_flow_endpoints
+[1.499s] [ 50%] Built target publisher_wait_for_all_acked
+[1.891s] [ 66%] Built target publisher_not_composable
+[2.336s] [ 83%] Built target publisher_member_function_with_type_adapter
+[2.696s] [100%] Built target publisher_member_function
+[2.802s] Invoked command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_publisher' returned '0': /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_publisher -- -j4 -l4
+[2.820s] Invoking command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_publisher': /usr/bin/cmake --install /home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_publisher
+[2.882s] -- Install configuration: ""
+[2.942s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_lambda
+[2.979s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function
+[3.038s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function_with_type_adapter
+[3.172s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function_with_unique_network_flow_endpoints
+[3.284s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_wait_for_all_acked
+[3.413s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_not_composable
+[3.415s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_publisher
+[3.417s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_publisher
+[3.417s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/ament_prefix_path.dsv
+[3.420s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/path.dsv
+[3.420s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.bash
+[3.420s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.sh
+[3.420s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.zsh
+[3.422s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.dsv
+[3.422s] -- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.dsv
+[3.423s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/packages/examples_rclcpp_minimal_publisher
+[3.424s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/cmake/examples_rclcpp_minimal_publisherConfig.cmake
+[3.424s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/cmake/examples_rclcpp_minimal_publisherConfig-version.cmake
+[3.424s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.xml
+[3.438s] Invoked command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_publisher' returned '0': /usr/bin/cmake --install /home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_publisher
