@@ -187,28 +187,61 @@ class BatteryResistanceEstimator(Node):
                 # === Confidence interval calculation (Error Propagation Method) ===
                 u_U = 0.004   # 4 mV uncertainty (update from datasheet later!!!)
                 u_I = 0.05    # 50 mA uncertainty (update from datasheet later!!!)
-                MIN_CURRENT = 0.1 #
-                upper = [] #Prepare empty list 'upper' to store upper CI boundaries for each resistance value
-                lower = [] #Prepare empty list 'lower' to store lower CI boundaries for each resistance value
-                for j, R in enumerate(values): #Loop through all calculated resistance values. j - index in list. R - resistance value at that index
-                    if j == 0 or np.isnan(R): #If index is 0 (first value) or R is NaN (no valid value for this point)
-                        upper.append(np.nan) #add NaN in upper list (calculation is 'skipped')
-                        lower.append(np.nan) #add NaN in lower list (calculation is 'skipped')
-                        continue #Continue further (???)
+                upper = []
+                lower = []
+                MIN_CURRENT = 0.1 #--------------------------
+
+                last_upper = None
+                last_lower = None
+
+                for j, R in enumerate(values):
+                    # Skip if first value is invalid
+                    if j == 0 and (np.isnan(R) or R is None):
+                        upper.append(np.nan)
+                        lower.append(np.nan)
+                        last_upper = None
+                        last_lower = None
+                        continue
+
+                    # If R is NaN, reuse last valid CI bounds
+                    if np.isnan(R) or R is None:
+                        if last_upper is not None and last_lower is not None:
+                            upper.append(last_upper)
+                            lower.append(last_lower)
+                        else:
+                            upper.append(np.nan)
+                            lower.append(np.nan)
+                        continue
+
                     # Latest measured voltage and current
-                    U = self.last_cell_voltages[i] #Fetch most recent voltage from stored variables in subscriber callback
-                    I = self.last_current #Fetch most recent current from stored variables in subscriber callback
-                    if I is None or U is None or abs(I) < MIN_CURRENT: #
-                        upper.append(np.nan) #add NaN in upper list (calculation is 'skipped')
-                        lower.append(np.nan) #add NaN in lower list (calculation is 'skipped')
-                        continue #Continue further (???)
-                    # Error propagation formula from PDF document of error calculation course
-                    u_R = np.sqrt(((1.0 / I) * u_U) ** 2 + ((-U / (I ** 2)) * u_I) ** 2)                    
-                    upper.append(R + u_R) #Put and store CI upper bound value in 'upper' list
-                    lower.append(R - u_R) #Put and store CI lower bound value in 'lower' list
-                # Update curves for this cell
-                self.upper_curves[i].setData(times, upper) #Update upper curve from 'upper' list
-                self.lower_curves[i].setData(times, lower) #Update lower curve from 'lower' list
+                    U = self.last_cell_voltages[i]
+                    I = self.last_current
+
+                    # If invalid data, hold last CI values
+                    if I is None or U is None or abs(I) < MIN_CURRENT: #-------------------
+                        if last_upper is not None and last_lower is not None:
+                            upper.append(last_upper)
+                            lower.append(last_lower)
+                        else:
+                            upper.append(np.nan)
+                            lower.append(np.nan)
+                        continue
+
+                    # Error propagation formula: u_R = sqrt((∂R/∂U * u_U)^2 + (∂R/∂I * u_I)^2)
+                    u_R = np.sqrt(((1.0 / I) * u_U) ** 2 + ((-U / (I ** 2)) * u_I) ** 2)
+
+                    # Save CI bounds and remember them for "hold last value"
+                    ci_upper = R + u_R
+                    ci_lower = R - u_R
+                    upper.append(ci_upper)
+                    lower.append(ci_lower)
+
+                    last_upper = ci_upper
+                    last_lower = ci_lower
+
+                # Draw continuous lines
+                self.upper_curves[i].setData(times, upper)
+                self.lower_curves[i].setData(times, lower)
 
     def start_ros_spin(self):
         spin_thread = threading.Thread(target=rclpy.spin, args=(self,), daemon=True)
