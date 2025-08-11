@@ -187,35 +187,28 @@ class BatteryResistanceEstimator(Node):
                 # === Confidence interval calculation (Error Propagation Method) ===
                 u_U = 0.004   # 4 mV uncertainty (update from datasheet later!!!)
                 u_I = 0.05    # 50 mA uncertainty (update from datasheet later!!!)
-
-                upper = []
-                lower = []
-
-                for j, R in enumerate(values):
-                    if j == 0 or np.isnan(R):
-                        upper.append(np.nan)
-                        lower.append(np.nan)
-                        continue
-
+                MIN_CURRENT = 0.1 #
+                upper = [] #Prepare empty list 'upper' to store upper CI boundaries for each resistance value
+                lower = [] #Prepare empty list 'lower' to store lower CI boundaries for each resistance value
+                for j, R in enumerate(values): #Loop through all calculated resistance values. j - index in list. R - resistance value at that index
+                    if j == 0 or np.isnan(R): #If index is 0 (first value) or R is NaN (no valid value for this point)
+                        upper.append(np.nan) #add NaN in upper list (calculation is 'skipped')
+                        lower.append(np.nan) #add NaN in lower list (calculation is 'skipped')
+                        continue #Continue further (???)
                     # Latest measured voltage and current
-                    U = self.last_cell_voltages[i]
-                    I = self.last_current
-
-                    if I == 0 or U is None or I is None:
-                        upper.append(np.nan)
-                        lower.append(np.nan)
-                        continue
-
-                    # Error propagation formula from datasheet method
-                    u_R = np.sqrt(((1.0 / I) * u_U) ** 2 + ((-U / (I ** 2)) * u_I) ** 2)
-
-                    # Store upper and lower CI bounds
-                    upper.append(R + u_R)
-                    lower.append(R - u_R)
-
+                    U = self.last_cell_voltages[i] #Fetch most recent voltage from stored variables in subscriber callback
+                    I = self.last_current #Fetch most recent current from stored variables in subscriber callback
+                    if I is None or U is None or abs(I) < MIN_CURRENT: #
+                        upper.append(np.nan) #add NaN in upper list (calculation is 'skipped')
+                        lower.append(np.nan) #add NaN in lower list (calculation is 'skipped')
+                        continue #Continue further (???)
+                    # Error propagation formula from PDF document of error calculation course
+                    u_R = np.sqrt(((1.0 / I) * u_U) ** 2 + ((-U / (I ** 2)) * u_I) ** 2)                    
+                    upper.append(R + u_R) #Put and store CI upper bound value in 'upper' list
+                    lower.append(R - u_R) #Put and store CI lower bound value in 'lower' list
                 # Update curves for this cell
-                self.upper_curves[i].setData(times, upper)
-                self.lower_curves[i].setData(times, lower)
+                self.upper_curves[i].setData(times, upper) #Update upper curve from 'upper' list
+                self.lower_curves[i].setData(times, lower) #Update lower curve from 'lower' list
 
     def start_ros_spin(self):
         spin_thread = threading.Thread(target=rclpy.spin, args=(self,), daemon=True)

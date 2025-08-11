@@ -1,0 +1,20 @@
+[0.109s] Invoking command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_multithreaded_executor': /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/examples_rclcpp_multithreaded_executor -- -j4 -l4
+[0.636s] [100%] Built target multithreaded_executor
+[0.824s] Invoked command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_multithreaded_executor' returned '0': /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/examples_rclcpp_multithreaded_executor -- -j4 -l4
+[0.861s] Invoking command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_multithreaded_executor': /usr/bin/cmake --install /home/vboxuser/ros2_ws/build/examples_rclcpp_multithreaded_executor
+[1.600s] -- Install configuration: ""
+[1.601s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_multithreaded_executor/lib/examples_rclcpp_multithreaded_executor/multithreaded_executor
+[1.601s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_multithreaded_executor
+[1.603s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_multithreaded_executor
+[1.604s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/environment/ament_prefix_path.dsv
+[1.604s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/environment/path.dsv
+[1.606s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/local_setup.bash
+[1.606s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/local_setup.sh
+[1.606s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/local_setup.zsh
+[1.606s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/local_setup.dsv
+[1.606s] -- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/package.dsv
+[1.606s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/ament_index/resource_index/packages/examples_rclcpp_multithreaded_executor
+[1.606s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/cmake/examples_rclcpp_multithreaded_executorConfig.cmake
+[1.606s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/cmake/examples_rclcpp_multithreaded_executorConfig-version.cmake
+[1.606s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/package.xml
+[1.667s] Invoked command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_multithreaded_executor' returned '0': /usr/bin/cmake --install /home/vboxuser/ros2_ws/build/examples_rclcpp_multithreaded_executor

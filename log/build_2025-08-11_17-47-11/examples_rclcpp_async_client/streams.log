@@ -1,0 +1,20 @@
+[0.063s] Invoking command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_async_client': /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/examples_rclcpp_async_client -- -j4 -l4
+[3.240s] [100%] Built target client_main
+[3.283s] Invoked command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_async_client' returned '0': /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/examples_rclcpp_async_client -- -j4 -l4
+[3.292s] Invoking command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_async_client': /usr/bin/cmake --install /home/vboxuser/ros2_ws/build/examples_rclcpp_async_client
+[3.316s] -- Install configuration: ""
+[3.411s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_async_client/lib/examples_rclcpp_async_client/client_main
+[3.411s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_async_client/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_async_client
+[3.411s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_async_client/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_async_client
+[3.411s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/environment/ament_prefix_path.dsv
+[3.411s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/environment/path.dsv
+[3.411s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/local_setup.bash
+[3.412s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/local_setup.sh
+[3.412s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/local_setup.zsh
+[3.412s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/local_setup.dsv
+[3.412s] -- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/package.dsv
+[3.433s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_async_client/share/ament_index/resource_index/packages/examples_rclcpp_async_client
+[3.434s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/cmake/examples_rclcpp_async_clientConfig.cmake
+[3.434s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/cmake/examples_rclcpp_async_clientConfig-version.cmake
+[3.437s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/package.xml
+[3.455s] Invoked command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_async_client' returned '0': /usr/bin/cmake --install /home/vboxuser/ros2_ws/build/examples_rclcpp_async_client
