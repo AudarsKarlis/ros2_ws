@@ -1,0 +1,24 @@
+[13.629s] Invoking command in '/home/vboxuser/ros2_ws/src/examples/rclpy/actions/minimal_action_client': PYTHONPATH=/home/vboxuser/ros2_ws/build/examples_rclpy_minimal_action_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_action_client build --build-base /home/vboxuser/ros2_ws/build/examples_rclpy_minimal_action_client/build install --record /home/vboxuser/ros2_ws/build/examples_rclpy_minimal_action_client/install.log --single-version-externally-managed install_data
+[16.505s] running egg_info
+[16.509s] writing ../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/PKG-INFO
+[16.510s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/dependency_links.txt
+[16.510s] writing entry points to ../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/entry_points.txt
+[16.510s] writing requirements to ../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/requires.txt
+[16.511s] writing top-level names to ../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/top_level.txt
+[16.511s] reading manifest file '../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/SOURCES.txt'
+[16.534s] writing manifest file '../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/SOURCES.txt'
+[16.535s] running build
+[16.536s] running build_py
+[16.536s] running install
+[16.545s] running install_lib
+[16.564s] running install_data
+[16.565s] running install_egg_info
+[16.584s] removing '/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages/examples_rclpy_minimal_action_client-0.18.2-py3.10.egg-info' (and everything under it)
+[16.597s] Copying ../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info to /home/vboxuser/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages/examples_rclpy_minimal_action_client-0.18.2-py3.10.egg-info
+[16.668s] running install_scripts
+[17.026s] Installing client script to /home/vboxuser/ros2_ws/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[17.037s] Installing client_asyncio script to /home/vboxuser/ros2_ws/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[17.070s] Installing client_cancel script to /home/vboxuser/ros2_ws/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[17.089s] Installing client_not_composable script to /home/vboxuser/ros2_ws/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[17.089s] writing list of installed files to '/home/vboxuser/ros2_ws/build/examples_rclpy_minimal_action_client/install.log'
+[17.374s] Invoked command in '/home/vboxuser/ros2_ws/src/examples/rclpy/actions/minimal_action_client' returned '0': PYTHONPATH=/home/vboxuser/ros2_ws/build/examples_rclpy_minimal_action_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_action_client build --build-base /home/vboxuser/ros2_ws/build/examples_rclpy_minimal_action_client/build install --record /home/vboxuser/ros2_ws/build/examples_rclpy_minimal_action_client/install.log --single-version-externally-managed install_data

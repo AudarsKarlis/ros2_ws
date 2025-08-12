@@ -1,0 +1,20 @@
+[7.007s] Invoking command in '/home/vboxuser/ros2_ws/src/examples/launch_testing/launch_testing_examples': PYTHONPATH=/home/vboxuser/ros2_ws/build/launch_testing_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/launch_testing_examples build --build-base /home/vboxuser/ros2_ws/build/launch_testing_examples/build install --record /home/vboxuser/ros2_ws/build/launch_testing_examples/install.log --single-version-externally-managed install_data
+[8.894s] running egg_info
+[8.939s] writing ../../../../build/launch_testing_examples/launch_testing_examples.egg-info/PKG-INFO
+[8.957s] writing dependency_links to ../../../../build/launch_testing_examples/launch_testing_examples.egg-info/dependency_links.txt
+[8.983s] writing entry points to ../../../../build/launch_testing_examples/launch_testing_examples.egg-info/entry_points.txt
+[8.992s] writing requirements to ../../../../build/launch_testing_examples/launch_testing_examples.egg-info/requires.txt
+[8.998s] writing top-level names to ../../../../build/launch_testing_examples/launch_testing_examples.egg-info/top_level.txt
+[9.035s] reading manifest file '../../../../build/launch_testing_examples/launch_testing_examples.egg-info/SOURCES.txt'
+[9.035s] writing manifest file '../../../../build/launch_testing_examples/launch_testing_examples.egg-info/SOURCES.txt'
+[9.035s] running build
+[9.035s] running build_py
+[9.035s] running install
+[9.036s] running install_lib
+[9.065s] running install_data
+[9.066s] running install_egg_info
+[9.092s] removing '/home/vboxuser/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples-0.18.2-py3.10.egg-info' (and everything under it)
+[9.094s] Copying ../../../../build/launch_testing_examples/launch_testing_examples.egg-info to /home/vboxuser/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples-0.18.2-py3.10.egg-info
+[9.095s] running install_scripts
+[9.242s] writing list of installed files to '/home/vboxuser/ros2_ws/build/launch_testing_examples/install.log'
+[9.533s] Invoked command in '/home/vboxuser/ros2_ws/src/examples/launch_testing/launch_testing_examples' returned '0': PYTHONPATH=/home/vboxuser/ros2_ws/build/launch_testing_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/launch_testing_examples build --build-base /home/vboxuser/ros2_ws/build/launch_testing_examples/build install --record /home/vboxuser/ros2_ws/build/launch_testing_examples/install.log --single-version-externally-managed install_data

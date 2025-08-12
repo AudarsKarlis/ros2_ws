@@ -31,6 +31,10 @@ class BatteryResistanceEstimator(Node):
         self.resistance_times = [[] for _ in range(self.num_cells)]
         self.resistance_values = [[] for _ in range(self.num_cells)]
 
+        # Store last computed CI values
+        self.last_ci_top = [float('nan')] * self.num_cells
+        self.last_ci_bottom = [float('nan')] * self.num_cells
+
         # === CSV Logging Setup ===
         timestamp_str = time.strftime("%Y%m%d_%H%M%S")
         self.csv_filename = f"battery_estimator_log_{timestamp_str}.csv"
@@ -42,6 +46,8 @@ class BatteryResistanceEstimator(Node):
         header += [f'Voltage_Cell{i+1} (V)' for i in range(self.num_cells)]
         header += [f'Resistance_Cell{i+1} (Ohm)' for i in range(self.num_cells)]
         header += [f'MovingAvg_Cell{i+1} (Ohm)' for i in range(self.num_cells)]
+        header += [f'CI_Top_Cell{i+1} (Ohm)' for i in range(self.num_cells)]
+        header += [f'CI_Bottom_Cell{i+1} (Ohm)' for i in range(self.num_cells)]
         self.csv_writer.writerow(header)
 
         # === Plotting Setup ===
@@ -78,14 +84,14 @@ class BatteryResistanceEstimator(Node):
             # Moving average marker
             avg_marker = plot.plot(
                 pen=None,
-                symbol='s',  # square marker
+                symbol='s',
                 symbolSize=12,
                 symbolBrush='w',
                 symbolPen=pg.mkPen('k', width=2),
                 name=f"Avg {i+1}"
             )
 
-            # Error bars (confidence intervals)
+            # Error bars
             err = ErrorBarItem(
                 x=np.array([], dtype=float),
                 y=np.array([], dtype=float),
@@ -118,6 +124,11 @@ class BatteryResistanceEstimator(Node):
 
         resistances = [float('nan')] * self.num_cells
 
+        # Constants for uncertainty
+        u_U = 0.004   # 4 mV
+        u_I = 0.05    # 50 mA
+        MIN_CURRENT = 0.1
+
         # Only compute if previous values exist
         if self.last_current is not None and len(cell_voltages) == self.num_cells:
             delta_i = current - self.last_current
@@ -134,9 +145,6 @@ class BatteryResistanceEstimator(Node):
                     if not np.isnan(resistances[i]):
                         self.resistance_times[i].append(rel_time)
 
-                res_str = ", ".join([f"R{i+1}: {resistances[i]:.4f} Ω" for i in range(self.num_cells)])
-                self.get_logger().info(f"t={rel_time:.2f}s: {res_str}")
-
         moving_averages = []
         for i in range(self.num_cells):
             recent = self.resistance_values[i][-self.moving_avg_window:]
@@ -146,8 +154,21 @@ class BatteryResistanceEstimator(Node):
                 avg = float('nan')
             moving_averages.append(avg)
 
-        # Save data to CSV
-        row = [rel_time, current] + cell_voltages + resistances + moving_averages
+        # === CI calculation for logging ===
+        ci_top_list = []
+        ci_bottom_list = []
+        for i in range(self.num_cells):
+            if np.isnan(resistances[i]) or current is None or cell_voltages[i] is None or abs(current) < MIN_CURRENT:
+                ci_val = float('nan')
+            else:
+                ci_val = np.sqrt(((1.0 / current) * u_U) ** 2 + ((-cell_voltages[i] / (current ** 2)) * u_I) ** 2)
+            ci_top_list.append(ci_val)
+            ci_bottom_list.append(ci_val)
+            self.last_ci_top[i] = ci_val
+            self.last_ci_bottom[i] = ci_val
+
+        # Save to CSV
+        row = [rel_time, current] + cell_voltages + resistances + moving_averages + ci_top_list + ci_bottom_list
         self.csv_writer.writerow(row)
 
         # Update memory
@@ -155,14 +176,6 @@ class BatteryResistanceEstimator(Node):
         self.last_current = current
 
     def update_plot(self):
-        if len(self.resistance_times) == 0:
-            return
-
-        # Constants for uncertainty (from datasheet later)
-        u_U = 0.004   # 4 mV
-        u_I = 0.05    # 50 mA
-        MIN_CURRENT = 0.1
-
         for i in range(self.num_cells):
             if len(self.resistance_values[i]) > 0:
                 times = np.array(self.resistance_times[i], dtype=float)
@@ -171,10 +184,13 @@ class BatteryResistanceEstimator(Node):
                 if len(times) == 0 or len(values) == 0:
                     continue
 
-                # Plot resistance points
+                # Scatter points (filter NaNs)
+                mask_curve = ~np.isnan(times) & ~np.isnan(values)
+                times_curve = times[mask_curve]
+                values_curve = values[mask_curve]
                 self.curves[i].setData(
-                    times,
-                    values,
+                    times_curve,
+                    values_curve,
                     symbol='o',
                     symbolSize=8,
                     symbolBrush=self.colors[i],
@@ -182,34 +198,19 @@ class BatteryResistanceEstimator(Node):
                 )
 
                 # Moving average marker
-                recent_values = values[-self.moving_avg_window:]
-                if len(recent_values) > 0 and not np.all(np.isnan(recent_values)):
+                if len(values_curve) > 0:
+                    recent_values = values_curve[-self.moving_avg_window:]
                     avg_resistance = np.nanmean(recent_values)
-                    avg_time = times[-1]
+                    avg_time = times_curve[-1]
                     self.avg_markers[i].setData([avg_time], [avg_resistance])
 
-                # Error bar calculation
-                yerr = []
-                for j, R in enumerate(values):
-                    if np.isnan(R):
-                        yerr.append(np.nan)
-                        continue
-                    U = self.last_cell_voltages[i]
-                    I = self.last_current
-                    if I is None or U is None or abs(I) < MIN_CURRENT:
-                        yerr.append(np.nan)
-                        continue
-                    u_R = np.sqrt(((1.0 / I) * u_U) ** 2 + ((-U / (I ** 2)) * u_I) ** 2)
-                    yerr.append(u_R)
-
-                yerr_np = np.array(yerr, dtype=float)
-
-                # Update error bars
+                # Error bars (use last computed CI from callback)
+                yerr = [self.last_ci_top[i]] * len(times_curve)
                 self.error_bars[i].setData(
-                    x=times,
-                    y=values,
-                    top=yerr_np,
-                    bottom=yerr_np
+                    x=times_curve,
+                    y=values_curve,
+                    top=yerr,
+                    bottom=yerr
                 )
 
     def start_ros_spin(self):
