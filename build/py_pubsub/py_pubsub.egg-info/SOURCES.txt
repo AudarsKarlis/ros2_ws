@@ -19,6 +19,7 @@ py_pubsub/battery_resistance_estimator5.py
 py_pubsub/battery_resistance_estimator6.py
 py_pubsub/battery_resistance_estimator7.py
 py_pubsub/battery_resistance_estimator8.py
+py_pubsub/battery_resistance_estimator9.py
 py_pubsub/battery_resistance_logger.py
 py_pubsub/publisher_member_function.py
 py_pubsub/publisher_member_function_FLOAT.py

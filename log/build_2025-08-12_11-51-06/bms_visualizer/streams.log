@@ -1,0 +1,21 @@
+[5.374s] Invoking command in '/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bms_visualizer': PYTHONPATH=/home/vboxuser/ros2_ws/build/bms_visualizer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/ros2_ws/install/bms_visualizer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/bms_visualizer build --build-base /home/vboxuser/ros2_ws/build/bms_visualizer/build install --record /home/vboxuser/ros2_ws/build/bms_visualizer/install.log --single-version-externally-managed install_data
+[7.840s] running egg_info
+[7.841s] writing ../../../../build/bms_visualizer/bms_visualizer.egg-info/PKG-INFO
+[7.856s] writing dependency_links to ../../../../build/bms_visualizer/bms_visualizer.egg-info/dependency_links.txt
+[7.863s] writing entry points to ../../../../build/bms_visualizer/bms_visualizer.egg-info/entry_points.txt
+[7.864s] writing requirements to ../../../../build/bms_visualizer/bms_visualizer.egg-info/requires.txt
+[7.864s] writing top-level names to ../../../../build/bms_visualizer/bms_visualizer.egg-info/top_level.txt
+[7.873s] reading manifest file '../../../../build/bms_visualizer/bms_visualizer.egg-info/SOURCES.txt'
+[7.905s] writing manifest file '../../../../build/bms_visualizer/bms_visualizer.egg-info/SOURCES.txt'
+[7.905s] running build
+[7.907s] running build_py
+[7.907s] running install
+[7.907s] running install_lib
+[7.908s] running install_data
+[7.908s] running install_egg_info
+[7.908s] removing '/home/vboxuser/ros2_ws/install/bms_visualizer/lib/python3.10/site-packages/bms_visualizer-0.0.0-py3.10.egg-info' (and everything under it)
+[7.908s] Copying ../../../../build/bms_visualizer/bms_visualizer.egg-info to /home/vboxuser/ros2_ws/install/bms_visualizer/lib/python3.10/site-packages/bms_visualizer-0.0.0-py3.10.egg-info
+[7.918s] running install_scripts
+[8.117s] Installing bms_visualizer_node script to /home/vboxuser/ros2_ws/install/bms_visualizer/lib/bms_visualizer
+[8.136s] writing list of installed files to '/home/vboxuser/ros2_ws/build/bms_visualizer/install.log'
+[8.412s] Invoked command in '/home/vboxuser/ros2_ws/src/BMS_BQ769X2/src/bms_visualizer' returned '0': PYTHONPATH=/home/vboxuser/ros2_ws/build/bms_visualizer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/ros2_ws/install/bms_visualizer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/bms_visualizer build --build-base /home/vboxuser/ros2_ws/build/bms_visualizer/build install --record /home/vboxuser/ros2_ws/build/bms_visualizer/install.log --single-version-externally-managed install_data
