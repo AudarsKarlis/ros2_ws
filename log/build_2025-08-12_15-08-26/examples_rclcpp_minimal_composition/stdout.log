@@ -1,0 +1,28 @@
+[ 33%] Built target composition_nodes
+[ 55%] Built target composition_composed
+[ 77%] Built target composition_subscriber
+[100%] Built target composition_publisher
+-- Install configuration: ""
+-- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/library_path.sh
+-- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/library_path.dsv
+-- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_composition/lib/libcomposition_nodes.so
+-- Set runtime path of "/home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_composition/lib/libcomposition_nodes.so" to ""
+-- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_publisher
+-- Set runtime path of "/home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_publisher" to ""
+-- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_subscriber
+-- Set runtime path of "/home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_subscriber" to ""
+-- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_composed
+-- Set runtime path of "/home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_composed" to ""
+-- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_composition
+-- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_composition
+-- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/ament_prefix_path.dsv
+-- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/path.dsv
+-- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.bash
+-- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.sh
+-- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.zsh
+-- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.dsv
+-- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.dsv
+-- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/packages/examples_rclcpp_minimal_composition
+-- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/cmake/examples_rclcpp_minimal_compositionConfig.cmake
+-- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/cmake/examples_rclcpp_minimal_compositionConfig-version.cmake
+-- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.xml

@@ -1,0 +1,42 @@
+[ 50%] Built target vesc_driver
+[ 70%] Built target vesc_driver_node
+[100%] Built target vesc_device_namer
+-- Install configuration: ""
+-- Installing: /home/vboxuser/ros2_ws/install/vesc_driver/lib/vesc_driver/vesc_driver_node
+-- Set runtime path of "/home/vboxuser/ros2_ws/install/vesc_driver/lib/vesc_driver/vesc_driver_node" to ""
+-- Up-to-date: /home/vboxuser/ros2_ws/install/vesc_driver/include
+-- Up-to-date: /home/vboxuser/ros2_ws/install/vesc_driver/include/vesc_driver
+-- Installing: /home/vboxuser/ros2_ws/install/vesc_driver/include/vesc_driver/vesc_interface.hpp
+-- Installing: /home/vboxuser/ros2_ws/install/vesc_driver/include/vesc_driver/vesc_driver.hpp
+-- Installing: /home/vboxuser/ros2_ws/install/vesc_driver/include/vesc_driver/vesc_packet_factory.hpp
+-- Installing: /home/vboxuser/ros2_ws/install/vesc_driver/include/vesc_driver/crc.hpp
+-- Installing: /home/vboxuser/ros2_ws/install/vesc_driver/include/vesc_driver/datatypes.hpp
+-- Installing: /home/vboxuser/ros2_ws/install/vesc_driver/include/vesc_driver/vesc_packet.hpp
+-- Installing: /home/vboxuser/ros2_ws/install/vesc_driver/include/vesc_driver/vesc_device_uuid_lookup.hpp
+-- Installing: /home/vboxuser/ros2_ws/install/vesc_driver/share/vesc_driver/environment/library_path.sh
+-- Installing: /home/vboxuser/ros2_ws/install/vesc_driver/share/vesc_driver/environment/library_path.dsv
+-- Installing: /home/vboxuser/ros2_ws/install/vesc_driver/lib/libvesc_driver.so
+-- Set runtime path of "/home/vboxuser/ros2_ws/install/vesc_driver/lib/libvesc_driver.so" to ""
+-- Installing: /home/vboxuser/ros2_ws/install/vesc_driver/lib/vesc_driver/vesc_device_namer
+-- Set runtime path of "/home/vboxuser/ros2_ws/install/vesc_driver/lib/vesc_driver/vesc_device_namer" to ""
+-- Up-to-date: /home/vboxuser/ros2_ws/install/vesc_driver/share/vesc_driver/launch
+-- Installing: /home/vboxuser/ros2_ws/install/vesc_driver/share/vesc_driver/launch/vesc_driver_node.launch.py
+-- Up-to-date: /home/vboxuser/ros2_ws/install/vesc_driver/share/vesc_driver/params
+-- Installing: /home/vboxuser/ros2_ws/install/vesc_driver/share/vesc_driver/params/vesc_config.yaml
+-- Installing: /home/vboxuser/ros2_ws/install/vesc_driver/share/ament_index/resource_index/package_run_dependencies/vesc_driver
+-- Installing: /home/vboxuser/ros2_ws/install/vesc_driver/share/ament_index/resource_index/parent_prefix_path/vesc_driver
+-- Installing: /home/vboxuser/ros2_ws/install/vesc_driver/share/vesc_driver/environment/ament_prefix_path.dsv
+-- Installing: /home/vboxuser/ros2_ws/install/vesc_driver/share/vesc_driver/environment/path.dsv
+-- Installing: /home/vboxuser/ros2_ws/install/vesc_driver/share/vesc_driver/local_setup.bash
+-- Installing: /home/vboxuser/ros2_ws/install/vesc_driver/share/vesc_driver/local_setup.sh
+-- Installing: /home/vboxuser/ros2_ws/install/vesc_driver/share/vesc_driver/local_setup.zsh
+-- Installing: /home/vboxuser/ros2_ws/install/vesc_driver/share/vesc_driver/local_setup.dsv
+-- Installing: /home/vboxuser/ros2_ws/install/vesc_driver/share/vesc_driver/package.dsv
+-- Installing: /home/vboxuser/ros2_ws/install/vesc_driver/share/ament_index/resource_index/packages/vesc_driver
+-- Installing: /home/vboxuser/ros2_ws/install/vesc_driver/share/ament_index/resource_index/rclcpp_components/vesc_driver
+-- Installing: /home/vboxuser/ros2_ws/install/vesc_driver/share/vesc_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/vboxuser/ros2_ws/install/vesc_driver/share/vesc_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/vboxuser/ros2_ws/install/vesc_driver/share/vesc_driver/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/vboxuser/ros2_ws/install/vesc_driver/share/vesc_driver/cmake/vesc_driverConfig.cmake
+-- Installing: /home/vboxuser/ros2_ws/install/vesc_driver/share/vesc_driver/cmake/vesc_driverConfig-version.cmake
+-- Installing: /home/vboxuser/ros2_ws/install/vesc_driver/share/vesc_driver/package.xml

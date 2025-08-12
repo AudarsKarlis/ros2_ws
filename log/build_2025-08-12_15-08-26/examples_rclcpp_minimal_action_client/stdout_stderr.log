@@ -1,0 +1,26 @@
+[ 25%] Built target action_client_not_composable
+[ 50%] Built target action_client_not_composable_with_cancel
+[ 75%] Built target action_client_member_functions
+[100%] Built target action_client_not_composable_with_feedback
+-- Install configuration: ""
+-- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_member_functions
+-- Set runtime path of "/home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_member_functions" to ""
+-- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable
+-- Set runtime path of "/home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable" to ""
+-- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable_with_cancel
+-- Set runtime path of "/home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable_with_cancel" to ""
+-- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable_with_feedback
+-- Set runtime path of "/home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable_with_feedback" to ""
+-- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_client/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_action_client
+-- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_client/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_action_client
+-- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/environment/ament_prefix_path.dsv
+-- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/environment/path.dsv
+-- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.bash
+-- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.sh
+-- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.zsh
+-- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.dsv
+-- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/package.dsv
+-- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_client/share/ament_index/resource_index/packages/examples_rclcpp_minimal_action_client
+-- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/cmake/examples_rclcpp_minimal_action_clientConfig.cmake
+-- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/cmake/examples_rclcpp_minimal_action_clientConfig-version.cmake
+-- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/package.xml

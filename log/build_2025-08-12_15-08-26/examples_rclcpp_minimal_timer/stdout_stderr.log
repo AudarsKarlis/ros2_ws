@@ -1,0 +1,20 @@
+[ 50%] Built target timer_lambda
+[100%] Built target timer_member_function
+-- Install configuration: ""
+-- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_lambda
+-- Set runtime path of "/home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_lambda" to ""
+-- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_member_function
+-- Set runtime path of "/home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_member_function" to ""
+-- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_timer
+-- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_timer
+-- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/ament_prefix_path.dsv
+-- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/path.dsv
+-- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.bash
+-- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.sh
+-- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.zsh
+-- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.dsv
+-- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/package.dsv
+-- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/packages/examples_rclcpp_minimal_timer
+-- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/cmake/examples_rclcpp_minimal_timerConfig.cmake
+-- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/cmake/examples_rclcpp_minimal_timerConfig-version.cmake
+-- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/package.xml

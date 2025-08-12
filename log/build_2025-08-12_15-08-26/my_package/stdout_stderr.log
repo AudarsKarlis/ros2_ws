@@ -1,0 +1,16 @@
+[100%] Built target my_node
+-- Install configuration: ""
+-- Installing: /home/vboxuser/ros2_ws/install/my_package/lib/my_package/my_node
+-- Installing: /home/vboxuser/ros2_ws/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+-- Installing: /home/vboxuser/ros2_ws/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+-- Installing: /home/vboxuser/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+-- Installing: /home/vboxuser/ros2_ws/install/my_package/share/my_package/environment/path.dsv
+-- Installing: /home/vboxuser/ros2_ws/install/my_package/share/my_package/local_setup.bash
+-- Installing: /home/vboxuser/ros2_ws/install/my_package/share/my_package/local_setup.sh
+-- Installing: /home/vboxuser/ros2_ws/install/my_package/share/my_package/local_setup.zsh
+-- Installing: /home/vboxuser/ros2_ws/install/my_package/share/my_package/local_setup.dsv
+-- Installing: /home/vboxuser/ros2_ws/install/my_package/share/my_package/package.dsv
+-- Installing: /home/vboxuser/ros2_ws/install/my_package/share/ament_index/resource_index/packages/my_package
+-- Installing: /home/vboxuser/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+-- Installing: /home/vboxuser/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+-- Installing: /home/vboxuser/ros2_ws/install/my_package/share/my_package/package.xml
