@@ -1,88 +1,89 @@
-import rclpy
-from rclpy.node import Node
-from sensor_msgs.msg import BatteryState
-import numpy as np
-import threading
-import pyqtgraph as pg
-from pyqtgraph.Qt import QtCore
-from pyqtgraph import ErrorBarItem
-import csv
-import os
-import time
+import rclpy #For making ROS2 environment
+from rclpy.node import Node #Import Node for implementing ROS2 nodes in Python
+from sensor_msgs.msg import BatteryState #Imports ROS message for battery state info
+import numpy as np #NumPy - fundamental package for array and numeric operations
+import threading #For working with threading. In this script 'deamon' thread is spinning
+import pyqtgraph as pg #Plotting library
+from pyqtgraph.Qt import QtCore #For updating graph periodically
+from pyqtgraph import ErrorBarItem #For plotting vertical error bars
+import csv #Module for reading/writing csv file
+import os #For building/checking paths
+import time #Used for timestamps
 
 
-class BatteryResistanceEstimator(Node):
-    def __init__(self):
-        super().__init__('battery_resistance_estimator')
+class BatteryResistanceEstimator(Node): #New class 'BatteryResistanceEstimator' with features from 'Node' is defined
+    def __init__(self): #Defines constructor method of object
+        super().__init__('battery_resistance_estimator') #Constructs node called 'battery_resistance_estimator'
 
         # Subscribe to battery state
-        self.subscription = self.create_subscription(
-            BatteryState,
-            '/bat_state',
-            self.listener_callback,
-            10)
+        self.subscription = self.create_subscription( #Calls node method to subscribe to a topic
+            BatteryState, #Message type expected from topic
+            '/bat_state', #Topic name to listen to
+            self.listener_callback, #Function in class that runs every time new message arrives
+            10) #Up to 10 messages can be stored if callback can not keep up
 
-        self.start_time = None
-        self.num_cells = 6
-        self.last_cell_voltages = [None] * self.num_cells
-        self.last_current = None
+        self.start_time = None #Sets initial start time
+        self.num_cells = 6 #Stores number of cells
+        self.last_cell_voltages = [None] * self.num_cells #Stores previous voltage reading (no data yet)
+        self.last_current = None #Stores previous current reading (starts with 'no data yet')
 
         # Resistance plotting data
-        self.resistance_times = [[] for _ in range(self.num_cells)]
-        self.resistance_values = [[] for _ in range(self.num_cells)]
+        self.resistance_times = [[] for _ in range(self.num_cells)] #Creates list of empty lists for each cell, Stores time
+        self.resistance_values = [[] for _ in range(self.num_cells)] #Stores resistance values
 
-        # Store last computed CI values
-        self.last_ci_top = [float('nan')] * self.num_cells
-        self.last_ci_bottom = [float('nan')] * self.num_cells
+        # Store last computed CI values for each cell
+        self.last_ci_top = [float('nan')] * self.num_cells #'Not value yet' is stored as CI upper value
+        self.last_ci_bottom = [float('nan')] * self.num_cells #'Not value yet' is stored as CI lower value
 
         # === CSV Logging Setup ===
-        timestamp_str = time.strftime("%Y%m%d_%H%M%S")
-        self.csv_filename = f"battery_estimator_log_{timestamp_str}.csv"
-        self.csv_file = open(self.csv_filename, mode='w', newline='')
-        self.csv_writer = csv.writer(self.csv_file)
+        timestamp_str = time.strftime("%Y%m%d_%H%M%S") #YYYYMMDD_HHMMSS format is used for naming csv file
+        self.csv_filename = f"battery_estimator_log_{timestamp_str}.csv" #File name for csv file is defined
+        self.csv_file = open(self.csv_filename, mode='w', newline='') #Opens file in writing mode
+        self.csv_writer = csv.writer(self.csv_file) #Object for writing rows is tied up to csv file
 
         # CSV Header
-        header = ['Time (s)', 'Current (A)']
-        header += [f'Voltage_Cell{i+1} (V)' for i in range(self.num_cells)]
-        header += [f'Resistance_Cell{i+1} (Ohm)' for i in range(self.num_cells)]
-        header += [f'MovingAvg_Cell{i+1} (Ohm)' for i in range(self.num_cells)]
-        header += [f'CI_Top_Cell{i+1} (Ohm)' for i in range(self.num_cells)]
-        header += [f'CI_Bottom_Cell{i+1} (Ohm)' for i in range(self.num_cells)]
-        self.csv_writer.writerow(header)
+        header = ['Time (s)', 'Current (A)'] #Starts building list with first two column names
+        header += [f'Voltage_Cell{i+1} (V)' for i in range(self.num_cells)] #Adds one header for cell voltage
+        header += [f'Resistance_Cell{i+1} (Ohm)' for i in range(self.num_cells)] #Adds one header per cell resistance
+        header += [f'MovingAvg_Cell{i+1} (Ohm)' for i in range(self.num_cells)] #Adds one header per cell moving average
+        header += [f'CI_Top_Cell{i+1} (Ohm)' for i in range(self.num_cells)] #... upper CI bound
+        header += [f'CI_Bottom_Cell{i+1} (Ohm)' for i in range(self.num_cells)] #... lower CI bound
+        self.csv_writer.writerow(header) #Writes entire header as first row of csv file
 
         # === Plotting Setup ===
-        self.app = pg.mkQApp("Real-time Battery Resistance")
-        self.win = pg.GraphicsLayoutWidget(show=True, title="Battery Internal Resistance Estimation")
-        self.moving_avg_window = 2  # Use last 2 resistance values
-        self.avg_markers = []       # One per cell
-        self.error_bars = []        # Error bars for CI
+        self.app = pg.mkQApp("Real-time Battery Resistance") #Displays window with name in brackets
+        self.win = pg.GraphicsLayoutWidget(show=True, title="Battery Internal Resistance Estimation") #Creates main
+        #plotting window, amkes it visible imediately, 'title' is displayed in window's title bar
+        self.moving_avg_window = 3  #Use last 3 resistance values
+        self.avg_markers = []       #One marker per cell
+        self.error_bars = []        #Objects for error bars for CI are created
 
-        self.colors = ['r', 'g', 'b', 'c', 'm', 'y']
-        self.plots = []
-        self.curves = []
+        self.colors = ['r', 'g', 'b', 'c', 'm', 'y'] #Colour for each cell's plot line
+        self.plots = [] #Store plot objects
+        self.curves = [] #Store data curve objects
 
         # Arrange 2 rows × 3 columns
-        for i in range(self.num_cells):
-            if i > 0 and i % 3 == 0:
-                self.win.nextRow()
-            plot = self.win.addPlot(title=f"Cell {i+1} Resistance [Ohm]")
-            plot.setLabel('left', 'Resistance', units='Ohm')
-            plot.setLabel('bottom', 'Time', units='s')
-            plot.showGrid(x=True, y=True)
-            plot.enableAutoRange(x=True, y=True)
+        for i in range(self.num_cells): #Loops over each cell (for creating subplot)
+            if i > 0 and i % 3 == 0: #After 3 subplots
+                self.win.nextRow() #move to next row
+            plot = self.win.addPlot(title=f"Cell {i+1} Resistance [Ohm]") #Creates new subplot
+            plot.setLabel('left', 'Resistance', units='Ohm') #Y-axis labeled as 'Resistance'
+            plot.setLabel('bottom', 'Time', units='s') #X-axis labeled as 'Time'
+            plot.showGrid(x=True, y=True) #Turns on grid line for X and Y
+            plot.enableAutoRange(x=True, y=True) #Enables auto-rescaling
 
             # Resistance points
-            curve = plot.plot(
-                pen=None,
-                symbol='o',
-                symbolSize=8,
-                symbolBrush=self.colors[i],
-                symbolPen='k',
-                name=f"Cell {i+1}"
+            curve = plot.plot( #Creates scatter-plot curve
+                pen=None, #No connecting lines between points
+                symbol='o', #Symbol for circle
+                symbolSize=8, #Size for circle
+                symbolBrush=self.colors[i], #Fills circle with colour assigned to that cell
+                symbolPen='k', #Draws black outline around each circle
+                name=f"Cell {i+1}" #Gives name
             )
 
             # Moving average marker
-            avg_marker = plot.plot(
+            avg_marker = plot.plot( #Creates scatter-point
                 pen=None,
                 symbol='s',
                 symbolSize=12,
@@ -92,19 +93,19 @@ class BatteryResistanceEstimator(Node):
             )
 
             # Error bars
-            err = ErrorBarItem(
-                x=np.array([], dtype=float),
-                y=np.array([], dtype=float),
-                top=np.array([], dtype=float),
-                bottom=np.array([], dtype=float),
-                beam=0.05
+            err = ErrorBarItem( #Creates error bar plot object
+                x=np.array([], dtype=float), #Empty list for X value of error bar's center
+                y=np.array([], dtype=float), #Empty list for Y value of error bar's center
+                top=np.array([], dtype=float), #Empty list of top offset counted from Y value
+                bottom=np.array([], dtype=float), #Empty list of bottom offset counted from Y value
+                beam=0.05 #For little horizontal lines at the ends of vertical line
             )
-            plot.addItem(err)
+            plot.addItem(err) #Call for error bars so they are added (displayed) in plot canvas
 
             self.plots.append(plot)
             self.curves.append(curve)
             self.avg_markers.append(avg_marker)
-            self.error_bars.append(err)
+            self.error_bars.append(err) #For updating error bar with new data
 
         self.win.show()
 

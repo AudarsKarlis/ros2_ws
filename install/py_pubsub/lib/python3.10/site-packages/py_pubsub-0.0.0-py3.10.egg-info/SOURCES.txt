@@ -12,6 +12,7 @@ setup.py
 py_pubsub/__init__.py
 py_pubsub/battery_resistance_estimator.py
 py_pubsub/battery_resistance_estimator1.py
+py_pubsub/battery_resistance_estimator10.py
 py_pubsub/battery_resistance_estimator2.py
 py_pubsub/battery_resistance_estimator3.py
 py_pubsub/battery_resistance_estimator4.py

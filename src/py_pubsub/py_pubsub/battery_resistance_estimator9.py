@@ -63,27 +63,27 @@ class BatteryResistanceEstimator(Node): #New class 'BatteryResistanceEstimator' 
         self.curves = [] #Store data curve objects
 
         # Arrange 2 rows × 3 columns
-        for i in range(self.num_cells):
-            if i > 0 and i % 3 == 0:
-                self.win.nextRow()
-            plot = self.win.addPlot(title=f"Cell {i+1} Resistance [Ohm]")
-            plot.setLabel('left', 'Resistance', units='Ohm')
-            plot.setLabel('bottom', 'Time', units='s')
-            plot.showGrid(x=True, y=True)
-            plot.enableAutoRange(x=True, y=True)
+        for i in range(self.num_cells): #Loops over each cell (for creating subplot)
+            if i > 0 and i % 3 == 0: #After 3 subplots
+                self.win.nextRow() #move to next row
+            plot = self.win.addPlot(title=f"Cell {i+1} Resistance [Ohm]") #Creates new subplot
+            plot.setLabel('left', 'Resistance', units='Ohm') #Y-axis labeled as 'Resistance'
+            plot.setLabel('bottom', 'Time', units='s') #X-axis labeled as 'Time'
+            plot.showGrid(x=True, y=True) #Turns on grid line for X and Y
+            plot.enableAutoRange(x=True, y=True) #Enables auto-rescaling
 
             # Resistance points
-            curve = plot.plot(
-                pen=None,
-                symbol='o',
-                symbolSize=8,
-                symbolBrush=self.colors[i],
-                symbolPen='k',
-                name=f"Cell {i+1}"
+            curve = plot.plot( #Creates scatter-plot curve
+                pen=None, #No connecting lines between points
+                symbol='o', #Symbol for circle
+                symbolSize=8, #Size for circle
+                symbolBrush=self.colors[i], #Fills circle with colour assigned to that cell
+                symbolPen='k', #Draws black outline around each circle
+                name=f"Cell {i+1}" #Gives name
             )
 
             # Moving average marker
-            avg_marker = plot.plot(
+            avg_marker = plot.plot( #Creates scatter-point
                 pen=None,
                 symbol='s',
                 symbolSize=12,
@@ -93,19 +93,19 @@ class BatteryResistanceEstimator(Node): #New class 'BatteryResistanceEstimator' 
             )
 
             # Error bars
-            err = ErrorBarItem(
-                x=np.array([], dtype=float),
-                y=np.array([], dtype=float),
-                top=np.array([], dtype=float),
-                bottom=np.array([], dtype=float),
-                beam=0.05
+            err = ErrorBarItem( #Creates error bar plot object
+                x=np.array([], dtype=float), #Empty list for X value of error bar's center
+                y=np.array([], dtype=float), #Empty list for Y value of error bar's center
+                top=np.array([], dtype=float), #Empty list of top offset counted from Y value
+                bottom=np.array([], dtype=float), #Empty list of bottom offset counted from Y value
+                beam=0.05 #For little horizontal lines at the ends of vertical line
             )
-            plot.addItem(err)
+            plot.addItem(err) #Call for error bars so they are added (displayed) in plot canvas
 
             self.plots.append(plot)
             self.curves.append(curve)
             self.avg_markers.append(avg_marker)
-            self.error_bars.append(err)
+            self.error_bars.append(err) #For updating error bar with new data
 
         self.win.show()
 
