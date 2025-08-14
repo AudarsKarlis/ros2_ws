@@ -141,18 +141,19 @@ class BatteryResistanceEstimator(Node):
                         delta_v = cell_voltages[i] - self.last_cell_voltages[i]
                         if abs(delta_v) >= 0.005:
                             resistance = abs(delta_v / delta_i)
-                            self.resistance_values[i].append(resistance)
-                            resistances[i] = resistance
-                            self.resistance_times[i].append(rel_time)
+                        else:
+                            resistance = float('nan')
+                        self.resistance_values[i].append(resistance)
+                        self.resistance_times[i].append(rel_time)
 
-                            # Calculate CI for this resistance value
-                            if np.isnan(resistance) or current is None or cell_voltages[i] is None or abs(current) < MIN_CURRENT:
-                                ci_val = float('nan')
-                            else:
-                                ci_val = np.sqrt(((1.0 / current) * u_U) ** 2 + ((-cell_voltages[i] / (current ** 2)) * u_I) ** 2)
-                            self.ci_top_history[i].append(ci_val)
-                            self.ci_bottom_history[i].append(ci_val)
-
+                        # Calculate CI for this resistance value
+                        if np.isnan(resistance) or current is None or cell_voltages[i] is None or abs(current) < MIN_CURRENT:
+                            ci_val = float('nan')
+                        else:
+                            ci_val = np.sqrt(((1.0 / current) * u_U) ** 2 + ((-cell_voltages[i] / (current ** 2)) * u_I) ** 2)
+                        self.ci_top_history[i].append(ci_val)
+                        self.ci_bottom_history[i].append(ci_val)
+                        
         moving_averages = []
         for i in range(self.num_cells):
             recent = self.resistance_values[i][-self.moving_avg_window:]
