@@ -1,0 +1,22 @@
+[0.107s] Invoking command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_action_server': /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_action_server -- -j4 -l4
+[0.709s] [ 50%] Built target action_server_member_functions
+[0.996s] [100%] Built target action_server_not_composable
+[1.271s] Invoked command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_action_server' returned '0': /usr/bin/cmake --build /home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_action_server -- -j4 -l4
+[1.312s] Invoking command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_action_server': /usr/bin/cmake --install /home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_action_server
+[1.390s] -- Install configuration: ""
+[1.390s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_server/lib/examples_rclcpp_minimal_action_server/action_server_not_composable
+[1.390s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_server/lib/examples_rclcpp_minimal_action_server/action_server_member_functions
+[1.390s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_server/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_action_server
+[1.391s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_server/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_action_server
+[1.391s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/environment/ament_prefix_path.dsv
+[1.391s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/environment/path.dsv
+[1.396s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/local_setup.bash
+[1.397s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/local_setup.sh
+[1.397s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/local_setup.zsh
+[1.397s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/local_setup.dsv
+[1.397s] -- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/package.dsv
+[1.398s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_server/share/ament_index/resource_index/packages/examples_rclcpp_minimal_action_server
+[1.398s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/cmake/examples_rclcpp_minimal_action_serverConfig.cmake
+[1.398s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/cmake/examples_rclcpp_minimal_action_serverConfig-version.cmake
+[1.399s] -- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/package.xml
+[1.399s] Invoked command in '/home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_action_server' returned '0': /usr/bin/cmake --install /home/vboxuser/ros2_ws/build/examples_rclcpp_minimal_action_server

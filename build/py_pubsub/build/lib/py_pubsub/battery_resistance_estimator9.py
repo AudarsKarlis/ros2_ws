@@ -101,52 +101,53 @@ class BatteryResistanceEstimator(Node): #New class 'BatteryResistanceEstimator' 
                 beam=0.05 #For little horizontal lines at the ends of vertical line
             )
             plot.addItem(err) #Call for error bars so they are added (displayed) in plot canvas
-
+            #Stores all plot elements in list for easier updating later on
             self.plots.append(plot)
             self.curves.append(curve)
             self.avg_markers.append(avg_marker)
             self.error_bars.append(err) #For updating error bar with new data
 
-        self.win.show()
+        self.win.show() #Displays entire window after plots have been created
 
         # Timer for plot updates
-        self.timer = QtCore.QTimer()
-        self.timer.timeout.connect(self.update_plot)
-        self.timer.start(200)  # ms
+        self.timer = QtCore.QTimer() #Makes QTimer object - like a stopwatch
+        self.timer.timeout.connect(self.update_plot) #Every time timer 'ticks' the plot is updated
+        self.timer.start(200)  #5 times per second (200ms) plot update is called
 
-    def listener_callback(self, msg):
-        timestamp = msg.header.stamp.sec + msg.header.stamp.nanosec * 1e-9
-        if self.start_time is None:
+    def listener_callback(self, msg): #Callback function called by ROS2 whenever new /bat_state is received
+        timestamp = msg.header.stamp.sec + msg.header.stamp.nanosec * 1e-9 #ROS2 timestamps to relative time
+        if self.start_time is None: #On first message self.start_time = timestamp
             self.start_time = timestamp
-        rel_time = timestamp - self.start_time
+        rel_time = timestamp - self.start_time #Calculates time since last message, Used for plottin on X-axis
 
-        cell_voltages = list(msg.cell_voltage)
-        current = msg.current
+        cell_voltages = list(msg.cell_voltage) #Extracts cell voltages from message and saves as list
+        current = msg.current #Extracts current from message
 
-        resistances = [float('nan')] * self.num_cells
+        resistances = [float('nan')] * self.num_cells #Creates list for resistance values, Initially with NaN
 
         # Constants for uncertainty
         u_U = 0.004   # 4 mV
         u_I = 0.05    # 50 mA
-        MIN_CURRENT = 0.1
+        MIN_CURRENT = 0.1 #Don't calculate resistance when current is near zero
 
         # Only compute if previous values exist
-        if self.last_current is not None and len(cell_voltages) == self.num_cells:
-            delta_i = current - self.last_current
+        if self.last_current is not None and len(cell_voltages) == self.num_cells: #Checks previous measurement
+            #and number of cell voltages
+            delta_i = current - self.last_current #Calculated delta_I from current and last timestamp
 
-            if abs(delta_i) >= 0.1:  # ΔI ≥ 100 mA
+            if abs(delta_i) >= 0.1:  #Only proceed if ΔI ≥ 100 mA, Filters the noise
                 for i in range(self.num_cells):
-                    if self.last_cell_voltages[i] is not None:
-                        delta_v = cell_voltages[i] - self.last_cell_voltages[i]
-                        if abs(delta_v) >= 0.005:  # ΔV ≥ 5 mV
-                            resistance = abs(delta_v / delta_i)
-                            self.resistance_values[i].append(resistance)
-                            resistances[i] = resistance
-                for i in range(self.num_cells):
+                    if self.last_cell_voltages[i] is not None: #If there is voltage previously
+                        delta_v = cell_voltages[i] - self.last_cell_voltages[i] #Calculate delta_V
+                        if abs(delta_v) >= 0.005:  #Only proceed if ΔV ≥ 5 mV
+                            resistance = abs(delta_v / delta_i) #Calculate absolute value of resistance
+                            self.resistance_values[i].append(resistance) #Add resistance value to history list
+                            resistances[i] = resistance #Store resistance for respective timestep
+                for i in range(self.num_cells): #If resistance was calculated, store corresponding timestamp
                     if not np.isnan(resistances[i]):
                         self.resistance_times[i].append(rel_time)
 
-        moving_averages = []
+        moving_averages = [] #Creates list for moving averages and calculates value for it
         for i in range(self.num_cells):
             recent = self.resistance_values[i][-self.moving_avg_window:]
             if recent and not all(np.isnan(recent)):
@@ -156,84 +157,85 @@ class BatteryResistanceEstimator(Node): #New class 'BatteryResistanceEstimator' 
             moving_averages.append(avg)
 
         # === CI calculation for logging ===
-        ci_top_list = []
-        ci_bottom_list = []
+        ci_top_list = [] #Creates list for upper bounds
+        ci_bottom_list = [] #Creates list for lower bounds
         for i in range(self.num_cells):
             if np.isnan(resistances[i]) or current is None or cell_voltages[i] is None or abs(current) < MIN_CURRENT:
-                ci_val = float('nan')
-            else:
+                ci_val = float('nan') #Don't calculate (put NaN) if resistance, current, voltage is NaN or ...
+            else: #In any other case calculate ci_val
                 ci_val = np.sqrt(((1.0 / current) * u_U) ** 2 + ((-cell_voltages[i] / (current ** 2)) * u_I) ** 2)
-            ci_top_list.append(ci_val)
-            ci_bottom_list.append(ci_val)
-            self.last_ci_top[i] = ci_val
-            self.last_ci_bottom[i] = ci_val
+            ci_top_list.append(ci_val) #Add ci_val to upper bounds list
+            ci_bottom_list.append(ci_val) #Add ci_val to lower bounds list
+            self.last_ci_top[i] = ci_val #Stores last calculated upper CI to draw error bar
+            self.last_ci_bottom[i] = ci_val #Stored last calculated lower CI to draw error bar
 
         # Save to CSV
         row = [rel_time, current] + cell_voltages + resistances + moving_averages + ci_top_list + ci_bottom_list
-        self.csv_writer.writerow(row)
+        self.csv_writer.writerow(row) #Writes row to csv file
 
         # Update memory
-        self.last_cell_voltages = list(cell_voltages)
-        self.last_current = current
+        self.last_cell_voltages = list(cell_voltages) #Saves voltage value for use in next message
+        self.last_current = current #Saves current value for use in next message
 
-    def update_plot(self):
-        for i in range(self.num_cells):
-            if len(self.resistance_values[i]) > 0:
-                times = np.array(self.resistance_times[i], dtype=float)
-                values = np.array(self.resistance_values[i], dtype=float)
+    def update_plot(self): #Defines update plot method
+        for i in range(self.num_cells): #Loops through each battery cell
+            if len(self.resistance_values[i]) > 0: #Checks if there already are resistance value for this cell
+                times = np.array(self.resistance_times[i], dtype=float) #Converts time list to NumPy array
+                values = np.array(self.resistance_values[i], dtype=float) #Converts resistance list to NumPy array
 
-                if len(times) == 0 or len(values) == 0:
+                if len(times) == 0 or len(values) == 0: #Safety check if empty lists don't exist
                     continue
 
                 # Scatter points (filter NaNs)
-                mask_curve = ~np.isnan(times) & ~np.isnan(values)
-                times_curve = times[mask_curve]
-                values_curve = values[mask_curve]
-                self.curves[i].setData(
+                mask_curve = ~np.isnan(times) & ~np.isnan(values) #Ensures that time and values are 'not NaN'
+                times_curve = times[mask_curve] #times curve contains only valid points to plot
+                values_curve = values[mask_curve] #values curve contains only valid points to plot
+                self.curves[i].setData( #Updates scatter plot for cell
                     times_curve,
                     values_curve,
                     symbol='o',
                     symbolSize=8,
                     symbolBrush=self.colors[i],
-                    pen=None
+                    pen=None #No connecting line between points
                 )
 
                 # Moving average marker
-                if len(values_curve) > 0:
-                    recent_values = values_curve[-self.moving_avg_window:]
-                    avg_resistance = np.nanmean(recent_values)
-                    avg_time = times_curve[-1]
-                    self.avg_markers[i].setData([avg_time], [avg_resistance])
+                if len(values_curve) > 0: #Checks if there is at least one valid point
+                    recent_values = values_curve[-self.moving_avg_window:] #Gets values for calculation
+                    avg_resistance = np.nanmean(recent_values) #Calculates mean value
+                    avg_time = times_curve[-1] #Gets most recent time value
+                    self.avg_markers[i].setData([avg_time], [avg_resistance]) #Plots marker on top of circle
 
                 # Error bars (use last computed CI from callback)
-                yerr = [self.last_ci_top[i]] * len(times_curve)
-                self.error_bars[i].setData(
+                yerr = [self.last_ci_top[i]] * len(times_curve) #Creates list of error values, It gives the 
+                #same error value for each circle (INCORECT!!!), Value history is not stored!!!
+                self.error_bars[i].setData( #Replaces all data in error bar with actual value (INCORECT!!!)
                     x=times_curve,
                     y=values_curve,
                     top=yerr,
                     bottom=yerr
                 )
 
-    def start_ros_spin(self):
-        spin_thread = threading.Thread(target=rclpy.spin, args=(self,), daemon=True)
-        spin_thread.start()
+    def start_ros_spin(self): #Defines method for ROS spinning
+        spin_thread = threading.Thread(target=rclpy.spin, args=(self,), daemon=True) #Continues spinning
+        spin_thread.start() #Actually starts the thread, Incomming messages are processed in the background
 
-    def destroy_node(self):
-        self.csv_file.close()
-        self.get_logger().info(f"CSV log saved to {os.path.abspath(self.csv_filename)}")
-        super().destroy_node()
+    def destroy_node(self): #Overrides 'destroy_node()' method to add cleanup behaviour
+        self.csv_file.close() #Closes csv file - it is written into disk
+        self.get_logger().info(f"CSV log saved to {os.path.abspath(self.csv_filename)}") #Shows where csv is
+        super().destroy_node() #Calls original destroy method to properly shut down node
 
 
-def main(args=None):
-    rclpy.init(args=args)
-    node = BatteryResistanceEstimator()
-    node.start_ros_spin()
+def main(args=None): #Defines main entry function of script
+    rclpy.init(args=args) #Initializes ROS2 client library
+    node = BatteryResistanceEstimator() #Creates instance for node class, Sets up subscriber, etc.
+    node.start_ros_spin() #Calls method for background thread
     try:
-        node.app.exec_()
-    finally:
-        node.destroy_node()
-        rclpy.shutdown()
+        node.app.exec_() #Starts Qt event loop for real-time plotting, Will stay there until close window
+    finally: #Ensures that cleanup will always run
+        node.destroy_node() #Calls for closing csv, saving messages, shut down ROS node
+        rclpy.shutdown() #Shuts down ROS2 cleanly
 
 
-if __name__ == '__main__':
+if __name__ == '__main__': #Main is called only when script is executed directly, not as module
     main()
