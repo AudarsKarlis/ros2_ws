@@ -49,8 +49,11 @@ class BatteryResistanceEstimator(Node):
         header += [f'Voltage_Cell{i+1} (V)' for i in range(self.num_cells)]
         header += [f'Resistance_Cell{i+1} (Ohm)' for i in range(self.num_cells)]
         header += [f'MovingAvg_Cell{i+1} (Ohm)' for i in range(self.num_cells)]
-        header += [f'CI_Top_Cell{i+1} (Ohm)' for i in range(self.num_cells)]
-        header += [f'CI_Bottom_Cell{i+1} (Ohm)' for i in range(self.num_cells)]
+        #header += [f'CI_Top_Cell{i+1} (Ohm)' for i in range(self.num_cells)]
+        #eader += [f'CI_Bottom_Cell{i+1} (Ohm)' for i in range(self.num_cells)]
+        # Add error bar values for each cell
+        header += [f'ErrorBar_Top_Cell{i+1}' for i in range(self.num_cells)]
+        header += [f'ErrorBar_Bottom_Cell{i+1}' for i in range(self.num_cells)]
         self.csv_writer.writerow(header)
 
         # === Plotting Setup ===
@@ -145,6 +148,7 @@ class BatteryResistanceEstimator(Node):
                             resistance = float('nan')
                         self.resistance_values[i].append(resistance)
                         self.resistance_times[i].append(rel_time)
+                        resistances[i] = resistance  # <-- This line logs resistance for CSV
 
                         # Calculate CI for this resistance value
                         if np.isnan(resistance) or current is None or cell_voltages[i] is None or abs(current) < MIN_CURRENT:
@@ -164,20 +168,33 @@ class BatteryResistanceEstimator(Node):
             moving_averages.append(avg)
 
         # === CI calculation for logging (for last value, for CSV) ===
-        ci_top_list = []
-        ci_bottom_list = []
+        #ci_top_list = []
+        #ci_bottom_list = []
+        #for i in range(self.num_cells):
+        #    if np.isnan(resistances[i]) or current is None or cell_voltages[i] is None or abs(current) < MIN_CURRENT:
+        #        ci_val = float('nan')
+        #    else:
+        #        ci_val = np.sqrt(((1.0 / current) * u_U) ** 2 + ((-cell_voltages[i] / (current ** 2)) * u_I) ** 2)
+        #    ci_top_list.append(ci_val)
+        #    ci_bottom_list.append(ci_val)
+        #    self.last_ci_top[i] = ci_val
+        #    self.last_ci_bottom[i] = ci_val
+
+        # Log error bar values (last value in history for each cell)
+        errorbar_top_list = []
+        errorbar_bottom_list = []
         for i in range(self.num_cells):
-            if np.isnan(resistances[i]) or current is None or cell_voltages[i] is None or abs(current) < MIN_CURRENT:
-                ci_val = float('nan')
+            if len(self.ci_top_history[i]) > 0:
+                errorbar_top_list.append(self.ci_top_history[i][-1])
             else:
-                ci_val = np.sqrt(((1.0 / current) * u_U) ** 2 + ((-cell_voltages[i] / (current ** 2)) * u_I) ** 2)
-            ci_top_list.append(ci_val)
-            ci_bottom_list.append(ci_val)
-            self.last_ci_top[i] = ci_val
-            self.last_ci_bottom[i] = ci_val
+                errorbar_top_list.append(float('nan'))
+            if len(self.ci_bottom_history[i]) > 0:
+                errorbar_bottom_list.append(self.ci_bottom_history[i][-1])
+            else:
+                errorbar_bottom_list.append(float('nan'))
 
         # Save to CSV
-        row = [rel_time, current] + cell_voltages + resistances + moving_averages + ci_top_list + ci_bottom_list
+        row = [rel_time, current] + cell_voltages + resistances + moving_averages + errorbar_top_list + errorbar_bottom_list
         self.csv_writer.writerow(row)
 
         # Update memory
