@@ -148,10 +148,10 @@ class BatteryResistanceEstimator(Node):
                         if abs(delta_v) >= 0.005:
                             resistance = abs(delta_v / delta_i)
                             # Calculate error bar for this resistance value (regardless of current direction)
-                            if np.isnan(resistance) or current is None or cell_voltages[i] is None or abs(current) < MIN_CURRENT:
+                            if np.isnan(resistance) or delta_i == 0 or abs(delta_i) < MIN_CURRENT or abs(delta_v) < 0.005:
                                 ci_val = float('nan')
                             else:
-                                ci_val = np.sqrt(((1.0 / current) * u_U) ** 2 + ((-cell_voltages[i] / (current ** 2)) * u_I) ** 2)
+                                ci_val = np.sqrt(((1.0 / abs(delta_i)) * u_U) ** 2 + ((-abs(delta_v) / (abs(delta_i) ** 2)) * u_I) ** 2)
                             self.resistance_values[i].append(resistance)
                             self.resistance_times[i].append(rel_time)
                             self.ci_top_history[i].append(ci_val)
