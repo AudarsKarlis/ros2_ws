@@ -166,14 +166,18 @@ class BatteryResistanceEstimator(Node):
                             self.ci_bottom_history[i].append(float('nan'))
                             # resistances[i] and errorbar_*_list[i] remain nan
 
-        moving_averages = []
+        # Calculate moving averages only for new resistance values
+        moving_averages = [float('nan')] * self.num_cells
         for i in range(self.num_cells):
-            recent = self.resistance_values[i][-self.moving_avg_window:]
-            if recent and not all(np.isnan(recent)):
-                avg = np.nanmean(recent)
-            else:
-                avg = float('nan')
-            moving_averages.append(avg)
+            # Only update moving average if a new resistance value was calculated
+            if not np.isnan(resistances[i]):
+                recent = self.resistance_values[i][-self.moving_avg_window:]
+                if recent and not all(np.isnan(recent)):
+                    avg = np.nanmean(recent)
+                else:
+                    avg = float('nan')
+                moving_averages[i] = avg
+            # If no new resistance value, keep nan
 
         # Save to CSV every time a message is received
         row = [rel_time, current] + cell_voltages + resistances + moving_averages + errorbar_top_list + errorbar_bottom_list
