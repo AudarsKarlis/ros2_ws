@@ -10,10 +10,10 @@
 		],
 		"files" : 
 		[
-			"/home/vboxuser/ros2_iron/install/ament_cmake_core/share/ament_cmake_core/cmake/ament_cmake_uninstall_target-extras.cmake",
-			"/home/vboxuser/ros2_iron/install/ament_cmake_core/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake",
-			"/home/vboxuser/ros2_iron/install/ament_cmake/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake",
-			"/home/vboxuser/ros2_iron/install/ament_cmake/share/ament_cmake/cmake/ament_cmakeConfig.cmake",
+			"/opt/ros/iron/share/ament_cmake_core/cmake/ament_cmake_uninstall_target-extras.cmake",
+			"/opt/ros/iron/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake",
+			"/opt/ros/iron/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake",
+			"/opt/ros/iron/share/ament_cmake/cmake/ament_cmakeConfig.cmake",
 			"CMakeLists.txt"
 		],
 		"nodes" : 
