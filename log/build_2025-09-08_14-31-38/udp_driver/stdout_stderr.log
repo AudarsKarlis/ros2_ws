@@ -1,0 +1,49 @@
+[ 12%] Built target udp_driver
+[ 20%] Built target gtest_main
+[ 29%] Built target gtest
+[ 41%] Built target udp_driver_nodes
+[ 50%] Built target udp_sender_node_exe
+[ 58%] Built target test_udp_socket
+[ 66%] Built target test_udp_data
+[ 75%] Built target test_udp_driver
+[ 83%] Built target test_udp_driver_nodes
+[ 91%] Built target udp_bridge_node_exe
+[100%] Built target udp_receiver_node_exe
+-- Install configuration: ""
+-- Installing: /home/vboxuser/ros2_ws/install/udp_driver/lib/udp_driver/udp_receiver_node_exe
+-- Set runtime path of "/home/vboxuser/ros2_ws/install/udp_driver/lib/udp_driver/udp_receiver_node_exe" to ""
+-- Installing: /home/vboxuser/ros2_ws/install/udp_driver/lib/udp_driver/udp_sender_node_exe
+-- Set runtime path of "/home/vboxuser/ros2_ws/install/udp_driver/lib/udp_driver/udp_sender_node_exe" to ""
+-- Up-to-date: /home/vboxuser/ros2_ws/install/udp_driver/include
+-- Up-to-date: /home/vboxuser/ros2_ws/install/udp_driver/include/udp_driver
+-- Installing: /home/vboxuser/ros2_ws/install/udp_driver/include/udp_driver/udp_socket.hpp
+-- Installing: /home/vboxuser/ros2_ws/install/udp_driver/include/udp_driver/udp_driver.hpp
+-- Installing: /home/vboxuser/ros2_ws/install/udp_driver/include/udp_driver/udp_receiver_node.hpp
+-- Installing: /home/vboxuser/ros2_ws/install/udp_driver/include/udp_driver/visibility_control.hpp
+-- Installing: /home/vboxuser/ros2_ws/install/udp_driver/include/udp_driver/udp_sender_node.hpp
+-- Installing: /home/vboxuser/ros2_ws/install/udp_driver/share/udp_driver/environment/library_path.sh
+-- Installing: /home/vboxuser/ros2_ws/install/udp_driver/share/udp_driver/environment/library_path.dsv
+-- Installing: /home/vboxuser/ros2_ws/install/udp_driver/lib/libudp_driver.so
+-- Set runtime path of "/home/vboxuser/ros2_ws/install/udp_driver/lib/libudp_driver.so" to ""
+-- Installing: /home/vboxuser/ros2_ws/install/udp_driver/lib/libudp_driver_nodes.so
+-- Set runtime path of "/home/vboxuser/ros2_ws/install/udp_driver/lib/libudp_driver_nodes.so" to ""
+-- Installing: /home/vboxuser/ros2_ws/install/udp_driver/lib/udp_driver/udp_bridge_node_exe
+-- Set runtime path of "/home/vboxuser/ros2_ws/install/udp_driver/lib/udp_driver/udp_bridge_node_exe" to ""
+-- Installing: /home/vboxuser/ros2_ws/install/udp_driver/share/ament_index/resource_index/package_run_dependencies/udp_driver
+-- Installing: /home/vboxuser/ros2_ws/install/udp_driver/share/ament_index/resource_index/parent_prefix_path/udp_driver
+-- Installing: /home/vboxuser/ros2_ws/install/udp_driver/share/udp_driver/environment/ament_prefix_path.dsv
+-- Installing: /home/vboxuser/ros2_ws/install/udp_driver/share/udp_driver/environment/path.dsv
+-- Installing: /home/vboxuser/ros2_ws/install/udp_driver/share/udp_driver/local_setup.bash
+-- Installing: /home/vboxuser/ros2_ws/install/udp_driver/share/udp_driver/local_setup.sh
+-- Installing: /home/vboxuser/ros2_ws/install/udp_driver/share/udp_driver/local_setup.zsh
+-- Installing: /home/vboxuser/ros2_ws/install/udp_driver/share/udp_driver/local_setup.dsv
+-- Installing: /home/vboxuser/ros2_ws/install/udp_driver/share/udp_driver/package.dsv
+-- Installing: /home/vboxuser/ros2_ws/install/udp_driver/share/ament_index/resource_index/packages/udp_driver
+-- Installing: /home/vboxuser/ros2_ws/install/udp_driver/share/ament_index/resource_index/rclcpp_components/udp_driver
+-- Installing: /home/vboxuser/ros2_ws/install/udp_driver/share/udp_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/vboxuser/ros2_ws/install/udp_driver/share/udp_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/vboxuser/ros2_ws/install/udp_driver/share/udp_driver/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/vboxuser/ros2_ws/install/udp_driver/share/udp_driver/cmake/udp_driver-extras.cmake
+-- Installing: /home/vboxuser/ros2_ws/install/udp_driver/share/udp_driver/cmake/udp_driverConfig.cmake
+-- Installing: /home/vboxuser/ros2_ws/install/udp_driver/share/udp_driver/cmake/udp_driverConfig-version.cmake
+-- Installing: /home/vboxuser/ros2_ws/install/udp_driver/share/udp_driver/package.xml

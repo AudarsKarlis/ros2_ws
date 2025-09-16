@@ -1,0 +1,44 @@
+[ 13%] Built target gtest_main
+[ 26%] Built target gtest
+[ 46%] Built target serial_driver
+[ 60%] Built target serial_bridge
+[ 73%] Built target test_serial_driver
+[ 86%] Built target test_serial_port
+[100%] Built target serial_driver_nodes
+-- Install configuration: ""
+-- Installing: /home/vboxuser/ros2_ws/install/serial_driver/lib/serial_driver/serial_bridge
+-- Set runtime path of "/home/vboxuser/ros2_ws/install/serial_driver/lib/serial_driver/serial_bridge" to ""
+-- Up-to-date: /home/vboxuser/ros2_ws/install/serial_driver/include
+-- Up-to-date: /home/vboxuser/ros2_ws/install/serial_driver/include/serial_driver
+-- Installing: /home/vboxuser/ros2_ws/install/serial_driver/include/serial_driver/serial_port.hpp
+-- Installing: /home/vboxuser/ros2_ws/install/serial_driver/include/serial_driver/visibility_control.hpp
+-- Installing: /home/vboxuser/ros2_ws/install/serial_driver/include/serial_driver/serial_driver.hpp
+-- Installing: /home/vboxuser/ros2_ws/install/serial_driver/include/serial_driver/serial_bridge_node.hpp
+-- Installing: /home/vboxuser/ros2_ws/install/serial_driver/share/serial_driver/environment/library_path.sh
+-- Installing: /home/vboxuser/ros2_ws/install/serial_driver/share/serial_driver/environment/library_path.dsv
+-- Installing: /home/vboxuser/ros2_ws/install/serial_driver/lib/libserial_driver.so
+-- Set runtime path of "/home/vboxuser/ros2_ws/install/serial_driver/lib/libserial_driver.so" to ""
+-- Installing: /home/vboxuser/ros2_ws/install/serial_driver/lib/libserial_driver_nodes.so
+-- Set runtime path of "/home/vboxuser/ros2_ws/install/serial_driver/lib/libserial_driver_nodes.so" to ""
+-- Up-to-date: /home/vboxuser/ros2_ws/install/serial_driver/share/serial_driver/launch
+-- Installing: /home/vboxuser/ros2_ws/install/serial_driver/share/serial_driver/launch/serial_driver_bridge_node.launch.py
+-- Up-to-date: /home/vboxuser/ros2_ws/install/serial_driver/share/serial_driver/params
+-- Installing: /home/vboxuser/ros2_ws/install/serial_driver/share/serial_driver/params/example.params.yaml
+-- Installing: /home/vboxuser/ros2_ws/install/serial_driver/share/ament_index/resource_index/package_run_dependencies/serial_driver
+-- Installing: /home/vboxuser/ros2_ws/install/serial_driver/share/ament_index/resource_index/parent_prefix_path/serial_driver
+-- Installing: /home/vboxuser/ros2_ws/install/serial_driver/share/serial_driver/environment/ament_prefix_path.dsv
+-- Installing: /home/vboxuser/ros2_ws/install/serial_driver/share/serial_driver/environment/path.dsv
+-- Installing: /home/vboxuser/ros2_ws/install/serial_driver/share/serial_driver/local_setup.bash
+-- Installing: /home/vboxuser/ros2_ws/install/serial_driver/share/serial_driver/local_setup.sh
+-- Installing: /home/vboxuser/ros2_ws/install/serial_driver/share/serial_driver/local_setup.zsh
+-- Installing: /home/vboxuser/ros2_ws/install/serial_driver/share/serial_driver/local_setup.dsv
+-- Installing: /home/vboxuser/ros2_ws/install/serial_driver/share/serial_driver/package.dsv
+-- Installing: /home/vboxuser/ros2_ws/install/serial_driver/share/ament_index/resource_index/packages/serial_driver
+-- Installing: /home/vboxuser/ros2_ws/install/serial_driver/share/ament_index/resource_index/rclcpp_components/serial_driver
+-- Installing: /home/vboxuser/ros2_ws/install/serial_driver/share/serial_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/vboxuser/ros2_ws/install/serial_driver/share/serial_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/vboxuser/ros2_ws/install/serial_driver/share/serial_driver/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/vboxuser/ros2_ws/install/serial_driver/share/serial_driver/cmake/serial_driver-extras.cmake
+-- Installing: /home/vboxuser/ros2_ws/install/serial_driver/share/serial_driver/cmake/serial_driverConfig.cmake
+-- Installing: /home/vboxuser/ros2_ws/install/serial_driver/share/serial_driver/cmake/serial_driverConfig-version.cmake
+-- Installing: /home/vboxuser/ros2_ws/install/serial_driver/share/serial_driver/package.xml

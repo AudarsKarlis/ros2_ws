@@ -1,0 +1,34 @@
+[ 22%] Built target gtest_main
+[ 44%] Built target gtest
+[ 77%] Built target io_context
+[100%] Built target test_io_context
+-- Install configuration: ""
+-- Up-to-date: /home/vboxuser/ros2_ws/install/io_context/include
+-- Up-to-date: /home/vboxuser/ros2_ws/install/io_context/include/io_context
+-- Installing: /home/vboxuser/ros2_ws/install/io_context/include/io_context/common.hpp
+-- Installing: /home/vboxuser/ros2_ws/install/io_context/include/io_context/io_context.hpp
+-- Up-to-date: /home/vboxuser/ros2_ws/install/io_context/include/msg_converters
+-- Installing: /home/vboxuser/ros2_ws/install/io_context/include/msg_converters/converters.hpp
+-- Installing: /home/vboxuser/ros2_ws/install/io_context/include/msg_converters/udp_msgs.hpp
+-- Installing: /home/vboxuser/ros2_ws/install/io_context/include/msg_converters/std_msgs.hpp
+-- Installing: /home/vboxuser/ros2_ws/install/io_context/share/io_context/environment/library_path.sh
+-- Installing: /home/vboxuser/ros2_ws/install/io_context/share/io_context/environment/library_path.dsv
+-- Installing: /home/vboxuser/ros2_ws/install/io_context/lib/libio_context.so
+-- Set runtime path of "/home/vboxuser/ros2_ws/install/io_context/lib/libio_context.so" to ""
+-- Installing: /home/vboxuser/ros2_ws/install/io_context/share/ament_index/resource_index/package_run_dependencies/io_context
+-- Installing: /home/vboxuser/ros2_ws/install/io_context/share/ament_index/resource_index/parent_prefix_path/io_context
+-- Installing: /home/vboxuser/ros2_ws/install/io_context/share/io_context/environment/ament_prefix_path.dsv
+-- Installing: /home/vboxuser/ros2_ws/install/io_context/share/io_context/environment/path.dsv
+-- Installing: /home/vboxuser/ros2_ws/install/io_context/share/io_context/local_setup.bash
+-- Installing: /home/vboxuser/ros2_ws/install/io_context/share/io_context/local_setup.sh
+-- Installing: /home/vboxuser/ros2_ws/install/io_context/share/io_context/local_setup.zsh
+-- Installing: /home/vboxuser/ros2_ws/install/io_context/share/io_context/local_setup.dsv
+-- Installing: /home/vboxuser/ros2_ws/install/io_context/share/io_context/package.dsv
+-- Installing: /home/vboxuser/ros2_ws/install/io_context/share/ament_index/resource_index/packages/io_context
+-- Installing: /home/vboxuser/ros2_ws/install/io_context/share/io_context/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/vboxuser/ros2_ws/install/io_context/share/io_context/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/vboxuser/ros2_ws/install/io_context/share/io_context/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/vboxuser/ros2_ws/install/io_context/share/io_context/cmake/io_context-extras.cmake
+-- Installing: /home/vboxuser/ros2_ws/install/io_context/share/io_context/cmake/io_contextConfig.cmake
+-- Installing: /home/vboxuser/ros2_ws/install/io_context/share/io_context/cmake/io_contextConfig-version.cmake
+-- Installing: /home/vboxuser/ros2_ws/install/io_context/share/io_context/package.xml

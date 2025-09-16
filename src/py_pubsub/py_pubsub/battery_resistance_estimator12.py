@@ -132,8 +132,8 @@ class BatteryResistanceEstimator(Node):
         errorbar_bottom_list = [float('nan')] * self.num_cells
 
         # Constants for uncertainty
-        u_U = 0.004   # 4 mV
-        u_I = 0.05    # 50 mA
+        u_U = 0.004   # 4 mV (double-check in datasheet)
+        u_I = 0.05    # 50 mA (double-check in datasheet)
         MIN_CURRENT = 0.1
 
         # Only compute if previous values exist
