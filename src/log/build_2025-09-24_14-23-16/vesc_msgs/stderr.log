@@ -1,0 +1,3 @@
+gmake[2]: *** [CMakeFiles/ament_cmake_python_copy_vesc_msgs.dir/build.make:85: CMakeFiles/ament_cmake_python_copy_vesc_msgs.dir/depend] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:451: CMakeFiles/ament_cmake_python_copy_vesc_msgs.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt
