@@ -1,0 +1,24 @@
+[3.415s] Invoking command in '/home/vboxuser/ros2_ws/src/examples/rclpy/actions/minimal_action_client': PYTHONPATH=/home/vboxuser/ros2_ws/build/examples_rclpy_minimal_action_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_action_client build --build-base /home/vboxuser/ros2_ws/build/examples_rclpy_minimal_action_client/build install --record /home/vboxuser/ros2_ws/build/examples_rclpy_minimal_action_client/install.log --single-version-externally-managed install_data
+[4.610s] running egg_info
+[4.613s] writing ../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/PKG-INFO
+[4.615s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/dependency_links.txt
+[4.617s] writing entry points to ../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/entry_points.txt
+[4.617s] writing requirements to ../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/requires.txt
+[4.617s] writing top-level names to ../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/top_level.txt
+[4.622s] reading manifest file '../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/SOURCES.txt'
+[4.624s] writing manifest file '../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/SOURCES.txt'
+[4.625s] running build
+[4.625s] running build_py
+[4.630s] running install
+[4.631s] running install_lib
+[4.708s] running install_data
+[4.709s] running install_egg_info
+[4.709s] removing '/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages/examples_rclpy_minimal_action_client-0.18.2-py3.10.egg-info' (and everything under it)
+[4.709s] Copying ../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info to /home/vboxuser/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages/examples_rclpy_minimal_action_client-0.18.2-py3.10.egg-info
+[4.709s] running install_scripts
+[4.776s] Installing client script to /home/vboxuser/ros2_ws/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[4.776s] Installing client_asyncio script to /home/vboxuser/ros2_ws/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[4.777s] Installing client_cancel script to /home/vboxuser/ros2_ws/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[4.784s] Installing client_not_composable script to /home/vboxuser/ros2_ws/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[4.784s] writing list of installed files to '/home/vboxuser/ros2_ws/build/examples_rclpy_minimal_action_client/install.log'
+[4.885s] Invoked command in '/home/vboxuser/ros2_ws/src/examples/rclpy/actions/minimal_action_client' returned '0': PYTHONPATH=/home/vboxuser/ros2_ws/build/examples_rclpy_minimal_action_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_action_client build --build-base /home/vboxuser/ros2_ws/build/examples_rclpy_minimal_action_client/build install --record /home/vboxuser/ros2_ws/build/examples_rclpy_minimal_action_client/install.log --single-version-externally-managed install_data

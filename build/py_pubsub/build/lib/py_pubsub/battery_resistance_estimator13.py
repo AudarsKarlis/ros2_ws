@@ -11,7 +11,6 @@ import os
 import time
 import queue
 
-
 class BatteryLoggerFirst6(Node):
     def __init__(self):
         super().__init__('battery_logger_first6')
@@ -27,9 +26,9 @@ class BatteryLoggerFirst6(Node):
         self.last_current = None
         self.last_cell_voltages = None
 
-        # For live plotting
-        self.rint_times = []
-        self.rint_values = []
+        # For live plotting: one list per cell
+        self.rint_times = [[] for _ in range(self.num_cells)]
+        self.rint_values = [[] for _ in range(self.num_cells)]
         self.rint_queue = queue.Queue()  # Thread-safe queue
 
         # CSV Logging Setup
@@ -38,21 +37,30 @@ class BatteryLoggerFirst6(Node):
         self.csv_file = open(self.csv_filename, mode='w', newline='')
         self.csv_writer = csv.writer(self.csv_file)
 
-        # CSV Header
-        header = ['Time (s)', 'Current (A)']
+        # CSV Header as requested
+        header = ['Time (s)', 'Current (A)', 'abs(delta_I)']
         header += [f'Voltage_Cell{i+1} (V)' for i in range(self.num_cells)]
-        header += ['abs(delta_I)', 'abs(delta_U)', 'R_int']
+        header += [f'abs(delta_U_Cell{i+1})' for i in range(self.num_cells)]
+        header += [f'R_int_Cell{i+1}' for i in range(self.num_cells)]
         self.csv_writer.writerow(header)
 
-        # Setup live plot
+        # Setup live plot: 2 rows x 3 columns of subplots
         self.app = pg.mkQApp("R_int Live Plot")
-        self.win = pg.GraphicsLayoutWidget(show=True, title="Internal Resistance Live Plot")
-        self.plot = self.win.addPlot(title="Internal Resistance vs Time")
-        self.plot.setLabel('left', 'R_int', units='Ohm')
-        self.plot.setLabel('bottom', 'Time', units='s')
-        self.curve = self.plot.plot(pen='y', symbol='o', symbolBrush='y')
+        self.win = pg.GraphicsLayoutWidget(show=True, title="Internal Resistance Live Plots")
+        self.plots = []
+        self.curves = []
+        plot_titles = [f"R_int_Cell{i+1}" for i in range(self.num_cells)]
+        for i in range(2):  # 2 rows
+            for j in range(3):  # 3 columns
+                p = self.win.addPlot(row=i, col=j, title=plot_titles[i*3 + j])
+                p.setLabel('left', 'R_int', units='Ohm')
+                p.setLabel('bottom', 'Time', units='s')
+                p.showGrid(x=True, y=True, alpha=0.5)  # Enable grid for easier reading
+                curve = p.plot(pen='y', symbol='o', symbolBrush='y')
+                self.plots.append(p)
+                self.curves.append(curve)
 
-        # Timer refresh for curve
+        # Timer refresh for curves
         self.timer = QtCore.QTimer()
         self.timer.timeout.connect(self.update_plot)
         self.timer.start(200)
@@ -64,25 +72,37 @@ class BatteryLoggerFirst6(Node):
             self.start_time = timestamp
         rel_time = timestamp - self.start_time
 
-        # Only log first 6 cell voltages
         cell_voltages = list(msg.cell_voltage)[:self.num_cells]
         current = msg.current
 
         abs_delta_I = float('nan')
-        abs_delta_U = float('nan')
-        R_int = float('nan')
+        delta_I = float('nan')
+        abs_delta_U_cells = [float('nan')] * self.num_cells
+        delta_U_cells = [float('nan')] * self.num_cells
+        R_int_cells = [float('nan')] * self.num_cells
+
         if self.last_current is not None and self.last_cell_voltages is not None:
             delta_I = current - self.last_current
-            delta_U = np.mean([cell_voltages[i] - self.last_cell_voltages[i] for i in range(self.num_cells)])
-            if abs(delta_I) >= 10:
-                abs_delta_I = abs(delta_I)
-                abs_delta_U = abs(delta_U)
-                if abs_delta_I > 0:
-                    R_int = abs_delta_U / abs_delta_I
-                    # Push data to queue instead of touching GUI directly
-                    self.rint_queue.put((rel_time, R_int))
+            abs_delta_I = abs(delta_I)
+            delta_U_cells = [cell_voltages[i] - self.last_cell_voltages[i] for i in range(self.num_cells)]
+            abs_delta_U_cells = [abs(du) for du in delta_U_cells]
 
-        row = [rel_time, current] + cell_voltages + [abs_delta_I, abs_delta_U, R_int]
+            if abs_delta_I >= 10:
+                for i in range(self.num_cells):
+                    # Use abs(delta_U) / abs(delta_I) for R_int as requested
+                    if abs_delta_I != 0:
+                        R_int_cells[i] = abs_delta_U_cells[i] / abs_delta_I
+                        # Push data for this cell to queue for plotting
+                        self.rint_queue.put((i, rel_time, R_int_cells[i]))
+                    else:
+                        R_int_cells[i] = float('nan')
+            else:
+                # If delta_I is not large enough, keep all as nan
+                abs_delta_I = float('nan')
+                abs_delta_U_cells = [float('nan')] * self.num_cells
+                R_int_cells = [float('nan')] * self.num_cells
+
+        row = [rel_time, current, abs_delta_I] + cell_voltages + abs_delta_U_cells + R_int_cells
         self.csv_writer.writerow(row)
 
         self.last_current = current
@@ -91,12 +111,13 @@ class BatteryLoggerFirst6(Node):
     def update_plot(self):
         """Run in Qt thread → safely read from queue and update plot"""
         while not self.rint_queue.empty():
-            t, rint = self.rint_queue.get()
-            self.rint_times.append(t)
-            self.rint_values.append(rint)
+            cell_idx, t, rint = self.rint_queue.get()
+            self.rint_times[cell_idx].append(t)
+            self.rint_values[cell_idx].append(rint)
 
-        if self.rint_times and self.rint_values:
-            self.curve.setData(self.rint_times, self.rint_values)
+        for i in range(self.num_cells):
+            if self.rint_times[i] and self.rint_values[i]:
+                self.curves[i].setData(self.rint_times[i], self.rint_values[i])
 
     def destroy_node(self):
         self.csv_file.close()
@@ -110,7 +131,7 @@ def main(args=None):
 
     # Run ROS 2 executor in a background thread
     executor = MultiThreadedExecutor()
-    executor.add_node(node)   # <-- important!
+    executor.add_node(node)
     ros_thread = threading.Thread(target=executor.spin)
     ros_thread.start()
 
