@@ -18,8 +18,10 @@
 /home/vboxuser/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/battery_resistance_logger.py
 /home/vboxuser/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/__init__.py
 /home/vboxuser/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/battery_resistance_estimator12.py
+/home/vboxuser/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/battery_resistance_logger_FSG.py
 /home/vboxuser/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/publisher_member_function_FLOAT32_array.py
 /home/vboxuser/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/battery_resistance_estimator6.py
+/home/vboxuser/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/battery_resistance_estimator13.py
 /home/vboxuser/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/battery_resistance_estimator7.py
 /home/vboxuser/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/battery_resistance_estimator10.py
 /home/vboxuser/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/publisher_member_function_UINT8.py
@@ -43,8 +45,10 @@
 /home/vboxuser/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/__pycache__/battery_resistance_logger.cpython-310.pyc
 /home/vboxuser/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/__pycache__/__init__.cpython-310.pyc
 /home/vboxuser/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/__pycache__/battery_resistance_estimator12.cpython-310.pyc
+/home/vboxuser/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/__pycache__/battery_resistance_logger_FSG.cpython-310.pyc
 /home/vboxuser/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/__pycache__/publisher_member_function_FLOAT32_array.cpython-310.pyc
 /home/vboxuser/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/__pycache__/battery_resistance_estimator6.cpython-310.pyc
+/home/vboxuser/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/__pycache__/battery_resistance_estimator13.cpython-310.pyc
 /home/vboxuser/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/__pycache__/battery_resistance_estimator7.cpython-310.pyc
 /home/vboxuser/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/__pycache__/battery_resistance_estimator10.cpython-310.pyc
 /home/vboxuser/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/__pycache__/publisher_member_function_UINT8.cpython-310.pyc
@@ -62,6 +66,7 @@
 /home/vboxuser/ros2_ws/install/py_pubsub/lib/py_pubsub/battery_resistance_estimator10
 /home/vboxuser/ros2_ws/install/py_pubsub/lib/py_pubsub/battery_resistance_estimator11
 /home/vboxuser/ros2_ws/install/py_pubsub/lib/py_pubsub/battery_resistance_estimator12
+/home/vboxuser/ros2_ws/install/py_pubsub/lib/py_pubsub/battery_resistance_estimator13
 /home/vboxuser/ros2_ws/install/py_pubsub/lib/py_pubsub/battery_resistance_estimator2
 /home/vboxuser/ros2_ws/install/py_pubsub/lib/py_pubsub/battery_resistance_estimator3
 /home/vboxuser/ros2_ws/install/py_pubsub/lib/py_pubsub/battery_resistance_estimator4
@@ -71,6 +76,7 @@
 /home/vboxuser/ros2_ws/install/py_pubsub/lib/py_pubsub/battery_resistance_estimator8
 /home/vboxuser/ros2_ws/install/py_pubsub/lib/py_pubsub/battery_resistance_estimator9
 /home/vboxuser/ros2_ws/install/py_pubsub/lib/py_pubsub/battery_resistance_logger
+/home/vboxuser/ros2_ws/install/py_pubsub/lib/py_pubsub/battery_resistance_logger_FSG
 /home/vboxuser/ros2_ws/install/py_pubsub/lib/py_pubsub/listener
 /home/vboxuser/ros2_ws/install/py_pubsub/lib/py_pubsub/listener_float
 /home/vboxuser/ros2_ws/install/py_pubsub/lib/py_pubsub/listener_float_array

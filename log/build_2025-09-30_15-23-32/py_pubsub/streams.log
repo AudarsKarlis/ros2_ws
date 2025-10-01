@@ -1,0 +1,48 @@
+[5.696s] Invoking command in '/home/vboxuser/ros2_ws/src/py_pubsub': PYTHONPATH=/home/vboxuser/ros2_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/vboxuser/ros2_ws/build/py_pubsub/build install --record /home/vboxuser/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed install_data
+[7.259s] running egg_info
+[7.259s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[7.259s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[7.259s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[7.260s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[7.271s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[7.277s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[7.279s] adding license file 'LICENSE'
+[7.284s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[7.284s] running build
+[7.285s] running build_py
+[7.291s] copying py_pubsub/battery_resistance_estimator13.py -> /home/vboxuser/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[7.291s] running install
+[7.291s] running install_lib
+[7.298s] copying /home/vboxuser/ros2_ws/build/py_pubsub/build/lib/py_pubsub/battery_resistance_estimator13.py -> /home/vboxuser/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[7.310s] byte-compiling /home/vboxuser/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/battery_resistance_estimator13.py to battery_resistance_estimator13.cpython-310.pyc
+[7.310s] running install_data
+[7.329s] running install_egg_info
+[7.334s] removing '/home/vboxuser/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info' (and everything under it)
+[7.346s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/vboxuser/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info
+[7.350s] running install_scripts
+[7.590s] Installing battery_resistance_estimator script to /home/vboxuser/ros2_ws/install/py_pubsub/lib/py_pubsub
+[7.594s] Installing battery_resistance_estimator1 script to /home/vboxuser/ros2_ws/install/py_pubsub/lib/py_pubsub
+[7.605s] Installing battery_resistance_estimator10 script to /home/vboxuser/ros2_ws/install/py_pubsub/lib/py_pubsub
+[7.606s] Installing battery_resistance_estimator11 script to /home/vboxuser/ros2_ws/install/py_pubsub/lib/py_pubsub
+[7.606s] Installing battery_resistance_estimator12 script to /home/vboxuser/ros2_ws/install/py_pubsub/lib/py_pubsub
+[7.613s] Installing battery_resistance_estimator13 script to /home/vboxuser/ros2_ws/install/py_pubsub/lib/py_pubsub
+[7.616s] Installing battery_resistance_estimator2 script to /home/vboxuser/ros2_ws/install/py_pubsub/lib/py_pubsub
+[7.616s] Installing battery_resistance_estimator3 script to /home/vboxuser/ros2_ws/install/py_pubsub/lib/py_pubsub
+[7.618s] Installing battery_resistance_estimator4 script to /home/vboxuser/ros2_ws/install/py_pubsub/lib/py_pubsub
+[7.618s] Installing battery_resistance_estimator5 script to /home/vboxuser/ros2_ws/install/py_pubsub/lib/py_pubsub
+[7.618s] Installing battery_resistance_estimator6 script to /home/vboxuser/ros2_ws/install/py_pubsub/lib/py_pubsub
+[7.624s] Installing battery_resistance_estimator7 script to /home/vboxuser/ros2_ws/install/py_pubsub/lib/py_pubsub
+[7.624s] Installing battery_resistance_estimator8 script to /home/vboxuser/ros2_ws/install/py_pubsub/lib/py_pubsub
+[7.634s] Installing battery_resistance_estimator9 script to /home/vboxuser/ros2_ws/install/py_pubsub/lib/py_pubsub
+[7.635s] Installing battery_resistance_logger script to /home/vboxuser/ros2_ws/install/py_pubsub/lib/py_pubsub
+[7.642s] Installing battery_resistance_logger_FSG script to /home/vboxuser/ros2_ws/install/py_pubsub/lib/py_pubsub
+[7.646s] Installing listener script to /home/vboxuser/ros2_ws/install/py_pubsub/lib/py_pubsub
+[7.646s] Installing listener_float script to /home/vboxuser/ros2_ws/install/py_pubsub/lib/py_pubsub
+[7.653s] Installing listener_float_array script to /home/vboxuser/ros2_ws/install/py_pubsub/lib/py_pubsub
+[7.653s] Installing listener_uint8 script to /home/vboxuser/ros2_ws/install/py_pubsub/lib/py_pubsub
+[7.653s] Installing talker script to /home/vboxuser/ros2_ws/install/py_pubsub/lib/py_pubsub
+[7.653s] Installing talker_float script to /home/vboxuser/ros2_ws/install/py_pubsub/lib/py_pubsub
+[7.653s] Installing talker_float_array script to /home/vboxuser/ros2_ws/install/py_pubsub/lib/py_pubsub
+[7.653s] Installing talker_uint8 script to /home/vboxuser/ros2_ws/install/py_pubsub/lib/py_pubsub
+[7.663s] writing list of installed files to '/home/vboxuser/ros2_ws/build/py_pubsub/install.log'
+[7.739s] Invoked command in '/home/vboxuser/ros2_ws/src/py_pubsub' returned '0': PYTHONPATH=/home/vboxuser/ros2_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/vboxuser/ros2_ws/build/py_pubsub/build install --record /home/vboxuser/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed install_data

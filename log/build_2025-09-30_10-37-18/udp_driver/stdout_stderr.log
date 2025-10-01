@@ -1,0 +1,73 @@
+[  4%] [32mBuilding CXX object CMakeFiles/udp_driver.dir/src/udp_socket.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/udp_driver.dir/src/udp_driver.cpp.o[0m
+[ 12%] [32m[1mLinking CXX shared library libudp_driver.so[0m
+[ 12%] Built target udp_driver
+[ 16%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 20%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 20%] Built target gtest_main
+[ 25%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 29%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 29%] Built target gtest
+[ 33%] [32mBuilding CXX object CMakeFiles/udp_driver_nodes.dir/src/udp_receiver_node.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/udp_driver_nodes.dir/src/udp_sender_node.cpp.o[0m
+[ 41%] [32m[1mLinking CXX shared library libudp_driver_nodes.so[0m
+[ 41%] Built target udp_driver_nodes
+[ 45%] [32mBuilding CXX object CMakeFiles/udp_sender_node_exe.dir/rclcpp_components/node_main_udp_sender_node_exe.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable udp_sender_node_exe[0m
+[ 50%] Built target udp_sender_node_exe
+[ 54%] [32mBuilding CXX object CMakeFiles/test_udp_socket.dir/test/test_udp_socket.cpp.o[0m
+[ 58%] [32m[1mLinking CXX executable test_udp_socket[0m
+[ 58%] Built target test_udp_socket
+[ 62%] [32mBuilding CXX object CMakeFiles/test_udp_data.dir/test/test_udp_data.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable test_udp_data[0m
+[ 66%] Built target test_udp_data
+[ 70%] [32mBuilding CXX object CMakeFiles/test_udp_driver.dir/test/test_udp_driver.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable test_udp_driver[0m
+[ 75%] Built target test_udp_driver
+[ 79%] [32mBuilding CXX object CMakeFiles/test_udp_driver_nodes.dir/test/test_udp_driver_nodes.cpp.o[0m
+[ 83%] [32m[1mLinking CXX executable test_udp_driver_nodes[0m
+[ 83%] Built target test_udp_driver_nodes
+[ 87%] [32mBuilding CXX object CMakeFiles/udp_bridge_node_exe.dir/src/udp_bridge_node.cpp.o[0m
+[ 91%] [32m[1mLinking CXX executable udp_bridge_node_exe[0m
+[ 91%] Built target udp_bridge_node_exe
+[ 95%] [32mBuilding CXX object CMakeFiles/udp_receiver_node_exe.dir/rclcpp_components/node_main_udp_receiver_node_exe.cpp.o[0m
+[100%] [32m[1mLinking CXX executable udp_receiver_node_exe[0m
+[100%] Built target udp_receiver_node_exe
+-- Install configuration: ""
+-- Installing: /home/vboxuser/ros2_ws/install/udp_driver/lib/udp_driver/udp_receiver_node_exe
+-- Set runtime path of "/home/vboxuser/ros2_ws/install/udp_driver/lib/udp_driver/udp_receiver_node_exe" to ""
+-- Installing: /home/vboxuser/ros2_ws/install/udp_driver/lib/udp_driver/udp_sender_node_exe
+-- Set runtime path of "/home/vboxuser/ros2_ws/install/udp_driver/lib/udp_driver/udp_sender_node_exe" to ""
+-- Up-to-date: /home/vboxuser/ros2_ws/install/udp_driver/include
+-- Up-to-date: /home/vboxuser/ros2_ws/install/udp_driver/include/udp_driver
+-- Up-to-date: /home/vboxuser/ros2_ws/install/udp_driver/include/udp_driver/udp_socket.hpp
+-- Up-to-date: /home/vboxuser/ros2_ws/install/udp_driver/include/udp_driver/udp_driver.hpp
+-- Up-to-date: /home/vboxuser/ros2_ws/install/udp_driver/include/udp_driver/udp_receiver_node.hpp
+-- Up-to-date: /home/vboxuser/ros2_ws/install/udp_driver/include/udp_driver/visibility_control.hpp
+-- Up-to-date: /home/vboxuser/ros2_ws/install/udp_driver/include/udp_driver/udp_sender_node.hpp
+-- Up-to-date: /home/vboxuser/ros2_ws/install/udp_driver/share/udp_driver/environment/library_path.sh
+-- Up-to-date: /home/vboxuser/ros2_ws/install/udp_driver/share/udp_driver/environment/library_path.dsv
+-- Installing: /home/vboxuser/ros2_ws/install/udp_driver/lib/libudp_driver.so
+-- Set runtime path of "/home/vboxuser/ros2_ws/install/udp_driver/lib/libudp_driver.so" to ""
+-- Installing: /home/vboxuser/ros2_ws/install/udp_driver/lib/libudp_driver_nodes.so
+-- Set runtime path of "/home/vboxuser/ros2_ws/install/udp_driver/lib/libudp_driver_nodes.so" to ""
+-- Installing: /home/vboxuser/ros2_ws/install/udp_driver/lib/udp_driver/udp_bridge_node_exe
+-- Set runtime path of "/home/vboxuser/ros2_ws/install/udp_driver/lib/udp_driver/udp_bridge_node_exe" to ""
+-- Up-to-date: /home/vboxuser/ros2_ws/install/udp_driver/share/ament_index/resource_index/package_run_dependencies/udp_driver
+-- Up-to-date: /home/vboxuser/ros2_ws/install/udp_driver/share/ament_index/resource_index/parent_prefix_path/udp_driver
+-- Up-to-date: /home/vboxuser/ros2_ws/install/udp_driver/share/udp_driver/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/vboxuser/ros2_ws/install/udp_driver/share/udp_driver/environment/path.dsv
+-- Up-to-date: /home/vboxuser/ros2_ws/install/udp_driver/share/udp_driver/local_setup.bash
+-- Up-to-date: /home/vboxuser/ros2_ws/install/udp_driver/share/udp_driver/local_setup.sh
+-- Up-to-date: /home/vboxuser/ros2_ws/install/udp_driver/share/udp_driver/local_setup.zsh
+-- Up-to-date: /home/vboxuser/ros2_ws/install/udp_driver/share/udp_driver/local_setup.dsv
+-- Installing: /home/vboxuser/ros2_ws/install/udp_driver/share/udp_driver/package.dsv
+-- Up-to-date: /home/vboxuser/ros2_ws/install/udp_driver/share/ament_index/resource_index/packages/udp_driver
+-- Up-to-date: /home/vboxuser/ros2_ws/install/udp_driver/share/ament_index/resource_index/rclcpp_components/udp_driver
+-- Up-to-date: /home/vboxuser/ros2_ws/install/udp_driver/share/udp_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/vboxuser/ros2_ws/install/udp_driver/share/udp_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/vboxuser/ros2_ws/install/udp_driver/share/udp_driver/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/vboxuser/ros2_ws/install/udp_driver/share/udp_driver/cmake/udp_driver-extras.cmake
+-- Up-to-date: /home/vboxuser/ros2_ws/install/udp_driver/share/udp_driver/cmake/udp_driverConfig.cmake
+-- Up-to-date: /home/vboxuser/ros2_ws/install/udp_driver/share/udp_driver/cmake/udp_driverConfig-version.cmake
+-- Up-to-date: /home/vboxuser/ros2_ws/install/udp_driver/share/udp_driver/package.xml
