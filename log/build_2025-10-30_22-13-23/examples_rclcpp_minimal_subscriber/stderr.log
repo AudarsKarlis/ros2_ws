@@ -1,0 +1,3 @@
+gmake[2]: *** [CMakeFiles/subscriber_member_function_with_type_adapter.dir/build.make:185: CMakeFiles/subscriber_member_function_with_type_adapter.dir/depend] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:234: CMakeFiles/subscriber_member_function_with_type_adapter.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

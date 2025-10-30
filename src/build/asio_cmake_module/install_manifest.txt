@@ -1,8 +1,6 @@
 /home/vboxuser/ros2_ws/src/install/asio_cmake_module/share/ament_index/resource_index/package_run_dependencies/asio_cmake_module
 /home/vboxuser/ros2_ws/src/install/asio_cmake_module/share/ament_index/resource_index/parent_prefix_path/asio_cmake_module
-/home/vboxuser/ros2_ws/src/install/asio_cmake_module/share/asio_cmake_module/environment/ament_prefix_path.sh
 /home/vboxuser/ros2_ws/src/install/asio_cmake_module/share/asio_cmake_module/environment/ament_prefix_path.dsv
-/home/vboxuser/ros2_ws/src/install/asio_cmake_module/share/asio_cmake_module/environment/path.sh
 /home/vboxuser/ros2_ws/src/install/asio_cmake_module/share/asio_cmake_module/environment/path.dsv
 /home/vboxuser/ros2_ws/src/install/asio_cmake_module/share/asio_cmake_module/local_setup.bash
 /home/vboxuser/ros2_ws/src/install/asio_cmake_module/share/asio_cmake_module/local_setup.sh

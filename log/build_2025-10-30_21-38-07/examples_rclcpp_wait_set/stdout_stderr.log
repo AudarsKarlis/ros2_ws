@@ -1,0 +1,75 @@
+[  4%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+[  8%] [32m[1mLinking CXX shared library libtalker.so[0m
+[  8%] Built target talker
+[ 12%] [32mBuilding CXX object CMakeFiles/wait_set_listener.dir/rclcpp_components/node_main_wait_set_listener.cpp.o[0m
+[ 16%] [32m[1mLinking CXX executable wait_set_listener[0m
+[ 16%] Built target wait_set_listener
+[ 20%] [32mBuilding CXX object CMakeFiles/wait_set.dir/src/wait_set.cpp.o[0m
+[ 25%] [32m[1mLinking CXX executable wait_set[0m
+[ 25%] Built target wait_set
+[ 29%] [32mBuilding CXX object CMakeFiles/static_wait_set.dir/src/static_wait_set.cpp.o[0m
+[ 33%] [32m[1mLinking CXX executable static_wait_set[0m
+[ 33%] Built target static_wait_set
+[ 37%] [32mBuilding CXX object CMakeFiles/thread_safe_wait_set.dir/src/thread_safe_wait_set.cpp.o[0m
+[ 41%] [32m[1mLinking CXX executable thread_safe_wait_set[0m
+[ 41%] Built target thread_safe_wait_set
+[ 45%] [32mBuilding CXX object CMakeFiles/wait_set_topics_and_timer.dir/src/wait_set_topics_and_timer.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable wait_set_topics_and_timer[0m
+[ 50%] Built target wait_set_topics_and_timer
+[ 54%] [32mBuilding CXX object CMakeFiles/wait_set_random_order.dir/src/wait_set_random_order.cpp.o[0m
+[ 58%] [32m[1mLinking CXX executable wait_set_random_order[0m
+[ 58%] Built target wait_set_random_order
+[ 62%] [32mBuilding CXX object CMakeFiles/executor_random_order.dir/src/executor_random_order.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable executor_random_order[0m
+[ 66%] Built target executor_random_order
+[ 70%] [32mBuilding CXX object CMakeFiles/wait_set_topics_with_different_rates.dir/src/wait_set_topics_with_different_rates.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable wait_set_topics_with_different_rates[0m
+[ 75%] Built target wait_set_topics_with_different_rates
+[ 79%] [32mBuilding CXX object CMakeFiles/listener.dir/src/listener.cpp.o[0m
+[ 83%] [32m[1mLinking CXX shared library liblistener.so[0m
+[ 83%] Built target listener
+[ 87%] [32mBuilding CXX object CMakeFiles/wait_set_talker.dir/rclcpp_components/node_main_wait_set_talker.cpp.o[0m
+[ 91%] [32m[1mLinking CXX executable wait_set_talker[0m
+[ 91%] Built target wait_set_talker
+[ 95%] [32mBuilding CXX object CMakeFiles/wait_set_composed.dir/src/wait_set_composed.cpp.o[0m
+[100%] [32m[1mLinking CXX executable wait_set_composed[0m
+[100%] Built target wait_set_composed
+-- Install configuration: ""
+-- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_talker
+-- Set runtime path of "/home/vboxuser/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_talker" to ""
+-- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_listener
+-- Set runtime path of "/home/vboxuser/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_listener" to ""
+-- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_wait_set/lib/libtalker.so
+-- Set runtime path of "/home/vboxuser/ros2_ws/install/examples_rclcpp_wait_set/lib/libtalker.so" to ""
+-- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_wait_set/lib/liblistener.so
+-- Set runtime path of "/home/vboxuser/ros2_ws/install/examples_rclcpp_wait_set/lib/liblistener.so" to ""
+-- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set
+-- Set runtime path of "/home/vboxuser/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set" to ""
+-- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/static_wait_set
+-- Set runtime path of "/home/vboxuser/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/static_wait_set" to ""
+-- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/thread_safe_wait_set
+-- Set runtime path of "/home/vboxuser/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/thread_safe_wait_set" to ""
+-- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_and_timer
+-- Set runtime path of "/home/vboxuser/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_and_timer" to ""
+-- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_random_order
+-- Set runtime path of "/home/vboxuser/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_random_order" to ""
+-- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/executor_random_order
+-- Set runtime path of "/home/vboxuser/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/executor_random_order" to ""
+-- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_with_different_rates
+-- Set runtime path of "/home/vboxuser/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_with_different_rates" to ""
+-- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_composed
+-- Set runtime path of "/home/vboxuser/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_composed" to ""
+-- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_wait_set
+-- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_wait_set
+-- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/path.dsv
+-- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.bash
+-- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.sh
+-- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.zsh
+-- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.dsv
+-- Installing: /home/vboxuser/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/package.dsv
+-- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/packages/examples_rclcpp_wait_set
+-- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/rclcpp_components/examples_rclcpp_wait_set
+-- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/cmake/examples_rclcpp_wait_setConfig.cmake
+-- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/cmake/examples_rclcpp_wait_setConfig-version.cmake
+-- Up-to-date: /home/vboxuser/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/package.xml

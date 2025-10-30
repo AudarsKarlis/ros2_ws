@@ -1,0 +1,10 @@
+[ 14%] [32mBuilding CXX object CMakeFiles/vesc_ackermann.dir/src/ackermann_to_vesc.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/vesc_ackermann.dir/src/vesc_to_odom.cpp.o[0m
+[ 42%] [32m[1mLinking CXX shared library libvesc_ackermann.so[0m
+[ 42%] Built target vesc_ackermann
+[ 57%] [32mBuilding CXX object CMakeFiles/vesc_to_odom_node.dir/rclcpp_components/node_main_vesc_to_odom_node.cpp.o[0m
+[ 71%] [32m[1mLinking CXX executable vesc_to_odom_node[0m
+gmake[2]: *** Deleting file 'vesc_to_odom_node'
+gmake[2]: *** [CMakeFiles/vesc_to_odom_node.dir/build.make:177: vesc_to_odom_node] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/vesc_to_odom_node.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

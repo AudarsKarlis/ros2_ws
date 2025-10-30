@@ -5,6 +5,7 @@ battery_resistance_estimator10 = py_pubsub.battery_resistance_estimator10:main
 battery_resistance_estimator11 = py_pubsub.battery_resistance_estimator11:main
 battery_resistance_estimator12 = py_pubsub.battery_resistance_estimator12:main
 battery_resistance_estimator13 = py_pubsub.battery_resistance_estimator13:main
+battery_resistance_estimator14 = py_pubsub.battery_resistance_estimator14:main
 battery_resistance_estimator2 = py_pubsub.battery_resistance_estimator2:main
 battery_resistance_estimator3 = py_pubsub.battery_resistance_estimator3:main
 battery_resistance_estimator4 = py_pubsub.battery_resistance_estimator4:main

@@ -1,0 +1,9 @@
+/usr/bin/ld: CMakeFiles/ping_pong.dir/src/ping_pong.cpp.o: in function `main':
+ping_pong.cpp:(.text+0x20f): undefined reference to `examples_rclcpp_cbg_executor::PongNode::get_high_prio_callback_group()'
+/usr/bin/ld: ping_pong.cpp:(.text+0x297): undefined reference to `examples_rclcpp_cbg_executor::PongNode::get_low_prio_callback_group()'
+/usr/bin/ld: CMakeFiles/ping_pong.dir/src/ping_pong.cpp.o: in function `void __gnu_cxx::new_allocator<examples_rclcpp_cbg_executor::PongNode>::construct<examples_rclcpp_cbg_executor::PongNode>(examples_rclcpp_cbg_executor::PongNode*)':
+ping_pong.cpp:(.text._ZN9__gnu_cxx13new_allocatorIN28examples_rclcpp_cbg_executor8PongNodeEE9constructIS2_JEEEvPT_DpOT0_[_ZN9__gnu_cxx13new_allocatorIN28examples_rclcpp_cbg_executor8PongNodeEE9constructIS2_JEEEvPT_DpOT0_]+0x31): undefined reference to `examples_rclcpp_cbg_executor::PongNode::PongNode()'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/ping_pong.dir/build.make:206: ping_pong] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/ping_pong.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

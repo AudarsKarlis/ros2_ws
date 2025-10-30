@@ -1,0 +1,3 @@
+[ 50%] Built target vesc_driver
+gmake[1]: *** [CMakeFiles/Makefile2:168: CMakeFiles/vesc_driver_node.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

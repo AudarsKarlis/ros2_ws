@@ -44,6 +44,7 @@ setup(
                 'battery_resistance_estimator12 = py_pubsub.battery_resistance_estimator12:main',
                 'battery_resistance_logger_FSG = py_pubsub.battery_resistance_logger_FSG:main',
                 'battery_resistance_estimator13 = py_pubsub.battery_resistance_estimator13:main',
+                'battery_resistance_estimator14 = py_pubsub.battery_resistance_estimator14:main',
         ],
     },
 )

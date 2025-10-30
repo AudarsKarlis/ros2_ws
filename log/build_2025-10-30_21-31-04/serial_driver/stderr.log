@@ -1,0 +1,5 @@
+gmake[2]: *** [CMakeFiles/serial_bridge.dir/build.make:76: CMakeFiles/serial_bridge.dir/rclcpp_components/node_main_serial_bridge.cpp.o] Interrupt
+gmake[1]: *** wait: No child processes.  Stop.
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[1]: *** wait: No child processes.  Stop.
+gmake: *** [Makefile:146: all] Error 2

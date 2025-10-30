@@ -1,0 +1,5 @@
+[35m[1mConsolidate compiler generated dependencies of target subscriber_lambda[0m
+[  8%] Built target subscriber_lambda
+gmake[2]: *** [CMakeFiles/subscriber_member_function_with_type_adapter.dir/build.make:185: CMakeFiles/subscriber_member_function_with_type_adapter.dir/depend] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:234: CMakeFiles/subscriber_member_function_with_type_adapter.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

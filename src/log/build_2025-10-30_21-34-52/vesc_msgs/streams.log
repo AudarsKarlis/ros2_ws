@@ -1,0 +1,312 @@
+[0.249s] Invoking command in '/home/vboxuser/ros2_ws/src/build/vesc_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron:/home/vboxuser/ros2_iron/install/rqt_bag_plugins:/home/vboxuser/ros2_iron/install/rqt_bag:/home/vboxuser/ros2_iron/install/rosbag2_examples_py:/home/vboxuser/ros2_iron/install/launch_testing_examples:/home/vboxuser/ros2_iron/install/ros2bag:/home/vboxuser/ros2_iron/install/tracetools_test:/home/vboxuser/ros2_iron/install/tracetools_launch:/home/vboxuser/ros2_iron/install/topic_monitor:/home/vboxuser/ros2_iron/install/tf2_tools:/home/vboxuser/ros2_iron/install/examples_tf2_py:/home/vboxuser/ros2_iron/install/tf2_ros_py:/home/vboxuser/ros2_iron/install/examples_rclpy_pointcloud_publisher:/home/vboxuser/ros2_iron/install/sensor_msgs_py:/home/vboxuser/ros2_iron/install/quality_of_service_demo_py:/home/vboxuser/ros2_iron/install/rqt_plot:/home/vboxuser/ros2_iron/install/ros2doctor:/home/vboxuser/ros2_iron/install/lifecycle_py:/home/vboxuser/ros2_iron/install/examples_rclpy_minimal_subscriber:/home/vboxuser/ros2_iron/install/examples_rclpy_minimal_service:/home/vboxuser/ros2_iron/install/examples_rclpy_minimal_publisher:/home/vboxuser/ros2_iron/install/examples_rclpy_minimal_client:/home/vboxuser/ros2_iron/install/examples_rclpy_executors:/home/vboxuser/ros2_iron/install/demo_nodes_py:/home/vboxuser/ros2_iron/install/rqt:/home/vboxuser/ros2_iron/install/ros2component:/home/vboxuser/ros2_iron/install/sros2:/home/vboxuser/ros2_iron/install/rqt_topic:/home/vboxuser/ros2_iron/install/rqt_srv:/home/vboxuser/ros2_iron/install/rqt_shell:/home/vboxuser/ros2_iron/install/rqt_service_caller:/home/vboxuser/ros2_iron/install/rqt_reconfigure:/home/vboxuser/ros2_iron/install/rqt_py_console:/home/vboxuser/ros2_iron/install/rqt_publisher:/home/vboxuser/ros2_iron/install/rqt_action:/home/vboxuser/ros2_iron/install/rqt_msg:/home/vboxuser/ros2_iron/install/rqt_console:/home/vboxuser/ros2_iron/install/rqt_graph:/home/vboxuser/ros2_iron/install/rqt_gui_py:/home/vboxuser/ros2_iron/install/rqt_gui:/home/vboxuser/ros2_iron/install/ros2trace:/home/vboxuser/ros2_iron/install/ros2topic:/home/vboxuser/ros2_iron/install/ros2test:/home/vboxuser/ros2_iron/install/ros2param:/home/vboxuser/ros2_iron/install/ros2lifecycle:/home/vboxuser/ros2_iron/install/ros2service:/home/vboxuser/ros2_iron/install/ros2run:/home/vboxuser/ros2_iron/install/ros2launch:/home/vboxuser/ros2_iron/install/ros2pkg:/home/vboxuser/ros2_iron/install/ros2node:/home/vboxuser/ros2_iron/install/ros2multicast:/home/vboxuser/ros2_iron/install/ros2interface:/home/vboxuser/ros2_iron/install/ros2action:/home/vboxuser/ros2_iron/install/ros2cli:/home/vboxuser/ros2_iron/install/launch_testing_ros:/home/vboxuser/ros2_iron/install/launch_ros:/home/vboxuser/ros2_iron/install/examples_rclpy_minimal_action_server:/home/vboxuser/ros2_iron/install/examples_rclpy_minimal_action_client:/home/vboxuser/ros2_iron/install/examples_rclpy_guard_conditions:/home/vboxuser/ros2_iron/install/action_tutorials_py:/home/vboxuser/ros2_iron/install/ament_uncrustify:/home/vboxuser/ros2_iron/install/tracetools_trace:/home/vboxuser/ros2_iron/install/tracetools_read:/home/vboxuser/ros2_iron/install/test_tracetools_launch:/home/vboxuser/ros2_iron/install/test_ros2trace:/home/vboxuser/ros2_iron/install/test_launch_ros:/home/vboxuser/ros2_iron/install/rpyutils:/home/vboxuser/ros2_iron/install/rosidl_runtime_py:/home/vboxuser/ros2_iron/install/rosidl_pycommon:/home/vboxuser/ros2_iron/install/rosidl_cli:/home/vboxuser/ros2_iron/install/launch_pytest:/home/vboxuser/ros2_iron/install/launch_testing:/home/vboxuser/ros2_iron/install/launch_yaml:/home/vboxuser/ros2_iron/install/launch_xml:/home/vboxuser/ros2_iron/install/launch:/home/vboxuser/ros2_iron/install/osrf_pycommon:/home/vboxuser/ros2_iron/install/domain_coordinator:/home/vboxuser/ros2_iron/install/ament_xmllint:/home/vboxuser/ros2_iron/install/ament_pyflakes:/home/vboxuser/ros2_iron/install/ament_pycodestyle:/home/vboxuser/ros2_iron/install/ament_pep257:/home/vboxuser/ros2_iron/install/ament_pclint:/home/vboxuser/ros2_iron/install/ament_package:/home/vboxuser/ros2_iron/install/ament_mypy:/home/vboxuser/ros2_iron/install/ament_lint_cmake:/home/vboxuser/ros2_iron/install/ament_flake8:/home/vboxuser/ros2_iron/install/ament_copyright:/home/vboxuser/ros2_iron/install/ament_lint:/home/vboxuser/ros2_iron/install/ament_index_python:/home/vboxuser/ros2_iron/install/ament_cpplint:/home/vboxuser/ros2_iron/install/ament_cppcheck:/home/vboxuser/ros2_iron/install/ament_clang_tidy:/home/vboxuser/ros2_iron/install/ament_clang_format /usr/bin/cmake --build /home/vboxuser/ros2_ws/src/build/vesc_msgs -- -j4 -l4
+[1.202s] -- Found ament_cmake_auto: 2.0.7 (/home/vboxuser/ros2_iron/install/ament_cmake_auto/share/ament_cmake_auto/cmake)
+[2.766s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.916s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.372s] -- Found rosidl_adapter: 4.0.1 (/home/vboxuser/ros2_iron/install/rosidl_adapter/share/rosidl_adapter/cmake)
+[6.764s] -- Found ament_cmake_ros: 0.11.2 (/home/vboxuser/ros2_iron/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+[9.004s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[12.260s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[12.823s] -- Found python_cmake_module: 0.10.2 (/home/vboxuser/ros2_iron/install/python_cmake_module/share/python_cmake_module/cmake)
+[13.342s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[13.346s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[13.346s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[14.828s] -- Found ament_lint_auto: 0.14.4 (/home/vboxuser/ros2_iron/install/ament_lint_auto/share/ament_lint_auto/cmake)
+[14.971s] -- Added test 'copyright' to check source files copyright and LICENSE
+[14.983s] -- Added test 'lint_cmake' to check CMake code style
+[15.006s] -- Added test 'xmllint' to check XML markup files
+[15.026s] -- Configuring done
+[17.096s] -- Generating done
+[17.180s] -- Build files have been written to: /home/vboxuser/ros2_ws/src/build/vesc_msgs
+[17.467s] [  1%] Built target vesc_msgs__rosidl_generator_type_description
+[17.784s] [  1%] Built target ament_cmake_python_copy_vesc_msgs
+[18.011s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[24.539s] [  4%] [32mBuilding C object CMakeFiles/vesc_msgs__rosidl_generator_c.dir/rosidl_generator_c/vesc_msgs/msg/detail/vesc_state__description.c.o[0m
+[25.039s] [  6%] [32mBuilding C object CMakeFiles/vesc_msgs__rosidl_generator_c.dir/rosidl_generator_c/vesc_msgs/msg/detail/vesc_state__functions.c.o[0m
+[25.868s] [  7%] [32mBuilding C object CMakeFiles/vesc_msgs__rosidl_generator_c.dir/rosidl_generator_c/vesc_msgs/msg/detail/vesc_state__type_support.c.o[0m
+[26.307s] [  9%] [32mBuilding C object CMakeFiles/vesc_msgs__rosidl_generator_c.dir/rosidl_generator_c/vesc_msgs/msg/detail/vesc_state_stamped__description.c.o[0m
+[26.787s] [ 10%] [32mBuilding C object CMakeFiles/vesc_msgs__rosidl_generator_c.dir/rosidl_generator_c/vesc_msgs/msg/detail/vesc_state_stamped__functions.c.o[0m
+[27.173s] [ 12%] [32mBuilding C object CMakeFiles/vesc_msgs__rosidl_generator_c.dir/rosidl_generator_c/vesc_msgs/msg/detail/vesc_state_stamped__type_support.c.o[0m
+[27.475s] [ 14%] [32mBuilding C object CMakeFiles/vesc_msgs__rosidl_generator_c.dir/rosidl_generator_c/vesc_msgs/msg/detail/vesc_imu__description.c.o[0m
+[27.883s] [ 15%] [32mBuilding C object CMakeFiles/vesc_msgs__rosidl_generator_c.dir/rosidl_generator_c/vesc_msgs/msg/detail/vesc_imu__functions.c.o[0m
+[28.324s] [ 17%] [32mBuilding C object CMakeFiles/vesc_msgs__rosidl_generator_c.dir/rosidl_generator_c/vesc_msgs/msg/detail/vesc_imu__type_support.c.o[0m
+[28.571s] [ 18%] [32mBuilding C object CMakeFiles/vesc_msgs__rosidl_generator_c.dir/rosidl_generator_c/vesc_msgs/msg/detail/vesc_imu_stamped__description.c.o[0m
+[29.058s] [ 20%] [32mBuilding C object CMakeFiles/vesc_msgs__rosidl_generator_c.dir/rosidl_generator_c/vesc_msgs/msg/detail/vesc_imu_stamped__functions.c.o[0m
+[30.864s] [ 21%] [32mBuilding C object CMakeFiles/vesc_msgs__rosidl_generator_c.dir/rosidl_generator_c/vesc_msgs/msg/detail/vesc_imu_stamped__type_support.c.o[0m
+[31.208s] [ 23%] [32m[1mLinking C shared library libvesc_msgs__rosidl_generator_c.so[0m
+[31.652s] [ 23%] Built target vesc_msgs__rosidl_generator_c
+[33.603s] running egg_info
+[33.609s] creating vesc_msgs.egg-info
+[33.609s] writing vesc_msgs.egg-info/PKG-INFO
+[33.610s] writing dependency_links to vesc_msgs.egg-info/dependency_links.txt
+[33.610s] writing top-level names to vesc_msgs.egg-info/top_level.txt
+[33.610s] writing manifest file 'vesc_msgs.egg-info/SOURCES.txt'
+[33.629s] reading manifest file 'vesc_msgs.egg-info/SOURCES.txt'
+[33.630s] writing manifest file 'vesc_msgs.egg-info/SOURCES.txt'
+[33.884s] [ 23%] Built target ament_cmake_python_build_vesc_msgs_egg
+[34.145s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[37.692s] [ 26%] [32mBuilding C object CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vesc_msgs/msg/detail/vesc_state__type_support.c.o[0m
+[38.087s] [ 28%] [32mBuilding C object CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vesc_msgs/msg/detail/vesc_state_stamped__type_support.c.o[0m
+[38.473s] [ 29%] [32mBuilding C object CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vesc_msgs/msg/detail/vesc_imu__type_support.c.o[0m
+[39.223s] [ 31%] [32mBuilding C object CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vesc_msgs/msg/detail/vesc_imu_stamped__type_support.c.o[0m
+[39.499s] [ 32%] [32m[1mLinking C shared library libvesc_msgs__rosidl_typesupport_introspection_c.so[0m
+[39.837s] [ 32%] Built target vesc_msgs__rosidl_typesupport_introspection_c
+[40.115s] [ 34%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[44.393s] [ 35%] [32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vesc_msgs/msg/vesc_state__type_support.cpp.o[0m
+[44.816s] [ 37%] [32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vesc_msgs/msg/vesc_state_stamped__type_support.cpp.o[0m
+[45.209s] [ 39%] [32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vesc_msgs/msg/vesc_imu__type_support.cpp.o[0m
+[45.582s] [ 40%] [32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vesc_msgs/msg/vesc_imu_stamped__type_support.cpp.o[0m
+[46.058s] [ 42%] [32m[1mLinking CXX shared library libvesc_msgs__rosidl_typesupport_c.so[0m
+[46.657s] [ 42%] Built target vesc_msgs__rosidl_typesupport_c
+[46.750s] [ 43%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[51.301s] [ 45%] [32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vesc_msgs/msg/detail/vesc_state__type_support_c.cpp.o[0m
+[53.483s] [ 46%] [32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vesc_msgs/msg/detail/vesc_imu__type_support_c.cpp.o[0m
+[54.908s] [ 48%] [32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vesc_msgs/msg/detail/vesc_imu_stamped__type_support_c.cpp.o[0m
+[55.945s] [ 50%] [32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vesc_msgs/msg/detail/vesc_state_stamped__type_support_c.cpp.o[0m
+[57.474s] [ 51%] [32m[1mLinking CXX shared library libvesc_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[58.184s] [ 51%] Built target vesc_msgs__rosidl_typesupport_fastrtps_c
+[58.548s] [ 53%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[63.006s] [ 53%] Built target vesc_msgs__cpp
+[63.075s] [ 54%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[65.844s] [ 56%] [32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vesc_msgs/msg/vesc_state__type_support.cpp.o[0m
+[66.958s] [ 57%] [32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vesc_msgs/msg/vesc_state_stamped__type_support.cpp.o[0m
+[68.433s] [ 59%] [32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vesc_msgs/msg/vesc_imu__type_support.cpp.o[0m
+[70.051s] [ 60%] [32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vesc_msgs/msg/vesc_imu_stamped__type_support.cpp.o[0m
+[71.354s] [ 62%] [32m[1mLinking CXX shared library libvesc_msgs__rosidl_typesupport_cpp.so[0m
+[71.848s] [ 62%] Built target vesc_msgs__rosidl_typesupport_cpp
+[71.999s] [ 64%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[74.980s] [ 65%] [32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vesc_msgs/msg/detail/vesc_state__type_support.cpp.o[0m
+[76.066s] [ 67%] [32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vesc_msgs/msg/detail/vesc_imu__type_support.cpp.o[0m
+[78.027s] [ 68%] [32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vesc_msgs/msg/detail/vesc_imu_stamped__type_support.cpp.o[0m
+[79.198s] [ 70%] [32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vesc_msgs/msg/detail/vesc_state_stamped__type_support.cpp.o[0m
+[80.612s] [ 71%] [32m[1mLinking CXX shared library libvesc_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[81.018s] [ 71%] Built target vesc_msgs__rosidl_typesupport_introspection_cpp
+[81.236s] [ 73%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[84.786s] [ 75%] [32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vesc_msgs/msg/detail/dds_fastrtps/vesc_state__type_support.cpp.o[0m
+[86.214s] [ 76%] [32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vesc_msgs/msg/detail/dds_fastrtps/vesc_imu_stamped__type_support.cpp.o[0m
+[87.938s] [ 78%] [32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vesc_msgs/msg/detail/dds_fastrtps/vesc_imu__type_support.cpp.o[0m
+[89.362s] [ 79%] [32mBuilding CXX object CMakeFiles/vesc_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vesc_msgs/msg/detail/dds_fastrtps/vesc_state_stamped__type_support.cpp.o[0m
+[91.441s] [ 81%] [32m[1mLinking CXX shared library libvesc_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[91.853s] [ 81%] Built target vesc_msgs__rosidl_typesupport_fastrtps_cpp
+[92.302s] [ 81%] Built target vesc_msgs
+[92.747s] [ 82%] [34m[1mGenerating Python code for ROS interfaces[0m
+[100.856s] [ 82%] Built target vesc_msgs__py
+[101.149s] [ 84%] [32mBuilding C object CMakeFiles/vesc_msgs__rosidl_generator_py.dir/rosidl_generator_py/vesc_msgs/msg/_vesc_state_s.c.o[0m
+[101.832s] [ 85%] [32mBuilding C object CMakeFiles/vesc_msgs__rosidl_generator_py.dir/rosidl_generator_py/vesc_msgs/msg/_vesc_imu_stamped_s.c.o[0m
+[102.390s] [ 87%] [32mBuilding C object CMakeFiles/vesc_msgs__rosidl_generator_py.dir/rosidl_generator_py/vesc_msgs/msg/_vesc_imu_s.c.o[0m
+[102.983s] [ 89%] [32mBuilding C object CMakeFiles/vesc_msgs__rosidl_generator_py.dir/rosidl_generator_py/vesc_msgs/msg/_vesc_state_stamped_s.c.o[0m
+[103.628s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/vesc_msgs/libvesc_msgs__rosidl_generator_py.so[0m
+[103.967s] [ 90%] Built target vesc_msgs__rosidl_generator_py
+[104.307s] [ 92%] [32mBuilding C object CMakeFiles/vesc_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/vesc_msgs/_vesc_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[105.053s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[105.521s] [ 93%] Built target vesc_msgs__rosidl_typesupport_fastrtps_c__pyext
+[105.724s] [ 95%] [32mBuilding C object CMakeFiles/vesc_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/vesc_msgs/_vesc_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[106.172s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[106.698s] [ 96%] Built target vesc_msgs__rosidl_typesupport_c__pyext
+[107.046s] [ 98%] [32mBuilding C object CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/vesc_msgs/_vesc_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[107.976s] [100%] [32m[1mLinking C shared library rosidl_generator_py/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[108.609s] [100%] Built target vesc_msgs__rosidl_typesupport_introspection_c__pyext
+[108.819s] Invoked command in '/home/vboxuser/ros2_ws/src/build/vesc_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron:/home/vboxuser/ros2_iron/install/rqt_bag_plugins:/home/vboxuser/ros2_iron/install/rqt_bag:/home/vboxuser/ros2_iron/install/rosbag2_examples_py:/home/vboxuser/ros2_iron/install/launch_testing_examples:/home/vboxuser/ros2_iron/install/ros2bag:/home/vboxuser/ros2_iron/install/tracetools_test:/home/vboxuser/ros2_iron/install/tracetools_launch:/home/vboxuser/ros2_iron/install/topic_monitor:/home/vboxuser/ros2_iron/install/tf2_tools:/home/vboxuser/ros2_iron/install/examples_tf2_py:/home/vboxuser/ros2_iron/install/tf2_ros_py:/home/vboxuser/ros2_iron/install/examples_rclpy_pointcloud_publisher:/home/vboxuser/ros2_iron/install/sensor_msgs_py:/home/vboxuser/ros2_iron/install/quality_of_service_demo_py:/home/vboxuser/ros2_iron/install/rqt_plot:/home/vboxuser/ros2_iron/install/ros2doctor:/home/vboxuser/ros2_iron/install/lifecycle_py:/home/vboxuser/ros2_iron/install/examples_rclpy_minimal_subscriber:/home/vboxuser/ros2_iron/install/examples_rclpy_minimal_service:/home/vboxuser/ros2_iron/install/examples_rclpy_minimal_publisher:/home/vboxuser/ros2_iron/install/examples_rclpy_minimal_client:/home/vboxuser/ros2_iron/install/examples_rclpy_executors:/home/vboxuser/ros2_iron/install/demo_nodes_py:/home/vboxuser/ros2_iron/install/rqt:/home/vboxuser/ros2_iron/install/ros2component:/home/vboxuser/ros2_iron/install/sros2:/home/vboxuser/ros2_iron/install/rqt_topic:/home/vboxuser/ros2_iron/install/rqt_srv:/home/vboxuser/ros2_iron/install/rqt_shell:/home/vboxuser/ros2_iron/install/rqt_service_caller:/home/vboxuser/ros2_iron/install/rqt_reconfigure:/home/vboxuser/ros2_iron/install/rqt_py_console:/home/vboxuser/ros2_iron/install/rqt_publisher:/home/vboxuser/ros2_iron/install/rqt_action:/home/vboxuser/ros2_iron/install/rqt_msg:/home/vboxuser/ros2_iron/install/rqt_console:/home/vboxuser/ros2_iron/install/rqt_graph:/home/vboxuser/ros2_iron/install/rqt_gui_py:/home/vboxuser/ros2_iron/install/rqt_gui:/home/vboxuser/ros2_iron/install/ros2trace:/home/vboxuser/ros2_iron/install/ros2topic:/home/vboxuser/ros2_iron/install/ros2test:/home/vboxuser/ros2_iron/install/ros2param:/home/vboxuser/ros2_iron/install/ros2lifecycle:/home/vboxuser/ros2_iron/install/ros2service:/home/vboxuser/ros2_iron/install/ros2run:/home/vboxuser/ros2_iron/install/ros2launch:/home/vboxuser/ros2_iron/install/ros2pkg:/home/vboxuser/ros2_iron/install/ros2node:/home/vboxuser/ros2_iron/install/ros2multicast:/home/vboxuser/ros2_iron/install/ros2interface:/home/vboxuser/ros2_iron/install/ros2action:/home/vboxuser/ros2_iron/install/ros2cli:/home/vboxuser/ros2_iron/install/launch_testing_ros:/home/vboxuser/ros2_iron/install/launch_ros:/home/vboxuser/ros2_iron/install/examples_rclpy_minimal_action_server:/home/vboxuser/ros2_iron/install/examples_rclpy_minimal_action_client:/home/vboxuser/ros2_iron/install/examples_rclpy_guard_conditions:/home/vboxuser/ros2_iron/install/action_tutorials_py:/home/vboxuser/ros2_iron/install/ament_uncrustify:/home/vboxuser/ros2_iron/install/tracetools_trace:/home/vboxuser/ros2_iron/install/tracetools_read:/home/vboxuser/ros2_iron/install/test_tracetools_launch:/home/vboxuser/ros2_iron/install/test_ros2trace:/home/vboxuser/ros2_iron/install/test_launch_ros:/home/vboxuser/ros2_iron/install/rpyutils:/home/vboxuser/ros2_iron/install/rosidl_runtime_py:/home/vboxuser/ros2_iron/install/rosidl_pycommon:/home/vboxuser/ros2_iron/install/rosidl_cli:/home/vboxuser/ros2_iron/install/launch_pytest:/home/vboxuser/ros2_iron/install/launch_testing:/home/vboxuser/ros2_iron/install/launch_yaml:/home/vboxuser/ros2_iron/install/launch_xml:/home/vboxuser/ros2_iron/install/launch:/home/vboxuser/ros2_iron/install/osrf_pycommon:/home/vboxuser/ros2_iron/install/domain_coordinator:/home/vboxuser/ros2_iron/install/ament_xmllint:/home/vboxuser/ros2_iron/install/ament_pyflakes:/home/vboxuser/ros2_iron/install/ament_pycodestyle:/home/vboxuser/ros2_iron/install/ament_pep257:/home/vboxuser/ros2_iron/install/ament_pclint:/home/vboxuser/ros2_iron/install/ament_package:/home/vboxuser/ros2_iron/install/ament_mypy:/home/vboxuser/ros2_iron/install/ament_lint_cmake:/home/vboxuser/ros2_iron/install/ament_flake8:/home/vboxuser/ros2_iron/install/ament_copyright:/home/vboxuser/ros2_iron/install/ament_lint:/home/vboxuser/ros2_iron/install/ament_index_python:/home/vboxuser/ros2_iron/install/ament_cpplint:/home/vboxuser/ros2_iron/install/ament_cppcheck:/home/vboxuser/ros2_iron/install/ament_clang_tidy:/home/vboxuser/ros2_iron/install/ament_clang_format /usr/bin/cmake --build /home/vboxuser/ros2_ws/src/build/vesc_msgs -- -j4 -l4
+[108.885s] Invoking command in '/home/vboxuser/ros2_ws/src/build/vesc_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron:/home/vboxuser/ros2_iron/install/rqt_bag_plugins:/home/vboxuser/ros2_iron/install/rqt_bag:/home/vboxuser/ros2_iron/install/rosbag2_examples_py:/home/vboxuser/ros2_iron/install/launch_testing_examples:/home/vboxuser/ros2_iron/install/ros2bag:/home/vboxuser/ros2_iron/install/tracetools_test:/home/vboxuser/ros2_iron/install/tracetools_launch:/home/vboxuser/ros2_iron/install/topic_monitor:/home/vboxuser/ros2_iron/install/tf2_tools:/home/vboxuser/ros2_iron/install/examples_tf2_py:/home/vboxuser/ros2_iron/install/tf2_ros_py:/home/vboxuser/ros2_iron/install/examples_rclpy_pointcloud_publisher:/home/vboxuser/ros2_iron/install/sensor_msgs_py:/home/vboxuser/ros2_iron/install/quality_of_service_demo_py:/home/vboxuser/ros2_iron/install/rqt_plot:/home/vboxuser/ros2_iron/install/ros2doctor:/home/vboxuser/ros2_iron/install/lifecycle_py:/home/vboxuser/ros2_iron/install/examples_rclpy_minimal_subscriber:/home/vboxuser/ros2_iron/install/examples_rclpy_minimal_service:/home/vboxuser/ros2_iron/install/examples_rclpy_minimal_publisher:/home/vboxuser/ros2_iron/install/examples_rclpy_minimal_client:/home/vboxuser/ros2_iron/install/examples_rclpy_executors:/home/vboxuser/ros2_iron/install/demo_nodes_py:/home/vboxuser/ros2_iron/install/rqt:/home/vboxuser/ros2_iron/install/ros2component:/home/vboxuser/ros2_iron/install/sros2:/home/vboxuser/ros2_iron/install/rqt_topic:/home/vboxuser/ros2_iron/install/rqt_srv:/home/vboxuser/ros2_iron/install/rqt_shell:/home/vboxuser/ros2_iron/install/rqt_service_caller:/home/vboxuser/ros2_iron/install/rqt_reconfigure:/home/vboxuser/ros2_iron/install/rqt_py_console:/home/vboxuser/ros2_iron/install/rqt_publisher:/home/vboxuser/ros2_iron/install/rqt_action:/home/vboxuser/ros2_iron/install/rqt_msg:/home/vboxuser/ros2_iron/install/rqt_console:/home/vboxuser/ros2_iron/install/rqt_graph:/home/vboxuser/ros2_iron/install/rqt_gui_py:/home/vboxuser/ros2_iron/install/rqt_gui:/home/vboxuser/ros2_iron/install/ros2trace:/home/vboxuser/ros2_iron/install/ros2topic:/home/vboxuser/ros2_iron/install/ros2test:/home/vboxuser/ros2_iron/install/ros2param:/home/vboxuser/ros2_iron/install/ros2lifecycle:/home/vboxuser/ros2_iron/install/ros2service:/home/vboxuser/ros2_iron/install/ros2run:/home/vboxuser/ros2_iron/install/ros2launch:/home/vboxuser/ros2_iron/install/ros2pkg:/home/vboxuser/ros2_iron/install/ros2node:/home/vboxuser/ros2_iron/install/ros2multicast:/home/vboxuser/ros2_iron/install/ros2interface:/home/vboxuser/ros2_iron/install/ros2action:/home/vboxuser/ros2_iron/install/ros2cli:/home/vboxuser/ros2_iron/install/launch_testing_ros:/home/vboxuser/ros2_iron/install/launch_ros:/home/vboxuser/ros2_iron/install/examples_rclpy_minimal_action_server:/home/vboxuser/ros2_iron/install/examples_rclpy_minimal_action_client:/home/vboxuser/ros2_iron/install/examples_rclpy_guard_conditions:/home/vboxuser/ros2_iron/install/action_tutorials_py:/home/vboxuser/ros2_iron/install/ament_uncrustify:/home/vboxuser/ros2_iron/install/tracetools_trace:/home/vboxuser/ros2_iron/install/tracetools_read:/home/vboxuser/ros2_iron/install/test_tracetools_launch:/home/vboxuser/ros2_iron/install/test_ros2trace:/home/vboxuser/ros2_iron/install/test_launch_ros:/home/vboxuser/ros2_iron/install/rpyutils:/home/vboxuser/ros2_iron/install/rosidl_runtime_py:/home/vboxuser/ros2_iron/install/rosidl_pycommon:/home/vboxuser/ros2_iron/install/rosidl_cli:/home/vboxuser/ros2_iron/install/launch_pytest:/home/vboxuser/ros2_iron/install/launch_testing:/home/vboxuser/ros2_iron/install/launch_yaml:/home/vboxuser/ros2_iron/install/launch_xml:/home/vboxuser/ros2_iron/install/launch:/home/vboxuser/ros2_iron/install/osrf_pycommon:/home/vboxuser/ros2_iron/install/domain_coordinator:/home/vboxuser/ros2_iron/install/ament_xmllint:/home/vboxuser/ros2_iron/install/ament_pyflakes:/home/vboxuser/ros2_iron/install/ament_pycodestyle:/home/vboxuser/ros2_iron/install/ament_pep257:/home/vboxuser/ros2_iron/install/ament_pclint:/home/vboxuser/ros2_iron/install/ament_package:/home/vboxuser/ros2_iron/install/ament_mypy:/home/vboxuser/ros2_iron/install/ament_lint_cmake:/home/vboxuser/ros2_iron/install/ament_flake8:/home/vboxuser/ros2_iron/install/ament_copyright:/home/vboxuser/ros2_iron/install/ament_lint:/home/vboxuser/ros2_iron/install/ament_index_python:/home/vboxuser/ros2_iron/install/ament_cpplint:/home/vboxuser/ros2_iron/install/ament_cppcheck:/home/vboxuser/ros2_iron/install/ament_clang_tidy:/home/vboxuser/ros2_iron/install/ament_clang_format /usr/bin/cmake --install /home/vboxuser/ros2_ws/src/build/vesc_msgs
+[109.026s] -- Install configuration: ""
+[109.030s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/share/ament_index/resource_index/rosidl_interfaces/vesc_msgs
+[109.033s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/share/vesc_msgs/msg/VescState.json
+[109.033s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/share/vesc_msgs/msg/VescStateStamped.json
+[109.045s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/share/vesc_msgs/msg/VescImu.json
+[109.046s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/share/vesc_msgs/msg/VescImuStamped.json
+[109.046s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs
+[109.046s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg
+[109.046s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/vesc_imu.h
+[109.046s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/rosidl_generator_c__visibility_control.h
+[109.046s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/vesc_state_stamped.h
+[109.046s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail
+[109.046s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state_stamped__functions.c
+[109.046s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu_stamped__type_support.h
+[109.046s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu_stamped__functions.h
+[109.047s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu__type_support.h
+[109.047s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu__description.c
+[109.047s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu__functions.h
+[109.047s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state_stamped__description.c
+[109.047s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu_stamped__struct.h
+[109.077s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu_stamped__description.c
+[109.077s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state__type_support.h
+[109.077s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state_stamped__type_support.h
+[109.077s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state__type_support.c
+[109.077s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state_stamped__functions.h
+[109.077s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu_stamped__functions.c
+[109.077s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state_stamped__type_support.c
+[109.078s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu__struct.h
+[109.078s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state__functions.h
+[109.078s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state__struct.h
+[109.078s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state__description.c
+[109.078s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu_stamped__type_support.c
+[109.078s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state_stamped__struct.h
+[109.078s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state__functions.c
+[109.085s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu__functions.c
+[109.086s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu__type_support.c
+[109.086s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/vesc_imu_stamped.h
+[109.086s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/vesc_state.h
+[109.086s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/share/vesc_msgs/environment/library_path.sh
+[109.087s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/share/vesc_msgs/environment/library_path.dsv
+[109.087s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/lib/libvesc_msgs__rosidl_generator_c.so
+[109.088s] -- Set runtime path of "/home/vboxuser/ros2_ws/src/install/vesc_msgs/lib/libvesc_msgs__rosidl_generator_c.so" to ""
+[109.088s] -- Up-to-date: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs
+[109.088s] -- Up-to-date: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg
+[109.088s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[109.088s] -- Up-to-date: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail
+[109.088s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu_stamped__rosidl_typesupport_fastrtps_c.h
+[109.088s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu__rosidl_typesupport_fastrtps_c.h
+[109.088s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state_stamped__rosidl_typesupport_fastrtps_c.h
+[109.088s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state__rosidl_typesupport_fastrtps_c.h
+[109.089s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_fastrtps_c.so
+[109.089s] -- Set runtime path of "/home/vboxuser/ros2_ws/src/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[109.089s] -- Up-to-date: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs
+[109.089s] -- Up-to-date: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg
+[109.090s] -- Up-to-date: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail
+[109.090s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu__rosidl_typesupport_introspection_c.h
+[109.090s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state__rosidl_typesupport_introspection_c.h
+[109.090s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state_stamped__rosidl_typesupport_introspection_c.h
+[109.091s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state__type_support.c
+[109.091s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state_stamped__type_support.c
+[109.091s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu_stamped__type_support.c
+[109.091s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu_stamped__rosidl_typesupport_introspection_c.h
+[109.091s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu__type_support.c
+[109.091s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[109.091s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_introspection_c.so
+[109.092s] -- Set runtime path of "/home/vboxuser/ros2_ws/src/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_introspection_c.so" to ""
+[109.096s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_c.so
+[109.098s] -- Set runtime path of "/home/vboxuser/ros2_ws/src/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_c.so" to ""
+[109.099s] -- Up-to-date: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs
+[109.100s] -- Up-to-date: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg
+[109.101s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/vesc_imu_stamped.hpp
+[109.102s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/vesc_imu.hpp
+[109.102s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/vesc_state.hpp
+[109.102s] -- Up-to-date: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail
+[109.102s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu__builder.hpp
+[109.102s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu_stamped__builder.hpp
+[109.102s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu_stamped__struct.hpp
+[109.104s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu__struct.hpp
+[109.111s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state__struct.hpp
+[109.111s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state_stamped__builder.hpp
+[109.112s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state_stamped__traits.hpp
+[109.112s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu_stamped__traits.hpp
+[109.113s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu__traits.hpp
+[109.113s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state__builder.hpp
+[109.113s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state__traits.hpp
+[109.113s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state_stamped__struct.hpp
+[109.113s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/vesc_state_stamped.hpp
+[109.113s] -- Up-to-date: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs
+[109.114s] -- Up-to-date: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg
+[109.114s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[109.114s] -- Up-to-date: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail
+[109.114s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[109.114s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state__rosidl_typesupport_fastrtps_cpp.hpp
+[109.114s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/dds_fastrtps
+[109.114s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu__rosidl_typesupport_fastrtps_cpp.hpp
+[109.114s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[109.114s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_fastrtps_cpp.so
+[109.115s] -- Set runtime path of "/home/vboxuser/ros2_ws/src/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[109.115s] -- Up-to-date: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs
+[109.125s] -- Up-to-date: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg
+[109.125s] -- Up-to-date: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail
+[109.125s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state_stamped__type_support.cpp
+[109.125s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state__type_support.cpp
+[109.125s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state__rosidl_typesupport_introspection_cpp.hpp
+[109.125s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu_stamped__rosidl_typesupport_introspection_cpp.hpp
+[109.125s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu_stamped__type_support.cpp
+[109.125s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu__rosidl_typesupport_introspection_cpp.hpp
+[109.134s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_state_stamped__rosidl_typesupport_introspection_cpp.hpp
+[109.141s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/include/vesc_msgs/vesc_msgs/msg/detail/vesc_imu__type_support.cpp
+[109.141s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_introspection_cpp.so
+[109.142s] -- Set runtime path of "/home/vboxuser/ros2_ws/src/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[109.144s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_cpp.so
+[109.145s] -- Set runtime path of "/home/vboxuser/ros2_ws/src/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_cpp.so" to ""
+[109.145s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/share/vesc_msgs/environment/pythonpath.sh
+[109.145s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/share/vesc_msgs/environment/pythonpath.dsv
+[109.145s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/lib/python3.10/site-packages/vesc_msgs-1.1.0-py3.10.egg-info
+[109.145s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/lib/python3.10/site-packages/vesc_msgs-1.1.0-py3.10.egg-info/top_level.txt
+[109.145s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/lib/python3.10/site-packages/vesc_msgs-1.1.0-py3.10.egg-info/SOURCES.txt
+[109.145s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/lib/python3.10/site-packages/vesc_msgs-1.1.0-py3.10.egg-info/PKG-INFO
+[109.145s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/lib/python3.10/site-packages/vesc_msgs-1.1.0-py3.10.egg-info/dependency_links.txt
+[109.146s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/lib/python3.10/site-packages/vesc_msgs
+[109.146s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/lib/python3.10/site-packages/vesc_msgs/libvesc_msgs__rosidl_generator_py.so
+[109.146s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/lib/python3.10/site-packages/vesc_msgs/_vesc_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[109.152s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/lib/python3.10/site-packages/vesc_msgs/_vesc_msgs_s.ep.rosidl_typesupport_c.c
+[109.152s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/lib/python3.10/site-packages/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[109.174s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/lib/python3.10/site-packages/vesc_msgs/_vesc_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[109.175s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/lib/python3.10/site-packages/vesc_msgs/vesc_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[109.175s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/lib/python3.10/site-packages/vesc_msgs/vesc_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[109.175s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/lib/python3.10/site-packages/vesc_msgs/msg
+[109.175s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/lib/python3.10/site-packages/vesc_msgs/msg/_vesc_state_s.c
+[109.175s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/lib/python3.10/site-packages/vesc_msgs/msg/_vesc_state_stamped_s.c
+[109.175s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/lib/python3.10/site-packages/vesc_msgs/msg/_vesc_imu.py
+[109.175s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/lib/python3.10/site-packages/vesc_msgs/msg/_vesc_imu_s.c
+[109.175s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/lib/python3.10/site-packages/vesc_msgs/msg/_vesc_imu_stamped.py
+[109.175s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/lib/python3.10/site-packages/vesc_msgs/msg/_vesc_state_stamped.py
+[109.175s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/lib/python3.10/site-packages/vesc_msgs/msg/_vesc_state.py
+[109.176s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/lib/python3.10/site-packages/vesc_msgs/msg/__init__.py
+[109.176s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/lib/python3.10/site-packages/vesc_msgs/msg/_vesc_imu_stamped_s.c
+[109.177s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/lib/python3.10/site-packages/vesc_msgs/__init__.py
+[110.218s] Listing '/home/vboxuser/ros2_ws/src/install/vesc_msgs/lib/python3.10/site-packages/vesc_msgs'...
+[110.219s] Compiling '/home/vboxuser/ros2_ws/src/install/vesc_msgs/lib/python3.10/site-packages/vesc_msgs/__init__.py'...
+[110.219s] Listing '/home/vboxuser/ros2_ws/src/install/vesc_msgs/lib/python3.10/site-packages/vesc_msgs/msg'...
+[110.219s] Compiling '/home/vboxuser/ros2_ws/src/install/vesc_msgs/lib/python3.10/site-packages/vesc_msgs/msg/__init__.py'...
+[110.219s] Compiling '/home/vboxuser/ros2_ws/src/install/vesc_msgs/lib/python3.10/site-packages/vesc_msgs/msg/_vesc_imu.py'...
+[110.219s] Compiling '/home/vboxuser/ros2_ws/src/install/vesc_msgs/lib/python3.10/site-packages/vesc_msgs/msg/_vesc_imu_stamped.py'...
+[110.219s] Compiling '/home/vboxuser/ros2_ws/src/install/vesc_msgs/lib/python3.10/site-packages/vesc_msgs/msg/_vesc_state.py'...
+[110.220s] Compiling '/home/vboxuser/ros2_ws/src/install/vesc_msgs/lib/python3.10/site-packages/vesc_msgs/msg/_vesc_state_stamped.py'...
+[110.245s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/lib/python3.10/site-packages/vesc_msgs/vesc_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[110.245s] -- Set runtime path of "/home/vboxuser/ros2_ws/src/install/vesc_msgs/lib/python3.10/site-packages/vesc_msgs/vesc_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[110.246s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/lib/python3.10/site-packages/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[110.246s] -- Set runtime path of "/home/vboxuser/ros2_ws/src/install/vesc_msgs/lib/python3.10/site-packages/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[110.258s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/lib/python3.10/site-packages/vesc_msgs/vesc_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[110.265s] -- Set runtime path of "/home/vboxuser/ros2_ws/src/install/vesc_msgs/lib/python3.10/site-packages/vesc_msgs/vesc_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[110.270s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/lib/libvesc_msgs__rosidl_generator_py.so
+[110.270s] -- Set runtime path of "/home/vboxuser/ros2_ws/src/install/vesc_msgs/lib/libvesc_msgs__rosidl_generator_py.so" to ""
+[110.270s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/share/vesc_msgs/msg/VescState.idl
+[110.272s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/share/vesc_msgs/msg/VescStateStamped.idl
+[110.287s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/share/vesc_msgs/msg/VescImu.idl
+[110.287s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/share/vesc_msgs/msg/VescImuStamped.idl
+[110.287s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/share/vesc_msgs/msg/VescState.msg
+[110.288s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/share/vesc_msgs/msg/VescStateStamped.msg
+[110.288s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/share/vesc_msgs/msg/VescImu.msg
+[110.288s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/share/vesc_msgs/msg/VescImuStamped.msg
+[110.288s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/share/ament_index/resource_index/package_run_dependencies/vesc_msgs
+[110.288s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/share/ament_index/resource_index/parent_prefix_path/vesc_msgs
+[110.288s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/share/vesc_msgs/environment/ament_prefix_path.sh
+[110.289s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/share/vesc_msgs/environment/ament_prefix_path.dsv
+[110.302s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/share/vesc_msgs/environment/path.sh
+[110.302s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/share/vesc_msgs/environment/path.dsv
+[110.303s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/share/vesc_msgs/local_setup.bash
+[110.303s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/share/vesc_msgs/local_setup.sh
+[110.303s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/share/vesc_msgs/local_setup.zsh
+[110.303s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/share/vesc_msgs/local_setup.dsv
+[110.303s] -- Up-to-date: /home/vboxuser/ros2_ws/src/install/vesc_msgs/share/vesc_msgs/package.dsv
+[110.303s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/share/ament_index/resource_index/packages/vesc_msgs
+[110.303s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/share/vesc_msgs/cmake/export_vesc_msgs__rosidl_generator_cExport.cmake
+[110.303s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/share/vesc_msgs/cmake/export_vesc_msgs__rosidl_generator_cExport-noconfig.cmake
+[110.303s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/share/vesc_msgs/cmake/export_vesc_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[110.303s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/share/vesc_msgs/cmake/export_vesc_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[110.303s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_introspection_cExport.cmake
+[110.304s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[110.304s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_cExport.cmake
+[110.304s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[110.304s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/share/vesc_msgs/cmake/export_vesc_msgs__rosidl_generator_cppExport.cmake
+[110.304s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/share/vesc_msgs/cmake/export_vesc_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[110.304s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/share/vesc_msgs/cmake/export_vesc_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[110.304s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[110.304s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[110.304s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_cppExport.cmake
+[110.304s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[110.304s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/share/vesc_msgs/cmake/export_vesc_msgs__rosidl_generator_pyExport.cmake
+[110.308s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/share/vesc_msgs/cmake/export_vesc_msgs__rosidl_generator_pyExport-noconfig.cmake
+[110.308s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/share/vesc_msgs/cmake/rosidl_cmake-extras.cmake
+[110.309s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/share/vesc_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[110.309s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/share/vesc_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[110.310s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/share/vesc_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[110.311s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/share/vesc_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[110.311s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/share/vesc_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[110.331s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/share/vesc_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[110.332s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgsConfig.cmake
+[110.332s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgsConfig-version.cmake
+[110.332s] -- Installing: /home/vboxuser/ros2_ws/src/install/vesc_msgs/share/vesc_msgs/package.xml
+[110.362s] Invoked command in '/home/vboxuser/ros2_ws/src/build/vesc_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron:/home/vboxuser/ros2_iron/install/rqt_bag_plugins:/home/vboxuser/ros2_iron/install/rqt_bag:/home/vboxuser/ros2_iron/install/rosbag2_examples_py:/home/vboxuser/ros2_iron/install/launch_testing_examples:/home/vboxuser/ros2_iron/install/ros2bag:/home/vboxuser/ros2_iron/install/tracetools_test:/home/vboxuser/ros2_iron/install/tracetools_launch:/home/vboxuser/ros2_iron/install/topic_monitor:/home/vboxuser/ros2_iron/install/tf2_tools:/home/vboxuser/ros2_iron/install/examples_tf2_py:/home/vboxuser/ros2_iron/install/tf2_ros_py:/home/vboxuser/ros2_iron/install/examples_rclpy_pointcloud_publisher:/home/vboxuser/ros2_iron/install/sensor_msgs_py:/home/vboxuser/ros2_iron/install/quality_of_service_demo_py:/home/vboxuser/ros2_iron/install/rqt_plot:/home/vboxuser/ros2_iron/install/ros2doctor:/home/vboxuser/ros2_iron/install/lifecycle_py:/home/vboxuser/ros2_iron/install/examples_rclpy_minimal_subscriber:/home/vboxuser/ros2_iron/install/examples_rclpy_minimal_service:/home/vboxuser/ros2_iron/install/examples_rclpy_minimal_publisher:/home/vboxuser/ros2_iron/install/examples_rclpy_minimal_client:/home/vboxuser/ros2_iron/install/examples_rclpy_executors:/home/vboxuser/ros2_iron/install/demo_nodes_py:/home/vboxuser/ros2_iron/install/rqt:/home/vboxuser/ros2_iron/install/ros2component:/home/vboxuser/ros2_iron/install/sros2:/home/vboxuser/ros2_iron/install/rqt_topic:/home/vboxuser/ros2_iron/install/rqt_srv:/home/vboxuser/ros2_iron/install/rqt_shell:/home/vboxuser/ros2_iron/install/rqt_service_caller:/home/vboxuser/ros2_iron/install/rqt_reconfigure:/home/vboxuser/ros2_iron/install/rqt_py_console:/home/vboxuser/ros2_iron/install/rqt_publisher:/home/vboxuser/ros2_iron/install/rqt_action:/home/vboxuser/ros2_iron/install/rqt_msg:/home/vboxuser/ros2_iron/install/rqt_console:/home/vboxuser/ros2_iron/install/rqt_graph:/home/vboxuser/ros2_iron/install/rqt_gui_py:/home/vboxuser/ros2_iron/install/rqt_gui:/home/vboxuser/ros2_iron/install/ros2trace:/home/vboxuser/ros2_iron/install/ros2topic:/home/vboxuser/ros2_iron/install/ros2test:/home/vboxuser/ros2_iron/install/ros2param:/home/vboxuser/ros2_iron/install/ros2lifecycle:/home/vboxuser/ros2_iron/install/ros2service:/home/vboxuser/ros2_iron/install/ros2run:/home/vboxuser/ros2_iron/install/ros2launch:/home/vboxuser/ros2_iron/install/ros2pkg:/home/vboxuser/ros2_iron/install/ros2node:/home/vboxuser/ros2_iron/install/ros2multicast:/home/vboxuser/ros2_iron/install/ros2interface:/home/vboxuser/ros2_iron/install/ros2action:/home/vboxuser/ros2_iron/install/ros2cli:/home/vboxuser/ros2_iron/install/launch_testing_ros:/home/vboxuser/ros2_iron/install/launch_ros:/home/vboxuser/ros2_iron/install/examples_rclpy_minimal_action_server:/home/vboxuser/ros2_iron/install/examples_rclpy_minimal_action_client:/home/vboxuser/ros2_iron/install/examples_rclpy_guard_conditions:/home/vboxuser/ros2_iron/install/action_tutorials_py:/home/vboxuser/ros2_iron/install/ament_uncrustify:/home/vboxuser/ros2_iron/install/tracetools_trace:/home/vboxuser/ros2_iron/install/tracetools_read:/home/vboxuser/ros2_iron/install/test_tracetools_launch:/home/vboxuser/ros2_iron/install/test_ros2trace:/home/vboxuser/ros2_iron/install/test_launch_ros:/home/vboxuser/ros2_iron/install/rpyutils:/home/vboxuser/ros2_iron/install/rosidl_runtime_py:/home/vboxuser/ros2_iron/install/rosidl_pycommon:/home/vboxuser/ros2_iron/install/rosidl_cli:/home/vboxuser/ros2_iron/install/launch_pytest:/home/vboxuser/ros2_iron/install/launch_testing:/home/vboxuser/ros2_iron/install/launch_yaml:/home/vboxuser/ros2_iron/install/launch_xml:/home/vboxuser/ros2_iron/install/launch:/home/vboxuser/ros2_iron/install/osrf_pycommon:/home/vboxuser/ros2_iron/install/domain_coordinator:/home/vboxuser/ros2_iron/install/ament_xmllint:/home/vboxuser/ros2_iron/install/ament_pyflakes:/home/vboxuser/ros2_iron/install/ament_pycodestyle:/home/vboxuser/ros2_iron/install/ament_pep257:/home/vboxuser/ros2_iron/install/ament_pclint:/home/vboxuser/ros2_iron/install/ament_package:/home/vboxuser/ros2_iron/install/ament_mypy:/home/vboxuser/ros2_iron/install/ament_lint_cmake:/home/vboxuser/ros2_iron/install/ament_flake8:/home/vboxuser/ros2_iron/install/ament_copyright:/home/vboxuser/ros2_iron/install/ament_lint:/home/vboxuser/ros2_iron/install/ament_index_python:/home/vboxuser/ros2_iron/install/ament_cpplint:/home/vboxuser/ros2_iron/install/ament_cppcheck:/home/vboxuser/ros2_iron/install/ament_clang_tidy:/home/vboxuser/ros2_iron/install/ament_clang_format /usr/bin/cmake --install /home/vboxuser/ros2_ws/src/build/vesc_msgs
